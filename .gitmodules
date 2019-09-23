@@ -517,3 +517,6 @@
 [submodule "pkgbuild/zotero"]
 	path = pkgbuild/zotero
 	url = https://aur.archlinux.org/zotero.git
+[submodule "pkgbuild/git-cola"]
+	path = pkgbuild/git-cola
+	url = https://aur.archlinux.org/git-cola
