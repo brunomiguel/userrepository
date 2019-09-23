@@ -1,0 +1,9 @@
+#!/bin/bash
+# This file will be sourced by the scripts automatically
+PKGEXT=".pkg.tar.xz"
+COMPRESSXZ=(xz -c -z - --threads=3)
+PACKAGER="Bruno Miguel <brunoalexandremiguel@gmail.com>"
+#GPGKEY=""
+
+REPONAME="userrepository"
+REMOTE="/var/pkg/userrepository"
