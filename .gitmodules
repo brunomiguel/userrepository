@@ -520,3 +520,6 @@
 [submodule "pkgbuild/git-cola"]
 	path = pkgbuild/git-cola
 	url = https://aur.archlinux.org/git-cola
+[submodule "pkgbuild/pdfchain"]
+	path = pkgbuild/pdfchain
+	url = https://aur.archlinux.org/pdfchain
