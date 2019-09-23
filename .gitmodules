@@ -1,0 +1,519 @@
+[submodule "pkgbuild/acestream-engine"]
+	path = pkgbuild/acestream-engine
+	url = https://aur.archlinux.org/acestream-engine.git
+[submodule "pkgbuild/acestream-launcher"]
+	path = pkgbuild/acestream-launcher
+	url = https://aur.archlinux.org/acestream-launcher.git
+[submodule "pkgbuild/adom-noteye"]
+	path = pkgbuild/adom-noteye
+	url = https://aur.archlinux.org/adom-noteye.git
+[submodule "pkgbuild/adwaita-qt"]
+	path = pkgbuild/adwaita-qt
+	url = https://aur.archlinux.org/adwaita-qt.git
+[submodule "pkgbuild/adwm"]
+	path = pkgbuild/adwm
+	url = https://aur.archlinux.org/adwm.git
+[submodule "pkgbuild/aerc"]
+	path = pkgbuild/aerc
+	url = https://aur.archlinux.org/aerc.git
+[submodule "pkgbuild/android-messages-desktop"]
+	path = pkgbuild/android-messages-desktop
+	url = https://aur.archlinux.org/android-messages-desktop.git
+[submodule "pkgbuild/archuseriso"]
+	path = pkgbuild/archuseriso
+	url = https://aur.archlinux.org/archuseriso.git
+[submodule "pkgbuild/athenaeum-git"]
+	path = pkgbuild/athenaeum-git
+	url = https://aur.archlinux.org/athenaeum-git.git
+[submodule "pkgbuild/atom-editor-bin"]
+	path = pkgbuild/atom-editor-bin
+	url = https://aur.archlinux.org/atom-editor-bin.git
+[submodule "pkgbuild/axmud"]
+	path = pkgbuild/axmud
+	url = https://aur.archlinux.org/axmud.git
+[submodule "pkgbuild/bamr"]
+	path = pkgbuild/bamr
+	url = https://aur.archlinux.org/bamr.git
+[submodule "pkgbuild/bindfs"]
+	path = pkgbuild/bindfs
+	url = https://aur.archlinux.org/bindfs.git
+[submodule "pkgbuild/bindmap-git"]
+	path = pkgbuild/bindmap-git
+	url = https://aur.archlinux.org/bindmap-git.git
+[submodule "pkgbuild/bitwarden-bin"]
+	path = pkgbuild/bitwarden-bin
+	url = https://aur.archlinux.org/bitwarden-bin.git
+[submodule "pkgbuild/boostnote-bin"]
+	path = pkgbuild/boostnote-bin
+	url = https://aur.archlinux.org/boostnote-bin.git
+[submodule "pkgbuild/bootiso"]
+	path = pkgbuild/bootiso
+	url = https://aur.archlinux.org/bootiso.git
+[submodule "pkgbuild/boram"]
+	path = pkgbuild/boram
+	url = https://aur.archlinux.org/boram.git
+[submodule "pkgbuild/boston-icon-theme-git"]
+	path = pkgbuild/boston-icon-theme-git
+	url = https://aur.archlinux.org/boston-icon-theme-git.git
+[submodule "pkgbuild/brackets"]
+	path = pkgbuild/brackets
+	url = https://aur.archlinux.org/brackets.git
+[submodule "pkgbuild/brave-dev-bin"]
+	path = pkgbuild/brave-dev-bin
+	url = https://aur.archlinux.org/brave-dev-bin.git
+[submodule "pkgbuild/brightnessctl-git"]
+	path = pkgbuild/brightnessctl-git
+	url = https://aur.archlinux.org/brightnessctl-git.git
+[submodule "pkgbuild/broot"]
+	path = pkgbuild/broot
+	url = https://aur.archlinux.org/broot.git
+[submodule "pkgbuild/cava"]
+	path = pkgbuild/cava
+	url = https://aur.archlinux.org/cava.git
+[submodule "pkgbuild/cawbird"]
+	path = pkgbuild/cawbird
+	url = https://aur.archlinux.org/cawbird.git
+[submodule "pkgbuild/chezmoi"]
+	path = pkgbuild/chezmoi
+	url = https://aur.archlinux.org/chezmoi.git
+[submodule "pkgbuild/cht.sh"]
+	path = pkgbuild/cht.sh
+	url = https://aur.archlinux.org/cht.sh.git
+[submodule "pkgbuild/clipgrab-kde"]
+	path = pkgbuild/clipgrab-kde
+	url = https://aur.archlinux.org/clipgrab-kde.git
+[submodule "pkgbuild/clipman"]
+	path = pkgbuild/clipman
+	url = https://aur.archlinux.org/clipman.git
+[submodule "pkgbuild/compton-tryone-git"]
+	path = pkgbuild/compton-tryone-git
+	url = https://aur.archlinux.org/compton-tryone-git.git
+[submodule "pkgbuild/criptext-bin"]
+	path = pkgbuild/criptext-bin
+	url = https://aur.archlinux.org/criptext-bin.git
+[submodule "pkgbuild/cucumber"]
+	path = pkgbuild/cucumber
+	url = https://aur.archlinux.org/cucumber.git
+[submodule "pkgbuild/curseradio-git"]
+	path = pkgbuild/curseradio-git
+	url = https://aur.archlinux.org/curseradio-git.git
+[submodule "pkgbuild/ddcpuid"]
+	path = pkgbuild/ddcpuid
+	url = https://aur.archlinux.org/ddcpuid.git
+[submodule "pkgbuild/deoplete"]
+	path = pkgbuild/deoplete
+	url = https://aur.archlinux.org/deoplete.git
+[submodule "pkgbuild/diskmonitor"]
+	path = pkgbuild/diskmonitor
+	url = https://aur.archlinux.org/diskmonitor.git
+[submodule "pkgbuild/dot-browser-bin"]
+	path = pkgbuild/dot-browser-bin
+	url = https://aur.archlinux.org/dot-browser-bin.git
+[submodule "pkgbuild/dotdrop"]
+	path = pkgbuild/dotdrop
+	url = https://aur.archlinux.org/dotdrop.git
+[submodule "pkgbuild/drawio-desktop"]
+	path = pkgbuild/drawio-desktop
+	url = https://aur.archlinux.org/drawio-desktop.git
+[submodule "pkgbuild/elicit"]
+	path = pkgbuild/elicit
+	url = https://aur.archlinux.org/elicit.git
+[submodule "pkgbuild/endlessh"]
+	path = pkgbuild/endlessh
+	url = https://aur.archlinux.org/endlessh.git
+[submodule "pkgbuild/f3"]
+	path = pkgbuild/f3
+	url = https://aur.archlinux.org/f3.git
+[submodule "pkgbuild/falkon-git"]
+	path = pkgbuild/falkon-git
+	url = https://aur.archlinux.org/falkon-git.git
+[submodule "pkgbuild/fedora-firefox-wayland-bin"]
+	path = pkgbuild/fedora-firefox-wayland-bin
+	url = https://aur.archlinux.org/fedora-firefox-wayland-bin.git
+[submodule "pkgbuild/ferdi-git"]
+	path = pkgbuild/ferdi-git
+	url = https://aur.archlinux.org/ferdi-git.git
+[submodule "pkgbuild/ffsend"]
+	path = pkgbuild/ffsend
+	url = https://aur.archlinux.org/ffsend.git
+[submodule "pkgbuild/flowblade"]
+	path = pkgbuild/flowblade
+	url = https://aur.archlinux.org/flowblade.git
+[submodule "pkgbuild/focuswriter"]
+	path = pkgbuild/focuswriter
+	url = https://aur.archlinux.org/focuswriter.git
+[submodule "pkgbuild/foliate-git"]
+	path = pkgbuild/foliate-git
+	url = https://aur.archlinux.org/foliate-git.git
+[submodule "pkgbuild/font-victor-mono"]
+	path = pkgbuild/font-victor-mono
+	url = https://aur.archlinux.org/font-victor-mono.git
+[submodule "pkgbuild/fotoxx"]
+	path = pkgbuild/fotoxx
+	url = https://aur.archlinux.org/fotoxx.git
+[submodule "pkgbuild/fuf"]
+	path = pkgbuild/fuf
+	url = https://aur.archlinux.org/fuf.git
+[submodule "pkgbuild/fzf-pass"]
+	path = pkgbuild/fzf-pass
+	url = https://aur.archlinux.org/fzf-pass.git
+[submodule "pkgbuild/galois"]
+	path = pkgbuild/galois
+	url = https://aur.archlinux.org/galois.git
+[submodule "pkgbuild/gamehub"]
+	path = pkgbuild/gamehub
+	url = https://aur.archlinux.org/gamehub.git
+[submodule "pkgbuild/ghostwriter"]
+	path = pkgbuild/ghostwriter
+	url = https://aur.archlinux.org/ghostwriter.git
+[submodule "pkgbuild/giada-git"]
+	path = pkgbuild/giada-git
+	url = https://aur.archlinux.org/giada-git.git
+[submodule "pkgbuild/glrnvim"]
+	path = pkgbuild/glrnvim
+	url = https://aur.archlinux.org/glrnvim.git
+[submodule "pkgbuild/google-webdesigner"]
+	path = pkgbuild/google-webdesigner
+	url = https://aur.archlinux.org/google-webdesigner.git
+[submodule "pkgbuild/gotop-git"]
+	path = pkgbuild/gotop-git
+	url = https://aur.archlinux.org/gotop-git.git
+[submodule "pkgbuild/green-recorder-git"]
+	path = pkgbuild/green-recorder-git
+	url = https://aur.archlinux.org/green-recorder-git.git
+[submodule "pkgbuild/gruvbox-material-git"]
+	path = pkgbuild/gruvbox-material-git
+	url = https://aur.archlinux.org/gruvbox-material-git.git
+[submodule "pkgbuild/gruvbox-material-neosyn-git"]
+	path = pkgbuild/gruvbox-material-neosyn-git
+	url = https://aur.archlinux.org/gruvbox-material-neosyn-git.git
+[submodule "pkgbuild/gstm"]
+	path = pkgbuild/gstm
+	url = https://aur.archlinux.org/gstm.git
+[submodule "pkgbuild/guiscrcpy"]
+	path = pkgbuild/guiscrcpy
+	url = https://aur.archlinux.org/guiscrcpy.git
+[submodule "pkgbuild/handbrake-fdkaac-git"]
+	path = pkgbuild/handbrake-fdkaac-git
+	url = https://aur.archlinux.org/handbrake-fdkaac-git.git
+[submodule "pkgbuild/i3-gaps-rounded-git"]
+	path = pkgbuild/i3-gaps-rounded-git
+	url = https://aur.archlinux.org/i3-gaps-rounded-git.git
+[submodule "pkgbuild/i3-plasma"]
+	path = pkgbuild/i3-plasma
+	url = https://aur.archlinux.org/i3-plasma.git
+[submodule "pkgbuild/i3-volume"]
+	path = pkgbuild/i3-volume
+	url = https://aur.archlinux.org/i3-volume.git
+[submodule "pkgbuild/icecat-bin"]
+	path = pkgbuild/icecat-bin
+	url = https://aur.archlinux.org/icecat-bin.git
+[submodule "pkgbuild/interui-otf"]
+	path = pkgbuild/interui-otf
+	url = https://aur.archlinux.org/interui-otf.git
+[submodule "pkgbuild/ipman"]
+	path = pkgbuild/ipman
+	url = https://aur.archlinux.org/ipman.git
+[submodule "pkgbuild/joplin"]
+	path = pkgbuild/joplin
+	url = https://aur.archlinux.org/joplin.git
+[submodule "pkgbuild/jre"]
+	path = pkgbuild/jre
+	url = https://aur.archlinux.org/jre.git
+[submodule "pkgbuild/kindd-git"]
+	path = pkgbuild/kindd-git
+	url = https://aur.archlinux.org/kindd-git.git
+[submodule "pkgbuild/kitematic-git"]
+	path = pkgbuild/kitematic-git
+	url = https://aur.archlinux.org/kitematic-git.git
+[submodule "pkgbuild/korla-icon-theme"]
+	path = pkgbuild/korla-icon-theme
+	url = https://aur.archlinux.org/korla-icon-theme.git
+[submodule "pkgbuild/librewolf-bin"]
+	path = pkgbuild/librewolf-bin
+	url = https://aur.archlinux.org/librewolf-bin.git
+[submodule "pkgbuild/marktext-bin"]
+	path = pkgbuild/marktext-bin
+	url = https://aur.archlinux.org/marktext-bin.git
+[submodule "pkgbuild/marp"]
+	path = pkgbuild/marp
+	url = https://aur.archlinux.org/marp.git
+[submodule "pkgbuild/micro"]
+	path = pkgbuild/micro
+	url = https://aur.archlinux.org/micro.git
+[submodule "pkgbuild/mindforger"]
+	path = pkgbuild/mindforger
+	url = https://aur.archlinux.org/mindforger.git
+[submodule "pkgbuild/mindi-converter-git"]
+	path = pkgbuild/mindi-converter-git
+	url = https://aur.archlinux.org/mindi-converter-git.git
+[submodule "pkgbuild/mirage"]
+	path = pkgbuild/mirage
+	url = https://aur.archlinux.org/mirage.git
+[submodule "pkgbuild/mpv-acestream"]
+	path = pkgbuild/mpv-acestream
+	url = https://aur.archlinux.org/mpv-acestream.git
+[submodule "pkgbuild/ncpamixer-git"]
+	path = pkgbuild/ncpamixer-git
+	url = https://aur.archlinux.org/ncpamixer-git.git
+[submodule "pkgbuild/newbreeze-git"]
+	path = pkgbuild/newbreeze-git
+	url = https://aur.archlinux.org/newbreeze-git.git
+[submodule "pkgbuild/no-more-secrets"]
+	path = pkgbuild/no-more-secrets
+	url = https://aur.archlinux.org/no-more-secrets.git
+[submodule "pkgbuild/notable-bin"]
+	path = pkgbuild/notable-bin
+	url = https://aur.archlinux.org/notable-bin.git
+[submodule "pkgbuild/notekit-git"]
+	path = pkgbuild/notekit-git
+	url = https://aur.archlinux.org/notekit-git.git
+[submodule "pkgbuild/notementum"]
+	path = pkgbuild/notementum
+	url = https://aur.archlinux.org/notementum.git
+[submodule "pkgbuild/notes-up"]
+	path = pkgbuild/notes-up
+	url = https://aur.archlinux.org/notes-up.git
+[submodule "pkgbuild/nx-gtk-themes-git"]
+	path = pkgbuild/nx-gtk-themes-git
+	url = https://aur.archlinux.org/nx-gtk-themes-git.git
+[submodule "pkgbuild/nx-plasma-look-and-feel-git"]
+	path = pkgbuild/nx-plasma-look-and-feel-git
+	url = https://aur.archlinux.org/nx-plasma-look-and-feel-git.git
+[submodule "pkgbuild/open-adventure"]
+	path = pkgbuild/open-adventure
+	url = https://aur.archlinux.org/open-adventure.git
+[submodule "pkgbuild/otf-anrt-baskervville"]
+	path = pkgbuild/otf-anrt-baskervville
+	url = https://aur.archlinux.org/otf-anrt-baskervville.git
+[submodule "pkgbuild/otf-new-york"]
+	path = pkgbuild/otf-new-york
+	url = https://aur.archlinux.org/otf-new-york.git
+[submodule "pkgbuild/otf-san-francisco-mono"]
+	path = pkgbuild/otf-san-francisco-mono
+	url = https://aur.archlinux.org/otf-san-francisco-mono.git
+[submodule "pkgbuild/otf-san-francisco-pro"]
+	path = pkgbuild/otf-san-francisco-pro
+	url = https://aur.archlinux.org/otf-san-francisco-pro.git
+[submodule "pkgbuild/pacaudit"]
+	path = pkgbuild/pacaudit
+	url = https://aur.archlinux.org/pacaudit.git
+[submodule "pkgbuild/pikaur"]
+	path = pkgbuild/pikaur
+	url = https://aur.archlinux.org/pikaur.git
+[submodule "pkgbuild/pngzop"]
+	path = pkgbuild/pngzop
+	url = https://aur.archlinux.org/pngzop.git
+[submodule "pkgbuild/polybar"]
+	path = pkgbuild/polybar
+	url = https://aur.archlinux.org/polybar.git
+[submodule "pkgbuild/profile-cleaner"]
+	path = pkgbuild/profile-cleaner
+	url = https://aur.archlinux.org/profile-cleaner.git
+[submodule "pkgbuild/publii"]
+	path = pkgbuild/publii
+	url = https://aur.archlinux.org/publii.git
+[submodule "pkgbuild/python-pyshp"]
+	path = pkgbuild/python-pyshp
+	url = https://aur.archlinux.org/python-pyshp.git
+[submodule "pkgbuild/qimgv-git"]
+	path = pkgbuild/qimgv-git
+	url = https://aur.archlinux.org/qimgv-git.git
+[submodule "pkgbuild/qjournalctl"]
+	path = pkgbuild/qjournalctl
+	url = https://aur.archlinux.org/qjournalctl.git
+[submodule "pkgbuild/qomui"]
+	path = pkgbuild/qomui
+	url = https://aur.archlinux.org/qomui.git
+[submodule "pkgbuild/qoob-git"]
+	path = pkgbuild/qoob-git
+	url = https://aur.archlinux.org/qoob-git.git
+[submodule "pkgbuild/qownnotes"]
+	path = pkgbuild/qownnotes
+	url = https://aur.archlinux.org/qownnotes.git
+[submodule "pkgbuild/qtemu-git"]
+	path = pkgbuild/qtemu-git
+	url = https://aur.archlinux.org/qtemu-git.git
+[submodule "pkgbuild/qtwebflix-git"]
+	path = pkgbuild/qtwebflix-git
+	url = https://aur.archlinux.org/qtwebflix-git.git
+[submodule "pkgbuild/qtws-base"]
+	path = pkgbuild/qtws-base
+	url = https://aur.archlinux.org/qtws-base.git
+[submodule "pkgbuild/quilter"]
+	path = pkgbuild/quilter
+	url = https://aur.archlinux.org/quilter.git
+[submodule "pkgbuild/raven-reader"]
+	path = pkgbuild/raven-reader
+	url = https://aur.archlinux.org/raven-reader.git
+[submodule "pkgbuild/recap"]
+	path = pkgbuild/recap
+	url = https://aur.archlinux.org/recap.git
+[submodule "pkgbuild/redshift-qt"]
+	path = pkgbuild/redshift-qt
+	url = https://aur.archlinux.org/redshift-qt.git
+[submodule "pkgbuild/redshift-scheduler"]
+	path = pkgbuild/redshift-scheduler
+	url = https://aur.archlinux.org/redshift-scheduler.git
+[submodule "pkgbuild/rememberthemilk"]
+	path = pkgbuild/rememberthemilk
+	url = https://aur.archlinux.org/rememberthemilk.git
+[submodule "pkgbuild/rofimoji-git"]
+	path = pkgbuild/rofimoji-git
+	url = https://aur.archlinux.org/rofimoji-git.git
+[submodule "pkgbuild/roxterm"]
+	path = pkgbuild/roxterm
+	url = https://aur.archlinux.org/roxterm.git
+[submodule "pkgbuild/scaleway-cli"]
+	path = pkgbuild/scaleway-cli
+	url = https://aur.archlinux.org/scaleway-cli.git
+[submodule "pkgbuild/scat"]
+	path = pkgbuild/scat
+	url = https://aur.archlinux.org/scat.git
+[submodule "pkgbuild/scrcpy"]
+	path = pkgbuild/scrcpy
+	url = https://aur.archlinux.org/scrcpy.git
+[submodule "pkgbuild/sirikali"]
+	path = pkgbuild/sirikali
+	url = https://aur.archlinux.org/sirikali.git
+[submodule "pkgbuild/slashtime"]
+	path = pkgbuild/slashtime
+	url = https://aur.archlinux.org/slashtime.git
+[submodule "pkgbuild/spicetify-cli"]
+	path = pkgbuild/spicetify-cli
+	url = https://aur.archlinux.org/spicetify-cli.git
+[submodule "pkgbuild/spotify"]
+	path = pkgbuild/spotify
+	url = https://aur.archlinux.org/spotify.git
+[submodule "pkgbuild/sshrc"]
+	path = pkgbuild/sshrc
+	url = https://aur.archlinux.org/sshrc.git
+[submodule "pkgbuild/station"]
+	path = pkgbuild/station
+	url = https://aur.archlinux.org/station.git
+[submodule "pkgbuild/stf"]
+	path = pkgbuild/stf
+	url = https://aur.archlinux.org/stf.git
+[submodule "pkgbuild/stremio"]
+	path = pkgbuild/stremio
+	url = https://aur.archlinux.org/stremio.git
+[submodule "pkgbuild/swayshot"]
+	path = pkgbuild/swayshot
+	url = https://aur.archlinux.org/swayshot.git
+[submodule "pkgbuild/telegram-desktop-bin"]
+	path = pkgbuild/telegram-desktop-bin
+	url = https://aur.archlinux.org/telegram-desktop-bin.git
+[submodule "pkgbuild/terminal-markdown-viewer"]
+	path = pkgbuild/terminal-markdown-viewer
+	url = https://aur.archlinux.org/terminal-markdown-viewer.git
+[submodule "pkgbuild/terminate"]
+	path = pkgbuild/terminate
+	url = https://aur.archlinux.org/terminate.git
+[submodule "pkgbuild/termtrack-git"]
+	path = pkgbuild/termtrack-git
+	url = https://aur.archlinux.org/termtrack-git.git
+[submodule "pkgbuild/thonny"]
+	path = pkgbuild/thonny
+	url = https://aur.archlinux.org/thonny.git
+[submodule "pkgbuild/tlpui-git"]
+	path = pkgbuild/tlpui-git
+	url = https://aur.archlinux.org/tlpui-git.git
+[submodule "pkgbuild/tmuxinator"]
+	path = pkgbuild/tmuxinator
+	url = https://aur.archlinux.org/tmuxinator.git
+[submodule "pkgbuild/tor-browser"]
+	path = pkgbuild/tor-browser
+	url = https://aur.archlinux.org/tor-browser.git
+[submodule "pkgbuild/trimage"]
+	path = pkgbuild/trimage
+	url = https://aur.archlinux.org/trimage.git
+[submodule "pkgbuild/ttf-cascadia-code"]
+	path = pkgbuild/ttf-cascadia-code
+	url = https://aur.archlinux.org/ttf-cascadia-code.git
+[submodule "pkgbuild/ttf-fira-go"]
+	path = pkgbuild/ttf-fira-go
+	url = https://aur.archlinux.org/ttf-fira-go.git
+[submodule "pkgbuild/ttf-fira-mono-ibx"]
+	path = pkgbuild/ttf-fira-mono-ibx
+	url = https://aur.archlinux.org/ttf-fira-mono-ibx.git
+[submodule "pkgbuild/ttf-inter-ui"]
+	path = pkgbuild/ttf-inter-ui
+	url = https://aur.archlinux.org/ttf-inter-ui.git
+[submodule "pkgbuild/ttf-iosevka"]
+	path = pkgbuild/ttf-iosevka
+	url = https://aur.archlinux.org/ttf-iosevka.git
+[submodule "pkgbuild/ttf-iosevka-ss09"]
+	path = pkgbuild/ttf-iosevka-ss09
+	url = https://aur.archlinux.org/ttf-iosevka-ss09.git
+[submodule "pkgbuild/ttf-league-mono"]
+	path = pkgbuild/ttf-league-mono
+	url = https://aur.archlinux.org/ttf-league-mono.git
+[submodule "pkgbuild/ttf-merriweather"]
+	path = pkgbuild/ttf-merriweather
+	url = https://aur.archlinux.org/ttf-merriweather.git
+[submodule "pkgbuild/ttf-op-slate"]
+	path = pkgbuild/ttf-op-slate
+	url = https://aur.archlinux.org/ttf-op-slate.git
+[submodule "pkgbuild/ttf-orbitron"]
+	path = pkgbuild/ttf-orbitron
+	url = https://aur.archlinux.org/ttf-orbitron.git
+[submodule "pkgbuild/ttf-public-sans"]
+	path = pkgbuild/ttf-public-sans
+	url = https://aur.archlinux.org/ttf-public-sans.git
+[submodule "pkgbuild/ttf-roboto-mono"]
+	path = pkgbuild/ttf-roboto-mono
+	url = https://aur.archlinux.org/ttf-roboto-mono.git
+[submodule "pkgbuild/typecatcher"]
+	path = pkgbuild/typecatcher
+	url = https://aur.archlinux.org/typecatcher.git
+[submodule "pkgbuild/typora"]
+	path = pkgbuild/typora
+	url = https://aur.archlinux.org/typora.git
+[submodule "pkgbuild/uberwriter"]
+	path = pkgbuild/uberwriter
+	url = https://aur.archlinux.org/uberwriter.git
+[submodule "pkgbuild/unbound-block-hosts"]
+	path = pkgbuild/unbound-block-hosts
+	url = https://aur.archlinux.org/unbound-block-hosts.git
+[submodule "pkgbuild/urxvt-tabbedex"]
+	path = pkgbuild/urxvt-tabbedex
+	url = https://aur.archlinux.org/urxvt-tabbedex.git
+[submodule "pkgbuild/vbar"]
+	path = pkgbuild/vbar
+	url = https://aur.archlinux.org/vbar.git
+[submodule "pkgbuild/vscodium"]
+	path = pkgbuild/vscodium
+	url = https://aur.archlinux.org/vscodium.git
+[submodule "pkgbuild/webtorrent-desktop"]
+	path = pkgbuild/webtorrent-desktop
+	url = https://aur.archlinux.org/webtorrent-desktop.git
+[submodule "pkgbuild/wofi-hg"]
+	path = pkgbuild/wofi-hg
+	url = https://aur.archlinux.org/wofi-hg.git
+[submodule "pkgbuild/wordgrinder"]
+	path = pkgbuild/wordgrinder
+	url = https://aur.archlinux.org/wordgrinder.git
+[submodule "pkgbuild/writer-git"]
+	path = pkgbuild/writer-git
+	url = https://aur.archlinux.org/writer-git.git
+[submodule "pkgbuild/yaru"]
+	path = pkgbuild/yaru
+	url = https://aur.archlinux.org/yaru.git
+[submodule "pkgbuild/yay"]
+	path = pkgbuild/yay
+	url = https://aur.archlinux.org/yay.git
+[submodule "pkgbuild/ydiff"]
+	path = pkgbuild/ydiff
+	url = https://aur.archlinux.org/ydiff.git
+[submodule "pkgbuild/youtube-dl-gui-git"]
+	path = pkgbuild/youtube-dl-gui-git
+	url = https://aur.archlinux.org/youtube-dl-gui-git.git
+[submodule "pkgbuild/zettlr-bin"]
+	path = pkgbuild/zettlr-bin
+	url = https://aur.archlinux.org/zettlr-bin.git
+[submodule "pkgbuild/zlib-zpipe"]
+	path = pkgbuild/zlib-zpipe
+	url = https://aur.archlinux.org/zlib-zpipe.git
+[submodule "pkgbuild/zotero"]
+	path = pkgbuild/zotero
+	url = https://aur.archlinux.org/zotero.git
