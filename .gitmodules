@@ -523,3 +523,12 @@
 [submodule "pkgbuild/pdfchain"]
 	path = pkgbuild/pdfchain
 	url = https://aur.archlinux.org/pdfchain
+[submodule "pkgbuild/pakku"]
+	path = pkgbuild/pakku
+	url = https://aur.archlinux.org/pakku
+[submodule "pkgbuild/vlc-bittorrent"]
+	path = pkgbuild/vlc-bittorrent
+	url = https://aur.archlinux.org/vlc-bittorrent
+[submodule "pkgbuild/pfetch-git"]
+	path = pkgbuild/pfetch-git
+	url = https://aur.archlinux.org/pfetch-git
