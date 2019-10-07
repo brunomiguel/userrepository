@@ -11,6 +11,7 @@ for D in */; do
     cd $D;
     echo -e "\e[1m$D\e[0m";
     git clean -x -d -f;
+    git stash;
     git pull --progress;
     echo -e "\n";
     #sleep .002s;

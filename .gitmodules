@@ -535,3 +535,24 @@
 [submodule "pkgbuild/navi"]
 	path = pkgbuild/navi
 	url = https://aur.archlinux.org/navi
+[submodule "pkgbuild/oomox"]
+	path = pkgbuild/oomox
+	url = https://aur.archlinux.org/oomox
+[submodule "pkgbuild/plasma5-applets-eventcalendar"]
+	path = pkgbuild/plasma5-applets-eventcalendar
+	url = https://aur.archlinux.org/plasma5-applets-eventcalendar
+[submodule "pkgbuild/pkghist"]
+	path = pkgbuild/pkghist
+	url = https://aur.archlinux.org/pkghist
+[submodule "pkgbuild/rofi-emoji"]
+	path = pkgbuild/rofi-emoji
+	url = https://aur.archlinux.org/rofi-emoji
+[submodule "pkgbuild/ne"]
+	path = pkgbuild/ne
+	url = https://aur.archlinux.org/ne
+[submodule "pkgbuild/ms-pacman"]
+	path = pkgbuild/ms-pacman
+	url = https://aur.archlinux.org/ms-pacman
+[submodule "pkgbuild/cleanupdate-git"]
+	path = pkgbuild/cleanupdate-git
+	url = https://aur.archlinux.org/cleanupdate-git
