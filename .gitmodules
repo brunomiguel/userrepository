@@ -556,3 +556,12 @@
 [submodule "pkgbuild/cleanupdate-git"]
 	path = pkgbuild/cleanupdate-git
 	url = https://aur.archlinux.org/cleanupdate-git
+[submodule "pkgbuild/qtextpad"]
+	path = pkgbuild/qtextpad
+	url = https://aur.archlinux.org/qtextpad
+[submodule "pkgbuild/cawbird-git"]
+	path = pkgbuild/cawbird-git
+	url = https://aur.archlinux.org/cawbird-git
+[submodule "pkgbuild/oxipng"]
+	path = pkgbuild/oxipng
+	url = https://aur.archlinux.org/oxipng
