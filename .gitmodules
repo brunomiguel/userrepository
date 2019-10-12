@@ -565,3 +565,18 @@
 [submodule "pkgbuild/oxipng"]
 	path = pkgbuild/oxipng
 	url = https://aur.archlinux.org/oxipng
+[submodule "pkgbuild/imcompressor"]
+	path = pkgbuild/imcompressor
+	url = https://aur.archlinux.org/imcompressor
+[submodule "pkgbuild/imeditor"]
+	path = pkgbuild/imeditor
+	url = https://aur.archlinux.org/imeditor
+[submodule "pkgbuild/phoneboard"]
+	path = pkgbuild/phoneboard
+	url = https://aur.archlinux.org/phoneboard
+[submodule "pkgbuild/chezmoi-git"]
+	path = pkgbuild/chezmoi-git
+	url = https://aur.archlinux.org/chezmoi-git
+[submodule "pkgbuild/tiddlydesktop"]
+	path = pkgbuild/tiddlydesktop
+	url = https://aur.archlinux.org/tiddlydesktop
