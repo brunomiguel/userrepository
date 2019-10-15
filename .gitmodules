@@ -589,3 +589,6 @@
 [submodule "pkgbuild/qvault"]
 	path = pkgbuild/qvault
 	url = https://aur.archlinux.org/qvault
+[submodule "pkgbuild/zps"]
+	path = pkgbuild/zps
+	url = https://aur.archlinux.org/zps
