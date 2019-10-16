@@ -592,3 +592,12 @@
 [submodule "pkgbuild/zps"]
 	path = pkgbuild/zps
 	url = https://aur.archlinux.org/zps
+[submodule "pkgbuild/redpen"]
+	path = pkgbuild/redpen
+	url = https://aur.archlinux.org/redpen
+[submodule "pkgbuild/flightgear"]
+	path = pkgbuild/flightgear
+	url = https://aur.archlinux.org/flightgear
+[submodule "pkgbuild/flightgear-data"]
+	path = pkgbuild/flightgear-data
+	url = https://aur.archlinux.org/flightgear-data
