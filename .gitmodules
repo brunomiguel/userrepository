@@ -601,3 +601,6 @@
 [submodule "pkgbuild/flightgear-data"]
 	path = pkgbuild/flightgear-data
 	url = https://aur.archlinux.org/flightgear-data
+[submodule "pkgbuild/spotify-tui"]
+	path = pkgbuild/spotify-tui
+	url = https://aur.archlinux.org/spotify-tui
