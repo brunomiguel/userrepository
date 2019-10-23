@@ -34,7 +34,7 @@ for f in *; do
         if [ -f "PKGBUILD" ]; then
             echo "Found PKGBUILD for $f. Building..."
             # clean build force overwrite
-            PACMAN=/usr/bin/pakku makepkg -c -C -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint || :
+            PACMAN=/usr/local/bin/pakku makepkg -c -C -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint || :
         fi
         popd
     fi

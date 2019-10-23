@@ -604,3 +604,6 @@
 [submodule "pkgbuild/spotify-tui"]
 	path = pkgbuild/spotify-tui
 	url = https://aur.archlinux.org/spotify-tui
+[submodule "pkgbuild/standardnotes-desktop"]
+	path = pkgbuild/standardnotes-desktop
+	url = https://aur.archlinux.org/standardnotes-desktop
