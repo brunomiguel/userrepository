@@ -607,3 +607,6 @@
 [submodule "pkgbuild/standardnotes-desktop"]
 	path = pkgbuild/standardnotes-desktop
 	url = https://aur.archlinux.org/standardnotes-desktop
+[submodule "pkgbuild/picom-git"]
+	path = pkgbuild/picom-git
+	url = https://aur.archlinux.org/picom-git
