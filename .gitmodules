@@ -610,3 +610,9 @@
 [submodule "pkgbuild/picom-git"]
 	path = pkgbuild/picom-git
 	url = https://aur.archlinux.org/picom-git
+[submodule "pkgbuild/psi-plus"]
+	path = pkgbuild/psi-plus
+	url = https://aur.archlinux.org/psi-plus
+[submodule "pkgbuild/theia-next"]
+	path = pkgbuild/theia-next
+	url = https://aur.archlinux.org/theia-next
