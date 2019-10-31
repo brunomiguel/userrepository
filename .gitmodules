@@ -625,3 +625,9 @@
 [submodule "pkgbuild/bim"]
 	path = pkgbuild/bim
 	url = https://aur.archlinux.org/bim
+[submodule "pkgbuild/imagine-git"]
+	path = pkgbuild/imagine-git
+	url = https://aur.archlinux.org/imagine-git
+[submodule "pkgbuild/mini-diary-git"]
+	path = pkgbuild/mini-diary-git
+	url = https://aur.archlinux.org/mini-diary-git
