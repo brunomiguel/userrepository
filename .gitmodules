@@ -640,3 +640,9 @@
 [submodule "pkgbuild/qt-scrcpy"]
 	path = pkgbuild/qt-scrcpy
 	url = https://aur.archlinux.org/qt-scrcpy
+[submodule "pkgbuild/badwolf"]
+	path = pkgbuild/badwolf
+	url = https://aur.archlinux.org/badwolf
+[submodule "pkgbuild/chromium-widevine"]
+	path = pkgbuild/chromium-widevine
+	url = https://aur.archlinux.org/chromium-widevine
