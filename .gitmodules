@@ -631,3 +631,12 @@
 [submodule "pkgbuild/mini-diary-git"]
 	path = pkgbuild/mini-diary-git
 	url = https://aur.archlinux.org/mini-diary-git
+[submodule "pkgbuild/lazygit"]
+	path = pkgbuild/lazygit
+	url = https://aur.archlinux.org/lazygit
+[submodule "pkgbuild/powerkit"]
+	path = pkgbuild/powerkit
+	url = https://aur.archlinux.org/powerkit
+[submodule "pkgbuild/qt-scrcpy"]
+	path = pkgbuild/qt-scrcpy
+	url = https://aur.archlinux.org/qt-scrcpy
