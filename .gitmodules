@@ -652,3 +652,9 @@
 [submodule "pkgbuild/airgeddon-git"]
 	path = pkgbuild/airgeddon-git
 	url = https://aur.archlinux.org/airgeddon-git
+[submodule "pkgbuild/python-pystray"]
+	path = pkgbuild/python-pystray
+	url = https://aur.archlinux.org/python-pystray
+[submodule "pkgbuild/otf-linguistics-pro"]
+	path = pkgbuild/otf-linguistics-pro
+	url = https://aur.archlinux.org/otf-linguistics-pro
