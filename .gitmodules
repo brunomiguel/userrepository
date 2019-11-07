@@ -658,3 +658,15 @@
 [submodule "pkgbuild/otf-linguistics-pro"]
 	path = pkgbuild/otf-linguistics-pro
 	url = https://aur.archlinux.org/otf-linguistics-pro
+[submodule "pkgbuild/xdg-launch"]
+	path = pkgbuild/xdg-launch
+	url = https://aur.archlinux.org/xdg-launch
+[submodule "pkgbuild/xde-menu"]
+	path = pkgbuild/xde-menu
+	url = https://aur.archlinux.org/xde-menu
+[submodule "pkgbuild/xde-session"]
+	path = pkgbuild/xde-session
+	url = https://aur.archlinux.org/xde-session
+[submodule "pkgbuild/xde-ctools"]
+	path = pkgbuild/xde-ctools
+	url = https://aur.archlinux.org/xde-ctools
