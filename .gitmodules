@@ -670,3 +670,12 @@
 [submodule "pkgbuild/xde-ctools"]
 	path = pkgbuild/xde-ctools
 	url = https://aur.archlinux.org/xde-ctools
+[submodule "pkgbuild/python2-pydbus"]
+	path = pkgbuild/python2-pydbus
+	url = https://aur.archlinux.org/python2-pydbus
+[submodule "pkgbuild/libsignal-protocol-c"]
+	path = pkgbuild/libsignal-protocol-c
+	url = https://aur.archlinux.org/libsignal-protocol-c
+[submodule "pkgbuild/gmenu"]
+	path = pkgbuild/gmenu
+	url = https://aur.archlinux.org/gmenu

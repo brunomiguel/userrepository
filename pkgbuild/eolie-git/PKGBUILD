@@ -1,0 +1,30 @@
+# Maintainer: Bruno Miguel <brunoalexandremiguel@gmail.com>
+
+pkgname=eolie
+_gitname=eolie
+pkgver=git
+pkgrel=1
+pkgdesc="Simple GTK web browser for GNOME"
+arch=('x86_64')
+url="https://wiki.gnome.org/Apps/Eolie"
+license=('GPL3')
+depends=('gtkspell3' 'python-cairo' 'python-dateutil' 'python-gobject' 'webkit2gtk')
+makedepends=('git' 'gobject-introspection' 'meson')
+optdepends=('python-beautifulsoup4: Import html bookmarks'
+            'python-crypto: Firefox Sync support' 
+            'python-fxa: Firefox Sync support'
+            'python-pyopenssl: Show SSL certificates'
+            'python-requests-hawk: Firefox Sync support')
+source=("git+https://gitlab.gnome.org/World/eolie.git")
+sha256sums=('SKIP')
+conflicts=('eolie')
+
+build() {
+	arch-meson "${_gitname}" build
+	ninja -C build
+}
+
+package() {
+	DESTDIR="$pkgdir" meson install -C build
+}
+
