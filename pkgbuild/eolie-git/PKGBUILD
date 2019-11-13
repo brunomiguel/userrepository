@@ -1,8 +1,8 @@
 # Maintainer: Bruno Miguel <brunoalexandremiguel@gmail.com>
 
-pkgname=eolie
+pkgname=eolie-git
 _gitname=eolie
-pkgver=git
+pkgver=da1899ff
 pkgrel=1
 pkgdesc="Simple GTK web browser for GNOME"
 arch=('x86_64')
@@ -17,6 +17,11 @@ optdepends=('python-beautifulsoup4: Import html bookmarks'
             'python-requests-hawk: Firefox Sync support')
 source=("git+https://gitlab.gnome.org/World/eolie.git")
 sha256sums=('SKIP')
+
+pkgver() {
+	cd "${_gitname}"
+	git rev-parse HEAD | cut -c 1-8
+}
 
 build() {
 	arch-meson "${_gitname}" build
