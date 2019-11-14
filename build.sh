@@ -13,7 +13,7 @@ export SRCDEST="$BUILDDIR/src"
 
 set -e
 
-sh repo-update.sh
+#sh repo-update.sh
 
 pushd "$DIR/pkgbuild"
 
@@ -25,12 +25,12 @@ for f in *; do
             echo "Found PKGBUILD for $f. Building..."
             # clean build force overwrite
             PACMAN=/usr/local/bin/pakku makepkg -c -C -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint || :
-				if [ ${PIPESTATUS[0]} -ne 0 ]
-				then
-					echo "Oh no!" >&2
-				else
-  					echo "Oh yeah!" >&2
-				fi
+				#if [ $? -eq 0 ]
+				#then
+					#echo "sem erro" >&2
+				#else
+  					#echo "!!! ERRO !!!" >&2
+				#fi
         fi
         popd
     fi
