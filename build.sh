@@ -17,16 +17,6 @@ sh repo-update.sh
 
 pushd "$DIR/pkgbuild"
 
-# update all submodules
-#for D in */; do
-#    cd $D;
-#    echo "$D";
-#    git stash;
-#    git pull;
-#    echo -e "\n";
-#    cd ..;
-#done
-
 for f in *; do
     if [ -d "$f" ]; then
         echo "Processing $f..."
