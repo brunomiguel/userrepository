@@ -25,6 +25,12 @@ for f in *; do
             echo "Found PKGBUILD for $f. Building..."
             # clean build force overwrite
             PACMAN=/usr/local/bin/pakku makepkg -c -C -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint || :
+if [ $? -ne 0 ]
+							then
+								echo "Oh no!" >&2
+							else
+  							echo "Oh yeah!" >&2
+							fi
         fi
         popd
     fi
