@@ -16,7 +16,7 @@ sh repo-update.sh
 
 if [ ! -f "$DIR/captains.log" ]
 then
-	touch $DIR/captains.log
+	touch "$DIR/captains.log"
 fi
 
 pushd "$DIR/pkgbuild"
@@ -31,7 +31,7 @@ for f in *; do
             PACMAN=/usr/local/bin/pakku makepkg -c -C -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint
 				if [ $? -ne 0 ]
 				then
-  					echo -e "\n!!! ERROR !!! in $f\n" > $DIR/captains.log
+  					echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
 				fi
         fi
         popd

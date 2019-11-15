@@ -2,7 +2,7 @@
 
 pkgname=eolie-git
 _gitname=eolie
-pkgver=da1899ff
+pkgver=0.9.22.r597.g5073edd
 pkgrel=1
 pkgdesc="Simple GTK web browser for GNOME"
 arch=('x86_64')
