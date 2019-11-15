@@ -12,7 +12,7 @@ export BUILDDIR="$DIR/cache"
 export PKGDEST="$BUILDDIR/bin"
 export SRCDEST="$BUILDDIR/src"
 
-#sh repo-update.sh
+sh repo-update.sh
 
 if [ ! -f "$DIR/captains.log" ]
 then
