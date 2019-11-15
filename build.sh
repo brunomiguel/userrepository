@@ -41,4 +41,4 @@ for f in *; do
     fi
 done
 
-mail -s "build log" brunoalexandremiguel@gmail.com -A $DIR/captains.log
+echo "Captains log for userrepository" | mail -s "build log" brunoalexandremiguel@gmail.com -A $DIR/captains.log
