@@ -1,5 +1,6 @@
 #!/bin/bash
-DIR="$(cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+#DIR="$(cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+DIR="$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
 
 source "$DIR/config"
 export PKGEXT
@@ -11,7 +12,7 @@ export BUILDDIR="$DIR/cache"
 export PKGDEST="$BUILDDIR/bin"
 export SRCDEST="$BUILDDIR/src"
 
-sh repo-update.sh
+#sh repo-update.sh
 
 if [ ! -f "$DIR/captains.log" ]
 then
