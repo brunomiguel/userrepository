@@ -13,7 +13,12 @@ export SRCDEST="$BUILDDIR/src"
 
 set -e
 
-#sh repo-update.sh
+sh repo-update.sh
+
+if [ ! -f "$DIR/captains.log" ]
+then
+	touch $DIR/captains.log
+fi
 
 pushd "$DIR/pkgbuild"
 
@@ -24,7 +29,7 @@ for f in *; do
         if [ -f "PKGBUILD" ]; then
             echo "Found PKGBUILD for $f. Building..."
             # clean build force overwrite
-            PACMAN=/usr/local/bin/pakku makepkg -c -C -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint || :
+            PACMAN=/usr/local/bin/pakku makepkg -c -C -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> $DIR/captains.log || :
 				#if [ $? -eq 0 ]
 				#then
 					#echo "sem erro" >&2

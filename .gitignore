@@ -6,3 +6,4 @@ cache/*
 repository/*
 !repository/.gitkeep
 
+captains.log
