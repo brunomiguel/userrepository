@@ -40,5 +40,3 @@ for f in *; do
         popd
     fi
 done
-
-echo "Captains log for userrepository" | mail -s "build log" brunoalexandremiguel@gmail.com -A $DIR/captains.log
