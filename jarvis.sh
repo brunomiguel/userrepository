@@ -46,7 +46,7 @@ refresh() {
 case $1 in
     -a|--auto) pakku -Syyyuv; refresh; build ;;
     -b|--build) refresh; build ;;
-    -r|--refresh) refresh ;;
+    -r|--refresh) pakku -Syyyuv; refresh ;;
     -h|--help) echo -e "\t-a --auto: full chain of commands\n\t-b --build: build packages\n\t-r --refresh: update submodules\n\t-h --help: print this help message" ;;
     *) echo "Sorry, didn't understand $1, please try again." ;;
 esac
