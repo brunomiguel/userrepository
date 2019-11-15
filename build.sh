@@ -11,8 +11,6 @@ export BUILDDIR="$DIR/cache"
 export PKGDEST="$BUILDDIR/bin"
 export SRCDEST="$BUILDDIR/src"
 
-set -e
-
 sh repo-update.sh
 
 if [ ! -f "$DIR/captains.log" ]
@@ -29,13 +27,11 @@ for f in *; do
         if [ -f "PKGBUILD" ]; then
             echo "Found PKGBUILD for $f. Building..."
             # clean build force overwrite
-            PACMAN=/usr/local/bin/pakku makepkg -c -C -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> $DIR/captains.log || :
-				#if [ $? -eq 0 ]
-				#then
-					#echo "sem erro" >&2
-				#else
-  					#echo "!!! ERRO !!!" >&2
-				#fi
+            PACMAN=/usr/local/bin/pakku makepkg -c -C -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint
+				if [ $? -ne 0 ]
+				then
+  					echo -e "\n!!! ERROR !!! in $f\n" > $DIR/captains.log
+				fi
         fi
         popd
     fi
