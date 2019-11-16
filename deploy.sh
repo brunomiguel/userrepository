@@ -7,8 +7,6 @@ source "$DIR/config"
 BUILDDIR="$DIR/cache"
 PKGDEST="$BUILDDIR/bin"
 
-set -e
-
 # move built packages to cache/
 pushd "$DIR/repository"
 for f in *${PKGEXT}; do
