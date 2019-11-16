@@ -1,17 +1,18 @@
 #!/bin/bash
 
+DIR="$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
+
+source "$DIR/config"
+export PKGEXT
+export COMPRESSXZ
+export PACKAGER
+export GPGKEY
+
+export BUILDDIR="$DIR/cache"
+export PKGDEST="$BUILDDIR/bin"
+export SRCDEST="$BUILDDIR/src"
+
 build() {
-    DIR="$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
-
-    source "$DIR/config"
-    export PKGEXT
-    export COMPRESSXZ
-    export PACKAGER
-    export GPGKEY
-
-    export BUILDDIR="$DIR/cache"
-    export PKGDEST="$BUILDDIR/bin"
-    export SRCDEST="$BUILDDIR/src"
 
     if [ ! -f "$DIR/captains.log" ]
     then
@@ -43,10 +44,33 @@ refresh() {
     sh repo-update.sh
 }
 
+deploy() {
+    # move built packages to cache/
+    pushd "$DIR/repository"
+    for f in *${PKGEXT}; do
+        [ -f "$f" ] || break
+        echo "Archiving $f..."
+        mv "$f" "$BUILDDIR"
+    done
+
+    # add built packages to repository database
+    for f in ${PKGDEST}/*${PKGEXT}; do
+        [ -f "$f" ] || break
+        echo "Deploying $f..."
+        mv "$f" "./"
+        repo-add -s -v "${REPONAME}.db.tar.gz" "$(basename "$f")"
+    done
+    popd
+}
+
+sync() {
+    rsync --copy-links --delete -avr "$DIR/repository/" "$REMOTE"
+}
+
 case $1 in
-    -a|--auto) pakku -Syyyuv; refresh; build ;;
+    -a|--auto) pakku -Syyyuv; refresh; build; deploy; sync ;;
     -b|--build) refresh; build ;;
     -r|--refresh) pakku -Syyyuv; refresh ;;
-    -h|--help) echo -e "\t-a --auto: full chain of commands\n\t-b --build: build packages\n\t-r --refresh: update submodules\n\t-h --help: print this help message" ;;
-    *) echo "Sorry, didn't understand $1, please try again." ;;
+    -h|--help) echo -e "\nUse one of the following options:\n\t-a --auto: build, deploy and sync repository to webserver folder\n\t-b --build: build packages\n\t-r --refresh: update submodules\n\t-h --help: print this help message\n" ;;
+    *) echo -e "\nUse one of the following options:\n\t-a --auto: build, deploy and sync repository to webserver folder\n\t-b --build: build packages\n\t-r --refresh: update submodules\n\t-h --help: print this help message\n" ;;
 esac
