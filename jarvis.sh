@@ -81,6 +81,6 @@ case $1 in
     -a|--auto) pakku -Syyyuv; refresh; build; deploy; sync ;;
     -b|--build) refresh; build ;;
     -r|--refresh) pakku -Syyyuv; refresh ;;
-    -h|--help) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a --auto: build, deploy and sync repository to webserver folder\n\t-b --build: build packages\n\t-r --refresh: update submodules\n\t-h --help: print this help message\n" ;;
-    *) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a --auto: build, deploy and sync repository to webserver folder\n\t-b --build: build packages\n\t-r --refresh: update submodules\n\t-h --help: print this help message\n" ;;
+    -h|--help) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --auto: build, deploy and sync repository to webserver folder\n\t-b, --build: build packages\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
+    *) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --auto: build, deploy and sync repository to webserver folder\n\t-b, --build: build packages\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
 esac
