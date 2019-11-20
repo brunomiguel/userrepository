@@ -679,3 +679,6 @@
 [submodule "pkgbuild/gmenu"]
 	path = pkgbuild/gmenu
 	url = https://aur.archlinux.org/gmenu
+[submodule "pkgbuild/flauncher"]
+	path = pkgbuild/flauncher
+	url = https://aur.archlinux.org/flauncher
