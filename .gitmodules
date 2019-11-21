@@ -349,9 +349,6 @@
 [submodule "pkgbuild/recap"]
 	path = pkgbuild/recap
 	url = https://aur.archlinux.org/recap.git
-[submodule "pkgbuild/redshift-qt"]
-	path = pkgbuild/redshift-qt
-	url = https://aur.archlinux.org/redshift-qt.git
 [submodule "pkgbuild/redshift-scheduler"]
 	path = pkgbuild/redshift-scheduler
 	url = https://aur.archlinux.org/redshift-scheduler.git
