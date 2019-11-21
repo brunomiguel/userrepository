@@ -77,10 +77,24 @@ sync() {
     rsync --copy-links --delete -avr "$DIR/repository/" "$REMOTE"
 }
 
+add() {
+    git submodule add "https://aur.archlinux.org/$1" "./pkgbuild/$1"
+}
+
+delete() {
+    git rm --cached "$DIR/pkgbuild/$1"
+    rm -rf "$DIR/pkgbuild/$1"
+    git commit -m "Removed $1 submodule"
+    rm -rf ".git/modules/$DIR/pkgbuild/$1"
+    git config -f .gitmodules --remove-section "submodule.pkgbuild/$1"
+    git config -f .git/config --remove-section "submodule.pkgbuild/$1"
+}
+
 case $1 in
-    -a|--auto) pakku -Syyyuv; refresh; build; deploy; sync ;;
-    -b|--build) refresh; build ;;
+    -a|--add) add ;;
+    -b|--build) pakku -Syyyuv; refresh; build; deploy; sync ;;
+    -d|--delete) delete ;;
     -r|--refresh) pakku -Syyyuv; refresh ;;
-    -h|--help) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --auto: build, deploy and sync repository to webserver folder\n\t-b, --build: build packages\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
-    *) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --auto: build, deploy and sync repository to webserver folder\n\t-b, --build: build packages\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
+    -h|--help) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --add: add package to repository\n\t-b, --build: build, deploy and sync repository to webserver folder\n\t-d, --delete: delete package\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
+    *) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --add: add package to repository\n\t-b, --build: build, deploy and sync repository to webserver folder\n\t-d, --delete: delete package\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
 esac
