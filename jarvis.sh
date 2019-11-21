@@ -82,20 +82,20 @@ sync() {
 }
 
 add() {
-    git submodule add "https://aur.archlinux.org/$2" "./pkgbuild/$2"
+    git submodule add "https://aur.archlinux.org/${i#*}" "./pkgbuild/${i#*}"
 }
 
 delete() {
-    git rm --cached "$DIR/pkgbuild/$1"
-    rm -rf "$DIR/pkgbuild/$1"
-    git commit -m "Removed $1 submodule"
-    rm -rf ".git/modules/$DIR/pkgbuild/$1"
-    git config -f .gitmodules --remove-section "submodule.pkgbuild/$1"
-    git config -f .git/config --remove-section "submodule.pkgbuild/$1"
+    git rm --cached "$DIR/pkgbuild/$package"
+    rm -rf "$DIR/pkgbuild/$package"
+    git commit -m "Removed $package submodule"
+    rm -rf ".git/modules/$DIR/pkgbuild/$package"
+    git config -f .gitmodules --remove-section "submodule.pkgbuild/$package"
+    git config -f .git/config --remove-section "submodule.pkgbuild/$package"
 }
 
 case $1 in
-    -a|--add) add ;;
+    -a|--add) git submodule add "https://aur.archlinux.org/$2" "./pkgbuild/$2" --force ;;
     -b|--build) pakku -Syyyuv; refresh; build; deploy; sync ;;
     -d|--delete) delete ;;
     -r|--refresh) pakku -Syyyuv; refresh ;;
