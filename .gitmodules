@@ -664,6 +664,3 @@
 [submodule "pkgbuild/flauncher"]
 	path = pkgbuild/flauncher
 	url = https://aur.archlinux.org/flauncher
-[submodule "pkgbuild/miniterm"]
-	path = pkgbuild/miniterm
-	url = https://aur.archlinux.org/miniterm
