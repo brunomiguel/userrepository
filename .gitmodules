@@ -106,9 +106,6 @@
 [submodule "pkgbuild/diskmonitor"]
 	path = pkgbuild/diskmonitor
 	url = https://aur.archlinux.org/diskmonitor.git
-[submodule "pkgbuild/dot-browser-bin"]
-	path = pkgbuild/dot-browser-bin
-	url = https://aur.archlinux.org/dot-browser-bin.git
 [submodule "pkgbuild/dotdrop"]
 	path = pkgbuild/dotdrop
 	url = https://aur.archlinux.org/dotdrop.git
@@ -385,15 +382,9 @@
 [submodule "pkgbuild/sshrc"]
 	path = pkgbuild/sshrc
 	url = https://aur.archlinux.org/sshrc.git
-[submodule "pkgbuild/station"]
-	path = pkgbuild/station
-	url = https://aur.archlinux.org/station.git
 [submodule "pkgbuild/stf"]
 	path = pkgbuild/stf
 	url = https://aur.archlinux.org/stf.git
-[submodule "pkgbuild/stremio"]
-	path = pkgbuild/stremio
-	url = https://aur.archlinux.org/stremio.git
 [submodule "pkgbuild/swayshot"]
 	path = pkgbuild/swayshot
 	url = https://aur.archlinux.org/swayshot.git
@@ -607,9 +598,6 @@
 [submodule "pkgbuild/picom-git"]
 	path = pkgbuild/picom-git
 	url = https://aur.archlinux.org/picom-git
-[submodule "pkgbuild/psi-plus"]
-	path = pkgbuild/psi-plus
-	url = https://aur.archlinux.org/psi-plus
 [submodule "pkgbuild/theia-next"]
 	path = pkgbuild/theia-next
 	url = https://aur.archlinux.org/theia-next
@@ -631,9 +619,6 @@
 [submodule "pkgbuild/lazygit"]
 	path = pkgbuild/lazygit
 	url = https://aur.archlinux.org/lazygit
-[submodule "pkgbuild/powerkit"]
-	path = pkgbuild/powerkit
-	url = https://aur.archlinux.org/powerkit
 [submodule "pkgbuild/qt-scrcpy"]
 	path = pkgbuild/qt-scrcpy
 	url = https://aur.archlinux.org/qt-scrcpy
