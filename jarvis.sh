@@ -1,7 +1,7 @@
 #!/bin/bash
 DIR="$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
 
-set -x
+#set -x
 
 source "$DIR/config"
 export PKGEXT
