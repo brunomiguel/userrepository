@@ -82,23 +82,36 @@ sync() {
 }
 
 add() {
-    git submodule add "https://aur.archlinux.org/${i#*}" "./pkgbuild/${i#*}"
+    git submodule add https://aur.archlinux.org/"${OPTARG}" ./pkgbuild/"${OPTARG}"
 }
 
 delete() {
-    git rm --cached "$DIR/pkgbuild/$package"
-    rm -rf "$DIR/pkgbuild/$package"
-    git commit -m "Removed $package submodule"
-    rm -rf ".git/modules/$DIR/pkgbuild/$package"
-    git config -f .gitmodules --remove-section "submodule.pkgbuild/$package"
-    git config -f .git/config --remove-section "submodule.pkgbuild/$package"
+    git rm --cached "$DIR/pkgbuild/${OPTARG}"
+    rm -rf "$DIR/pkgbuild/${OPTARG}"
+    git commit -m "Removed ${OPTARG} submodule"
+    rm -rf ".git/modules/$DIR/pkgbuild/${OPTARG}"
+    git config -f .gitmodules --remove-section "submodule.pkgbuild/${OPTARG}"
+    git config -f .git/config --remove-section "submodule.pkgbuild/${OPTARG}"
 }
 
-case $1 in
-    -a|--add) git submodule add "https://aur.archlinux.org/$2" "./pkgbuild/$2" --force ;;
-    -b|--build) pakku -Syyyuv; refresh; build; deploy; sync ;;
-    -d|--delete) delete ;;
-    -r|--refresh) pakku -Syyyuv; refresh ;;
-    -h|--help) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --add: add package to repository\n\t-b, --build: build, deploy and sync repository to webserver folder\n\t-d, --delete: delete package\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
+# OLD OPTIONS
+#case $1 in
+#    -a|--add) add ;;
+#    -b|--build) pakku -Syyyuv; refresh; build; deploy; sync ;;
+#    -d|--delete) delete ;;
+#    -r|--refresh) pakku -Syyyuv; refresh ;;
+#    -h|--help) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --add: add package to repository\n\t-b, --build: build, deploy and sync repository to webserver folder\n\t-d, --delete: delete package\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
+#    *) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --add: add package to repository\n\t-b, --build: build, deploy and sync repository to webserver folder\n\t-d, --delete: delete package\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
+#esac
+
+# NEW OPTIONS IN ALPHA STATE
+while getopts ":a:rbd:" arg; do
+  case $arg in
+    a) add ;;
+    b) pakku -Syyyuv; refresh; build; deploy; sync ;;
+    r) pakku -Syyyuv; refresh ;;
+    d) delete ;;
+    h) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --add: add package to repository\n\t-b, --build: build, deploy and sync repository to webserver folder\n\t-d, --delete: delete package\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
     *) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --add: add package to repository\n\t-b, --build: build, deploy and sync repository to webserver folder\n\t-d, --delete: delete package\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
-esac
+  esac
+done
