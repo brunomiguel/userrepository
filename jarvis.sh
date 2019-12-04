@@ -13,6 +13,10 @@ export BUILDDIR="$DIR/cache"
 export PKGDEST="$BUILDDIR/bin"
 export SRCDEST="$BUILDDIR/src"
 
+usage() {
+    echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-h: print this help message\n" ;
+}
+
 build() {
     if [ ! -f "$DIR/captains.log" ]
     then
@@ -105,13 +109,14 @@ delete() {
 #esac
 
 # NEW OPTIONS IN ALPHA STATE
+[ $# -eq 0 ] && usage
 while getopts ":a:rbd:" arg; do
   case $arg in
-    a) add ;;
-    b) pakku -Syyyuv; refresh; build; deploy; sync ;;
-    r) pakku -Syyyuv; refresh ;;
-    d) delete ;;
-    h) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-h: print this help message\n" ;;
-    *) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-h: print this help message\n" ;;
+    -a) add ;;
+    -b) pakku -Syyyuv; refresh; build; deploy; sync ;;
+    -r) pakku -Syyyuv; refresh ;;
+    -d) delete ;;
+    -h) usage ;;
+    *) usage ;;
   esac
 done
