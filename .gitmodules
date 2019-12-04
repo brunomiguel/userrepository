@@ -670,3 +670,6 @@
 [submodule "pkgbuild/fromscratch-bin"]
 	path = pkgbuild/fromscratch-bin
 	url = https://aur.archlinux.org/fromscratch-bin
+[submodule "pkgbuild/linux-bfq"]
+	path = pkgbuild/linux-bfq
+	url = https://aur.archlinux.org/linux-bfq
