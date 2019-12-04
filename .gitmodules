@@ -667,3 +667,6 @@
 [submodule "pkgbuild/clight-git"]
 	path = pkgbuild/clight-git
 	url = https://aur.archlinux.org/clight-git
+[submodule "pkgbuild/fromscratch-bin"]
+	path = pkgbuild/fromscratch-bin
+	url = https://aur.archlinux.org/fromscratch-bin
