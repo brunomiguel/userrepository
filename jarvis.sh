@@ -23,12 +23,12 @@ build() {
         touch "$DIR/captains.log"
     fi
 
-    pushd "$DIR/pkgbuild"
+    pushd "$DIR/pkgbuild" || exit
 
         for f in *; do
             if [ -d "$f" ]; then
                 echo "Processing $f..."
-                pushd "$f"
+                pushd "$f" || exit
                 if [ -f "PKGBUILD" ]; then
                     echo "Found PKGBUILD for $f. Building..."
                     # clean build force overwrite
@@ -38,19 +38,19 @@ build() {
                             echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
                         fi
                 fi
-                popd
+                popd || exit
             fi
         done
-    popd
+    popd || exit
 
 }
 
 refresh() {
-    pushd "$DIR/pkgbuild"
+    pushd "$DIR/pkgbuild" || exit
 
         # update all submodules
         for D in */; do
-            cd $D;
+            cd "$D" || exit;
             echo -e "\e[1m$D\e[0m";
             git clean -x -d -f;
             git stash;
@@ -59,12 +59,12 @@ refresh() {
             #sleep .002s;
             cd ..;
         done
-    popd
+    popd || exit
 }
 
 deploy() {
     # move built packages to cache/
-    pushd "$DIR/repository"
+    pushd "$DIR/repository" || exit
         for f in *${PKGEXT}; do
             [ -f "$f" ] || break
             echo "Archiving $f..."
@@ -78,7 +78,7 @@ deploy() {
             mv "$f" "./"
             repo-add -s -v "${REPONAME}.db.tar.gz" "$(basename "$f")"
         done
-    popd
+    popd || exit
 }
 
 sync() {
