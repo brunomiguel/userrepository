@@ -98,7 +98,7 @@ delete() {
     git config -f .git/config --remove-section "submodule.pkgbuild/${OPTARG}"
 }
 
-# OLD OPTIONS
+# OLD OPTIONS. KEEPING THEM IN CASE I FUCK SOMETHING UP
 #case $1 in
 #    -a|--add) add ;;
 #    -b|--build) pakku -Syyyuv; refresh; build; deploy; sync ;;
