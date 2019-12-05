@@ -112,11 +112,11 @@ delete() {
 [ $# -eq 0 ] && usage
 while getopts ":a:rbd:" arg; do
   case $arg in
-    -a) add ;;
-    -b) pakku -Syyyuv; refresh; build; deploy; sync ;;
-    -r) pakku -Syyyuv; refresh ;;
-    -d) delete ;;
-    -h) usage ;;
+    a) add ;;
+    b) pakku -Syyyuv; refresh; build; deploy; sync ;;
+    r) pakku -Syyyuv; refresh ;;
+    d) delete ;;
+    h) usage ;;
     *) usage ;;
   esac
 done
