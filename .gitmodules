@@ -673,3 +673,9 @@
 [submodule "pkgbuild/linux-bfq"]
 	path = pkgbuild/linux-bfq
 	url = https://aur.archlinux.org/linux-bfq
+[submodule "pkgbuild/htop-temperature"]
+	path = pkgbuild/htop-temperature
+	url = https://aur.archlinux.org/htop-temperature
+[submodule "pkgbuild/linux-xanmod"]
+	path = pkgbuild/linux-xanmod
+	url = https://aur.archlinux.org/linux-xanmod
