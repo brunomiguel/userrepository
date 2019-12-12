@@ -598,9 +598,6 @@
 [submodule "pkgbuild/picom-git"]
 	path = pkgbuild/picom-git
 	url = https://aur.archlinux.org/picom-git
-[submodule "pkgbuild/theia-next"]
-	path = pkgbuild/theia-next
-	url = https://aur.archlinux.org/theia-next
 [submodule "pkgbuild/torbrowser-launcher-git"]
 	path = pkgbuild/torbrowser-launcher-git
 	url = https://aur.archlinux.org/torbrowser-launcher-git
@@ -679,3 +676,6 @@
 [submodule "pkgbuild/linux-xanmod"]
 	path = pkgbuild/linux-xanmod
 	url = https://aur.archlinux.org/linux-xanmod
+[submodule "pkgbuild/odio"]
+	path = pkgbuild/odio
+	url = https://aur.archlinux.org/odio
