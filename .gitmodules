@@ -679,3 +679,6 @@
 [submodule "pkgbuild/odio"]
 	path = pkgbuild/odio
 	url = https://aur.archlinux.org/odio
+[submodule "pkgbuild/ttf-breeze-sans"]
+	path = pkgbuild/ttf-breeze-sans
+	url = https://aur.archlinux.org/ttf-breeze-sans
