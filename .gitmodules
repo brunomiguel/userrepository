@@ -682,3 +682,6 @@
 [submodule "pkgbuild/ttf-breeze-sans"]
 	path = pkgbuild/ttf-breeze-sans
 	url = https://aur.archlinux.org/ttf-breeze-sans
+[submodule "pkgbuild/glow"]
+	path = pkgbuild/glow
+	url = https://aur.archlinux.org/glow
