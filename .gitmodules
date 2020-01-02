@@ -685,3 +685,9 @@
 [submodule "pkgbuild/glow"]
 	path = pkgbuild/glow
 	url = https://aur.archlinux.org/glow
+[submodule "pkgbuild/bandwhich"]
+	path = pkgbuild/bandwhich
+	url = https://aur.archlinux.org/bandwhich
+[submodule "pkgbuild/minify"]
+	path = pkgbuild/minify
+	url = https://aur.archlinux.org/minify
