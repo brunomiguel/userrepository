@@ -694,3 +694,6 @@
 [submodule "pkgbuild/minder-git"]
 	path = pkgbuild/minder-git
 	url = https://aur.archlinux.org/minder-git
+[submodule "pkgbuild/ant-gtk-theme"]
+	path = pkgbuild/ant-gtk-theme
+	url = https://aur.archlinux.org/ant-gtk-theme
