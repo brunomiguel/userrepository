@@ -697,3 +697,6 @@
 [submodule "pkgbuild/ant-gtk-theme"]
 	path = pkgbuild/ant-gtk-theme
 	url = https://aur.archlinux.org/ant-gtk-theme
+[submodule "pkgbuild/sgtk-menu"]
+	path = pkgbuild/sgtk-menu
+	url = https://aur.archlinux.org/sgtk-menu
