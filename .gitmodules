@@ -700,3 +700,6 @@
 [submodule "pkgbuild/sgtk-menu"]
 	path = pkgbuild/sgtk-menu
 	url = https://aur.archlinux.org/sgtk-menu
+[submodule "pkgbuild/adwaita-plus-git"]
+	path = pkgbuild/adwaita-plus-git
+	url = https://aur.archlinux.org/adwaita-plus-git
