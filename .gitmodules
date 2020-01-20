@@ -706,3 +706,6 @@
 [submodule "pkgbuild/elementary-planner-git"]
 	path = pkgbuild/elementary-planner-git
 	url = https://aur.archlinux.org/elementary-planner-git
+[submodule "pkgbuild/firewarden"]
+	path = pkgbuild/firewarden
+	url = https://aur.archlinux.org/firewarden
