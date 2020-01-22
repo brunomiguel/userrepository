@@ -709,3 +709,6 @@
 [submodule "pkgbuild/firewarden"]
 	path = pkgbuild/firewarden
 	url = https://aur.archlinux.org/firewarden
+[submodule "pkgbuild/pueue"]
+	path = pkgbuild/pueue
+	url = https://aur.archlinux.org/pueue
