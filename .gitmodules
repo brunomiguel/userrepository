@@ -712,3 +712,66 @@
 [submodule "pkgbuild/pueue"]
 	path = pkgbuild/pueue
 	url = https://aur.archlinux.org/pueue
+[submodule "pkgbuild/coreaction"]
+	path = pkgbuild/coreaction
+	url = https://aur.archlinux.org/coreaction
+[submodule "pkgbuild/corearchiver"]
+	path = pkgbuild/corearchiver
+	url = https://aur.archlinux.org/corearchiver
+[submodule "pkgbuild/corefm"]
+	path = pkgbuild/corefm
+	url = https://aur.archlinux.org/corefm
+[submodule "pkgbuild/coregarage"]
+	path = pkgbuild/coregarage
+	url = https://aur.archlinux.org/coregarage
+[submodule "pkgbuild/corehunt"]
+	path = pkgbuild/corehunt
+	url = https://aur.archlinux.org/corehunt
+[submodule "pkgbuild/coreimage"]
+	path = pkgbuild/coreimage
+	url = https://aur.archlinux.org/coreimage
+[submodule "pkgbuild/coreinfo"]
+	path = pkgbuild/coreinfo
+	url = https://aur.archlinux.org/coreinfo
+[submodule "pkgbuild/corekeyboard"]
+	path = pkgbuild/corekeyboard
+	url = https://aur.archlinux.org/corekeyboard
+[submodule "pkgbuild/corepad"]
+	path = pkgbuild/corepad
+	url = https://aur.archlinux.org/corepad
+[submodule "pkgbuild/corepaint"]
+	path = pkgbuild/corepaint
+	url = https://aur.archlinux.org/corepaint
+[submodule "pkgbuild/corepdf"]
+	path = pkgbuild/corepdf
+	url = https://aur.archlinux.org/corepdf
+[submodule "pkgbuild/corepins"]
+	path = pkgbuild/corepins
+	url = https://aur.archlinux.org/corepins
+[submodule "pkgbuild/coreplayer"]
+	path = pkgbuild/coreplayer
+	url = https://aur.archlinux.org/coreplayer
+[submodule "pkgbuild/corerenamer"]
+	path = pkgbuild/corerenamer
+	url = https://aur.archlinux.org/corerenamer
+[submodule "pkgbuild/coreshot"]
+	path = pkgbuild/coreshot
+	url = https://aur.archlinux.org/coreshot
+[submodule "pkgbuild/corestats"]
+	path = pkgbuild/corestats
+	url = https://aur.archlinux.org/corestats
+[submodule "pkgbuild/corestuff"]
+	path = pkgbuild/corestuff
+	url = https://aur.archlinux.org/corestuff
+[submodule "pkgbuild/coreterminal"]
+	path = pkgbuild/coreterminal
+	url = https://aur.archlinux.org/coreterminal
+[submodule "pkgbuild/coretime"]
+	path = pkgbuild/coretime
+	url = https://aur.archlinux.org/coretime
+[submodule "pkgbuild/coreuniverse"]
+	path = pkgbuild/coreuniverse
+	url = https://aur.archlinux.org/coreuniverse
+[submodule "pkgbuild/libcprime"]
+	path = pkgbuild/libcprime
+	url = https://aur.archlinux.org/libcprime
