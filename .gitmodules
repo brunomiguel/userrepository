@@ -775,3 +775,6 @@
 [submodule "pkgbuild/libcprime"]
 	path = pkgbuild/libcprime
 	url = https://aur.archlinux.org/libcprime
+[submodule "pkgbuild/cpupower-gui-git"]
+	path = pkgbuild/cpupower-gui-git
+	url = https://aur.archlinux.org/cpupower-gui-git
