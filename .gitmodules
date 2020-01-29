@@ -778,3 +778,6 @@
 [submodule "pkgbuild/cpupower-gui-git"]
 	path = pkgbuild/cpupower-gui-git
 	url = https://aur.archlinux.org/cpupower-gui-git
+[submodule "pkgbuild/sowm"]
+	path = pkgbuild/sowm
+	url = https://aur.archlinux.org/sowm
