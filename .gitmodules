@@ -781,3 +781,9 @@
 [submodule "pkgbuild/sowm"]
 	path = pkgbuild/sowm
 	url = https://aur.archlinux.org/sowm
+[submodule "pkgbuild/mantid-term"]
+	path = pkgbuild/mantid-term
+	url = https://aur.archlinux.org/mantid-term
+[submodule "pkgbuild/repotool"]
+	path = pkgbuild/repotool
+	url = https://aur.archlinux.org/repotool
