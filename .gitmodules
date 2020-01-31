@@ -787,3 +787,9 @@
 [submodule "pkgbuild/repotool"]
 	path = pkgbuild/repotool
 	url = https://aur.archlinux.org/repotool
+[submodule "pkgbuild/simplenote-electron-bin"]
+	path = pkgbuild/simplenote-electron-bin
+	url = https://aur.archlinux.org/simplenote-electron-bin
+[submodule "pkgbuild/firefox-kde-opensuse"]
+	path = pkgbuild/firefox-kde-opensuse
+	url = https://aur.archlinux.org/firefox-kde-opensuse
