@@ -799,3 +799,6 @@
 [submodule "pkgbuild/gegl-operation-negative-darkroom-git"]
 	path = pkgbuild/gegl-operation-negative-darkroom-git
 	url = https://aur.archlinux.org/gegl-operation-negative-darkroom-git
+[submodule "pkgbuild/newsflash-git"]
+	path = pkgbuild/newsflash-git
+	url = https://aur.archlinux.org/newsflash-git

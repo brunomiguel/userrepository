@@ -87,7 +87,7 @@ sync() {
 }
 
 add() {
-    git submodule add  https://aur.archlinux.org/"$pkg" ./pkgbuild/"$pkg"
+    git submodule add --force https://aur.archlinux.org/"$pkg" ./pkgbuild/"$pkg"
 }
 
 delete() {
