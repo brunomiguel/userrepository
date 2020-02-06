@@ -802,3 +802,12 @@
 [submodule "pkgbuild/newsflash-git"]
 	path = pkgbuild/newsflash-git
 	url = https://aur.archlinux.org/newsflash-git
+[submodule "pkgbuild/otf-saira"]
+	path = pkgbuild/otf-saira
+	url = https://aur.archlinux.org/otf-saira
+[submodule "pkgbuild/zulucrypt"]
+	path = pkgbuild/zulucrypt
+	url = https://aur.archlinux.org/zulucrypt
+[submodule "pkgbuild/gscreenshot"]
+	path = pkgbuild/gscreenshot
+	url = https://aur.archlinux.org/gscreenshot
