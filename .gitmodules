@@ -811,3 +811,6 @@
 [submodule "pkgbuild/gscreenshot"]
 	path = pkgbuild/gscreenshot
 	url = https://aur.archlinux.org/gscreenshot
+[submodule "pkgbuild/libcsys"]
+	path = pkgbuild/libcsys
+	url = https://aur.archlinux.org/libcsys
