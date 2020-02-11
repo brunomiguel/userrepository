@@ -814,3 +814,6 @@
 [submodule "pkgbuild/libcsys"]
 	path = pkgbuild/libcsys
 	url = https://aur.archlinux.org/libcsys
+[submodule "pkgbuild/blackbox-git"]
+	path = pkgbuild/blackbox-git
+	url = https://aur.archlinux.org/blackbox-git
