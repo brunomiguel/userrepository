@@ -817,3 +817,6 @@
 [submodule "pkgbuild/blackbox-git"]
 	path = pkgbuild/blackbox-git
 	url = https://aur.archlinux.org/blackbox-git
+[submodule "pkgbuild/dnsproxy-adguard"]
+	path = pkgbuild/dnsproxy-adguard
+	url = https://aur.archlinux.org/dnsproxy-adguard
