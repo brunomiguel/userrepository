@@ -820,3 +820,6 @@
 [submodule "pkgbuild/dnsproxy-adguard"]
 	path = pkgbuild/dnsproxy-adguard
 	url = https://aur.archlinux.org/dnsproxy-adguard
+[submodule "pkgbuild/karma"]
+	path = pkgbuild/karma
+	url = https://aur.archlinux.org/karma
