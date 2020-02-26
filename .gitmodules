@@ -826,3 +826,6 @@
 [submodule "pkgbuild/gedit-plugin-markdown_preview-git"]
 	path = pkgbuild/gedit-plugin-markdown_preview-git
 	url = https://aur.archlinux.org/gedit-plugin-markdown_preview-git
+[submodule "pkgbuild/eolie-stable-git"]
+	path = pkgbuild/eolie-stable-git
+	url = https://aur.archlinux.org/eolie-stable-git
