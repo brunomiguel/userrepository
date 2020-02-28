@@ -829,3 +829,9 @@
 [submodule "pkgbuild/eolie-stable-git"]
 	path = pkgbuild/eolie-stable-git
 	url = https://aur.archlinux.org/eolie-stable-git
+[submodule "pkgbuild/lollypop-stable-git"]
+	path = pkgbuild/lollypop-stable-git
+	url = https://aur.archlinux.org/lollypop-stable-git
+[submodule "pkgbuild/onivim2-git"]
+	path = pkgbuild/onivim2-git
+	url = https://aur.archlinux.org/onivim2-git
