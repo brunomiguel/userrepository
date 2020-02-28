@@ -835,3 +835,18 @@
 [submodule "pkgbuild/onivim2-git"]
 	path = pkgbuild/onivim2-git
 	url = https://aur.archlinux.org/onivim2-git
+[submodule "pkgbuild/passbook-stable-git"]
+	path = pkgbuild/passbook-stable-git
+	url = https://aur.archlinux.org/passbook-stable-git
+[submodule "pkgbuild/doomsday-tetris-2-git"]
+	path = pkgbuild/doomsday-tetris-2-git
+	url = https://aur.archlinux.org/doomsday-tetris-2-git
+[submodule "pkgbuild/wmderland-git"]
+	path = pkgbuild/wmderland-git
+	url = https://aur.archlinux.org/wmderland-git
+[submodule "pkgbuild/photoqt"]
+	path = pkgbuild/photoqt
+	url = https://aur.archlinux.org/photoqt
+[submodule "pkgbuild/pyright"]
+	path = pkgbuild/pyright
+	url = https://aur.archlinux.org/pyright
