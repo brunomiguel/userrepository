@@ -33,7 +33,7 @@ build() {
                 if [ -f "PKGBUILD" ]; then
                     echo "Found PKGBUILD for $f. Building..."
                     # clean build force overwrite
-                    PACMAN=pakku makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint
+                    PACMAN=pakku makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
                         if [ $? -ne 0 ]
                         then
                             echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
