@@ -856,3 +856,6 @@
 [submodule "pkgbuild/pastel"]
 	path = pkgbuild/pastel
 	url = https://aur.archlinux.org/pastel
+[submodule "pkgbuild/nordic-kde-git"]
+	path = pkgbuild/nordic-kde-git
+	url = https://aur.archlinux.org/nordic-kde-git
