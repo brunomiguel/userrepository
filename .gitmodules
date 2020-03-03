@@ -859,3 +859,33 @@
 [submodule "pkgbuild/nordic-kde-git"]
 	path = pkgbuild/nordic-kde-git
 	url = https://aur.archlinux.org/nordic-kde-git
+[submodule "pkgbuild/hello-kde-git"]
+	path = pkgbuild/hello-kde-git
+	url = https://aur.archlinux.org/hello-kde-git
+[submodule "pkgbuild/arc-icon-theme-full-git"]
+	path = pkgbuild/arc-icon-theme-full-git
+	url = https://aur.archlinux.org/arc-icon-theme-full-git
+[submodule "pkgbuild/flatery-icon-theme-git"]
+	path = pkgbuild/flatery-icon-theme-git
+	url = https://aur.archlinux.org/flatery-icon-theme-git
+[submodule "pkgbuild/kuyen-icon-theme-git"]
+	path = pkgbuild/kuyen-icon-theme-git
+	url = https://aur.archlinux.org/kuyen-icon-theme-git
+[submodule "pkgbuild/victory-icon-theme-git"]
+	path = pkgbuild/victory-icon-theme-git
+	url = https://aur.archlinux.org/victory-icon-theme-git
+[submodule "pkgbuild/ant-theme-git"]
+	path = pkgbuild/ant-theme-git
+	url = https://aur.archlinux.org/ant-theme-git
+[submodule "pkgbuild/ant-nebula-theme-git"]
+	path = pkgbuild/ant-nebula-theme-git
+	url = https://aur.archlinux.org/ant-nebula-theme-git
+[submodule "pkgbuild/ant-dracula-theme-git"]
+	path = pkgbuild/ant-dracula-theme-git
+	url = https://aur.archlinux.org/ant-dracula-theme-git
+[submodule "pkgbuild/ant-bloody-theme-git"]
+	path = pkgbuild/ant-bloody-theme-git
+	url = https://aur.archlinux.org/ant-bloody-theme-git
+[submodule "pkgbuild/kwin-scripts-forceblur"]
+	path = pkgbuild/kwin-scripts-forceblur
+	url = https://aur.archlinux.org/kwin-scripts-forceblur
