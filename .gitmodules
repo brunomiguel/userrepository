@@ -853,3 +853,6 @@
 [submodule "pkgbuild/midna-theme"]
 	path = pkgbuild/midna-theme
 	url = https://aur.archlinux.org/midna-theme
+[submodule "pkgbuild/pastel"]
+	path = pkgbuild/pastel
+	url = https://aur.archlinux.org/pastel
