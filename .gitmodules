@@ -892,3 +892,15 @@
 [submodule "pkgbuild/index-fm-git"]
 	path = pkgbuild/index-fm-git
 	url = https://aur.archlinux.org/index-fm-git
+[submodule "pkgbuild/grub-hook"]
+	path = pkgbuild/grub-hook
+	url = https://aur.archlinux.org/grub-hook
+[submodule "pkgbuild/otf-marta"]
+	path = pkgbuild/otf-marta
+	url = https://aur.archlinux.org/otf-marta
+[submodule "pkgbuild/gaiasky"]
+	path = pkgbuild/gaiasky
+	url = https://aur.archlinux.org/gaiasky
+[submodule "pkgbuild/redshift-wayland-git"]
+	path = pkgbuild/redshift-wayland-git
+	url = https://aur.archlinux.org/redshift-wayland-git
