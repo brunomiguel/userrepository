@@ -889,3 +889,6 @@
 [submodule "pkgbuild/kwin-scripts-forceblur"]
 	path = pkgbuild/kwin-scripts-forceblur
 	url = https://aur.archlinux.org/kwin-scripts-forceblur
+[submodule "pkgbuild/index-fm-git"]
+	path = pkgbuild/index-fm-git
+	url = https://aur.archlinux.org/index-fm-git
