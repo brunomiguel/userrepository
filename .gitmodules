@@ -147,7 +147,7 @@
 	url = https://aur.archlinux.org/font-victor-mono.git
 [submodule "pkgbuild/fotoxx"]
 	path = pkgbuild/fotoxx
-	url = https://aur.archlinux.org/fotoxx.git
+	url = https://aur.archlinux.org/fotoxx
 [submodule "pkgbuild/fuf"]
 	path = pkgbuild/fuf
 	url = https://aur.archlinux.org/fuf.git
@@ -904,3 +904,9 @@
 [submodule "pkgbuild/redshift-wayland-git"]
 	path = pkgbuild/redshift-wayland-git
 	url = https://aur.archlinux.org/redshift-wayland-git
+[submodule "pkgbuild/session-desktop"]
+	path = pkgbuild/session-desktop
+	url = https://aur.archlinux.org/session-desktop
+[submodule "pkgbuild/bsnes-qt5"]
+	path = pkgbuild/bsnes-qt5
+	url = https://aur.archlinux.org/bsnes-qt5
