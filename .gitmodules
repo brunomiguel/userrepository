@@ -928,3 +928,6 @@
 [submodule "pkgbuild/gnome-camera-git"]
 	path = pkgbuild/gnome-camera-git
 	url = https://aur.archlinux.org/gnome-camera-git
+[submodule "pkgbuild/glitter-git"]
+	path = pkgbuild/glitter-git
+	url = https://aur.archlinux.org/glitter-git
