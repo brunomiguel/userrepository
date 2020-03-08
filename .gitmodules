@@ -931,3 +931,15 @@
 [submodule "pkgbuild/glitter-git"]
 	path = pkgbuild/glitter-git
 	url = https://aur.archlinux.org/glitter-git
+[submodule "pkgbuild/arc-gtk-theme-jnsh-git"]
+	path = pkgbuild/arc-gtk-theme-jnsh-git
+	url = https://aur.archlinux.org/arc-gtk-theme-jnsh-git
+[submodule "pkgbuild/glorytun"]
+	path = pkgbuild/glorytun
+	url = https://aur.archlinux.org/glorytun
+[submodule "pkgbuild/future-fetch"]
+	path = pkgbuild/future-fetch
+	url = https://aur.archlinux.org/future-fetch
+[submodule "pkgbuild/katfetch-git"]
+	path = pkgbuild/katfetch-git
+	url = https://aur.archlinux.org/katfetch-git
