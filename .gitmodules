@@ -943,3 +943,6 @@
 [submodule "pkgbuild/katfetch-git"]
 	path = pkgbuild/katfetch-git
 	url = https://aur.archlinux.org/katfetch-git
+[submodule "pkgbuild/python-hurry-filesize"]
+	path = pkgbuild/python-hurry-filesize
+	url = https://aur.archlinux.org/python-hurry-filesize
