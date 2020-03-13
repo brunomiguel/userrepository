@@ -51,7 +51,7 @@ refresh() {
 
         # update all submodules
         for D in */; do
-            cd "$D" || exit;
+            cd "$D" 2>&1 /dev/null || exit;
             #echo -e "\e[1m$D\e[0m";
             git clean -x -d -f -q;
             git stash -q;
