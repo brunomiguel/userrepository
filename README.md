@@ -1,6 +1,6 @@
 A fork from https://gitlab.com/Scrumplex/ungoo-repoman/
 
-repoman
+Jarvis
 -----
 Custom repository manager for pacman repositories.
 
