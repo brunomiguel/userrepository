@@ -13,9 +13,8 @@ export BUILDDIR="$DIR/cache"
 export PKGDEST="$BUILDDIR/bin"
 export SRCDEST="$BUILDDIR/src"
 
-
 usage() {
-    echo -e "\n$(tput bold)\e[33mHi. I'm Jarvis.\e[0m\n\e[1mTo use me, specify one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-h: print this help message\n" ;
+    echo -e "$(tput bold)\e[33m\nHi. I'm Jarvis.\e[0m$(tput bold)\nTo use me, specify one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-h: print this help message\n" ;
 }
 
 build() {
