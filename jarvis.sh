@@ -55,7 +55,11 @@ refresh() {
             echo -e "\e[1m$D\e[0m";
             git clean -x -d -f;
             git stash;
-            git pull --progress;
+            git pull -q;
+            if [$? -ne 0 ]
+            then
+            	echo -e "$D updated\n";
+            fi
             echo -e "\n";
             #sleep .002s;
             cd ..;
