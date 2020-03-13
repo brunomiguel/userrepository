@@ -53,13 +53,14 @@ refresh() {
         for D in */; do
             cd "$D" || exit;
             #echo -e "\e[1m$D\e[0m";
-            git clean -x -d -f -q 2>&1 /dev/null;
-            git stash -q 2>&1 /dev/null;
-            git pull -q;
+            git clean -x -d -f -q 2>&1 noise.log;
+            git stash -q 2>&1 noise.log;
+            git pull -q 2>&1 noise.log;
             if [ $? -ne 0 ]
             then
             	echo -e "$D updated\n";
             fi
+            rm noise.log
             echo -e "\n";
             #sleep .002s;
             cd ..;
