@@ -26,10 +26,10 @@ It will automatically fetch it from the URL and also update it on every build.
 You can just create a corresponding directory in the `pkgbuild` directory and put your PKGBUILD there. NOTE: repoman will not automatically update these PKGBUILDs as they are not submodules. It's up to you to update them.
 
 ## Updating submodules
-To synchronize the repository with your server you can run `./jarvis.sh -r`. It will rsync all the files from `./repository` to your endpoint (specified in config).
+To synchronize the repository with your server you can run `./jarvis.sh -r`. It will rsync all the files from `./repository` to your endpoint (specified in `config`).
 
 ## Building
-Just run `./jarvis.sh -b`. It will update the PKGBUILDs (if possible), build the packages, create the repository list and sync files with specified targed dir in `config`.
+Just run `./jarvis.sh -b`. It will update the PKGBUILDs (if possible), build the packages, create the repository list and rsync all the files from ./repository to your endpoint (specified in `config`).
 
 # License
 All scripts in this repository are licensed under GNU General Public License 3.0. Full license text under [LICENSE](LICENSE)
