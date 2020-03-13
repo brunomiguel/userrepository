@@ -24,7 +24,7 @@ It will automatically fetch it from the URL and also update it on every build.
 
 #### Manually
 You can just create a corresponding directory in the `pkgbuild` directory and put your PKGBUILD there.
-_NOTE: `./jarvis -r` will not automatically update these PKGBUILDs as they are not submodules. It's up to you to update them._
+<br>_NOTE: `./jarvis -r` will not automatically update these PKGBUILDs as they are not submodules. It's up to you to update them._
 
 ## Updating submodules
 To synchronize the repository with your server you can run `./jarvis.sh -r`.
