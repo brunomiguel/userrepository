@@ -1,5 +1,3 @@
-A fork from https://gitlab.com/Scrumplex/ungoo-repoman/
-
 Jarvis
 -----
 Custom repository manager for pacman repositories.
@@ -24,7 +22,7 @@ It will automatically fetch it from the URL and also update it on every build.
 
 #### Manually
 You can just create a corresponding directory in the `pkgbuild` directory and put your PKGBUILD there.
-<br>_NOTE: `./jarvis -r` will not automatically update these PKGBUILDs as they are not submodules. It's up to you to update them._
+<br>_NOTE: `./jarvis.sh -r` will not automatically update these PKGBUILDs as they are not submodules. It's up to you to update them._
 
 ## Updating submodules
 To synchronize the repository with your server you can run `./jarvis.sh -r`.
@@ -34,3 +32,5 @@ Just run `./jarvis.sh -b`. It will update the PKGBUILDs (if possible), build the
 
 # License
 All scripts in this repository are licensed under GNU General Public License 3.0. Full license text under [LICENSE](LICENSE)
+
+A fork of https://gitlab.com/Scrumplex/ungoo-repoman/
