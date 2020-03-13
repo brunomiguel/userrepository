@@ -55,8 +55,10 @@ refresh() {
             #echo -e "\e[1m$D\e[0m";
             git clean -x -d -f -q > ../noise.log 2>&1;
             git stash drop --quiet > ../noise.log 2>&1;
-            git pull -q > ../noise.log 2>&1;
-            if [ $? -ne 0 ]
+            pull="git pull -q"
+            $pull
+            local status=$?
+            if [ $? -eq 1 ]
             then
             	echo -e "$D updated\n";
             fi
