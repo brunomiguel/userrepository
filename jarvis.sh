@@ -46,7 +46,7 @@ build() {
 }
 
 refresh() {
-    pushd "$DIR/pkgbuild" || exit
+    pushd "$DIR/pkgbuild" > /dev/null 2>&1 || exit
     	echo -e "\n\e[1;33mUpdating submodules...\e[0m"
 
         # update all submodules
@@ -66,7 +66,7 @@ refresh() {
             fi
             cd ..;
         done
-    popd || exit
+    popd > /dev/null 2>&1 || exit
 }
 
 deploy() {
