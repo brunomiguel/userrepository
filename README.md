@@ -23,10 +23,10 @@ $ git submodule add "http://my.git.url/mypkgbuild.git" "pkgbuild/mypkgbuild"
 It will automatically fetch it from the URL and also update it on every build.
 
 #### Manually
-You can just create a corresponding directory in the `pkgbuild` directory and put your PKGBUILD there. NOTE: repoman will not automatically update these PKGBUILDs as they are not submodules. It's up to you to update them.
+You can just create a corresponding directory in the `pkgbuild` directory and put your PKGBUILD there. NOTE: `./jarvis -r` will not automatically update these PKGBUILDs as they are not submodules. It's up to you to update them.
 
 ## Updating submodules
-To synchronize the repository with your server you can run `./jarvis.sh -r`. It will rsync all the files from `./repository` to your endpoint (specified in `config`).
+To synchronize the repository with your server you can run `./jarvis.sh -r`.
 
 ## Building
 Just run `./jarvis.sh -b`. It will update the PKGBUILDs (if possible), build the packages, create the repository list and rsync all the files from ./repository to your endpoint (specified in `config`).
