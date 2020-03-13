@@ -28,7 +28,7 @@ build() {
 
         for f in *; do
             if [ -d "$f" ]; then
-                echo "Processing $f..."
+                echo "\n[1;33m;Processing $f...\e[0m"
                 pushd "$f" || exit
                 if [ -f "PKGBUILD" ]; then
                     echo "Found PKGBUILD for $f. Building..."
@@ -48,21 +48,23 @@ build() {
 
 refresh() {
     pushd "$DIR/pkgbuild" || exit
+    	echo -e "\n\e[1;33mUpdating submodules...\e[0m"
 
         # update all submodules
         for D in */; do
             cd "$D" || exit;
             #echo -e "\e[1m$D\e[0m";
-            git clean -x -d -f -q 2>&1 noise.log;
-            git stash -q 2>&1 noise.log;
-            git pull -q 2>&1 noise.log;
+            git clean -x -d -f -q > ../noise.log 2>&1;
+            git stash drop --quiet > ../noise.log 2>&1;
+            git pull -q > ../noise.log 2>&1;
             if [ $? -ne 0 ]
             then
             	echo -e "$D updated\n";
             fi
-            rm noise.log
-            echo -e "\n";
-            #sleep .002s;
+            if [ -f "../noise.log" ]
+            then
+            	rm ../noise.log
+            fi
             cd ..;
         done
     popd || exit
@@ -116,13 +118,3 @@ while getopts "a:rbd:" arg; do
     *) usage ;;
   esac
 done
-
-# OLD OPTIONS. KEEPING THEM IN CASE I FUCK SOMETHING UP
-#case $1 in
-#    -a|--add) add ;;
-#    -b|--build) pakku -Syyyuv; refresh; build; deploy; sync ;;
-#    -d|--delete) delete ;;
-#    -r|--refresh) pakku -Syyyuv; refresh ;;
-#    -h|--help) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --add: add package to repository\n\t-b, --build: build, deploy and sync repository to webserver folder\n\t-d, --delete: delete package\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
-#    *) echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a, --add: add package to repository\n\t-b, --build: build, deploy and sync repository to webserver folder\n\t-d, --delete: delete package\n\t-r, --refresh: update submodules\n\t-h, --help: print this help message\n" ;;
-#esac
