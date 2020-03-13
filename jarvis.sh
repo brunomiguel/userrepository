@@ -56,7 +56,7 @@ refresh() {
             git clean -x -d -f;
             git stash;
             git pull -q;
-            if [$? -ne 0 ]
+            if [ $? -ne 0 ]
             then
             	echo -e "$D updated\n";
             fi
