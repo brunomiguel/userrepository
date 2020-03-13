@@ -15,7 +15,7 @@ export SRCDEST="$BUILDDIR/src"
 
 
 usage() {
-    echo -e "\n$(tput bold)Use one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-h: print this help message\n" ;
+    echo -e "\n$(tput bold)\e[33mHi. I'm Jarvis.\[0m\nTo use me, specify one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-h: print this help message\n" ;
 }
 
 build() {
