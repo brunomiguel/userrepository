@@ -57,8 +57,8 @@ refresh() {
             git stash drop --quiet > ../noise.log 2>&1;
             pull="git pull -q"
             $pull
-            local status=$?
-            if [ "$status" -eq 1 ]
+            status2=$?
+            if [ "$status2" -eq 1 ]
             then
             	echo -e "$D updated\n";
             fi
