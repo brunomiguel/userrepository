@@ -18,8 +18,7 @@ usage() {
 }
 
 build() {
-    if [ ! -f "$DIR/captains.log" ]
-    then
+    if [ ! -f "$DIR/captains.log" ]; then
         touch "$DIR/captains.log"
     fi
     
@@ -51,15 +50,17 @@ refresh() {
     # update all submodules
     for D in */; do
         cd "$D" || exit;
-        #echo -e "\e[1m$D\e[0m";
+        # clean unwanted changes made to submodules locally
         git clean -x -d -f -q > ../noise.log 2>&1;
         git stash drop --quiet > ../noise.log 2>&1;
+        # track which submodules have updates and only print to stout the ones updated
         changed=0
         git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && changed=1
         if [ $changed = 1 ]; then
             git pull -q
             echo "$D Updated";
         fi
+        # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
         if [ -f "../noise.log" ]; then
             rm ../noise.log
         fi
@@ -70,17 +71,17 @@ refresh() {
 
 deploy() {
     # move built packages to cache/
-    pushd "$DIR/repository" || exit
+    pushd "$DIR/repository" > /dev/null 2>&1 || exit
     for f in *${PKGEXT}; do
         [ -f "$f" ] || break
-        echo "Archiving $f..."
+        echo -e "\e[1;33mArchiving $f...\e[0m"
         mv "$f" "$BUILDDIR"
     done
     
     # add built packages to repository database
     for f in ${PKGDEST}/*${PKGEXT}; do
         [ -f "$f" ] || break
-        echo "Deploying $f..."
+        echo -e "\e[1;33mDeploying $f...\e[0m"
         mv "$f" "./"
         repo-add -s -v "${REPONAME}.db.tar.gz" "$(basename "$f")"
     done
@@ -104,7 +105,7 @@ delete() {
     git config -f .git/config --remove-section "submodule.pkgbuild/${OPTARG}"
 }
 
-# NEW OPTIONS IN ALPHA STATE
+# script options
 [ $# -eq 0 ] && usage
 while getopts "a:rbd:" arg; do
     case $arg in
