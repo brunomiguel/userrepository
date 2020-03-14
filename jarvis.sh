@@ -55,11 +55,12 @@ refresh() {
             #echo -e "\e[1m$D\e[0m";
             git clean -x -d -f -q > ../noise.log 2>&1;
             git stash drop --quiet > ../noise.log 2>&1;
-            git pull;
-	            if [ $? -ne 0 ]
-    	        then
-        	    	echo -e "$D updated\n";
-            	fi
+	       	changed=0
+	       	git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && changed=1
+	       	if [ $changed = 1 ]; then
+	       	    git pull -q
+	       	    echo "$D Updated";
+	       	fi
             	if [ -f "../noise.log" ]
             	then
             		rm ../noise.log
