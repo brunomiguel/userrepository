@@ -58,7 +58,7 @@ refresh() {
             pull="git pull -q"
             $pull
             local status=$?
-            if [ $? -eq 1 ]
+            if [ "$status" -eq 1 ]
             then
             	echo -e "$D updated\n";
             fi
