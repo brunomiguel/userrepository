@@ -22,70 +22,68 @@ build() {
     then
         touch "$DIR/captains.log"
     fi
-
+    
     pushd "$DIR/pkgbuild" || exit
-
-        for f in *; do
-            if [ -d "$f" ]; then
-                echo -e "\n\e[1;33mProcessing $f...\e[0m"
-                pushd "$f" > /dev/null 2>&1 || exit
-                if [ -f "PKGBUILD" ]; then
-                    echo "Found PKGBUILD for $f. Building..."
-                    # clean build force overwrite
-                    PACMAN=aurman makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
-                        if [ $? -ne 0 ]
-                        then
-                            echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
-                        fi
+    
+    for f in *; do
+        if [ -d "$f" ]; then
+            echo -e "\n\e[1;33mProcessing $f...\e[0m"
+            pushd "$f" > /dev/null 2>&1 || exit
+            if [ -f "PKGBUILD" ]; then
+                echo "Found PKGBUILD for $f. Building..."
+                # clean build force overwrite
+                PACMAN=aurman makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
+                if [ $? -ne 0 ]; then
+                    echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
                 fi
-                popd || exit
             fi
-        done
+            popd || exit
+        fi
+    done
     popd || exit
-
+    
 }
 
 refresh() {
     pushd "$DIR/pkgbuild" > /dev/null 2>&1 || exit
-    	echo -e "\n\e[1;33mUpdating submodules...\e[0m"
-
-        # update all submodules
-        for D in */; do
-            cd "$D" || exit;
-            #echo -e "\e[1m$D\e[0m";
-            git clean -x -d -f -q > ../noise.log 2>&1;
-            git stash drop --quiet > ../noise.log 2>&1;
-	       	changed=0
-	       	git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && changed=1
-	       	if [ $changed = 1 ]; then
-	       	    git pull -q
-	       	    echo "$D Updated";
-	       	fi
-            	if [ -f "../noise.log" ]
-            	then
-            		rm ../noise.log
-            	fi
-            cd ..;
-        done
+    echo -e "\n\e[1;33mUpdating submodules...\e[0m"
+    
+    # update all submodules
+    for D in */; do
+        cd "$D" || exit;
+        #echo -e "\e[1m$D\e[0m";
+        git clean -x -d -f -q > ../noise.log 2>&1;
+        git stash drop --quiet > ../noise.log 2>&1;
+        changed=0
+        git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && changed=1
+        if [ $changed = 1 ]; then
+            git pull -q
+            echo "$D Updated";
+        fi
+        if [ -f "../noise.log" ]; then
+            rm ../noise.log
+        fi
+        cd ..;
+    done
     popd > /dev/null 2>&1 || exit
 }
 
 deploy() {
     # move built packages to cache/
     pushd "$DIR/repository" || exit
-        for f in *${PKGEXT}; do
-            [ -f "$f" ] || break
-            echo "Archiving $f..."
-            mv "$f" "$BUILDDIR"
-        done
-
-        # add built packages to repository database
-        for f in ${PKGDEST}/*${PKGEXT}; do
-            [ -f "$f" ] || break
-            echo "Deploying $f..."
-            mv "$f" "./"
-            repo-add -s -v "${REPONAME}.db.tar.gz" "$(basename "$f")"
-        done
+    for f in *${PKGEXT}; do
+        [ -f "$f" ] || break
+        echo "Archiving $f..."
+        mv "$f" "$BUILDDIR"
+    done
+    
+    # add built packages to repository database
+    for f in ${PKGDEST}/*${PKGEXT}; do
+        [ -f "$f" ] || break
+        echo "Deploying $f..."
+        mv "$f" "./"
+        repo-add -s -v "${REPONAME}.db.tar.gz" "$(basename "$f")"
+    done
     popd || exit
 }
 
@@ -109,12 +107,12 @@ delete() {
 # NEW OPTIONS IN ALPHA STATE
 [ $# -eq 0 ] && usage
 while getopts "a:rbd:" arg; do
-  case $arg in
-    a) shift $(( OPTIND - 2 )); for pkg in "$@"; do add; done ;;
-    b) pakku -Syyyuv; refresh; build; deploy; sync ;;
-    r) pakku -Syyyuv; refresh ;;
-    d) delete ;;
-    h) usage ;;
-    *) usage ;;
-  esac
+    case $arg in
+        a) shift $(( OPTIND - 2 )); for pkg in "$@"; do add; done ;;
+        b) pakku -Syyyuv; refresh; build; deploy; sync ;;
+        r) pakku -Syyyuv; refresh ;;
+        d) delete ;;
+        h) usage ;;
+        *) usage ;;
+    esac
 done
