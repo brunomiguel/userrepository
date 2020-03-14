@@ -27,7 +27,7 @@ build() {
 
         for f in *; do
             if [ -d "$f" ]; then
-                echo "\n\e[1;33m;Processing $f...\e[0m"
+                echo -e "\n\e[1;33m;Processing $f...\e[0m"
                 pushd "$f" || exit
                 if [ -f "PKGBUILD" ]; then
                     echo "Found PKGBUILD for $f. Building..."
