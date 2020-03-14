@@ -27,8 +27,8 @@ build() {
 
         for f in *; do
             if [ -d "$f" ]; then
-                echo -e "\n\e[1;33m;Processing $f...\e[0m"
-                pushd "$f" || exit
+                echo -e "\n\e[1;33mProcessing $f...\e[0m"
+                pushd "$f" > /dev/null 2>&1 || exit
                 if [ -f "PKGBUILD" ]; then
                     echo "Found PKGBUILD for $f. Building..."
                     # clean build force overwrite
