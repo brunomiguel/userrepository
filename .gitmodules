@@ -946,3 +946,9 @@
 [submodule "pkgbuild/screenkey"]
 	path = pkgbuild/screenkey
 	url = https://aur.archlinux.org/screenkey
+[submodule "pkgbuild/firefox-beta-bin-all-localizations"]
+	path = pkgbuild/firefox-beta-bin-all-localizations
+	url = https://aur.archlinux.org/firefox-beta-bin-all-localizations
+[submodule "pkgbuild/firefox-beta-bin"]
+	path = pkgbuild/firefox-beta-bin
+	url = https://aur.archlinux.org/firefox-beta-bin
