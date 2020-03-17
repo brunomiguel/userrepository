@@ -481,9 +481,6 @@
 [submodule "pkgbuild/writer-git"]
 	path = pkgbuild/writer-git
 	url = https://aur.archlinux.org/writer-git.git
-[submodule "pkgbuild/yaru"]
-	path = pkgbuild/yaru
-	url = https://aur.archlinux.org/yaru.git
 [submodule "pkgbuild/yay"]
 	path = pkgbuild/yay
 	url = https://aur.archlinux.org/yay.git
