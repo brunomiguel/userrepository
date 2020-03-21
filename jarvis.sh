@@ -52,7 +52,7 @@ refresh() {
         cd "$D" || exit;
         # clean unwanted changes made to submodules locally
         git clean -x -d -f -q > ../noise.log 2>&1;
-        git stash drop --quiet > ../noise.log 2>&1;
+        git stash --quiet > ../noise.log 2>&1;
         # track which submodules have updates and only print to stout the ones updated
         changed=0
         git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && changed=1
