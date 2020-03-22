@@ -7,3 +7,4 @@ repository/*
 !repository/.gitkeep
 
 captains.log
+noise.log
