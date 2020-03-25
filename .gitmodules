@@ -889,3 +889,6 @@
 [submodule "pkgbuild/gnome-shell-extension-pop-shell-git"]
 	path = pkgbuild/gnome-shell-extension-pop-shell-git
 	url = https://aur.archlinux.org/gnome-shell-extension-pop-shell-git
+[submodule "pkgbuild/xiringuito"]
+	path = pkgbuild/xiringuito
+	url = https://aur.archlinux.org/xiringuito
