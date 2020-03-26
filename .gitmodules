@@ -892,3 +892,6 @@
 [submodule "pkgbuild/xiringuito"]
 	path = pkgbuild/xiringuito
 	url = https://aur.archlinux.org/xiringuito
+[submodule "pkgbuild/snownews"]
+	path = pkgbuild/snownews
+	url = https://aur.archlinux.org/snownews
