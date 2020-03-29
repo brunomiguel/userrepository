@@ -895,3 +895,9 @@
 [submodule "pkgbuild/snownews"]
 	path = pkgbuild/snownews
 	url = https://aur.archlinux.org/snownews
+[submodule "pkgbuild/waybox-git"]
+	path = pkgbuild/waybox-git
+	url = https://aur.archlinux.org/waybox-git
+[submodule "pkgbuild/turbodiary"]
+	path = pkgbuild/turbodiary
+	url = https://aur.archlinux.org/turbodiary
