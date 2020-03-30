@@ -901,3 +901,15 @@
 [submodule "pkgbuild/turbodiary"]
 	path = pkgbuild/turbodiary
 	url = https://aur.archlinux.org/turbodiary
+[submodule "pkgbuild/diodon"]
+	path = pkgbuild/diodon
+	url = https://aur.archlinux.org/diodon
+[submodule "pkgbuild/pacwall-git"]
+	path = pkgbuild/pacwall-git
+	url = https://aur.archlinux.org/pacwall-git
+[submodule "pkgbuild/vpacman"]
+	path = pkgbuild/vpacman
+	url = https://aur.archlinux.org/vpacman
+[submodule "pkgbuild/ttf-jam-icons"]
+	path = pkgbuild/ttf-jam-icons
+	url = https://aur.archlinux.org/ttf-jam-icons
