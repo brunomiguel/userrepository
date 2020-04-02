@@ -913,3 +913,6 @@
 [submodule "pkgbuild/ttf-jam-icons"]
 	path = pkgbuild/ttf-jam-icons
 	url = https://aur.archlinux.org/ttf-jam-icons
+[submodule "pkgbuild/jami-ubuntu-latest"]
+	path = pkgbuild/jami-ubuntu-latest
+	url = https://aur.archlinux.org/jami-ubuntu-latest
