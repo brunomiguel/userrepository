@@ -562,9 +562,6 @@
 [submodule "pkgbuild/tiddlydesktop"]
 	path = pkgbuild/tiddlydesktop
 	url = https://aur.archlinux.org/tiddlydesktop
-[submodule "pkgbuild/crusta"]
-	path = pkgbuild/crusta
-	url = https://aur.archlinux.org/crusta
 [submodule "pkgbuild/featherpad"]
 	path = pkgbuild/featherpad
 	url = https://aur.archlinux.org/featherpad
