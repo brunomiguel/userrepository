@@ -13,6 +13,10 @@ export BUILDDIR="$DIR/cache"
 export PKGDEST="$BUILDDIR/bin"
 export SRCDEST="$BUILDDIR/src"
 
+shopt -s expand_aliases
+
+alias pikaur='pikaur --needed --noprogressbar --noconfirm'
+
 usage() {
     echo -e "$(tput bold)\e[33m\nHi. I'm Jarvis.\e[0m$(tput bold)\nTo use me, specify one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-h: print this help message\n" ;
 }
@@ -31,7 +35,7 @@ build() {
             if [ -f "PKGBUILD" ]; then
                 echo "Found PKGBUILD for $f. Building..."
                 # clean build force overwrite
-                PACMAN=aurman makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
+                PACMAN="pikaur" makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
                 if [ $? -ne 0 ]; then
                     echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
                 fi
@@ -110,8 +114,8 @@ delete() {
 while getopts "a:rbd:" arg; do
     case $arg in
         a) shift $(( OPTIND - 2 )); for pkg in "$@"; do add; done ;;
-        b) pakku -Syyyuv; refresh; build; deploy; sync ;;
-        r) pakku -Syyyuv; refresh ;;
+        b) pikaur -Syyuv; refresh; build; deploy; sync ;;
+        r) pikaur -Syyyuv; refresh ;;
         d) delete ;;
         h) usage ;;
         *) usage ;;

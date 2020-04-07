@@ -583,9 +583,6 @@
 [submodule "pkgbuild/flightgear-data"]
 	path = pkgbuild/flightgear-data
 	url = https://aur.archlinux.org/flightgear-data
-[submodule "pkgbuild/spotify-tui"]
-	path = pkgbuild/spotify-tui
-	url = https://aur.archlinux.org/spotify-tui
 [submodule "pkgbuild/standardnotes-desktop"]
 	path = pkgbuild/standardnotes-desktop
 	url = https://aur.archlinux.org/standardnotes-desktop
@@ -637,9 +634,6 @@
 [submodule "pkgbuild/xde-menu"]
 	path = pkgbuild/xde-menu
 	url = https://aur.archlinux.org/xde-menu
-[submodule "pkgbuild/xde-session"]
-	path = pkgbuild/xde-session
-	url = https://aur.archlinux.org/xde-session
 [submodule "pkgbuild/xde-ctools"]
 	path = pkgbuild/xde-ctools
 	url = https://aur.archlinux.org/xde-ctools
