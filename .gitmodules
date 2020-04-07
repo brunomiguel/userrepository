@@ -352,9 +352,6 @@
 [submodule "pkgbuild/rofimoji-git"]
 	path = pkgbuild/rofimoji-git
 	url = https://aur.archlinux.org/rofimoji-git.git
-[submodule "pkgbuild/roxterm"]
-	path = pkgbuild/roxterm
-	url = https://aur.archlinux.org/roxterm.git
 [submodule "pkgbuild/scaleway-cli"]
 	path = pkgbuild/scaleway-cli
 	url = https://aur.archlinux.org/scaleway-cli.git
@@ -919,3 +916,6 @@
 [submodule "pkgbuild/autenticacao-gov-pt"]
 	path = pkgbuild/autenticacao-gov-pt
 	url = https://aur.archlinux.org/autenticacao-gov-pt
+[submodule "pkgbuild/roxterm"]
+	path = pkgbuild/roxterm
+	url = https://aur.archlinux.org/roxterm
