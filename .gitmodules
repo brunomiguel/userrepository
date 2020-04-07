@@ -916,3 +916,6 @@
 [submodule "pkgbuild/yup"]
 	path = pkgbuild/yup
 	url = https://aur.archlinux.org/yup
+[submodule "pkgbuild/crusta-browser-git"]
+	path = pkgbuild/crusta-browser-git
+	url = https://aur.archlinux.org/crusta-browser-git
