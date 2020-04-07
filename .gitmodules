@@ -916,3 +916,12 @@
 [submodule "pkgbuild/jami-ubuntu-latest"]
 	path = pkgbuild/jami-ubuntu-latest
 	url = https://aur.archlinux.org/jami-ubuntu-latest
+[submodule "pkgbuild/bashtop-git"]
+	path = pkgbuild/bashtop-git
+	url = https://aur.archlinux.org/bashtop-git
+[submodule "pkgbuild/bok"]
+	path = pkgbuild/bok
+	url = https://aur.archlinux.org/bok
+[submodule "pkgbuild/yup"]
+	path = pkgbuild/yup
+	url = https://aur.archlinux.org/yup
