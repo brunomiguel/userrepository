@@ -35,7 +35,7 @@ build() {
             git clean -x -d -f -q > ../noise.log 2>&1;
             git stash --quiet > ../noise.log 2>&1;
             buildchanged=0
-            git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && changed=1
+            git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && buildchanged=1
             if [ $buildchanged = 1 ]; then
             	git pull -q
             	echo "$D Updated";
