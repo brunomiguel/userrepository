@@ -916,3 +916,6 @@
 [submodule "pkgbuild/yup"]
 	path = pkgbuild/yup
 	url = https://aur.archlinux.org/yup
+[submodule "pkgbuild/autenticacao-gov-pt"]
+	path = pkgbuild/autenticacao-gov-pt
+	url = https://aur.archlinux.org/autenticacao-gov-pt

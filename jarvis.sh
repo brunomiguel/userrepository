@@ -30,8 +30,20 @@ build() {
     
     for f in *; do
         if [ -d "$f" ]; then
-            echo -e "\n\e[1;33mProcessing $f...\e[0m"
+            echo -e "\n\e[1;33mProcessing and updating (again) $f...\e[0m"
             pushd "$f" > /dev/null 2>&1 || exit
+            git clean -x -d -f -q > ../noise.log 2>&1;
+            git stash --quiet > ../noise.log 2>&1;
+            buildchanged=0
+            git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && changed=1
+            if [ $buildchanged = 1 ]; then
+            	git pull -q
+            	echo "$D Updated";
+            fi
+            # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
+            if [ -f "../noise.log" ]; then
+                rm ../noise.log
+            fi
             if [ -f "PKGBUILD" ]; then
                 echo "Found PKGBUILD for $f. Building..."
                 # clean build force overwrite
@@ -87,7 +99,7 @@ deploy() {
         [ -f "$f" ] || break
         echo -e "\e[1;33mDeploying $f...\e[0m"
         mv "$f" "./"
-        repo-add -s -v "${REPONAME}.db.tar.gz" "$(basename "$f")"
+        repo-add -R -s -v "${REPONAME}.db.tar.gz" "$(basename "$f")"
     done
     popd || exit
 }
