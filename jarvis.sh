@@ -37,7 +37,7 @@ build() {
             buildchanged=0
             git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && buildchanged=1
             if [ $buildchanged = 1 ]; then
-            	git pull -q
+            	git pull origin master -q
             	echo "$D Updated";
             fi
             # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
@@ -73,7 +73,7 @@ refresh() {
         changed=0
         git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && changed=1
         if [ $changed = 1 ]; then
-            git pull -q
+            git pull origin master -q
             echo "$D Updated";
         fi
         # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
