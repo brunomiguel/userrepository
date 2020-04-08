@@ -919,3 +919,6 @@
 [submodule "pkgbuild/roxterm"]
 	path = pkgbuild/roxterm
 	url = https://aur.archlinux.org/roxterm
+[submodule "pkgbuild/pnmixer"]
+	path = pkgbuild/pnmixer
+	url = https://aur.archlinux.org/pnmixer

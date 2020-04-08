@@ -36,8 +36,9 @@ build() {
             git stash --quiet > ../noise.log 2>&1;
             buildchanged=0
             git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && buildchanged=1
+            git pull origin master -q
             if [ $buildchanged = 1 ]; then
-            	git pull origin master -q
+            	#git pull origin master -q
             	echo "$D Updated";
             fi
             # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
@@ -72,8 +73,9 @@ refresh() {
         # track which submodules have updates and only print to stout the ones updated
         changed=0
         git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && changed=1
+        git pull origin master -q
         if [ $changed = 1 ]; then
-            git pull origin master -q
+            #git pull origin master -q
             echo "$D Updated";
         fi
         # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
