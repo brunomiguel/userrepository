@@ -31,7 +31,7 @@ build() {
     for f in *; do
         if [ -d "$f" ]; then
             echo -e "\n\e[1;33mUpdating $f...\e[0m"
-            pushd "$f" > /dev/null 2>&1 || exit
+            pushd "$f" > ../noise.log 2>&1 || exit
             git clean -x -d -f -q > ../noise.log 2>&1;
             git stash --quiet > ../noise.log 2>&1;
 			# update submodules
@@ -51,7 +51,7 @@ build() {
 			else
 				echo -e "PKGBUILD not found\n"
             fi
-            popd || exit
+            popd > /dev/null 2>&1 || exit
         fi
     done
     popd || exit
