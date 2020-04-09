@@ -34,14 +34,9 @@ build() {
             pushd "$f" > /dev/null 2>&1 || exit
             git clean -x -d -f -q > ../noise.log 2>&1;
             git stash --quiet > ../noise.log 2>&1;
-            #buildchanged=0
-            #git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && buildchanged=1
+			# update submodules
             git pull
             git pull origin master
-            #if [ $buildchanged = 1 ]; then
-            	#git pull origin master -q
-            #	echo "$D Updated";
-            #fi
             # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
             if [ -f "../noise.log" ]; then
                 rm ../noise.log
@@ -72,20 +67,13 @@ refresh() {
         # clean unwanted changes made to submodules locally
         git clean -x -d -f -q > ../noise.log 2>&1;
         git stash --quiet > ../noise.log 2>&1;
-        # track which submodules have updates and only print to stout the ones updated
-        #changed=0
-        #git remote update > ../noise.log 2>&1 && git status -uno | grep -q 'Your branch is behind' && changed=1
+        # update submodules
         git pull
         git pull origin master
-        #if [ $changed = 1 ]; then
-            #git pull origin master -q
-        #    echo "$D Updated";
-        #fi
         # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
         if [ -f "../noise.log" ]; then
             rm ../noise.log
         fi
-        #echo -e "\n"
         cd ..;
     done
     popd > /dev/null 2>&1 || exit
