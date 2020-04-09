@@ -30,7 +30,7 @@ build() {
     
     for f in *; do
         if [ -d "$f" ]; then
-            echo -e "\n\e[1;33mProcessing and updating (again) $f...\e[0m"
+            echo -e "\n\e[1;33mUpdating $f...\e[0m"
             pushd "$f" > /dev/null 2>&1 || exit
             git clean -x -d -f -q > ../noise.log 2>&1;
             git stash --quiet > ../noise.log 2>&1;
@@ -48,6 +48,8 @@ build() {
                 if [ $? -ne 0 ]; then
                     echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
                 fi
+			else
+				echo -e "PKGBUILD not found\n"
             fi
             popd || exit
         fi
@@ -120,7 +122,7 @@ delete() {
 while getopts "a:rbd:" arg; do
     case $arg in
         a) shift $(( OPTIND - 2 )); for pkg in "$@"; do add; done ;;
-        b) pikaur -Syyuv; refresh; build; deploy; sync ;;
+        b) pikaur -Syyuv; build; deploy; sync ;;
         r) pikaur -Syyyuv; refresh ;;
         d) delete ;;
         h) usage ;;
