@@ -382,9 +382,6 @@
 [submodule "pkgbuild/swayshot"]
 	path = pkgbuild/swayshot
 	url = https://aur.archlinux.org/swayshot.git
-[submodule "pkgbuild/telegram-desktop-bin"]
-	path = pkgbuild/telegram-desktop-bin
-	url = https://aur.archlinux.org/telegram-desktop-bin.git
 [submodule "pkgbuild/terminal-markdown-viewer"]
 	path = pkgbuild/terminal-markdown-viewer
 	url = https://aur.archlinux.org/terminal-markdown-viewer.git
