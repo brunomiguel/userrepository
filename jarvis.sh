@@ -112,7 +112,7 @@ delete() {
     git rm --cached "$DIR/pkgbuild/${OPTARG}"
     rm -rf "$DIR/pkgbuild/${OPTARG}"
     git commit -m "Removed ${OPTARG} submodule"
-    rm -rf ".git/modules/$DIR/pkgbuild/${OPTARG}"
+    rm -rf "$DIR/.git/modules/pkgbuild/${OPTARG}"
     git config -f .gitmodules --remove-section "submodule.pkgbuild/${OPTARG}"
     git config -f .git/config --remove-section "submodule.pkgbuild/${OPTARG}"
 }

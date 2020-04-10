@@ -169,9 +169,6 @@
 [submodule "pkgbuild/google-webdesigner"]
 	path = pkgbuild/google-webdesigner
 	url = https://aur.archlinux.org/google-webdesigner.git
-[submodule "pkgbuild/gotop-git"]
-	path = pkgbuild/gotop-git
-	url = https://aur.archlinux.org/gotop-git.git
 [submodule "pkgbuild/green-recorder-git"]
 	path = pkgbuild/green-recorder-git
 	url = https://aur.archlinux.org/green-recorder-git.git
@@ -928,3 +925,6 @@
 [submodule "pkgbuild/cartaodecidadao"]
 	path = pkgbuild/cartaodecidadao
 	url = https://aur.archlinux.org/cartaodecidadao
+[submodule "pkgbuild/gotop-git"]
+	path = pkgbuild/gotop-git
+	url = https://aur.archlinux.org/gotop-git
