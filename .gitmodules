@@ -931,3 +931,9 @@
 [submodule "pkgbuild/gotop"]
 	path = pkgbuild/gotop
 	url = https://aur.archlinux.org/gotop
+[submodule "pkgbuild/starfighter"]
+	path = pkgbuild/starfighter
+	url = https://aur.archlinux.org/starfighter
+[submodule "pkgbuild/vgrive"]
+	path = pkgbuild/vgrive
+	url = https://aur.archlinux.org/vgrive
