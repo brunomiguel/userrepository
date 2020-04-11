@@ -928,3 +928,6 @@
 [submodule "pkgbuild/gotop-git"]
 	path = pkgbuild/gotop-git
 	url = https://aur.archlinux.org/gotop-git
+[submodule "pkgbuild/netkit-telnet-ssl"]
+	path = pkgbuild/netkit-telnet-ssl
+	url = https://aur.archlinux.org/netkit-telnet-ssl
