@@ -937,3 +937,18 @@
 [submodule "pkgbuild/vgrive"]
 	path = pkgbuild/vgrive
 	url = https://aur.archlinux.org/vgrive
+[submodule "pkgbuild/purple-gowhatsapp-git"]
+	path = pkgbuild/purple-gowhatsapp-git
+	url = https://aur.archlinux.org/purple-gowhatsapp-git
+[submodule "pkgbuild/telegram-purple"]
+	path = pkgbuild/telegram-purple
+	url = https://aur.archlinux.org/telegram-purple
+[submodule "pkgbuild/wf-recorder"]
+	path = pkgbuild/wf-recorder
+	url = https://aur.archlinux.org/wf-recorder
+[submodule "pkgbuild/wlogout"]
+	path = pkgbuild/wlogout
+	url = https://aur.archlinux.org/wlogout
+[submodule "pkgbuild/wob"]
+	path = pkgbuild/wob
+	url = https://aur.archlinux.org/wob
