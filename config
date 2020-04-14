@@ -2,7 +2,7 @@
 # This file will be sourced by the scripts automatically
 PKGEXT=".pkg.tar.zst"
 #COMPRESSXZ=(xz -c -z - --threads=3)
-COMPRESSZSTD=(zstd -c -z -q -16 -v -T3 -)
+COMPRESSZSTD=(zstd -c -z -q -10 -v -T3 -)
 PACKAGER="Bruno Miguel <brunoalexandremiguel@gmail.com>"
 #GPGKEY=""
 

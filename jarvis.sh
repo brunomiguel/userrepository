@@ -34,6 +34,8 @@ build() {
             pushd "$f" > ../noise.log 2>&1 || exit
             git clean -x -d -f -q > ../noise.log 2>&1;
             git stash --quiet > ../noise.log 2>&1;
+            # rebase
+            git rebase HEAD master
 			# update submodules
             git pull
             git pull origin master
@@ -122,8 +124,8 @@ delete() {
 while getopts "a:rbd:" arg; do
     case $arg in
         a) shift $(( OPTIND - 2 )); for pkg in "$@"; do add; done ;;
-        b) pikaur -Syyuv; build; deploy; sync ;;
-        r) pikaur -Syyyuv; refresh ;;
+        b) pikaur -Syyuv; build; deploy; sync; rm noise.log ;;
+        r) pikaur -Syyuv; refresh ;;
         d) delete ;;
         h) usage ;;
         *) usage ;;
