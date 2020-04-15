@@ -949,3 +949,6 @@
 [submodule "pkgbuild/wob"]
 	path = pkgbuild/wob
 	url = https://aur.archlinux.org/wob
+[submodule "pkgbuild/cpod"]
+	path = pkgbuild/cpod
+	url = https://aur.archlinux.org/cpod
