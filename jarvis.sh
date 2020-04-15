@@ -95,7 +95,7 @@ deploy() {
     done
     
     # add built packages to repository database
-    for f in "${PKGDEST}"/*$"{PKGEXT}"; do
+    for f in "${PKGDEST}"/*"${PKGEXT}"; do
         [ -f "$f" ] || break
         echo -e "\e[1;33mDeploying $f...\e[0m"
         mv "$f" "./"
