@@ -88,14 +88,14 @@ refresh() {
 deploy() {
     # move built packages to cache/
     pushd "$DIR/repository" > /dev/null 2>&1 || exit
-    for f in *${PKGEXT}; do
+    for f in *"${PKGEXT}"; do
         [ -f "$f" ] || break
         echo -e "\e[1;33mArchiving $f...\e[0m"
         mv "$f" "$BUILDDIR"
     done
     
     # add built packages to repository database
-    for f in ${PKGDEST}/*${PKGEXT}; do
+    for f in "${PKGDEST}"/*${PKGEXT}; do
         [ -f "$f" ] || break
         echo -e "\e[1;33mDeploying $f...\e[0m"
         mv "$f" "./"
@@ -123,7 +123,7 @@ delete() {
 
 # script options
 [ $# -eq 0 ] && usage
-while getopts "a:rbd:" arg; do
+while getopts "a:rbdh:" arg; do
     case $arg in
         a) shift $(( OPTIND - 2 )); for pkg in "$@"; do add; done ;;
         b) pikaur -Syyuv; build; deploy; sync; rm noise.log ;;
