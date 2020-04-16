@@ -44,7 +44,7 @@ build() {
                 rm ../noise.log
             fi
             
-            # start timming the time it takes to create the package
+            # start timing the time it takes to create the package
             res1=$(date +%s.%N)
 
             if [ -f "PKGBUILD" ]; then
@@ -58,7 +58,7 @@ build() {
 				echo -e "PKGBUILD not found\n"
             fi
 
-            # Stop timming the time it took to create the package \
+            # Stop timing the time it took to create the package \
             # and log it in makepkg.log
             res2=$(date +%s.%N)
             dt=$(echo "$res2 - $res1" | bc)
