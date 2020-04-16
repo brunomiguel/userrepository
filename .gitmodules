@@ -952,3 +952,6 @@
 [submodule "pkgbuild/cpod"]
 	path = pkgbuild/cpod
 	url = https://aur.archlinux.org/cpod
+[submodule "pkgbuild/slack-desktop"]
+	path = pkgbuild/slack-desktop
+	url = https://aur.archlinux.org/slack-desktop
