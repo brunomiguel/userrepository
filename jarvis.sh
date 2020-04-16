@@ -43,6 +43,8 @@ build() {
             if [ -f "../noise.log" ]; then
                 rm ../noise.log
             fi
+            #start=`date +%s`
+            res1=$(date +%s.%N)
             if [ -f "PKGBUILD" ]; then
                 echo "Found PKGBUILD for $f. Building..."
                 # clean build force overwrite
@@ -53,6 +55,19 @@ build() {
 			else
 				echo -e "PKGBUILD not found\n"
             fi
+            #end=`date +%s`
+            
+            res2=$(date +%s.%N)
+            dt=$(echo "$res2 - $res1" | bc)
+            dd=$(echo "$dt/86400" | bc)
+            dt2=$(echo "$dt-86400*$dd" | bc)
+            dh=$(echo "$dt2/3600" | bc)
+            dt3=$(echo "$dt2-3600*$dh" | bc)
+            dm=$(echo "$dt3/60" | bc)
+            ds=$(echo "$dt3-60*$dm" | bc)
+            LC_NUMERIC=C printf "Total runtime: %02d:%02d:%02.4f\n" $dh $dm $ds >> makepkg.log
+            #runtime=$((end-start))
+            #echo -e "\nIt took $runtime seconds to create the package.\n" >> makepkg.log
             popd > /dev/null 2>&1 || exit
         fi
     done
@@ -126,7 +141,7 @@ delete() {
 while getopts "a:rbdh:" arg; do
     case $arg in
         a) shift $(( OPTIND - 2 )); for pkg in "$@"; do add; done ;;
-        b) pikaur -Syyuv; build; deploy; sync; rm noise.log ;;
+        b) pikaur -Syyuv; build; deploy; sync; rm noise.log; grep -rnw 'pkgbuild/' -e 'Total runtime' ;;
         r) pikaur -Syyuv; refresh ;;
         d) delete ;;
         h) usage ;;
