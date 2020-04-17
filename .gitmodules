@@ -805,9 +805,6 @@
 [submodule "pkgbuild/redshift-wayland-git"]
 	path = pkgbuild/redshift-wayland-git
 	url = https://aur.archlinux.org/redshift-wayland-git
-[submodule "pkgbuild/session-desktop"]
-	path = pkgbuild/session-desktop
-	url = https://aur.archlinux.org/session-desktop
 [submodule "pkgbuild/bsnes-qt5"]
 	path = pkgbuild/bsnes-qt5
 	url = https://aur.archlinux.org/bsnes-qt5
@@ -949,3 +946,6 @@
 [submodule "pkgbuild/firefox-kde-opensuse-rpm"]
 	path = pkgbuild/firefox-kde-opensuse-rpm
 	url = https://aur.archlinux.org/firefox-kde-opensuse-rpm
+[submodule "pkgbuild/session-desktop-bin"]
+	path = pkgbuild/session-desktop-bin
+	url = https://aur.archlinux.org/session-desktop-bin
