@@ -946,6 +946,6 @@
 [submodule "pkgbuild/android-messages-desktop-bin"]
 	path = pkgbuild/android-messages-desktop-bin
 	url = https://aur.archlinux.org/android-messages-desktop-bin
-[submodule "pkgbuild/firefox-kde-opensuse"]
-	path = pkgbuild/firefox-kde-opensuse
-	url = https://aur.archlinux.org/firefox-kde-opensuse
+[submodule "pkgbuild/firefox-kde-opensuse-rpm"]
+	path = pkgbuild/firefox-kde-opensuse-rpm
+	url = https://aur.archlinux.org/firefox-kde-opensuse-rpm
