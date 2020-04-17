@@ -949,6 +949,3 @@
 [submodule "pkgbuild/android-messages-desktop-bin"]
 	path = pkgbuild/android-messages-desktop-bin
 	url = https://aur.archlinux.org/android-messages-desktop-bin
-[submodule "pkgbuild/giada-git"]
-	path = pkgbuild/giada-git
-	url = https://aur.archlinux.org/giada-git
