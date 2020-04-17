@@ -247,9 +247,6 @@
 [submodule "pkgbuild/ncpamixer-git"]
 	path = pkgbuild/ncpamixer-git
 	url = https://aur.archlinux.org/ncpamixer-git.git
-[submodule "pkgbuild/newbreeze-git"]
-	path = pkgbuild/newbreeze-git
-	url = https://aur.archlinux.org/newbreeze-git.git
 [submodule "pkgbuild/no-more-secrets"]
 	path = pkgbuild/no-more-secrets
 	url = https://aur.archlinux.org/no-more-secrets.git
@@ -712,9 +709,6 @@
 [submodule "pkgbuild/gegl-operation-negative-darkroom-git"]
 	path = pkgbuild/gegl-operation-negative-darkroom-git
 	url = https://aur.archlinux.org/gegl-operation-negative-darkroom-git
-[submodule "pkgbuild/newsflash-git"]
-	path = pkgbuild/newsflash-git
-	url = https://aur.archlinux.org/newsflash-git
 [submodule "pkgbuild/otf-saira"]
 	path = pkgbuild/otf-saira
 	url = https://aur.archlinux.org/otf-saira
