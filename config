@@ -1,5 +1,6 @@
 #!/bin/bash
 # This file will be sourced by the scripts automatically
+MAKEFLAGS="-j4"
 PKGEXT=".pkg.tar.zst"
 #COMPRESSXZ=(xz -c -z - --threads=3)
 COMPRESSZSTD=(zstd -c -z -q -10 -v -T3 -)
