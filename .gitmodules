@@ -697,9 +697,6 @@
 [submodule "pkgbuild/simplenote-electron-bin"]
 	path = pkgbuild/simplenote-electron-bin
 	url = https://aur.archlinux.org/simplenote-electron-bin
-[submodule "pkgbuild/firefox-kde-opensuse"]
-	path = pkgbuild/firefox-kde-opensuse
-	url = https://aur.archlinux.org/firefox-kde-opensuse
 [submodule "pkgbuild/kde-rounded-corners-git"]
 	path = pkgbuild/kde-rounded-corners-git
 	url = https://aur.archlinux.org/kde-rounded-corners-git
@@ -949,3 +946,6 @@
 [submodule "pkgbuild/android-messages-desktop-bin"]
 	path = pkgbuild/android-messages-desktop-bin
 	url = https://aur.archlinux.org/android-messages-desktop-bin
+[submodule "pkgbuild/firefox-kde-opensuse"]
+	path = pkgbuild/firefox-kde-opensuse
+	url = https://aur.archlinux.org/firefox-kde-opensuse
