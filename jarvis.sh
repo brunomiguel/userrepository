@@ -130,17 +130,17 @@ add() {
 }
 
 delete() {
-    #git rm --cached "$DIR/pkgbuild/${OPTARG}"
-    #rm -rf "$DIR/pkgbuild/${OPTARG}"
-    #git commit -m "Removed ${OPTARG} submodule"
-    #rm -rf "$DIR/.git/modules/pkgbuild/${OPTARG}"
+    git rm --cached "pkgbuild/${OPTARG}"
+    rm -rf "pkgbuild/${OPTARG}"
+    git commit -m "Removed ${OPTARG} submodule"
+    rm -rf ".git/modules/pkgbuild/${OPTARG}"
     git config -f .gitmodules --remove-section "submodule.pkgbuild/${OPTARG}"
     git config -f .git/config --remove-section "submodule.pkgbuild/${OPTARG}"
 }
 
 # script options
 [ $# -eq 0 ] && usage
-while getopts "a:rbdh:" arg; do
+while getopts "a:d´:rbh:" arg; do
     case $arg in
         a) shift $(( OPTIND - 2 )); for pkg in "$@"; do add; done ;;
         b) pikaur -Syyuv; build; deploy; sync; rm noise.log; grep -rnw 'pkgbuild/' -e 'Total runtime' ;;
