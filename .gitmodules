@@ -964,3 +964,12 @@
 [submodule "pkgbuild/giti-git"]
 	path = pkgbuild/giti-git
 	url = https://aur.archlinux.org/giti-git
+[submodule "pkgbuild/skypeforlinux-stable-bin"]
+	path = pkgbuild/skypeforlinux-stable-bin
+	url = https://aur.archlinux.org/skypeforlinux-stable-bin
+[submodule "pkgbuild/peazip-qt"]
+	path = pkgbuild/peazip-qt
+	url = https://aur.archlinux.org/peazip-qt
+[submodule "pkgbuild/pinta"]
+	path = pkgbuild/pinta
+	url = https://aur.archlinux.org/pinta
