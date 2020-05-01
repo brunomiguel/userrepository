@@ -3,7 +3,7 @@
 MAKEFLAGS="-j4"
 PKGEXT=".pkg.tar.zst"
 #COMPRESSXZ=(xz -c -z - --threads=3)
-COMPRESSZSTD=(zstd -c -z -q -15 -v -T3 -)
+COMPRESSZSTD=(zstd -c -z -q -12 -v -T3 -)
 PACKAGER="Bruno Miguel <brunoalexandremiguel@gmail.com>"
 #GPGKEY=""
 
