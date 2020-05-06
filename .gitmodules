@@ -973,3 +973,6 @@
 [submodule "pkgbuild/pinta"]
 	path = pkgbuild/pinta
 	url = https://aur.archlinux.org/pinta
+[submodule "pkgbuild/linux-wifi-hotspot"]
+	path = pkgbuild/linux-wifi-hotspot
+	url = https://aur.archlinux.org/linux-wifi-hotspot
