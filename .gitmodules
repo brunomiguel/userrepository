@@ -982,3 +982,6 @@
 [submodule "pkgbuild/gimp-plugin-registry"]
 	path = pkgbuild/gimp-plugin-registry
 	url = https://aur.archlinux.org/gimp-plugin-registry
+[submodule "pkgbuild/mdcat"]
+	path = pkgbuild/mdcat
+	url = https://aur.archlinux.org/mdcat
