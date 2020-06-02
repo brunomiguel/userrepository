@@ -976,3 +976,6 @@
 [submodule "pkgbuild/linux-wifi-hotspot"]
 	path = pkgbuild/linux-wifi-hotspot
 	url = https://aur.archlinux.org/linux-wifi-hotspot
+[submodule "pkgbuild/goodvibes"]
+	path = pkgbuild/goodvibes
+	url = https://aur.archlinux.org/goodvibes
