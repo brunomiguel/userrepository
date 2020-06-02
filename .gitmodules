@@ -979,3 +979,6 @@
 [submodule "pkgbuild/goodvibes"]
 	path = pkgbuild/goodvibes
 	url = https://aur.archlinux.org/goodvibes
+[submodule "pkgbuild/gimp-plugin-registry"]
+	path = pkgbuild/gimp-plugin-registry
+	url = https://aur.archlinux.org/gimp-plugin-registry
