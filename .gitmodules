@@ -985,3 +985,21 @@
 [submodule "pkgbuild/mdcat"]
 	path = pkgbuild/mdcat
 	url = https://aur.archlinux.org/mdcat
+[submodule "pkgbuild/ferdi-bin"]
+	path = pkgbuild/ferdi-bin
+	url = https://aur.archlinux.org/ferdi-bin
+[submodule "pkgbuild/graviton-bin"]
+	path = pkgbuild/graviton-bin
+	url = https://aur.archlinux.org/graviton-bin
+[submodule "pkgbuild/jrnl"]
+	path = pkgbuild/jrnl
+	url = https://aur.archlinux.org/jrnl
+[submodule "pkgbuild/python-acestream"]
+	path = pkgbuild/python-acestream
+	url = https://aur.archlinux.org/python-acestream
+[submodule "pkgbuild/ruby-xdg"]
+	path = pkgbuild/ruby-xdg
+	url = https://aur.archlinux.org/ruby-xdg
+[submodule "pkgbuild/ruby-erubis"]
+	path = pkgbuild/ruby-erubis
+	url = https://aur.archlinux.org/ruby-erubis
