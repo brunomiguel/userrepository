@@ -1003,3 +1003,6 @@
 [submodule "pkgbuild/ruby-erubis"]
 	path = pkgbuild/ruby-erubis
 	url = https://aur.archlinux.org/ruby-erubis
+[submodule "pkgbuild/archivebox-git"]
+	path = pkgbuild/archivebox-git
+	url = https://aur.archlinux.org/archivebox-git
