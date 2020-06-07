@@ -1006,3 +1006,6 @@
 [submodule "pkgbuild/archivebox-git"]
 	path = pkgbuild/archivebox-git
 	url = https://aur.archlinux.org/archivebox-git
+[submodule "pkgbuild/video-downloader"]
+	path = pkgbuild/video-downloader
+	url = https://aur.archlinux.org/video-downloader
