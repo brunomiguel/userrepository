@@ -1006,3 +1006,9 @@
 [submodule "pkgbuild/video-downloader"]
 	path = pkgbuild/video-downloader
 	url = https://aur.archlinux.org/video-downloader
+[submodule "pkgbuild/ttf-proza-libre"]
+	path = pkgbuild/ttf-proza-libre
+	url = https://aur.archlinux.org/ttf-proza-libre
+[submodule "pkgbuild/qgnomeplatform"]
+	path = pkgbuild/qgnomeplatform
+	url = https://aur.archlinux.org/qgnomeplatform
