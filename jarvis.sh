@@ -144,7 +144,7 @@ delete() {
 [ $# -eq 0 ] && usage
 while getopts "ad:rbh:" arg; do
     case $arg in
-        a) shift $(( OPTIND - 2 )); for pkg in "$@"; do add; done ;;
+        a) shift $(( OPTIND - 1 )); for pkg in "$@"; do add; done ;;
         b) pikaur -Syyuv; build; deploy; sync; rm noise.log; grep -rnw 'pkgbuild/' -e 'Total runtime' ;;
         r) pikaur -Syyuv; refresh ;;
         d) delete ;;
