@@ -1012,3 +1012,6 @@
 [submodule "pkgbuild/qgnomeplatform"]
 	path = pkgbuild/qgnomeplatform
 	url = https://aur.archlinux.org/qgnomeplatform
+[submodule "pkgbuild/wezterm-bin"]
+	path = pkgbuild/wezterm-bin
+	url = https://aur.archlinux.org/wezterm-bin
