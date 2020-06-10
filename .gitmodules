@@ -1033,3 +1033,9 @@
 [submodule "pkgbuild/qogir-gtk-theme"]
 	path = pkgbuild/qogir-gtk-theme
 	url = https://aur.archlinux.org/qogir-gtk-theme
+[submodule "pkgbuild/libsodium-static"]
+	path = pkgbuild/libsodium-static
+	url = https://aur.archlinux.org/libsodium-static
+[submodule "pkgbuild/gst-plugins-rs"]
+	path = pkgbuild/gst-plugins-rs
+	url = https://aur.archlinux.org/gst-plugins-rs
