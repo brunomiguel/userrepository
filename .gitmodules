@@ -31,9 +31,6 @@
 [submodule "pkgbuild/axmud"]
 	path = pkgbuild/axmud
 	url = https://aur.archlinux.org/axmud.git
-[submodule "pkgbuild/bamr"]
-	path = pkgbuild/bamr
-	url = https://aur.archlinux.org/bamr.git
 [submodule "pkgbuild/bindfs"]
 	path = pkgbuild/bindfs
 	url = https://aur.archlinux.org/bindfs.git
@@ -300,7 +297,7 @@
 	url = https://aur.archlinux.org/publii.git
 [submodule "pkgbuild/python-pyshp"]
 	path = pkgbuild/python-pyshp
-	url = https://aur.archlinux.org/python-pyshp.git
+	url = https://aur.archlinux.org/python-pyshp
 [submodule "pkgbuild/qimgv-git"]
 	path = pkgbuild/qimgv-git
 	url = https://aur.archlinux.org/qimgv-git.git
@@ -1039,3 +1036,21 @@
 [submodule "pkgbuild/gst-plugins-rs"]
 	path = pkgbuild/gst-plugins-rs
 	url = https://aur.archlinux.org/gst-plugins-rs
+[submodule "pkgbuild/lightzone"]
+	path = pkgbuild/lightzone
+	url = https://aur.archlinux.org/lightzone
+[submodule "pkgbuild/python-pyephem"]
+	path = pkgbuild/python-pyephem
+	url = https://aur.archlinux.org/python-pyephem
+[submodule "pkgbuild/python-pulse-control"]
+	path = pkgbuild/python-pulse-control
+	url = https://aur.archlinux.org/python-pulse-control
+[submodule "pkgbuild/nyble"]
+	path = pkgbuild/nyble
+	url = https://aur.archlinux.org/nyble
+[submodule "pkgbuild/davmail"]
+	path = pkgbuild/davmail
+	url = https://aur.archlinux.org/davmail
+[submodule "pkgbuild/sameboy"]
+	path = pkgbuild/sameboy
+	url = https://aur.archlinux.org/sameboy
