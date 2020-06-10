@@ -1015,3 +1015,21 @@
 [submodule "pkgbuild/wezterm-bin"]
 	path = pkgbuild/wezterm-bin
 	url = https://aur.archlinux.org/wezterm-bin
+[submodule "pkgbuild/zram-generator-git"]
+	path = pkgbuild/zram-generator-git
+	url = https://aur.archlinux.org/zram-generator-git
+[submodule "pkgbuild/mynes"]
+	path = pkgbuild/mynes
+	url = https://aur.archlinux.org/mynes
+[submodule "pkgbuild/swapper"]
+	path = pkgbuild/swapper
+	url = https://aur.archlinux.org/swapper
+[submodule "pkgbuild/recapp-git"]
+	path = pkgbuild/recapp-git
+	url = https://aur.archlinux.org/recapp-git
+[submodule "pkgbuild/ttf-nunito-sans"]
+	path = pkgbuild/ttf-nunito-sans
+	url = https://aur.archlinux.org/ttf-nunito-sans
+[submodule "pkgbuild/qogir-gtk-theme"]
+	path = pkgbuild/qogir-gtk-theme
+	url = https://aur.archlinux.org/qogir-gtk-theme
