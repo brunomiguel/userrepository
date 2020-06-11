@@ -1057,9 +1057,6 @@
 [submodule "pkgbuild/dwm-jacob-git"]
 	path = pkgbuild/dwm-jacob-git
 	url = https://aur.archlinux.org/dwm-jacob-git
-[submodule "pkgbuild/dwm-ekollof-git"]
-	path = pkgbuild/dwm-ekollof-git
-	url = https://aur.archlinux.org/dwm-ekollof-git
 [submodule "pkgbuild/dwm-distrotube-git"]
 	path = pkgbuild/dwm-distrotube-git
 	url = https://aur.archlinux.org/dwm-distrotube-git
