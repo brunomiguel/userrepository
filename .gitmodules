@@ -1069,6 +1069,3 @@
 [submodule "pkgbuild/notorious-git"]
 	path = pkgbuild/notorious-git
 	url = https://aur.archlinux.org/notorious-git
-[submodule "pkgbuild/firefox-beta-bin-all-localizations"]
-	path = pkgbuild/firefox-beta-bin-all-localizations
-	url = https://aur.archlinux.org/firefox-beta-bin-all-localizations
