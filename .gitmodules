@@ -1069,3 +1069,6 @@
 [submodule "pkgbuild/notorious-git"]
 	path = pkgbuild/notorious-git
 	url = https://aur.archlinux.org/notorious-git
+[submodule "pkgbuild/firefox-beta-i18n"]
+	path = pkgbuild/firefox-beta-i18n
+	url = https://aur.archlinux.org/firefox-beta-i18n
