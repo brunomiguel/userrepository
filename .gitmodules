@@ -1072,3 +1072,21 @@
 [submodule "pkgbuild/flac2all"]
 	path = pkgbuild/flac2all
 	url = https://aur.archlinux.org/flac2all
+[submodule "pkgbuild/hikari"]
+	path = pkgbuild/hikari
+	url = https://aur.archlinux.org/hikari
+[submodule "pkgbuild/libucl-git"]
+	path = pkgbuild/libucl-git
+	url = https://aur.archlinux.org/libucl-git
+[submodule "pkgbuild/clamav-unofficial-sigs"]
+	path = pkgbuild/clamav-unofficial-sigs
+	url = https://aur.archlinux.org/clamav-unofficial-sigs
+[submodule "pkgbuild/pdfquirk"]
+	path = pkgbuild/pdfquirk
+	url = https://aur.archlinux.org/pdfquirk
+[submodule "pkgbuild/azote-git"]
+	path = pkgbuild/azote-git
+	url = https://aur.archlinux.org/azote-git
+[submodule "pkgbuild/knowthelist-git"]
+	path = pkgbuild/knowthelist-git
+	url = https://aur.archlinux.org/knowthelist-git
