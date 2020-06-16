@@ -1090,3 +1090,24 @@
 [submodule "pkgbuild/knowthelist-git"]
 	path = pkgbuild/knowthelist-git
 	url = https://aur.archlinux.org/knowthelist-git
+[submodule "pkgbuild/abrowser-bin"]
+	path = pkgbuild/abrowser-bin
+	url = https://aur.archlinux.org/abrowser-bin
+[submodule "pkgbuild/wayst-git"]
+	path = pkgbuild/wayst-git
+	url = https://aur.archlinux.org/wayst-git
+[submodule "pkgbuild/passphrase"]
+	path = pkgbuild/passphrase
+	url = https://aur.archlinux.org/passphrase
+[submodule "pkgbuild/breeze-gtk-git"]
+	path = pkgbuild/breeze-gtk-git
+	url = https://aur.archlinux.org/breeze-gtk-git
+[submodule "pkgbuild/lite"]
+	path = pkgbuild/lite
+	url = https://aur.archlinux.org/lite
+[submodule "pkgbuild/vivaldi"]
+	path = pkgbuild/vivaldi
+	url = https://aur.archlinux.org/vivaldi
+[submodule "pkgbuild/vivaldi-ffmpeg-codecs"]
+	path = pkgbuild/vivaldi-ffmpeg-codecs
+	url = https://aur.archlinux.org/vivaldi-ffmpeg-codecs
