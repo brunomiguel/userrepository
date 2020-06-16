@@ -1105,9 +1105,3 @@
 [submodule "pkgbuild/lite"]
 	path = pkgbuild/lite
 	url = https://aur.archlinux.org/lite
-[submodule "pkgbuild/vivaldi"]
-	path = pkgbuild/vivaldi
-	url = https://aur.archlinux.org/vivaldi
-[submodule "pkgbuild/vivaldi-ffmpeg-codecs"]
-	path = pkgbuild/vivaldi-ffmpeg-codecs
-	url = https://aur.archlinux.org/vivaldi-ffmpeg-codecs

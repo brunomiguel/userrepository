@@ -98,7 +98,7 @@ refresh() {
             rm ../noise.log
         fi
         cd ..;
-	sleep 0.5s;
+	sleep 0.25s;
     done
     popd > /dev/null 2>&1 || exit
 }
