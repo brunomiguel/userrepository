@@ -1105,3 +1105,36 @@
 [submodule "pkgbuild/lite"]
 	path = pkgbuild/lite
 	url = https://aur.archlinux.org/lite
+[submodule "pkgbuild/st-syaoran-git"]
+	path = pkgbuild/st-syaoran-git
+	url = https://aur.archlinux.org/st-syaoran-git
+[submodule "pkgbuild/st-musiyenko-git"]
+	path = pkgbuild/st-musiyenko-git
+	url = https://aur.archlinux.org/st-musiyenko-git
+[submodule "pkgbuild/st-ziro-git"]
+	path = pkgbuild/st-ziro-git
+	url = https://aur.archlinux.org/st-ziro-git
+[submodule "pkgbuild/st-distrotube-git"]
+	path = pkgbuild/st-distrotube-git
+	url = https://aur.archlinux.org/st-distrotube-git
+[submodule "pkgbuild/st-duncan-git"]
+	path = pkgbuild/st-duncan-git
+	url = https://aur.archlinux.org/st-duncan-git
+[submodule "pkgbuild/st"]
+	path = pkgbuild/st
+	url = https://aur.archlinux.org/st
+[submodule "pkgbuild/tabbed"]
+	path = pkgbuild/tabbed
+	url = https://aur.archlinux.org/tabbed
+[submodule "pkgbuild/barva-git"]
+	path = pkgbuild/barva-git
+	url = https://aur.archlinux.org/barva-git
+[submodule "pkgbuild/vokoscreen-git"]
+	path = pkgbuild/vokoscreen-git
+	url = https://aur.archlinux.org/vokoscreen-git
+[submodule "pkgbuild/yakyak"]
+	path = pkgbuild/yakyak
+	url = https://aur.archlinux.org/yakyak
+[submodule "pkgbuild/papis"]
+	path = pkgbuild/papis
+	url = https://aur.archlinux.org/papis
