@@ -1135,6 +1135,6 @@
 [submodule "pkgbuild/yakyak"]
 	path = pkgbuild/yakyak
 	url = https://aur.archlinux.org/yakyak
-[submodule "pkgbuild/papis"]
-	path = pkgbuild/papis
-	url = https://aur.archlinux.org/papis
+[submodule "pkgbuild/waylock"]
+	path = pkgbuild/waylock
+	url = https://aur.archlinux.org/waylock
