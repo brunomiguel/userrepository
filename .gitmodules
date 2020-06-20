@@ -1138,3 +1138,15 @@
 [submodule "pkgbuild/waylock"]
 	path = pkgbuild/waylock
 	url = https://aur.archlinux.org/waylock
+[submodule "pkgbuild/cpick"]
+	path = pkgbuild/cpick
+	url = https://aur.archlinux.org/cpick
+[submodule "pkgbuild/sotw"]
+	path = pkgbuild/sotw
+	url = https://aur.archlinux.org/sotw
+[submodule "pkgbuild/gtkcord3-git"]
+	path = pkgbuild/gtkcord3-git
+	url = https://aur.archlinux.org/gtkcord3-git
+[submodule "pkgbuild/archwrt-ss.sh-git"]
+	path = pkgbuild/archwrt-ss.sh-git
+	url = https://aur.archlinux.org/archwrt-ss.sh-git
