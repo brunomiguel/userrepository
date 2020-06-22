@@ -1147,6 +1147,3 @@
 [submodule "pkgbuild/google-chrome"]
 	path = pkgbuild/google-chrome
 	url = https://aur.archlinux.org/google-chrome
-[submodule "pkgbuild/gitqlient"]
-	path = pkgbuild/gitqlient
-	url = https://aur.archlinux.org/gitqlient
