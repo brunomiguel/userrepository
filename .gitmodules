@@ -1147,6 +1147,6 @@
 [submodule "pkgbuild/google-chrome"]
 	path = pkgbuild/google-chrome
 	url = https://aur.archlinux.org/google-chrome
-[submodule "pkgbuild/gpu-screen-recorder-git"]
-	path = pkgbuild/gpu-screen-recorder-git
-	url = https://aur.archlinux.org/gpu-screen-recorder-git
+[submodule "pkgbuild/gimp-plugin-lqr-git"]
+	path = pkgbuild/gimp-plugin-lqr-git
+	url = https://aur.archlinux.org/gimp-plugin-lqr-git
