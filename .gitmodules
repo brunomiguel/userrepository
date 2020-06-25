@@ -1147,6 +1147,21 @@
 [submodule "pkgbuild/google-chrome"]
 	path = pkgbuild/google-chrome
 	url = https://aur.archlinux.org/google-chrome
-[submodule "pkgbuild/gimp-plugin-lqr-git"]
-	path = pkgbuild/gimp-plugin-lqr-git
-	url = https://aur.archlinux.org/gimp-plugin-lqr-git
+[submodule "pkgbuild/plasma5-applets-betterinlineclock-git"]
+	path = pkgbuild/plasma5-applets-betterinlineclock-git
+	url = https://aur.archlinux.org/plasma5-applets-betterinlineclock-git
+[submodule "pkgbuild/plasma5-applets-chiliclock-git"]
+	path = pkgbuild/plasma5-applets-chiliclock-git
+	url = https://aur.archlinux.org/plasma5-applets-chiliclock-git
+[submodule "pkgbuild/riot-desktop-git"]
+	path = pkgbuild/riot-desktop-git
+	url = https://aur.archlinux.org/riot-desktop-git
+[submodule "pkgbuild/ventoy-bin"]
+	path = pkgbuild/ventoy-bin
+	url = https://aur.archlinux.org/ventoy-bin
+[submodule "pkgbuild/picterm"]
+	path = pkgbuild/picterm
+	url = https://aur.archlinux.org/picterm
+[submodule "pkgbuild/azdrawing"]
+	path = pkgbuild/azdrawing
+	url = https://aur.archlinux.org/azdrawing
