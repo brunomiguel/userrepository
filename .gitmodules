@@ -883,9 +883,6 @@
 [submodule "pkgbuild/autenticacao-gov-pt"]
 	path = pkgbuild/autenticacao-gov-pt
 	url = https://aur.archlinux.org/autenticacao-gov-pt
-[submodule "pkgbuild/roxterm"]
-	path = pkgbuild/roxterm
-	url = https://aur.archlinux.org/roxterm
 [submodule "pkgbuild/pnmixer"]
 	path = pkgbuild/pnmixer
 	url = https://aur.archlinux.org/pnmixer
@@ -1168,3 +1165,6 @@
 [submodule "pkgbuild/cagebreak"]
 	path = pkgbuild/cagebreak
 	url = https://aur.archlinux.org/cagebreak
+[submodule "pkgbuild/roxterm-git"]
+	path = pkgbuild/roxterm-git
+	url = https://aur.archlinux.org/roxterm-git
