@@ -1165,3 +1165,6 @@
 [submodule "pkgbuild/azdrawing"]
 	path = pkgbuild/azdrawing
 	url = https://aur.archlinux.org/azdrawing
+[submodule "pkgbuild/cagebreak"]
+	path = pkgbuild/cagebreak
+	url = https://aur.archlinux.org/cagebreak
