@@ -1183,6 +1183,3 @@
 [submodule "pkgbuild/gnome-obfuscate-git"]
 	path = pkgbuild/gnome-obfuscate-git
 	url = https://aur.archlinux.org/gnome-obfuscate-git
-[submodule "pkgbuild/openstopmotion"]
-	path = pkgbuild/openstopmotion
-	url = https://aur.archlinux.org/openstopmotion
