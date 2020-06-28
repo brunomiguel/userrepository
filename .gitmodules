@@ -448,9 +448,6 @@
 [submodule "pkgbuild/vbar"]
 	path = pkgbuild/vbar
 	url = https://aur.archlinux.org/vbar.git
-[submodule "pkgbuild/vscodium"]
-	path = pkgbuild/vscodium
-	url = https://aur.archlinux.org/vscodium.git
 [submodule "pkgbuild/webtorrent-desktop"]
 	path = pkgbuild/webtorrent-desktop
 	url = https://aur.archlinux.org/webtorrent-desktop.git
@@ -1168,3 +1165,24 @@
 [submodule "pkgbuild/roxterm-git"]
 	path = pkgbuild/roxterm-git
 	url = https://aur.archlinux.org/roxterm-git
+[submodule "pkgbuild/vscodium-bin"]
+	path = pkgbuild/vscodium-bin
+	url = https://aur.archlinux.org/vscodium-bin
+[submodule "pkgbuild/elstob-font"]
+	path = pkgbuild/elstob-font
+	url = https://aur.archlinux.org/elstob-font
+[submodule "pkgbuild/neoleo-git"]
+	path = pkgbuild/neoleo-git
+	url = https://aur.archlinux.org/neoleo-git
+[submodule "pkgbuild/liketaskmanager-git"]
+	path = pkgbuild/liketaskmanager-git
+	url = https://aur.archlinux.org/liketaskmanager-git
+[submodule "pkgbuild/ttf-apple-emoji"]
+	path = pkgbuild/ttf-apple-emoji
+	url = https://aur.archlinux.org/ttf-apple-emoji
+[submodule "pkgbuild/gnome-obfuscate-git"]
+	path = pkgbuild/gnome-obfuscate-git
+	url = https://aur.archlinux.org/gnome-obfuscate-git
+[submodule "pkgbuild/openstopmotion"]
+	path = pkgbuild/openstopmotion
+	url = https://aur.archlinux.org/openstopmotion
