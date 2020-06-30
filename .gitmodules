@@ -141,7 +141,7 @@
 	url = https://aur.archlinux.org/foliate-git.git
 [submodule "pkgbuild/font-victor-mono"]
 	path = pkgbuild/font-victor-mono
-	url = https://aur.archlinux.org/font-victor-mono.git
+	url = https://aur.archlinux.org/font-victor-mono
 [submodule "pkgbuild/fuf"]
 	path = pkgbuild/fuf
 	url = https://aur.archlinux.org/fuf.git
@@ -1183,3 +1183,36 @@
 [submodule "pkgbuild/gnome-obfuscate-git"]
 	path = pkgbuild/gnome-obfuscate-git
 	url = https://aur.archlinux.org/gnome-obfuscate-git
+[submodule "pkgbuild/gst"]
+	path = pkgbuild/gst
+	url = https://aur.archlinux.org/gst
+[submodule "pkgbuild/stress-ng"]
+	path = pkgbuild/stress-ng
+	url = https://aur.archlinux.org/stress-ng
+[submodule "pkgbuild/python-humanfriendly"]
+	path = pkgbuild/python-humanfriendly
+	url = https://aur.archlinux.org/python-humanfriendly
+[submodule "pkgbuild/qnotero"]
+	path = pkgbuild/qnotero
+	url = https://aur.archlinux.org/qnotero
+[submodule "pkgbuild/unappimage-git"]
+	path = pkgbuild/unappimage-git
+	url = https://aur.archlinux.org/unappimage-git
+[submodule "pkgbuild/mullvad-vpn"]
+	path = pkgbuild/mullvad-vpn
+	url = https://aur.archlinux.org/mullvad-vpn
+[submodule "pkgbuild/downzemall"]
+	path = pkgbuild/downzemall
+	url = https://aur.archlinux.org/downzemall
+[submodule "pkgbuild/emptty-git"]
+	path = pkgbuild/emptty-git
+	url = https://aur.archlinux.org/emptty-git
+[submodule "pkgbuild/cheat"]
+	path = pkgbuild/cheat
+	url = https://aur.archlinux.org/cheat
+[submodule "pkgbuild/pirate-get"]
+	path = pkgbuild/pirate-get
+	url = https://aur.archlinux.org/pirate-get
+[submodule "pkgbuild/otf-sweden-sans"]
+	path = pkgbuild/otf-sweden-sans
+	url = https://aur.archlinux.org/otf-sweden-sans
