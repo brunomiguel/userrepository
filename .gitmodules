@@ -1216,3 +1216,9 @@
 [submodule "pkgbuild/otf-sweden-sans"]
 	path = pkgbuild/otf-sweden-sans
 	url = https://aur.archlinux.org/otf-sweden-sans
+[submodule "pkgbuild/art-rawconverter"]
+	path = pkgbuild/art-rawconverter
+	url = https://aur.archlinux.org/art-rawconverter
+[submodule "pkgbuild/otf-bitter"]
+	path = pkgbuild/otf-bitter
+	url = https://aur.archlinux.org/otf-bitter
