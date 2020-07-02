@@ -276,7 +276,7 @@
 	url = https://aur.archlinux.org/otf-san-francisco-mono.git
 [submodule "pkgbuild/otf-san-francisco-pro"]
 	path = pkgbuild/otf-san-francisco-pro
-	url = https://aur.archlinux.org/otf-san-francisco-pro.git
+	url = https://aur.archlinux.org/otf-san-francisco-pro
 [submodule "pkgbuild/pacaudit"]
 	path = pkgbuild/pacaudit
 	url = https://aur.archlinux.org/pacaudit.git
@@ -1222,3 +1222,9 @@
 [submodule "pkgbuild/otf-bitter"]
 	path = pkgbuild/otf-bitter
 	url = https://aur.archlinux.org/otf-bitter
+[submodule "pkgbuild/saturnon-git"]
+	path = pkgbuild/saturnon-git
+	url = https://aur.archlinux.org/saturnon-git
+[submodule "pkgbuild/ttf-meslo"]
+	path = pkgbuild/ttf-meslo
+	url = https://aur.archlinux.org/ttf-meslo
