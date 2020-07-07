@@ -1228,3 +1228,15 @@
 [submodule "pkgbuild/ttf-meslo"]
 	path = pkgbuild/ttf-meslo
 	url = https://aur.archlinux.org/ttf-meslo
+[submodule "pkgbuild/nimdow-bin"]
+	path = pkgbuild/nimdow-bin
+	url = https://aur.archlinux.org/nimdow-bin
+[submodule "pkgbuild/mullvad-vpn-bin"]
+	path = pkgbuild/mullvad-vpn-bin
+	url = https://aur.archlinux.org/mullvad-vpn-bin
+[submodule "pkgbuild/qmplay2"]
+	path = pkgbuild/qmplay2
+	url = https://aur.archlinux.org/qmplay2
+[submodule "pkgbuild/lcms"]
+	path = pkgbuild/lcms
+	url = https://aur.archlinux.org/lcms
