@@ -928,9 +928,6 @@
 [submodule "pkgbuild/android-messages-desktop-bin"]
 	path = pkgbuild/android-messages-desktop-bin
 	url = https://aur.archlinux.org/android-messages-desktop-bin
-[submodule "pkgbuild/firefox-kde-opensuse-rpm"]
-	path = pkgbuild/firefox-kde-opensuse-rpm
-	url = https://aur.archlinux.org/firefox-kde-opensuse-rpm
 [submodule "pkgbuild/session-desktop-bin"]
 	path = pkgbuild/session-desktop-bin
 	url = https://aur.archlinux.org/session-desktop-bin
@@ -1243,3 +1240,12 @@
 [submodule "pkgbuild/firefox-kde-opensuse-bin"]
 	path = pkgbuild/firefox-kde-opensuse-bin
 	url = https://aur.archlinux.org/firefox-kde-opensuse-bin
+[submodule "pkgbuild/graphite-mozilla"]
+	path = pkgbuild/graphite-mozilla
+	url = https://aur.archlinux.org/graphite-mozilla
+[submodule "pkgbuild/wdisplays"]
+	path = pkgbuild/wdisplays
+	url = https://aur.archlinux.org/wdisplays
+[submodule "pkgbuild/soundux-git"]
+	path = pkgbuild/soundux-git
+	url = https://aur.archlinux.org/soundux-git
