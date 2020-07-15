@@ -1252,6 +1252,3 @@
 [submodule "pkgbuild/noaftodo-git"]
 	path = pkgbuild/noaftodo-git
 	url = https://aur.archlinux.org/noaftodo-git
-[submodule "pkgbuild/tortoisehg"]
-	path = pkgbuild/tortoisehg
-	url = https://aur.archlinux.org/tortoisehg
