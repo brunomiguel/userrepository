@@ -1249,3 +1249,9 @@
 [submodule "pkgbuild/python2-xlib"]
 	path = pkgbuild/python2-xlib
 	url = https://aur.archlinux.org/python2-xlib
+[submodule "pkgbuild/noaftodo-git"]
+	path = pkgbuild/noaftodo-git
+	url = https://aur.archlinux.org/noaftodo-git
+[submodule "pkgbuild/waybind-git"]
+	path = pkgbuild/waybind-git
+	url = https://aur.archlinux.org/waybind-git
