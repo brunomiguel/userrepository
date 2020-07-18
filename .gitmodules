@@ -1252,3 +1252,12 @@
 [submodule "pkgbuild/noaftodo-git"]
 	path = pkgbuild/noaftodo-git
 	url = https://aur.archlinux.org/noaftodo-git
+[submodule "pkgbuild/shortwave"]
+	path = pkgbuild/shortwave
+	url = https://aur.archlinux.org/shortwave
+[submodule "pkgbuild/newsflash"]
+	path = pkgbuild/newsflash
+	url = https://aur.archlinux.org/newsflash
+[submodule "pkgbuild/newsflash-git"]
+	path = pkgbuild/newsflash-git
+	url = https://aur.archlinux.org/newsflash-git
