@@ -1255,9 +1255,33 @@
 [submodule "pkgbuild/shortwave"]
 	path = pkgbuild/shortwave
 	url = https://aur.archlinux.org/shortwave
-[submodule "pkgbuild/newsflash"]
-	path = pkgbuild/newsflash
-	url = https://aur.archlinux.org/newsflash
 [submodule "pkgbuild/newsflash-git"]
 	path = pkgbuild/newsflash-git
 	url = https://aur.archlinux.org/newsflash-git
+[submodule "pkgbuild/ttf-antonio"]
+	path = pkgbuild/ttf-antonio
+	url = https://aur.archlinux.org/ttf-antonio
+[submodule "pkgbuild/dvc"]
+	path = pkgbuild/dvc
+	url = https://aur.archlinux.org/dvc
+[submodule "pkgbuild/bigtime"]
+	path = pkgbuild/bigtime
+	url = https://aur.archlinux.org/bigtime
+[submodule "pkgbuild/scrotpush"]
+	path = pkgbuild/scrotpush
+	url = https://aur.archlinux.org/scrotpush
+[submodule "pkgbuild/peafox"]
+	path = pkgbuild/peafox
+	url = https://aur.archlinux.org/peafox
+[submodule "pkgbuild/cowspeak"]
+	path = pkgbuild/cowspeak
+	url = https://aur.archlinux.org/cowspeak
+[submodule "pkgbuild/git-extras"]
+	path = pkgbuild/git-extras
+	url = https://aur.archlinux.org/git-extras
+[submodule "pkgbuild/o"]
+	path = pkgbuild/o
+	url = https://aur.archlinux.org/o
+[submodule "pkgbuild/lightly-git"]
+	path = pkgbuild/lightly-git
+	url = https://aur.archlinux.org/lightly-git
