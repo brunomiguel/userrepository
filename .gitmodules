@@ -1285,3 +1285,33 @@
 [submodule "pkgbuild/lightly-git"]
 	path = pkgbuild/lightly-git
 	url = https://aur.archlinux.org/lightly-git
+[submodule "pkgbuild/office-code-pro"]
+	path = pkgbuild/office-code-pro
+	url = https://aur.archlinux.org/office-code-pro
+[submodule "pkgbuild/bpytop"]
+	path = pkgbuild/bpytop
+	url = https://aur.archlinux.org/bpytop
+[submodule "pkgbuild/otf-openmoji"]
+	path = pkgbuild/otf-openmoji
+	url = https://aur.archlinux.org/otf-openmoji
+[submodule "pkgbuild/adguardhome"]
+	path = pkgbuild/adguardhome
+	url = https://aur.archlinux.org/adguardhome
+[submodule "pkgbuild/noisetorch-git"]
+	path = pkgbuild/noisetorch-git
+	url = https://aur.archlinux.org/noisetorch-git
+[submodule "pkgbuild/ttf-monoid-git"]
+	path = pkgbuild/ttf-monoid-git
+	url = https://aur.archlinux.org/ttf-monoid-git
+[submodule "pkgbuild/akira"]
+	path = pkgbuild/akira
+	url = https://aur.archlinux.org/akira
+[submodule "pkgbuild/spleen-font"]
+	path = pkgbuild/spleen-font
+	url = https://aur.archlinux.org/spleen-font
+[submodule "pkgbuild/cointop"]
+	path = pkgbuild/cointop
+	url = https://aur.archlinux.org/cointop
+[submodule "pkgbuild/gonha"]
+	path = pkgbuild/gonha
+	url = https://aur.archlinux.org/gonha
