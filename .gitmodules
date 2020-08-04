@@ -1312,6 +1312,6 @@
 [submodule "pkgbuild/cointop"]
 	path = pkgbuild/cointop
 	url = https://aur.archlinux.org/cointop
-[submodule "pkgbuild/gonha"]
-	path = pkgbuild/gonha
-	url = https://aur.archlinux.org/gonha
+[submodule "pkgbuild/todour"]
+	path = pkgbuild/todour
+	url = https://aur.archlinux.org/todour
