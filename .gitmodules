@@ -1315,3 +1315,15 @@
 [submodule "pkgbuild/todour"]
 	path = pkgbuild/todour
 	url = https://aur.archlinux.org/todour
+[submodule "pkgbuild/tomatenquark"]
+	path = pkgbuild/tomatenquark
+	url = https://aur.archlinux.org/tomatenquark
+[submodule "pkgbuild/i3wsr"]
+	path = pkgbuild/i3wsr
+	url = https://aur.archlinux.org/i3wsr
+[submodule "pkgbuild/yaru-plus-git"]
+	path = pkgbuild/yaru-plus-git
+	url = https://aur.archlinux.org/yaru-plus-git
+[submodule "pkgbuild/uzbl"]
+	path = pkgbuild/uzbl
+	url = https://aur.archlinux.org/uzbl
