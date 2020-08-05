@@ -1327,6 +1327,18 @@
 [submodule "pkgbuild/youtube-music-appimage"]
 	path = pkgbuild/youtube-music-appimage
 	url = https://aur.archlinux.org/youtube-music-appimage
-[submodule "pkgbuild/deltachat-desktop-git"]
-	path = pkgbuild/deltachat-desktop-git
-	url = https://aur.archlinux.org/deltachat-desktop-git
+[submodule "pkgbuild/deltachat-desktop"]
+	path = pkgbuild/deltachat-desktop
+	url = https://aur.archlinux.org/deltachat-desktop
+[submodule "pkgbuild/boston-icon-theme"]
+	path = pkgbuild/boston-icon-theme
+	url = https://aur.archlinux.org/boston-icon-theme
+[submodule "pkgbuild/pop-icon-theme-bin"]
+	path = pkgbuild/pop-icon-theme-bin
+	url = https://aur.archlinux.org/pop-icon-theme-bin
+[submodule "pkgbuild/performance-tweaks"]
+	path = pkgbuild/performance-tweaks
+	url = https://aur.archlinux.org/performance-tweaks
+[submodule "pkgbuild/uzbl"]
+	path = pkgbuild/uzbl
+	url = https://aur.archlinux.org/uzbl
