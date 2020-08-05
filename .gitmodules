@@ -1324,6 +1324,6 @@
 [submodule "pkgbuild/yaru-plus-git"]
 	path = pkgbuild/yaru-plus-git
 	url = https://aur.archlinux.org/yaru-plus-git
-[submodule "pkgbuild/uzbl"]
-	path = pkgbuild/uzbl
-	url = https://aur.archlinux.org/uzbl
+[submodule "pkgbuild/youtube-music-appimage"]
+	path = pkgbuild/youtube-music-appimage
+	url = https://aur.archlinux.org/youtube-music-appimage
