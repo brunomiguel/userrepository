@@ -1327,3 +1327,6 @@
 [submodule "pkgbuild/youtube-music-appimage"]
 	path = pkgbuild/youtube-music-appimage
 	url = https://aur.archlinux.org/youtube-music-appimage
+[submodule "pkgbuild/deltachat-desktop-git"]
+	path = pkgbuild/deltachat-desktop-git
+	url = https://aur.archlinux.org/deltachat-desktop-git
