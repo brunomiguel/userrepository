@@ -1342,3 +1342,6 @@
 [submodule "pkgbuild/uzbl"]
 	path = pkgbuild/uzbl
 	url = https://aur.archlinux.org/uzbl
+[submodule "pkgbuild/vimtips"]
+	path = pkgbuild/vimtips
+	url = https://aur.archlinux.org/vimtips
