@@ -1345,3 +1345,30 @@
 [submodule "pkgbuild/vimtips"]
 	path = pkgbuild/vimtips
 	url = https://aur.archlinux.org/vimtips
+[submodule "pkgbuild/wttr"]
+	path = pkgbuild/wttr
+	url = https://aur.archlinux.org/wttr
+[submodule "pkgbuild/wego"]
+	path = pkgbuild/wego
+	url = https://aur.archlinux.org/wego
+[submodule "pkgbuild/smith"]
+	path = pkgbuild/smith
+	url = https://aur.archlinux.org/smith
+[submodule "pkgbuild/tijolo"]
+	path = pkgbuild/tijolo
+	url = https://aur.archlinux.org/tijolo
+[submodule "pkgbuild/plymouth"]
+	path = pkgbuild/plymouth
+	url = https://aur.archlinux.org/plymouth
+[submodule "pkgbuild/breeze-plymouth"]
+	path = pkgbuild/breeze-plymouth
+	url = https://aur.archlinux.org/breeze-plymouth
+[submodule "pkgbuild/plymouth-kcm"]
+	path = pkgbuild/plymouth-kcm
+	url = https://aur.archlinux.org/plymouth-kcm
+[submodule "pkgbuild/plymouth-theme-psx"]
+	path = pkgbuild/plymouth-theme-psx
+	url = https://aur.archlinux.org/plymouth-theme-psx
+[submodule "pkgbuild/plymouth-theme-minimal-dark-bgrt-git"]
+	path = pkgbuild/plymouth-theme-minimal-dark-bgrt-git
+	url = https://aur.archlinux.org/plymouth-theme-minimal-dark-bgrt-git
