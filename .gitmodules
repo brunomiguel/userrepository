@@ -1372,3 +1372,6 @@
 [submodule "pkgbuild/plymouth-theme-minimal-dark-bgrt-git"]
 	path = pkgbuild/plymouth-theme-minimal-dark-bgrt-git
 	url = https://aur.archlinux.org/plymouth-theme-minimal-dark-bgrt-git
+[submodule "pkgbuild/plymouth-themes-adi1090x-pack1-git"]
+	path = pkgbuild/plymouth-themes-adi1090x-pack1-git
+	url = https://aur.archlinux.org/plymouth-themes-adi1090x-pack1-git
