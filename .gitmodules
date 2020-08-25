@@ -1192,9 +1192,6 @@
 [submodule "pkgbuild/unappimage-git"]
 	path = pkgbuild/unappimage-git
 	url = https://aur.archlinux.org/unappimage-git
-[submodule "pkgbuild/mullvad-vpn"]
-	path = pkgbuild/mullvad-vpn
-	url = https://aur.archlinux.org/mullvad-vpn
 [submodule "pkgbuild/downzemall"]
 	path = pkgbuild/downzemall
 	url = https://aur.archlinux.org/downzemall
@@ -1375,3 +1372,12 @@
 [submodule "pkgbuild/joplin-appimage"]
 	path = pkgbuild/joplin-appimage
 	url = https://aur.archlinux.org/joplin-appimage
+[submodule "pkgbuild/fet.sh-git"]
+	path = pkgbuild/fet.sh-git
+	url = https://aur.archlinux.org/fet.sh-git
+[submodule "pkgbuild/wikiman"]
+	path = pkgbuild/wikiman
+	url = https://aur.archlinux.org/wikiman
+[submodule "pkgbuild/youtube-viewer-git"]
+	path = pkgbuild/youtube-viewer-git
+	url = https://aur.archlinux.org/youtube-viewer-git
