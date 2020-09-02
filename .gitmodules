@@ -1387,3 +1387,6 @@
 [submodule "pkgbuild/gfold"]
 	path = pkgbuild/gfold
 	url = https://aur.archlinux.org/gfold
+[submodule "pkgbuild/little-brother"]
+	path = pkgbuild/little-brother
+	url = https://aur.archlinux.org/little-brother
