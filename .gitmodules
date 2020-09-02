@@ -1384,3 +1384,6 @@
 [submodule "pkgbuild/crazydiskmark"]
 	path = pkgbuild/crazydiskmark
 	url = https://aur.archlinux.org/crazydiskmark
+[submodule "pkgbuild/gfold"]
+	path = pkgbuild/gfold
+	url = https://aur.archlinux.org/gfold
