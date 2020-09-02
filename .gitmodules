@@ -1381,3 +1381,6 @@
 [submodule "pkgbuild/youtube-viewer-git"]
 	path = pkgbuild/youtube-viewer-git
 	url = https://aur.archlinux.org/youtube-viewer-git
+[submodule "pkgbuild/crazydiskmark"]
+	path = pkgbuild/crazydiskmark
+	url = https://aur.archlinux.org/crazydiskmark
