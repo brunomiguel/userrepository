@@ -189,7 +189,7 @@
 	url = https://aur.archlinux.org/i3-plasma.git
 [submodule "pkgbuild/i3-volume"]
 	path = pkgbuild/i3-volume
-	url = https://aur.archlinux.org/i3-volume.git
+	url = https://aur.archlinux.org/i3-volume
 [submodule "pkgbuild/icecat-bin"]
 	path = pkgbuild/icecat-bin
 	url = https://aur.archlinux.org/icecat-bin.git
@@ -1390,3 +1390,6 @@
 [submodule "pkgbuild/little-brother"]
 	path = pkgbuild/little-brother
 	url = https://aur.archlinux.org/little-brother
+[submodule "pkgbuild/freshfetch-git"]
+	path = pkgbuild/freshfetch-git
+	url = https://aur.archlinux.org/freshfetch-git
