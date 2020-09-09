@@ -1048,12 +1048,6 @@
 [submodule "pkgbuild/dwm-distrotube-git"]
 	path = pkgbuild/dwm-distrotube-git
 	url = https://aur.archlinux.org/dwm-distrotube-git
-[submodule "pkgbuild/picom-tryone-git"]
-	path = pkgbuild/picom-tryone-git
-	url = https://aur.archlinux.org/picom-tryone-git
-[submodule "pkgbuild/picom-ibhagwan-git"]
-	path = pkgbuild/picom-ibhagwan-git
-	url = https://aur.archlinux.org/picom-ibhagwan-git
 [submodule "pkgbuild/notorious-git"]
 	path = pkgbuild/notorious-git
 	url = https://aur.archlinux.org/notorious-git
