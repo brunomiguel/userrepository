@@ -184,9 +184,6 @@
 [submodule "pkgbuild/i3-gaps-rounded-git"]
 	path = pkgbuild/i3-gaps-rounded-git
 	url = https://aur.archlinux.org/i3-gaps-rounded-git.git
-[submodule "pkgbuild/i3-plasma"]
-	path = pkgbuild/i3-plasma
-	url = https://aur.archlinux.org/i3-plasma.git
 [submodule "pkgbuild/i3-volume"]
 	path = pkgbuild/i3-volume
 	url = https://aur.archlinux.org/i3-volume
@@ -250,9 +247,6 @@
 [submodule "pkgbuild/notementum"]
 	path = pkgbuild/notementum
 	url = https://aur.archlinux.org/notementum.git
-[submodule "pkgbuild/notes-up"]
-	path = pkgbuild/notes-up
-	url = https://aur.archlinux.org/notes-up.git
 [submodule "pkgbuild/nx-gtk-themes-git"]
 	path = pkgbuild/nx-gtk-themes-git
 	url = https://aur.archlinux.org/nx-gtk-themes-git.git
@@ -349,9 +343,6 @@
 [submodule "pkgbuild/sirikali"]
 	path = pkgbuild/sirikali
 	url = https://aur.archlinux.org/sirikali.git
-[submodule "pkgbuild/slashtime"]
-	path = pkgbuild/slashtime
-	url = https://aur.archlinux.org/slashtime.git
 [submodule "pkgbuild/spicetify-cli"]
 	path = pkgbuild/spicetify-cli
 	url = https://aur.archlinux.org/spicetify-cli.git
@@ -427,9 +418,6 @@
 [submodule "pkgbuild/ttf-roboto-mono"]
 	path = pkgbuild/ttf-roboto-mono
 	url = https://aur.archlinux.org/ttf-roboto-mono.git
-[submodule "pkgbuild/typecatcher"]
-	path = pkgbuild/typecatcher
-	url = https://aur.archlinux.org/typecatcher.git
 [submodule "pkgbuild/typora"]
 	path = pkgbuild/typora
 	url = https://aur.archlinux.org/typora.git
@@ -481,9 +469,6 @@
 [submodule "pkgbuild/pdfchain"]
 	path = pkgbuild/pdfchain
 	url = https://aur.archlinux.org/pdfchain
-[submodule "pkgbuild/pakku"]
-	path = pkgbuild/pakku
-	url = https://aur.archlinux.org/pakku
 [submodule "pkgbuild/pfetch-git"]
 	path = pkgbuild/pfetch-git
 	url = https://aur.archlinux.org/pfetch-git
@@ -556,9 +541,6 @@
 [submodule "pkgbuild/standardnotes-desktop"]
 	path = pkgbuild/standardnotes-desktop
 	url = https://aur.archlinux.org/standardnotes-desktop
-[submodule "pkgbuild/picom-git"]
-	path = pkgbuild/picom-git
-	url = https://aur.archlinux.org/picom-git
 [submodule "pkgbuild/torbrowser-launcher-git"]
 	path = pkgbuild/torbrowser-launcher-git
 	url = https://aur.archlinux.org/torbrowser-launcher-git
@@ -916,9 +898,6 @@
 [submodule "pkgbuild/wob"]
 	path = pkgbuild/wob
 	url = https://aur.archlinux.org/wob
-[submodule "pkgbuild/cpod"]
-	path = pkgbuild/cpod
-	url = https://aur.archlinux.org/cpod
 [submodule "pkgbuild/slack-desktop"]
 	path = pkgbuild/slack-desktop
 	url = https://aur.archlinux.org/slack-desktop
