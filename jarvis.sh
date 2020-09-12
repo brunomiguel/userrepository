@@ -50,13 +50,14 @@ build() {
             
             # start timing the time it takes to create the package
             res1=$(date +%s.%N)
+            rm -rfv $HOME/userrepository/cache/$f/src
 
             if [ -f "PKGBUILD" ]; then
                 echo "Found PKGBUILD for $f. Building..."
                 # clean build force overwrite
                 PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
                 pikaur -Sccc --noconfirm
-                rm -rfv "$HOME/userrepository/cache/$f/src"
+                # rm -rfv "$HOME/userrepository/cache/$f/src"
                 
                 #if [ $? -ne 0 ]; then
                 #    echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
