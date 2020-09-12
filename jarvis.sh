@@ -56,7 +56,7 @@ build() {
                 # clean build force overwrite
                 PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
                 pikaur -Sccc --noconfirm
-                rm -rfv "$BUILDDIR/$f/src"
+                rm -rfv "$HOME/userrepository/cache/$f/src"
                 
                 #if [ $? -ne 0 ]; then
                 #    echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
