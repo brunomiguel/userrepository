@@ -57,8 +57,10 @@ build() {
                 echo "Found PKGBUILD for $f. Building..."
                 # clean build force overwrite
                 PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
+
+                # clean cached files
                 pikaur -Sccc --noconfirm
-                rm -rfv "$HOME/userrepository/cache/$f/{src,.git}"
+                rm -rfv $HOME/userrepository/cache/$f/{src,.git} $HOME/userrepository/cache/src
                 
                 #if [ $? -ne 0 ]; then
                 #    echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
