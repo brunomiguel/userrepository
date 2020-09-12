@@ -700,9 +700,6 @@
 [submodule "pkgbuild/lollypop-stable-git"]
 	path = pkgbuild/lollypop-stable-git
 	url = https://aur.archlinux.org/lollypop-stable-git
-[submodule "pkgbuild/onivim2-git"]
-	path = pkgbuild/onivim2-git
-	url = https://aur.archlinux.org/onivim2-git
 [submodule "pkgbuild/passbook-stable-git"]
 	path = pkgbuild/passbook-stable-git
 	url = https://aur.archlinux.org/passbook-stable-git

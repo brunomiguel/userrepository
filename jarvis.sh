@@ -26,12 +26,16 @@ build() {
         touch "$DIR/captains.log"
     fi
     
-    pushd "$DIR/pkgbuild" || exit
+    #pushd "$DIR/pkgbuild" || exit
+    cd "$DIR/pkgbuild" || exit
     
     for f in *; do
         if [ -d "$f" ]; then
             echo -e "\n\e[1;33mUpdating $f...\e[0m"
-            pushd "$f" > ../noise.log 2>&1 || exit
+            #pushd "$f" > ../noise.log 2>&1 || exit
+            
+            cd "$f" > ../noise.log 2>&1 || exit
+
             git clean -x -d -f -q > ../noise.log 2>&1;
             git stash --quiet > ../noise.log 2>&1;
             # rebase
@@ -51,9 +55,12 @@ build() {
                 echo "Found PKGBUILD for $f. Building..."
                 # clean build force overwrite
                 PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
-                if [ $? -ne 0 ]; then
-                    echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
-                fi
+                pikaur -Sccc --noconfirm
+                rm -rfv "$BUILDDIR/$f/src"
+                
+                #if [ $? -ne 0 ]; then
+                #    echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
+                #fi
 			else
 				echo -e "PKGBUILD not found\n"
             fi
@@ -70,10 +77,11 @@ build() {
             ds=$(echo "$dt3-60*$dm" | bc)
             LC_NUMERIC=C printf "Total runtime: %02d:%02d:%02.4f\n" $dh $dm $ds >> makepkg.log
 
-            popd > /dev/null 2>&1 || exit
+            #popd > /dev/null 2>&1 || exit
+            cd .. 2>&1 || exit
         fi
     done
-    popd || exit
+    #popd || exit
     
 }
 
