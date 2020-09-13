@@ -1369,3 +1369,15 @@
 [submodule "pkgbuild/picom-ibhagwan-git"]
 	path = pkgbuild/picom-ibhagwan-git
 	url = https://aur.archlinux.org/picom-ibhagwan-git
+[submodule "pkgbuild/cozette-ttf"]
+	path = pkgbuild/cozette-ttf
+	url = https://aur.archlinux.org/cozette-ttf
+[submodule "pkgbuild/hascard"]
+	path = pkgbuild/hascard
+	url = https://aur.archlinux.org/hascard
+[submodule "pkgbuild/kahlo"]
+	path = pkgbuild/kahlo
+	url = https://aur.archlinux.org/kahlo
+[submodule "pkgbuild/ttf-juliamono"]
+	path = pkgbuild/ttf-juliamono
+	url = https://aur.archlinux.org/ttf-juliamono
