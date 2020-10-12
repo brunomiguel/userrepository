@@ -193,9 +193,6 @@
 [submodule "pkgbuild/ipman"]
 	path = pkgbuild/ipman
 	url = https://aur.archlinux.org/ipman.git
-[submodule "pkgbuild/jre"]
-	path = pkgbuild/jre
-	url = https://aur.archlinux.org/jre.git
 [submodule "pkgbuild/kindd-git"]
 	path = pkgbuild/kindd-git
 	url = https://aur.archlinux.org/kindd-git.git
