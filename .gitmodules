@@ -343,9 +343,6 @@
 [submodule "pkgbuild/spicetify-cli"]
 	path = pkgbuild/spicetify-cli
 	url = https://aur.archlinux.org/spicetify-cli.git
-[submodule "pkgbuild/spotify"]
-	path = pkgbuild/spotify
-	url = https://aur.archlinux.org/spotify.git
 [submodule "pkgbuild/sshrc"]
 	path = pkgbuild/sshrc
 	url = https://aur.archlinux.org/sshrc.git
@@ -922,9 +919,6 @@
 [submodule "pkgbuild/peazip-qt"]
 	path = pkgbuild/peazip-qt
 	url = https://aur.archlinux.org/peazip-qt
-[submodule "pkgbuild/pinta"]
-	path = pkgbuild/pinta
-	url = https://aur.archlinux.org/pinta
 [submodule "pkgbuild/linux-wifi-hotspot"]
 	path = pkgbuild/linux-wifi-hotspot
 	url = https://aur.archlinux.org/linux-wifi-hotspot
