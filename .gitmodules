@@ -556,9 +556,6 @@
 [submodule "pkgbuild/badwolf"]
 	path = pkgbuild/badwolf
 	url = https://aur.archlinux.org/badwolf
-[submodule "pkgbuild/chromium-widevine"]
-	path = pkgbuild/chromium-widevine
-	url = https://aur.archlinux.org/chromium-widevine
 [submodule "pkgbuild/silos"]
 	path = pkgbuild/silos
 	url = https://aur.archlinux.org/silos
