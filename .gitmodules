@@ -67,9 +67,6 @@
 [submodule "pkgbuild/cava"]
 	path = pkgbuild/cava
 	url = https://aur.archlinux.org/cava.git
-[submodule "pkgbuild/cawbird"]
-	path = pkgbuild/cawbird
-	url = https://aur.archlinux.org/cawbird.git
 [submodule "pkgbuild/chezmoi"]
 	path = pkgbuild/chezmoi
 	url = https://aur.archlinux.org/chezmoi.git
@@ -775,9 +772,6 @@
 [submodule "pkgbuild/fotoxx"]
 	path = pkgbuild/fotoxx
 	url = https://aur.archlinux.org/fotoxx
-[submodule "pkgbuild/mailspring-new"]
-	path = pkgbuild/mailspring-new
-	url = https://aur.archlinux.org/mailspring-new
 [submodule "pkgbuild/tixati"]
 	path = pkgbuild/tixati
 	url = https://aur.archlinux.org/tixati
