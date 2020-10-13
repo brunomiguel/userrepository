@@ -4,9 +4,6 @@
 [submodule "pkgbuild/acestream-launcher"]
 	path = pkgbuild/acestream-launcher
 	url = https://aur.archlinux.org/acestream-launcher.git
-[submodule "pkgbuild/adom-noteye"]
-	path = pkgbuild/adom-noteye
-	url = https://aur.archlinux.org/adom-noteye.git
 [submodule "pkgbuild/adwaita-qt"]
 	path = pkgbuild/adwaita-qt
 	url = https://aur.archlinux.org/adwaita-qt.git
