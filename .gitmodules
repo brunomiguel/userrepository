@@ -175,9 +175,6 @@
 [submodule "pkgbuild/guiscrcpy"]
 	path = pkgbuild/guiscrcpy
 	url = https://aur.archlinux.org/guiscrcpy.git
-[submodule "pkgbuild/handbrake-fdkaac-git"]
-	path = pkgbuild/handbrake-fdkaac-git
-	url = https://aur.archlinux.org/handbrake-fdkaac-git.git
 [submodule "pkgbuild/i3-gaps-rounded-git"]
 	path = pkgbuild/i3-gaps-rounded-git
 	url = https://aur.archlinux.org/i3-gaps-rounded-git.git
@@ -541,9 +538,6 @@
 [submodule "pkgbuild/bim"]
 	path = pkgbuild/bim
 	url = https://aur.archlinux.org/bim
-[submodule "pkgbuild/imagine-git"]
-	path = pkgbuild/imagine-git
-	url = https://aur.archlinux.org/imagine-git
 [submodule "pkgbuild/mini-diary-git"]
 	path = pkgbuild/mini-diary-git
 	url = https://aur.archlinux.org/mini-diary-git
@@ -775,9 +769,6 @@
 [submodule "pkgbuild/birch-git"]
 	path = pkgbuild/birch-git
 	url = https://aur.archlinux.org/birch-git
-[submodule "pkgbuild/gnome-camera-git"]
-	path = pkgbuild/gnome-camera-git
-	url = https://aur.archlinux.org/gnome-camera-git
 [submodule "pkgbuild/arc-gtk-theme-jnsh-git"]
 	path = pkgbuild/arc-gtk-theme-jnsh-git
 	url = https://aur.archlinux.org/arc-gtk-theme-jnsh-git
@@ -979,9 +970,6 @@
 [submodule "pkgbuild/libsodium-static"]
 	path = pkgbuild/libsodium-static
 	url = https://aur.archlinux.org/libsodium-static
-[submodule "pkgbuild/gst-plugins-rs"]
-	path = pkgbuild/gst-plugins-rs
-	url = https://aur.archlinux.org/gst-plugins-rs
 [submodule "pkgbuild/lightzone"]
 	path = pkgbuild/lightzone
 	url = https://aur.archlinux.org/lightzone
