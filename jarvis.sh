@@ -136,6 +136,10 @@ deploy() {
 
 sync() {
     rsync --copy-links --delete -avr "$DIR/repository/" "$REMOTE"
+	# Jarvis needs to clean itself better after syncing the packages to $REMOTE
+	# this allows it to avoid running out of disk space after a several runs
+    rm -rfv $DIR/repository/*
+    rm -rfv $DIR/cache/*
 }
 
 add() {
@@ -158,7 +162,7 @@ delete() {
 while getopts "ad:rbh:" arg; do
     case $arg in
         a) shift $(( OPTIND - 1 )); for pkg in "$@"; do add; done ;;
-        b) pikaur -Syyuv; build; deploy; sync; rm noise.log; grep -rnw 'pkgbuild/' -e 'Total runtime'; exit 0 ;;
+        b) pikaur -Syyuv; build; deploy; sync; grep -rnw 'pkgbuild/' -e 'Total runtime'; exit 0 ;;
         r) pikaur -Syyuv; refresh ;;
         d) delete ;;
         h) usage ;;
