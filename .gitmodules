@@ -1363,3 +1363,6 @@
 [submodule "pkgbuild/cpu-x"]
 	path = pkgbuild/cpu-x
 	url = https://aur.archlinux.org/cpu-x
+[submodule "pkgbuild/exiftool"]
+	path = pkgbuild/exiftool
+	url = https://aur.archlinux.org/exiftool
