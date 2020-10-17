@@ -1375,3 +1375,6 @@
 [submodule "pkgbuild/sengi-appimage"]
 	path = pkgbuild/sengi-appimage
 	url = https://aur.archlinux.org/sengi-appimage
+[submodule "pkgbuild/shortwave-git"]
+	path = pkgbuild/shortwave-git
+	url = https://aur.archlinux.org/shortwave-git
