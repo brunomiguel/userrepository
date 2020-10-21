@@ -1180,9 +1180,6 @@
 [submodule "pkgbuild/noaftodo-git"]
 	path = pkgbuild/noaftodo-git
 	url = https://aur.archlinux.org/noaftodo-git
-[submodule "pkgbuild/shortwave"]
-	path = pkgbuild/shortwave
-	url = https://aur.archlinux.org/shortwave
 [submodule "pkgbuild/newsflash-git"]
 	path = pkgbuild/newsflash-git
 	url = https://aur.archlinux.org/newsflash-git
@@ -1378,3 +1375,15 @@
 [submodule "pkgbuild/shortwave-git"]
 	path = pkgbuild/shortwave-git
 	url = https://aur.archlinux.org/shortwave-git
+[submodule "pkgbuild/shortwave"]
+	path = pkgbuild/shortwave
+	url = https://aur.archlinux.org/shortwave
+[submodule "pkgbuild/qspeakers"]
+	path = pkgbuild/qspeakers
+	url = https://aur.archlinux.org/qspeakers
+[submodule "pkgbuild/blightmud"]
+	path = pkgbuild/blightmud
+	url = https://aur.archlinux.org/blightmud
+[submodule "pkgbuild/boop-gtk-bin"]
+	path = pkgbuild/boop-gtk-bin
+	url = https://aur.archlinux.org/boop-gtk-bin
