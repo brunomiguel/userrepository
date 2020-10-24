@@ -1387,3 +1387,9 @@
 [submodule "pkgbuild/boop-gtk-bin"]
 	path = pkgbuild/boop-gtk-bin
 	url = https://aur.archlinux.org/boop-gtk-bin
+[submodule "pkgbuild/memavaild-git"]
+	path = pkgbuild/memavaild-git
+	url = https://aur.archlinux.org/memavaild-git
+[submodule "pkgbuild/nb"]
+	path = pkgbuild/nb
+	url = https://aur.archlinux.org/nb
