@@ -1390,3 +1390,6 @@
 [submodule "pkgbuild/alpine"]
 	path = pkgbuild/alpine
 	url = https://aur.archlinux.org/alpine
+[submodule "pkgbuild/kicad-nightly"]
+	path = pkgbuild/kicad-nightly
+	url = https://aur.archlinux.org/kicad-nightly
