@@ -1387,3 +1387,6 @@
 [submodule "pkgbuild/nb"]
 	path = pkgbuild/nb
 	url = https://aur.archlinux.org/nb
+[submodule "pkgbuild/alpine"]
+	path = pkgbuild/alpine
+	url = https://aur.archlinux.org/alpine
