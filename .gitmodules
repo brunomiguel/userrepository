@@ -946,12 +946,6 @@
 [submodule "pkgbuild/zram-generator-git"]
 	path = pkgbuild/zram-generator-git
 	url = https://aur.archlinux.org/zram-generator-git
-[submodule "pkgbuild/mynes"]
-	path = pkgbuild/mynes
-	url = https://aur.archlinux.org/mynes
-[submodule "pkgbuild/swapper"]
-	path = pkgbuild/swapper
-	url = https://aur.archlinux.org/swapper
 [submodule "pkgbuild/recapp-git"]
 	path = pkgbuild/recapp-git
 	url = https://aur.archlinux.org/recapp-git
