@@ -1390,3 +1390,6 @@
 [submodule "pkgbuild/kicad-nightly"]
 	path = pkgbuild/kicad-nightly
 	url = https://aur.archlinux.org/kicad-nightly
+[submodule "pkgbuild/jurism"]
+	path = pkgbuild/jurism
+	url = https://aur.archlinux.org/jurism
