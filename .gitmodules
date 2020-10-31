@@ -1396,6 +1396,3 @@
 [submodule "pkgbuild/giara-git"]
 	path = pkgbuild/giara-git
 	url = https://aur.archlinux.org/giara-git
-[submodule "pkgbuild/freetube"]
-	path = pkgbuild/freetube
-	url = https://aur.archlinux.org/freetube
