@@ -1396,3 +1396,33 @@
 [submodule "pkgbuild/giara-git"]
 	path = pkgbuild/giara-git
 	url = https://aur.archlinux.org/giara-git
+[submodule "pkgbuild/straw-viewer-git"]
+	path = pkgbuild/straw-viewer-git
+	url = https://aur.archlinux.org/straw-viewer-git
+[submodule "pkgbuild/tuner-git"]
+	path = pkgbuild/tuner-git
+	url = https://aur.archlinux.org/tuner-git
+[submodule "pkgbuild/bit"]
+	path = pkgbuild/bit
+	url = https://aur.archlinux.org/bit
+[submodule "pkgbuild/mps-youtube-git"]
+	path = pkgbuild/mps-youtube-git
+	url = https://aur.archlinux.org/mps-youtube-git
+[submodule "pkgbuild/dimport"]
+	path = pkgbuild/dimport
+	url = https://aur.archlinux.org/dimport
+[submodule "pkgbuild/qmarkdown-git"]
+	path = pkgbuild/qmarkdown-git
+	url = https://aur.archlinux.org/qmarkdown-git
+[submodule "pkgbuild/aurutils"]
+	path = pkgbuild/aurutils
+	url = https://aur.archlinux.org/aurutils
+[submodule "pkgbuild/qt-logout"]
+	path = pkgbuild/qt-logout
+	url = https://aur.archlinux.org/qt-logout
+[submodule "pkgbuild/ttf-economica"]
+	path = pkgbuild/ttf-economica
+	url = https://aur.archlinux.org/ttf-economica
+[submodule "pkgbuild/ttf-abel-regular"]
+	path = pkgbuild/ttf-abel-regular
+	url = https://aur.archlinux.org/ttf-abel-regular
