@@ -1426,3 +1426,15 @@
 [submodule "pkgbuild/ttf-abel-regular"]
 	path = pkgbuild/ttf-abel-regular
 	url = https://aur.archlinux.org/ttf-abel-regular
+[submodule "pkgbuild/growlight"]
+	path = pkgbuild/growlight
+	url = https://aur.archlinux.org/growlight
+[submodule "pkgbuild/lyriek"]
+	path = pkgbuild/lyriek
+	url = https://aur.archlinux.org/lyriek
+[submodule "pkgbuild/palette"]
+	path = pkgbuild/palette
+	url = https://aur.archlinux.org/palette
+[submodule "pkgbuild/contrast-git"]
+	path = pkgbuild/contrast-git
+	url = https://aur.archlinux.org/contrast-git
