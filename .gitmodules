@@ -559,12 +559,6 @@
 [submodule "pkgbuild/xdg-launch"]
 	path = pkgbuild/xdg-launch
 	url = https://aur.archlinux.org/xdg-launch
-[submodule "pkgbuild/xde-menu"]
-	path = pkgbuild/xde-menu
-	url = https://aur.archlinux.org/xde-menu
-[submodule "pkgbuild/xde-ctools"]
-	path = pkgbuild/xde-ctools
-	url = https://aur.archlinux.org/xde-ctools
 [submodule "pkgbuild/python2-pydbus"]
 	path = pkgbuild/python2-pydbus
 	url = https://aur.archlinux.org/python2-pydbus
@@ -1438,3 +1432,18 @@
 [submodule "pkgbuild/contrast-git"]
 	path = pkgbuild/contrast-git
 	url = https://aur.archlinux.org/contrast-git
+[submodule "pkgbuild/nvpy-git"]
+	path = pkgbuild/nvpy-git
+	url = https://aur.archlinux.org/nvpy-git
+[submodule "pkgbuild/onefetch"]
+	path = pkgbuild/onefetch
+	url = https://aur.archlinux.org/onefetch
+[submodule "pkgbuild/license"]
+	path = pkgbuild/license
+	url = https://aur.archlinux.org/license
+[submodule "pkgbuild/mdview"]
+	path = pkgbuild/mdview
+	url = https://aur.archlinux.org/mdview
+[submodule "pkgbuild/btdu"]
+	path = pkgbuild/btdu
+	url = https://aur.archlinux.org/btdu
