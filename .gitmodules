@@ -1447,3 +1447,18 @@
 [submodule "pkgbuild/btdu"]
 	path = pkgbuild/btdu
 	url = https://aur.archlinux.org/btdu
+[submodule "pkgbuild/vopono-git"]
+	path = pkgbuild/vopono-git
+	url = https://aur.archlinux.org/vopono-git
+[submodule "pkgbuild/zchunk"]
+	path = pkgbuild/zchunk
+	url = https://aur.archlinux.org/zchunk
+[submodule "pkgbuild/cine-encoder"]
+	path = pkgbuild/cine-encoder
+	url = https://aur.archlinux.org/cine-encoder
+[submodule "pkgbuild/python-magic-ahupp"]
+	path = pkgbuild/python-magic-ahupp
+	url = https://aur.archlinux.org/python-magic-ahupp
+[submodule "pkgbuild/paru-bin"]
+	path = pkgbuild/paru-bin
+	url = https://aur.archlinux.org/paru-bin
