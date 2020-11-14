@@ -60,7 +60,7 @@ build() {
 
                 # clean cached files
                 pikaur -Sccc --noconfirm
-                rm -rfv $HOME/userrepository/cache/$f/{src,.git} $HOME/userrepository/cache/src
+                rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src
                 
                 #if [ $? -ne 0 ]; then
                 #    echo -e "\n!!! ERROR !!! in $f\n" > "$DIR/captains.log"
@@ -79,7 +79,7 @@ build() {
             dt3=$(echo "$dt2-3600*$dh" | bc)
             dm=$(echo "$dt3/60" | bc)
             ds=$(echo "$dt3-60*$dm" | bc)
-            LC_NUMERIC=C printf "Total runtime: %02d:%02d:%02.4f\n" $dh $dm $ds >> makepkg.log
+            LC_NUMERIC=C printf "Total runtime: %02d:%02d:%02.4f\n" "$dh" "$dm" "$ds" >> makepkg.log
 
             #popd > /dev/null 2>&1 || exit
             cd .. 2>&1 || exit
@@ -138,8 +138,8 @@ sync() {
     rsync --copy-links --delete -avr "$DIR/repository/" "$REMOTE"
 	# Jarvis needs to clean itself better after syncing the packages to $REMOTE
 	# this allows it to avoid running out of disk space after a several runs
-    rm -rfv $DIR/repository/*
-    rm -rfv $DIR/cache/*
+    rm -rfv "$DIR"/repository/*
+    rm -rfv "$DIR"/cache/*
 }
 
 add() {

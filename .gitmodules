@@ -1462,3 +1462,42 @@
 [submodule "pkgbuild/paru-bin"]
 	path = pkgbuild/paru-bin
 	url = https://aur.archlinux.org/paru-bin
+[submodule "pkgbuild/densify"]
+	path = pkgbuild/densify
+	url = https://aur.archlinux.org/densify
+[submodule "pkgbuild/whatip"]
+	path = pkgbuild/whatip
+	url = https://aur.archlinux.org/whatip
+[submodule "pkgbuild/zsh-pure-prompt"]
+	path = pkgbuild/zsh-pure-prompt
+	url = https://aur.archlinux.org/zsh-pure-prompt
+[submodule "pkgbuild/faint-git"]
+	path = pkgbuild/faint-git
+	url = https://aur.archlinux.org/faint-git
+[submodule "pkgbuild/tab-rs"]
+	path = pkgbuild/tab-rs
+	url = https://aur.archlinux.org/tab-rs
+[submodule "pkgbuild/mtodo"]
+	path = pkgbuild/mtodo
+	url = https://aur.archlinux.org/mtodo
+[submodule "pkgbuild/organize"]
+	path = pkgbuild/organize
+	url = https://aur.archlinux.org/organize
+[submodule "pkgbuild/wayvnc"]
+	path = pkgbuild/wayvnc
+	url = https://aur.archlinux.org/wayvnc
+[submodule "pkgbuild/sicuit"]
+	path = pkgbuild/sicuit
+	url = https://aur.archlinux.org/sicuit
+[submodule "pkgbuild/ricochet"]
+	path = pkgbuild/ricochet
+	url = https://aur.archlinux.org/ricochet
+[submodule "pkgbuild/passman++"]
+	path = pkgbuild/passman++
+	url = https://aur.archlinux.org/passman++
+[submodule "pkgbuild/wtftw-git"]
+	path = pkgbuild/wtftw-git
+	url = https://aur.archlinux.org/wtftw-git
+[submodule "pkgbuild/gping"]
+	path = pkgbuild/gping
+	url = https://aur.archlinux.org/gping
