@@ -1501,3 +1501,9 @@
 [submodule "pkgbuild/gping"]
 	path = pkgbuild/gping
 	url = https://aur.archlinux.org/gping
+[submodule "pkgbuild/lightdm-cmd-greeter"]
+	path = pkgbuild/lightdm-cmd-greeter
+	url = https://aur.archlinux.org/lightdm-cmd-greeter
+[submodule "pkgbuild/picket"]
+	path = pkgbuild/picket
+	url = https://aur.archlinux.org/picket
