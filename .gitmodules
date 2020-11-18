@@ -1507,3 +1507,18 @@
 [submodule "pkgbuild/picket"]
 	path = pkgbuild/picket
 	url = https://aur.archlinux.org/picket
+[submodule "pkgbuild/conserve"]
+	path = pkgbuild/conserve
+	url = https://aur.archlinux.org/conserve
+[submodule "pkgbuild/lazpaint-bin"]
+	path = pkgbuild/lazpaint-bin
+	url = https://aur.archlinux.org/lazpaint-bin
+[submodule "pkgbuild/playx-git"]
+	path = pkgbuild/playx-git
+	url = https://aur.archlinux.org/playx-git
+[submodule "pkgbuild/flavours"]
+	path = pkgbuild/flavours
+	url = https://aur.archlinux.org/flavours
+[submodule "pkgbuild/qrit"]
+	path = pkgbuild/qrit
+	url = https://aur.archlinux.org/qrit
