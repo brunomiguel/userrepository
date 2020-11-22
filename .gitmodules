@@ -1522,3 +1522,12 @@
 [submodule "pkgbuild/qrit"]
 	path = pkgbuild/qrit
 	url = https://aur.archlinux.org/qrit
+[submodule "pkgbuild/python-youtube-search-git"]
+	path = pkgbuild/python-youtube-search-git
+	url = https://aur.archlinux.org/python-youtube-search-git
+[submodule "pkgbuild/komikku"]
+	path = pkgbuild/komikku
+	url = https://aur.archlinux.org/komikku
+[submodule "pkgbuild/solvespace-git"]
+	path = pkgbuild/solvespace-git
+	url = https://aur.archlinux.org/solvespace-git
