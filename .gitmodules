@@ -1528,6 +1528,12 @@
 [submodule "pkgbuild/komikku"]
 	path = pkgbuild/komikku
 	url = https://aur.archlinux.org/komikku
-[submodule "pkgbuild/solvespace-git"]
-	path = pkgbuild/solvespace-git
-	url = https://aur.archlinux.org/solvespace-git
+[submodule "pkgbuild/domination"]
+	path = pkgbuild/domination
+	url = https://aur.archlinux.org/domination
+[submodule "pkgbuild/freeplane"]
+	path = pkgbuild/freeplane
+	url = https://aur.archlinux.org/freeplane
+[submodule "pkgbuild/dog-dns"]
+	path = pkgbuild/dog-dns
+	url = https://aur.archlinux.org/dog-dns
