@@ -1537,3 +1537,6 @@
 [submodule "pkgbuild/dog-dns"]
 	path = pkgbuild/dog-dns
 	url = https://aur.archlinux.org/dog-dns
+[submodule "pkgbuild/menyoki-bin"]
+	path = pkgbuild/menyoki-bin
+	url = https://aur.archlinux.org/menyoki-bin
