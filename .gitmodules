@@ -1540,3 +1540,24 @@
 [submodule "pkgbuild/menyoki-bin"]
 	path = pkgbuild/menyoki-bin
 	url = https://aur.archlinux.org/menyoki-bin
+[submodule "pkgbuild/gitqlient"]
+	path = pkgbuild/gitqlient
+	url = https://aur.archlinux.org/gitqlient
+[submodule "pkgbuild/qlogger-git"]
+	path = pkgbuild/qlogger-git
+	url = https://aur.archlinux.org/qlogger-git
+[submodule "pkgbuild/anymeal"]
+	path = pkgbuild/anymeal
+	url = https://aur.archlinux.org/anymeal
+[submodule "pkgbuild/cozette-otb"]
+	path = pkgbuild/cozette-otb
+	url = https://aur.archlinux.org/cozette-otb
+[submodule "pkgbuild/goobook"]
+	path = pkgbuild/goobook
+	url = https://aur.archlinux.org/goobook
+[submodule "pkgbuild/console_sudoku"]
+	path = pkgbuild/console_sudoku
+	url = https://aur.archlinux.org/console_sudoku
+[submodule "pkgbuild/scrnsvr"]
+	path = pkgbuild/scrnsvr
+	url = https://aur.archlinux.org/scrnsvr
