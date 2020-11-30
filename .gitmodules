@@ -751,9 +751,6 @@
 [submodule "pkgbuild/systemd-ssh-agent"]
 	path = pkgbuild/systemd-ssh-agent
 	url = https://aur.archlinux.org/systemd-ssh-agent
-[submodule "pkgbuild/flast"]
-	path = pkgbuild/flast
-	url = https://aur.archlinux.org/flast
 [submodule "pkgbuild/birch-git"]
 	path = pkgbuild/birch-git
 	url = https://aur.archlinux.org/birch-git
