@@ -1549,12 +1549,21 @@
 [submodule "pkgbuild/cozette-otb"]
 	path = pkgbuild/cozette-otb
 	url = https://aur.archlinux.org/cozette-otb
-[submodule "pkgbuild/goobook"]
-	path = pkgbuild/goobook
-	url = https://aur.archlinux.org/goobook
 [submodule "pkgbuild/console_sudoku"]
 	path = pkgbuild/console_sudoku
 	url = https://aur.archlinux.org/console_sudoku
 [submodule "pkgbuild/scrnsvr"]
 	path = pkgbuild/scrnsvr
 	url = https://aur.archlinux.org/scrnsvr
+[submodule "pkgbuild/tuir"]
+	path = pkgbuild/tuir
+	url = https://aur.archlinux.org/tuir
+[submodule "pkgbuild/pikaur-git"]
+	path = pkgbuild/pikaur-git
+	url = https://aur.archlinux.org/pikaur-git
+[submodule "pkgbuild/vorta"]
+	path = pkgbuild/vorta
+	url = https://aur.archlinux.org/vorta
+[submodule "pkgbuild/lqsd"]
+	path = pkgbuild/lqsd
+	url = https://aur.archlinux.org/lqsd
