@@ -1564,3 +1564,15 @@
 [submodule "pkgbuild/lqsd"]
 	path = pkgbuild/lqsd
 	url = https://aur.archlinux.org/lqsd
+[submodule "pkgbuild/osticket"]
+	path = pkgbuild/osticket
+	url = https://aur.archlinux.org/osticket
+[submodule "pkgbuild/bottles-git"]
+	path = pkgbuild/bottles-git
+	url = https://aur.archlinux.org/bottles-git
+[submodule "pkgbuild/pacoloco-git"]
+	path = pkgbuild/pacoloco-git
+	url = https://aur.archlinux.org/pacoloco-git
+[submodule "pkgbuild/plus-jakarta-sans-font"]
+	path = pkgbuild/plus-jakarta-sans-font
+	url = https://aur.archlinux.org/plus-jakarta-sans-font
