@@ -1576,3 +1576,18 @@
 [submodule "pkgbuild/plus-jakarta-sans-font"]
 	path = pkgbuild/plus-jakarta-sans-font
 	url = https://aur.archlinux.org/plus-jakarta-sans-font
+[submodule "pkgbuild/gitleaks"]
+	path = pkgbuild/gitleaks
+	url = https://aur.archlinux.org/gitleaks
+[submodule "pkgbuild/dirsearch"]
+	path = pkgbuild/dirsearch
+	url = https://aur.archlinux.org/dirsearch
+[submodule "pkgbuild/nautilus-columns-git"]
+	path = pkgbuild/nautilus-columns-git
+	url = https://aur.archlinux.org/nautilus-columns-git
+[submodule "pkgbuild/pomo"]
+	path = pkgbuild/pomo
+	url = https://aur.archlinux.org/pomo
+[submodule "pkgbuild/trackma"]
+	path = pkgbuild/trackma
+	url = https://aur.archlinux.org/trackma
