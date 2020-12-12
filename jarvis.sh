@@ -162,7 +162,7 @@ delete() {
 while getopts "ad:rbh:" arg; do
     case $arg in
         a) shift $(( OPTIND - 1 )); for pkg in "$@"; do add; done ;;
-        b) pikaur -Syyuv; build; deploy; sync; grep -rnw 'pkgbuild/' -e 'Total runtime'; exit 0 ;;
+        b) pikaur -Syyuv; build; deploy; sync; sudo pacman -Rsc plasma gnome --noconfirm; grep -rnw 'pkgbuild/' -e 'Total runtime'; exit 0 ;;
         r) pikaur -Syyuv; refresh ;;
         d) delete ;;
         h) usage ;;
