@@ -1615,6 +1615,3 @@
 [submodule "pkgbuild/minimal-plasma"]
 	path = pkgbuild/minimal-plasma
 	url = https://github.com/brunomiguel/minimal-plasma
-[submodule "pkgbuild/base-bruno"]
-	path = pkgbuild/base-bruno
-	url = https://github.com/brunomiguel/base-bruno
