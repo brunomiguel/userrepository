@@ -1591,3 +1591,27 @@
 [submodule "pkgbuild/trackma"]
 	path = pkgbuild/trackma
 	url = https://aur.archlinux.org/trackma
+[submodule "pkgbuild/sardi-icons"]
+	path = pkgbuild/sardi-icons
+	url = https://aur.archlinux.org/sardi-icons
+[submodule "pkgbuild/protontricks"]
+	path = pkgbuild/protontricks
+	url = https://aur.archlinux.org/protontricks
+[submodule "pkgbuild/streampager"]
+	path = pkgbuild/streampager
+	url = https://aur.archlinux.org/streampager
+[submodule "pkgbuild/iicalc"]
+	path = pkgbuild/iicalc
+	url = https://aur.archlinux.org/iicalc
+[submodule "pkgbuild/miller"]
+	path = pkgbuild/miller
+	url = https://aur.archlinux.org/miller
+[submodule "pkgbuild/surf-git"]
+	path = pkgbuild/surf-git
+	url = https://aur.archlinux.org/surf-git
+[submodule "pkgbuild/minimal-gnome"]
+	path = pkgbuild/minimal-gnome
+	url = https://github.com/brunomiguel/minimal-gnome
+[submodule "pkgbuild/minimal-plasma"]
+	path = pkgbuild/minimal-plasma
+	url = https://github.com/brunomiguel/minimal-plasma
