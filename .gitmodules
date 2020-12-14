@@ -285,7 +285,7 @@
 	url = https://aur.archlinux.org/qomui.git
 [submodule "pkgbuild/qoob-git"]
 	path = pkgbuild/qoob-git
-	url = https://aur.archlinux.org/qoob-git.git
+	url = https://aur.archlinux.org/qoob-git
 [submodule "pkgbuild/qownnotes"]
 	path = pkgbuild/qownnotes
 	url = https://aur.archlinux.org/qownnotes.git
@@ -1615,3 +1615,18 @@
 [submodule "pkgbuild/minimal-plasma"]
 	path = pkgbuild/minimal-plasma
 	url = https://github.com/brunomiguel/minimal-plasma
+[submodule "pkgbuild/darkman"]
+	path = pkgbuild/darkman
+	url = https://aur.archlinux.org/darkman
+[submodule "pkgbuild/taffybar"]
+	path = pkgbuild/taffybar
+	url = https://aur.archlinux.org/taffybar
+[submodule "pkgbuild/imagewriter"]
+	path = pkgbuild/imagewriter
+	url = https://aur.archlinux.org/imagewriter
+[submodule "pkgbuild/gamma-text-editor"]
+	path = pkgbuild/gamma-text-editor
+	url = https://aur.archlinux.org/gamma-text-editor
+[submodule "pkgbuild/lavalauncher"]
+	path = pkgbuild/lavalauncher
+	url = https://aur.archlinux.org/lavalauncher
