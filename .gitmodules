@@ -1630,3 +1630,36 @@
 [submodule "pkgbuild/lavalauncher"]
 	path = pkgbuild/lavalauncher
 	url = https://aur.archlinux.org/lavalauncher
+[submodule "pkgbuild/python-txdbus"]
+	path = pkgbuild/python-txdbus
+	url = https://aur.archlinux.org/python-txdbus
+[submodule "pkgbuild/gspeech"]
+	path = pkgbuild/gspeech
+	url = https://aur.archlinux.org/gspeech
+[submodule "pkgbuild/greenflare"]
+	path = pkgbuild/greenflare
+	url = https://aur.archlinux.org/greenflare
+[submodule "pkgbuild/pacnews"]
+	path = pkgbuild/pacnews
+	url = https://aur.archlinux.org/pacnews
+[submodule "pkgbuild/gfold-bin"]
+	path = pkgbuild/gfold-bin
+	url = https://aur.archlinux.org/gfold-bin
+[submodule "pkgbuild/dotter-rs-bin"]
+	path = pkgbuild/dotter-rs-bin
+	url = https://aur.archlinux.org/dotter-rs-bin
+[submodule "pkgbuild/peepdf"]
+	path = pkgbuild/peepdf
+	url = https://aur.archlinux.org/peepdf
+[submodule "pkgbuild/bauerbill"]
+	path = pkgbuild/bauerbill
+	url = https://aur.archlinux.org/bauerbill
+[submodule "pkgbuild/pop-nord"]
+	path = pkgbuild/pop-nord
+	url = https://aur.archlinux.org/pop-nord
+[submodule "pkgbuild/reuse"]
+	path = pkgbuild/reuse
+	url = https://aur.archlinux.org/reuse
+[submodule "pkgbuild/mictray"]
+	path = pkgbuild/mictray
+	url = https://aur.archlinux.org/mictray
