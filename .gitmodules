@@ -1663,3 +1663,33 @@
 [submodule "pkgbuild/mictray"]
 	path = pkgbuild/mictray
 	url = https://aur.archlinux.org/mictray
+[submodule "pkgbuild/onhold"]
+	path = pkgbuild/onhold
+	url = https://aur.archlinux.org/onhold
+[submodule "pkgbuild/laminar"]
+	path = pkgbuild/laminar
+	url = https://aur.archlinux.org/laminar
+[submodule "pkgbuild/bottom"]
+	path = pkgbuild/bottom
+	url = https://aur.archlinux.org/bottom
+[submodule "pkgbuild/franz-bin"]
+	path = pkgbuild/franz-bin
+	url = https://aur.archlinux.org/franz-bin
+[submodule "pkgbuild/rambox-bin"]
+	path = pkgbuild/rambox-bin
+	url = https://aur.archlinux.org/rambox-bin
+[submodule "pkgbuild/pyradio-git"]
+	path = pkgbuild/pyradio-git
+	url = https://aur.archlinux.org/pyradio-git
+[submodule "pkgbuild/get_iplayer-git"]
+	path = pkgbuild/get_iplayer-git
+	url = https://aur.archlinux.org/get_iplayer-git
+[submodule "pkgbuild/rsmixer-git"]
+	path = pkgbuild/rsmixer-git
+	url = https://aur.archlinux.org/rsmixer-git
+[submodule "pkgbuild/metadata-cleaner"]
+	path = pkgbuild/metadata-cleaner
+	url = https://aur.archlinux.org/metadata-cleaner
+[submodule "pkgbuild/otf-manrope"]
+	path = pkgbuild/otf-manrope
+	url = https://aur.archlinux.org/otf-manrope
