@@ -1051,9 +1051,6 @@
 [submodule "pkgbuild/archwrt-ss.sh-git"]
 	path = pkgbuild/archwrt-ss.sh-git
 	url = https://aur.archlinux.org/archwrt-ss.sh-git
-[submodule "pkgbuild/google-chrome"]
-	path = pkgbuild/google-chrome
-	url = https://aur.archlinux.org/google-chrome
 [submodule "pkgbuild/plasma5-applets-betterinlineclock-git"]
 	path = pkgbuild/plasma5-applets-betterinlineclock-git
 	url = https://aur.archlinux.org/plasma5-applets-betterinlineclock-git
