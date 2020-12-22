@@ -487,9 +487,6 @@
 [submodule "pkgbuild/oxipng"]
 	path = pkgbuild/oxipng
 	url = https://aur.archlinux.org/oxipng
-[submodule "pkgbuild/imcompressor"]
-	path = pkgbuild/imcompressor
-	url = https://aur.archlinux.org/imcompressor
 [submodule "pkgbuild/imeditor"]
 	path = pkgbuild/imeditor
 	url = https://aur.archlinux.org/imeditor
