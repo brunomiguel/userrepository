@@ -1690,3 +1690,6 @@
 [submodule "pkgbuild/git-delta"]
 	path = pkgbuild/git-delta
 	url = https://aur.archlinux.org/git-delta
+[submodule "pkgbuild/butt"]
+	path = pkgbuild/butt
+	url = https://aur.archlinux.org/butt
