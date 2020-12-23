@@ -1693,3 +1693,12 @@
 [submodule "pkgbuild/butt"]
 	path = pkgbuild/butt
 	url = https://aur.archlinux.org/butt
+[submodule "pkgbuild/sile"]
+	path = pkgbuild/sile
+	url = https://aur.archlinux.org/sile
+[submodule "pkgbuild/leftwm"]
+	path = pkgbuild/leftwm
+	url = https://aur.archlinux.org/leftwm
+[submodule "pkgbuild/yambar"]
+	path = pkgbuild/yambar
+	url = https://aur.archlinux.org/yambar
