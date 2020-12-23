@@ -1687,3 +1687,6 @@
 [submodule "pkgbuild/otf-manrope"]
 	path = pkgbuild/otf-manrope
 	url = https://aur.archlinux.org/otf-manrope
+[submodule "pkgbuild/git-delta"]
+	path = pkgbuild/git-delta
+	url = https://aur.archlinux.org/git-delta
