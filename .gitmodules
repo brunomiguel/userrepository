@@ -1702,3 +1702,12 @@
 [submodule "pkgbuild/yambar"]
 	path = pkgbuild/yambar
 	url = https://aur.archlinux.org/yambar
+[submodule "pkgbuild/gitui-git"]
+	path = pkgbuild/gitui-git
+	url = https://aur.archlinux.org/gitui-git
+[submodule "pkgbuild/gdu"]
+	path = pkgbuild/gdu
+	url = https://aur.archlinux.org/gdu
+[submodule "pkgbuild/tauon-music-box"]
+	path = pkgbuild/tauon-music-box
+	url = https://aur.archlinux.org/tauon-music-box
