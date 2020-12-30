@@ -1711,3 +1711,6 @@
 [submodule "pkgbuild/tauon-music-box"]
 	path = pkgbuild/tauon-music-box
 	url = https://aur.archlinux.org/tauon-music-box
+[submodule "pkgbuild/minimal-xfce"]
+	path = pkgbuild/minimal-xfce
+	url = https://github.com/brunomiguel/minimal-xfce
