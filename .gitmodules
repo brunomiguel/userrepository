@@ -1714,3 +1714,24 @@
 [submodule "pkgbuild/minimal-xfce"]
 	path = pkgbuild/minimal-xfce
 	url = https://github.com/brunomiguel/minimal-xfce
+[submodule "pkgbuild/boostchanger-git"]
+	path = pkgbuild/boostchanger-git
+	url = https://aur.archlinux.org/boostchanger-git
+[submodule "pkgbuild/desktop-notify"]
+	path = pkgbuild/desktop-notify
+	url = https://aur.archlinux.org/desktop-notify
+[submodule "pkgbuild/kickoff"]
+	path = pkgbuild/kickoff
+	url = https://aur.archlinux.org/kickoff
+[submodule "pkgbuild/dte"]
+	path = pkgbuild/dte
+	url = https://aur.archlinux.org/dte
+[submodule "pkgbuild/fotokilof"]
+	path = pkgbuild/fotokilof
+	url = https://aur.archlinux.org/fotokilof
+[submodule "pkgbuild/terminalizer"]
+	path = pkgbuild/terminalizer
+	url = https://aur.archlinux.org/terminalizer
+[submodule "pkgbuild/cascadia-code-git"]
+	path = pkgbuild/cascadia-code-git
+	url = https://aur.archlinux.org/cascadia-code-git
