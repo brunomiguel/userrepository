@@ -1735,3 +1735,27 @@
 [submodule "pkgbuild/cascadia-code-git"]
 	path = pkgbuild/cascadia-code-git
 	url = https://aur.archlinux.org/cascadia-code-git
+[submodule "pkgbuild/soundux"]
+	path = pkgbuild/soundux
+	url = https://aur.archlinux.org/soundux
+[submodule "pkgbuild/suckit"]
+	path = pkgbuild/suckit
+	url = https://aur.archlinux.org/suckit
+[submodule "pkgbuild/pika-backup"]
+	path = pkgbuild/pika-backup
+	url = https://aur.archlinux.org/pika-backup
+[submodule "pkgbuild/kbd-tapper"]
+	path = pkgbuild/kbd-tapper
+	url = https://aur.archlinux.org/kbd-tapper
+[submodule "pkgbuild/1337"]
+	path = pkgbuild/1337
+	url = https://aur.archlinux.org/1337
+[submodule "pkgbuild/virt-backup"]
+	path = pkgbuild/virt-backup
+	url = https://aur.archlinux.org/virt-backup
+[submodule "pkgbuild/spotify-tui"]
+	path = pkgbuild/spotify-tui
+	url = https://aur.archlinux.org/spotify-tui
+[submodule "pkgbuild/nwg-launchers"]
+	path = pkgbuild/nwg-launchers
+	url = https://aur.archlinux.org/nwg-launchers
