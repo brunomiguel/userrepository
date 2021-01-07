@@ -514,9 +514,6 @@
 [submodule "pkgbuild/flightgear-data"]
 	path = pkgbuild/flightgear-data
 	url = https://aur.archlinux.org/flightgear-data
-[submodule "pkgbuild/standardnotes-desktop"]
-	path = pkgbuild/standardnotes-desktop
-	url = https://aur.archlinux.org/standardnotes-desktop
 [submodule "pkgbuild/torbrowser-launcher-git"]
 	path = pkgbuild/torbrowser-launcher-git
 	url = https://aur.archlinux.org/torbrowser-launcher-git
