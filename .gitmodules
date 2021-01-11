@@ -529,9 +529,6 @@
 [submodule "pkgbuild/qt-scrcpy"]
 	path = pkgbuild/qt-scrcpy
 	url = https://aur.archlinux.org/qt-scrcpy
-[submodule "pkgbuild/badwolf"]
-	path = pkgbuild/badwolf
-	url = https://aur.archlinux.org/badwolf
 [submodule "pkgbuild/silos"]
 	path = pkgbuild/silos
 	url = https://aur.archlinux.org/silos
