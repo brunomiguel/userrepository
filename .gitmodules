@@ -1018,9 +1018,6 @@
 [submodule "pkgbuild/tabbed"]
 	path = pkgbuild/tabbed
 	url = https://aur.archlinux.org/tabbed
-[submodule "pkgbuild/barva-git"]
-	path = pkgbuild/barva-git
-	url = https://aur.archlinux.org/barva-git
 [submodule "pkgbuild/vokoscreen-git"]
 	path = pkgbuild/vokoscreen-git
 	url = https://aur.archlinux.org/vokoscreen-git
