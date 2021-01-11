@@ -103,9 +103,6 @@
 [submodule "pkgbuild/drawio-desktop"]
 	path = pkgbuild/drawio-desktop
 	url = https://aur.archlinux.org/drawio-desktop.git
-[submodule "pkgbuild/elicit"]
-	path = pkgbuild/elicit
-	url = https://aur.archlinux.org/elicit.git
 [submodule "pkgbuild/endlessh"]
 	path = pkgbuild/endlessh
 	url = https://aur.archlinux.org/endlessh.git
