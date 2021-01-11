@@ -1741,3 +1741,6 @@
 [submodule "pkgbuild/standardnotes-bin"]
 	path = pkgbuild/standardnotes-bin
 	url = https://aur.archlinux.org/standardnotes-bin
+[submodule "pkgbuild/dooble"]
+	path = pkgbuild/dooble
+	url = https://aur.archlinux.org/dooble
