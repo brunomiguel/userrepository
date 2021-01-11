@@ -208,9 +208,6 @@
 [submodule "pkgbuild/mindi-converter-git"]
 	path = pkgbuild/mindi-converter-git
 	url = https://aur.archlinux.org/mindi-converter-git.git
-[submodule "pkgbuild/mirage"]
-	path = pkgbuild/mirage
-	url = https://aur.archlinux.org/mirage.git
 [submodule "pkgbuild/mpv-acestream"]
 	path = pkgbuild/mpv-acestream
 	url = https://aur.archlinux.org/mpv-acestream.git
