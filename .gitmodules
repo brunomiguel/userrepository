@@ -1732,3 +1732,12 @@
 [submodule "pkgbuild/standardnotes-bin"]
 	path = pkgbuild/standardnotes-bin
 	url = https://aur.archlinux.org/standardnotes-bin
+[submodule "pkgbuild/noto"]
+	path = pkgbuild/noto
+	url = https://aur.archlinux.org/noto
+[submodule "pkgbuild/smug"]
+	path = pkgbuild/smug
+	url = https://aur.archlinux.org/smug
+[submodule "pkgbuild/ytmdl"]
+	path = pkgbuild/ytmdl
+	url = https://aur.archlinux.org/ytmdl
