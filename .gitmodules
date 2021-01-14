@@ -1366,9 +1366,6 @@
 [submodule "pkgbuild/mps-youtube-git"]
 	path = pkgbuild/mps-youtube-git
 	url = https://aur.archlinux.org/mps-youtube-git
-[submodule "pkgbuild/dimport"]
-	path = pkgbuild/dimport
-	url = https://aur.archlinux.org/dimport
 [submodule "pkgbuild/qmarkdown-git"]
 	path = pkgbuild/qmarkdown-git
 	url = https://aur.archlinux.org/qmarkdown-git
