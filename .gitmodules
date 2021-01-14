@@ -1738,3 +1738,6 @@
 [submodule "pkgbuild/ytmdl"]
 	path = pkgbuild/ytmdl
 	url = https://aur.archlinux.org/ytmdl
+[submodule "pkgbuild/dimport"]
+	path = pkgbuild/dimport
+	url = https://aur.archlinux.org/dimport
