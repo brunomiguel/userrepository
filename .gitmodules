@@ -1741,3 +1741,9 @@
 [submodule "pkgbuild/cpupower-gui-git"]
 	path = pkgbuild/cpupower-gui-git
 	url = https://aur.archlinux.org/cpupower-gui-git
+[submodule "pkgbuild/panwriter"]
+	path = pkgbuild/panwriter
+	url = https://aur.archlinux.org/panwriter
+[submodule "pkgbuild/superproductivity-bin"]
+	path = pkgbuild/superproductivity-bin
+	url = https://aur.archlinux.org/superproductivity-bin
