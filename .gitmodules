@@ -1747,3 +1747,18 @@
 [submodule "pkgbuild/superproductivity-bin"]
 	path = pkgbuild/superproductivity-bin
 	url = https://aur.archlinux.org/superproductivity-bin
+[submodule "pkgbuild/zutty-git"]
+	path = pkgbuild/zutty-git
+	url = https://aur.archlinux.org/zutty-git
+[submodule "pkgbuild/openrgb"]
+	path = pkgbuild/openrgb
+	url = https://aur.archlinux.org/openrgb
+[submodule "pkgbuild/otf-code-new-roman"]
+	path = pkgbuild/otf-code-new-roman
+	url = https://aur.archlinux.org/otf-code-new-roman
+[submodule "pkgbuild/whatweb"]
+	path = pkgbuild/whatweb
+	url = https://aur.archlinux.org/whatweb
+[submodule "pkgbuild/speedread-git"]
+	path = pkgbuild/speedread-git
+	url = https://aur.archlinux.org/speedread-git
