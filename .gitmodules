@@ -850,9 +850,6 @@
 [submodule "pkgbuild/gimp-plugin-lqr"]
 	path = pkgbuild/gimp-plugin-lqr
 	url = https://aur.archlinux.org/gimp-plugin-lqr
-[submodule "pkgbuild/gimp-dbp"]
-	path = pkgbuild/gimp-dbp
-	url = https://aur.archlinux.org/gimp-dbp
 [submodule "pkgbuild/giti-git"]
 	path = pkgbuild/giti-git
 	url = https://aur.archlinux.org/giti-git
