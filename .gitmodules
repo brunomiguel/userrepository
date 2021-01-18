@@ -634,9 +634,6 @@
 [submodule "pkgbuild/dnsproxy-adguard"]
 	path = pkgbuild/dnsproxy-adguard
 	url = https://aur.archlinux.org/dnsproxy-adguard
-[submodule "pkgbuild/karma"]
-	path = pkgbuild/karma
-	url = https://aur.archlinux.org/karma
 [submodule "pkgbuild/gedit-plugin-markdown_preview-git"]
 	path = pkgbuild/gedit-plugin-markdown_preview-git
 	url = https://aur.archlinux.org/gedit-plugin-markdown_preview-git
