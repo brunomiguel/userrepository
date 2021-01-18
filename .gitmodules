@@ -1144,9 +1144,6 @@
 [submodule "pkgbuild/scrotpush"]
 	path = pkgbuild/scrotpush
 	url = https://aur.archlinux.org/scrotpush
-[submodule "pkgbuild/peafox"]
-	path = pkgbuild/peafox
-	url = https://aur.archlinux.org/peafox
 [submodule "pkgbuild/cowspeak"]
 	path = pkgbuild/cowspeak
 	url = https://aur.archlinux.org/cowspeak
