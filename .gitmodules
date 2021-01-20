@@ -306,7 +306,7 @@
 	url = https://aur.archlinux.org/rofimoji-git.git
 [submodule "pkgbuild/scaleway-cli"]
 	path = pkgbuild/scaleway-cli
-	url = https://aur.archlinux.org/scaleway-cli.git
+	url = https://aur.archlinux.org/scaleway-cli
 [submodule "pkgbuild/scat"]
 	path = pkgbuild/scat
 	url = https://aur.archlinux.org/scat.git
@@ -1750,3 +1750,15 @@
 [submodule "pkgbuild/speedread-git"]
 	path = pkgbuild/speedread-git
 	url = https://aur.archlinux.org/speedread-git
+[submodule "pkgbuild/haruna"]
+	path = pkgbuild/haruna
+	url = https://aur.archlinux.org/haruna
+[submodule "pkgbuild/plotinus"]
+	path = pkgbuild/plotinus
+	url = https://aur.archlinux.org/plotinus
+[submodule "pkgbuild/howdoi"]
+	path = pkgbuild/howdoi
+	url = https://aur.archlinux.org/howdoi
+[submodule "pkgbuild/sslyze"]
+	path = pkgbuild/sslyze
+	url = https://aur.archlinux.org/sslyze
