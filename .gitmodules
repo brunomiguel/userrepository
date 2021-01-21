@@ -1762,3 +1762,9 @@
 [submodule "pkgbuild/sslyze"]
 	path = pkgbuild/sslyze
 	url = https://aur.archlinux.org/sslyze
+[submodule "pkgbuild/flat-remix"]
+	path = pkgbuild/flat-remix
+	url = https://aur.archlinux.org/flat-remix
+[submodule "pkgbuild/pilgo"]
+	path = pkgbuild/pilgo
+	url = https://aur.archlinux.org/pilgo
