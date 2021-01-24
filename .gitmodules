@@ -1768,3 +1768,21 @@
 [submodule "pkgbuild/pilgo"]
 	path = pkgbuild/pilgo
 	url = https://aur.archlinux.org/pilgo
+[submodule "pkgbuild/ipscan"]
+	path = pkgbuild/ipscan
+	url = https://aur.archlinux.org/ipscan
+[submodule "pkgbuild/otoclone"]
+	path = pkgbuild/otoclone
+	url = https://aur.archlinux.org/otoclone
+[submodule "pkgbuild/sfwbar"]
+	path = pkgbuild/sfwbar
+	url = https://aur.archlinux.org/sfwbar
+[submodule "pkgbuild/mediad"]
+	path = pkgbuild/mediad
+	url = https://aur.archlinux.org/mediad
+[submodule "pkgbuild/novelwriter"]
+	path = pkgbuild/novelwriter
+	url = https://aur.archlinux.org/novelwriter
+[submodule "pkgbuild/aur-update"]
+	path = pkgbuild/aur-update
+	url = https://aur.archlinux.org/aur-update
