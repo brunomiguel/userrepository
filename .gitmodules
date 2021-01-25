@@ -1786,3 +1786,9 @@
 [submodule "pkgbuild/aur-update"]
 	path = pkgbuild/aur-update
 	url = https://aur.archlinux.org/aur-update
+[submodule "pkgbuild/keep"]
+	path = pkgbuild/keep
+	url = https://aur.archlinux.org/keep
+[submodule "pkgbuild/python-cachelib"]
+	path = pkgbuild/python-cachelib
+	url = https://aur.archlinux.org/python-cachelib
