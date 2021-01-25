@@ -1801,3 +1801,9 @@
 [submodule "pkgbuild/heroic-games-launcher-bin"]
 	path = pkgbuild/heroic-games-launcher-bin
 	url = https://aur.archlinux.org/heroic-games-launcher-bin
+[submodule "pkgbuild/lensfun-git"]
+	path = pkgbuild/lensfun-git
+	url = https://aur.archlinux.org/lensfun-git
+[submodule "pkgbuild/librtprocess"]
+	path = pkgbuild/librtprocess
+	url = https://aur.archlinux.org/librtprocess
