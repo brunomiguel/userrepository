@@ -1792,3 +1792,12 @@
 [submodule "pkgbuild/python-cachelib"]
 	path = pkgbuild/python-cachelib
 	url = https://aur.archlinux.org/python-cachelib
+[submodule "pkgbuild/filmulator"]
+	path = pkgbuild/filmulator
+	url = https://aur.archlinux.org/filmulator
+[submodule "pkgbuild/rooster"]
+	path = pkgbuild/rooster
+	url = https://aur.archlinux.org/rooster
+[submodule "pkgbuild/heroic-games-launcher-bin"]
+	path = pkgbuild/heroic-games-launcher-bin
+	url = https://aur.archlinux.org/heroic-games-launcher-bin
