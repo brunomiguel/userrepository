@@ -25,7 +25,10 @@ build() {
     if [ ! -f "$DIR/captains.log" ]; then
         touch "$DIR/captains.log"
     fi
-    
+
+	# fix for pikaur lock file in /tmp
+	sudo rm /tmp/pikaur_build_deps.lock
+	    
     #pushd "$DIR/pkgbuild" || exit
     cd "$DIR/pkgbuild" || exit
     
