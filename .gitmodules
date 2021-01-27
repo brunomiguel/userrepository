@@ -1723,9 +1723,6 @@
 [submodule "pkgbuild/ytmdl"]
 	path = pkgbuild/ytmdl
 	url = https://aur.archlinux.org/ytmdl
-[submodule "pkgbuild/dimport"]
-	path = pkgbuild/dimport
-	url = https://aur.archlinux.org/dimport
 [submodule "pkgbuild/cpupower-gui-git"]
 	path = pkgbuild/cpupower-gui-git
 	url = https://aur.archlinux.org/cpupower-gui-git
