@@ -1810,3 +1810,18 @@
 [submodule "pkgbuild/dimport"]
 	path = pkgbuild/dimport
 	url = https://aur.archlinux.org/dimport
+[submodule "pkgbuild/oh-my-zsh-git"]
+	path = pkgbuild/oh-my-zsh-git
+	url = https://aur.archlinux.org/oh-my-zsh-git
+[submodule "pkgbuild/zsh-theme-powerlevel10k-git"]
+	path = pkgbuild/zsh-theme-powerlevel10k-git
+	url = https://aur.archlinux.org/zsh-theme-powerlevel10k-git
+[submodule "pkgbuild/ttf-meslo-nerd-font-powerlevel10k"]
+	path = pkgbuild/ttf-meslo-nerd-font-powerlevel10k
+	url = https://aur.archlinux.org/ttf-meslo-nerd-font-powerlevel10k
+[submodule "pkgbuild/timeshift"]
+	path = pkgbuild/timeshift
+	url = https://aur.archlinux.org/timeshift
+[submodule "pkgbuild/timeshift-autosnap"]
+	path = pkgbuild/timeshift-autosnap
+	url = https://aur.archlinux.org/timeshift-autosnap
