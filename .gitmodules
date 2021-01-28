@@ -151,9 +151,6 @@
 [submodule "pkgbuild/glrnvim"]
 	path = pkgbuild/glrnvim
 	url = https://aur.archlinux.org/glrnvim.git
-[submodule "pkgbuild/google-webdesigner"]
-	path = pkgbuild/google-webdesigner
-	url = https://aur.archlinux.org/google-webdesigner.git
 [submodule "pkgbuild/green-recorder-git"]
 	path = pkgbuild/green-recorder-git
 	url = https://aur.archlinux.org/green-recorder-git.git
