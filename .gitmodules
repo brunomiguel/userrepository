@@ -1819,3 +1819,63 @@
 [submodule "pkgbuild/timeshift-autosnap"]
 	path = pkgbuild/timeshift-autosnap
 	url = https://aur.archlinux.org/timeshift-autosnap
+[submodule "pkgbuild/httpdirfs"]
+	path = pkgbuild/httpdirfs
+	url = https://aur.archlinux.org/httpdirfs
+[submodule "pkgbuild/go-tuner-git"]
+	path = pkgbuild/go-tuner-git
+	url = https://aur.archlinux.org/go-tuner-git
+[submodule "pkgbuild/pacroller"]
+	path = pkgbuild/pacroller
+	url = https://aur.archlinux.org/pacroller
+[submodule "pkgbuild/plasmasur-dark-kde-theme-git"]
+	path = pkgbuild/plasmasur-dark-kde-theme-git
+	url = https://aur.archlinux.org/plasmasur-dark-kde-theme-git
+[submodule "pkgbuild/whitesur-kde-theme-git"]
+	path = pkgbuild/whitesur-kde-theme-git
+	url = https://aur.archlinux.org/whitesur-kde-theme-git
+[submodule "pkgbuild/readability-cli"]
+	path = pkgbuild/readability-cli
+	url = https://aur.archlinux.org/readability-cli
+[submodule "pkgbuild/flipclock"]
+	path = pkgbuild/flipclock
+	url = https://aur.archlinux.org/flipclock
+[submodule "pkgbuild/uivonim-git"]
+	path = pkgbuild/uivonim-git
+	url = https://aur.archlinux.org/uivonim-git
+[submodule "pkgbuild/tramp"]
+	path = pkgbuild/tramp
+	url = https://aur.archlinux.org/tramp
+[submodule "pkgbuild/emacs-yaml-mode"]
+	path = pkgbuild/emacs-yaml-mode
+	url = https://aur.archlinux.org/emacs-yaml-mode
+[submodule "pkgbuild/cask"]
+	path = pkgbuild/cask
+	url = https://aur.archlinux.org/cask
+[submodule "pkgbuild/nord-emacs"]
+	path = pkgbuild/nord-emacs
+	url = https://aur.archlinux.org/nord-emacs
+[submodule "pkgbuild/emms"]
+	path = pkgbuild/emms
+	url = https://aur.archlinux.org/emms
+[submodule "pkgbuild/qemacs"]
+	path = pkgbuild/qemacs
+	url = https://aur.archlinux.org/qemacs
+[submodule "pkgbuild/elfeed"]
+	path = pkgbuild/elfeed
+	url = https://aur.archlinux.org/elfeed
+[submodule "pkgbuild/emacs-libvterm-git"]
+	path = pkgbuild/emacs-libvterm-git
+	url = https://aur.archlinux.org/emacs-libvterm-git
+[submodule "pkgbuild/emacs-projectile"]
+	path = pkgbuild/emacs-projectile
+	url = https://aur.archlinux.org/emacs-projectile
+[submodule "pkgbuild/emacs-smart-mode-line"]
+	path = pkgbuild/emacs-smart-mode-line
+	url = https://aur.archlinux.org/emacs-smart-mode-line
+[submodule "pkgbuild/emacs-pos-tip-git"]
+	path = pkgbuild/emacs-pos-tip-git
+	url = https://aur.archlinux.org/emacs-pos-tip-git
+[submodule "pkgbuild/emacs-magit"]
+	path = pkgbuild/emacs-magit
+	url = https://aur.archlinux.org/emacs-magit
