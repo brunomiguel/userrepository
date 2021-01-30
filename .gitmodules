@@ -1879,3 +1879,6 @@
 [submodule "pkgbuild/emacs-magit"]
 	path = pkgbuild/emacs-magit
 	url = https://aur.archlinux.org/emacs-magit
+[submodule "pkgbuild/xwinwrap-git"]
+	path = pkgbuild/xwinwrap-git
+	url = https://aur.archlinux.org/xwinwrap-git
