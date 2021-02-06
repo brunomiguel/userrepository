@@ -1879,3 +1879,21 @@
 [submodule "pkgbuild/xwinwrap-git"]
 	path = pkgbuild/xwinwrap-git
 	url = https://aur.archlinux.org/xwinwrap-git
+[submodule "pkgbuild/python-pulsectl"]
+	path = pkgbuild/python-pulsectl
+	url = https://aur.archlinux.org/python-pulsectl
+[submodule "pkgbuild/teaiso"]
+	path = pkgbuild/teaiso
+	url = https://aur.archlinux.org/teaiso
+[submodule "pkgbuild/gtk-theme-arc-gruvbox-git"]
+	path = pkgbuild/gtk-theme-arc-gruvbox-git
+	url = https://aur.archlinux.org/gtk-theme-arc-gruvbox-git
+[submodule "pkgbuild/limine"]
+	path = pkgbuild/limine
+	url = https://aur.archlinux.org/limine
+[submodule "pkgbuild/kaidan"]
+	path = pkgbuild/kaidan
+	url = https://aur.archlinux.org/kaidan
+[submodule "pkgbuild/vt-cli"]
+	path = pkgbuild/vt-cli
+	url = https://aur.archlinux.org/vt-cli
