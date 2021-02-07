@@ -1897,3 +1897,21 @@
 [submodule "pkgbuild/vt-cli"]
 	path = pkgbuild/vt-cli
 	url = https://aur.archlinux.org/vt-cli
+[submodule "pkgbuild/dotgit"]
+	path = pkgbuild/dotgit
+	url = https://aur.archlinux.org/dotgit
+[submodule "pkgbuild/reddio-git"]
+	path = pkgbuild/reddio-git
+	url = https://aur.archlinux.org/reddio-git
+[submodule "pkgbuild/tarry-git"]
+	path = pkgbuild/tarry-git
+	url = https://aur.archlinux.org/tarry-git
+[submodule "pkgbuild/opensurge"]
+	path = pkgbuild/opensurge
+	url = https://aur.archlinux.org/opensurge
+[submodule "pkgbuild/lightly-qt"]
+	path = pkgbuild/lightly-qt
+	url = https://aur.archlinux.org/lightly-qt
+[submodule "pkgbuild/rudo"]
+	path = pkgbuild/rudo
+	url = https://aur.archlinux.org/rudo
