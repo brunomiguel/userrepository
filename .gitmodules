@@ -1915,3 +1915,6 @@
 [submodule "pkgbuild/rudo"]
 	path = pkgbuild/rudo
 	url = https://aur.archlinux.org/rudo
+[submodule "pkgbuild/git-machete"]
+	path = pkgbuild/git-machete
+	url = https://aur.archlinux.org/git-machete
