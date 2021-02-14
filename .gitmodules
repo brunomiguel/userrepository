@@ -1918,3 +1918,12 @@
 [submodule "pkgbuild/git-machete"]
 	path = pkgbuild/git-machete
 	url = https://aur.archlinux.org/git-machete
+[submodule "pkgbuild/gphotos-uploader-cli"]
+	path = pkgbuild/gphotos-uploader-cli
+	url = https://aur.archlinux.org/gphotos-uploader-cli
+[submodule "pkgbuild/tunnelto"]
+	path = pkgbuild/tunnelto
+	url = https://aur.archlinux.org/tunnelto
+[submodule "pkgbuild/pacom"]
+	path = pkgbuild/pacom
+	url = https://aur.archlinux.org/pacom
