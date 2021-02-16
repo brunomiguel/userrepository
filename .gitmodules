@@ -1927,3 +1927,18 @@
 [submodule "pkgbuild/pacom"]
 	path = pkgbuild/pacom
 	url = https://aur.archlinux.org/pacom
+[submodule "pkgbuild/media-downloader-git"]
+	path = pkgbuild/media-downloader-git
+	url = https://aur.archlinux.org/media-downloader-git
+[submodule "pkgbuild/athens-git"]
+	path = pkgbuild/athens-git
+	url = https://aur.archlinux.org/athens-git
+[submodule "pkgbuild/novelwriter-git"]
+	path = pkgbuild/novelwriter-git
+	url = https://aur.archlinux.org/novelwriter-git
+[submodule "pkgbuild/gvolwheel"]
+	path = pkgbuild/gvolwheel
+	url = https://aur.archlinux.org/gvolwheel
+[submodule "pkgbuild/gomu"]
+	path = pkgbuild/gomu
+	url = https://aur.archlinux.org/gomu
