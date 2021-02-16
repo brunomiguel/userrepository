@@ -826,9 +826,6 @@
 [submodule "pkgbuild/wob"]
 	path = pkgbuild/wob
 	url = https://aur.archlinux.org/wob
-[submodule "pkgbuild/slack-desktop"]
-	path = pkgbuild/slack-desktop
-	url = https://aur.archlinux.org/slack-desktop
 [submodule "pkgbuild/android-messages-desktop-bin"]
 	path = pkgbuild/android-messages-desktop-bin
 	url = https://aur.archlinux.org/android-messages-desktop-bin
