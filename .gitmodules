@@ -1939,3 +1939,18 @@
 [submodule "pkgbuild/gomu"]
 	path = pkgbuild/gomu
 	url = https://aur.archlinux.org/gomu
+[submodule "pkgbuild/sonobus"]
+	path = pkgbuild/sonobus
+	url = https://aur.archlinux.org/sonobus
+[submodule "pkgbuild/openfortigui"]
+	path = pkgbuild/openfortigui
+	url = https://aur.archlinux.org/openfortigui
+[submodule "pkgbuild/blue"]
+	path = pkgbuild/blue
+	url = https://aur.archlinux.org/blue
+[submodule "pkgbuild/metar"]
+	path = pkgbuild/metar
+	url = https://aur.archlinux.org/metar
+[submodule "pkgbuild/baru"]
+	path = pkgbuild/baru
+	url = https://aur.archlinux.org/baru
