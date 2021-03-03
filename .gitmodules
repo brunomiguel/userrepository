@@ -1954,3 +1954,42 @@
 [submodule "pkgbuild/baru"]
 	path = pkgbuild/baru
 	url = https://aur.archlinux.org/baru
+[submodule "pkgbuild/amdfan"]
+	path = pkgbuild/amdfan
+	url = https://aur.archlinux.org/amdfan
+[submodule "pkgbuild/wgcf"]
+	path = pkgbuild/wgcf
+	url = https://aur.archlinux.org/wgcf
+[submodule "pkgbuild/paru"]
+	path = pkgbuild/paru
+	url = https://aur.archlinux.org/paru
+[submodule "pkgbuild/paru-git"]
+	path = pkgbuild/paru-git
+	url = https://aur.archlinux.org/paru-git
+[submodule "pkgbuild/haruhi-dl"]
+	path = pkgbuild/haruhi-dl
+	url = https://aur.archlinux.org/haruhi-dl
+[submodule "pkgbuild/otf-public-sans"]
+	path = pkgbuild/otf-public-sans
+	url = https://aur.archlinux.org/otf-public-sans
+[submodule "pkgbuild/timerdown"]
+	path = pkgbuild/timerdown
+	url = https://aur.archlinux.org/timerdown
+[submodule "pkgbuild/ds9"]
+	path = pkgbuild/ds9
+	url = https://aur.archlinux.org/ds9
+[submodule "pkgbuild/libpasastro"]
+	path = pkgbuild/libpasastro
+	url = https://aur.archlinux.org/libpasastro
+[submodule "pkgbuild/ccdciel"]
+	path = pkgbuild/ccdciel
+	url = https://aur.archlinux.org/ccdciel
+[submodule "pkgbuild/imagej"]
+	path = pkgbuild/imagej
+	url = https://aur.archlinux.org/imagej
+[submodule "pkgbuild/tin-summer"]
+	path = pkgbuild/tin-summer
+	url = https://aur.archlinux.org/tin-summer
+[submodule "pkgbuild/spot-client"]
+	path = pkgbuild/spot-client
+	url = https://aur.archlinux.org/spot-client
