@@ -1993,3 +1993,6 @@
 [submodule "pkgbuild/spot-client"]
 	path = pkgbuild/spot-client
 	url = https://aur.archlinux.org/spot-client
+[submodule "pkgbuild/linux-lqx"]
+	path = pkgbuild/linux-lqx
+	url = https://aur.archlinux.org/linux-lqx
