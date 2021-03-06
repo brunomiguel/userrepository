@@ -1996,3 +1996,6 @@
 [submodule "pkgbuild/linux-lqx"]
 	path = pkgbuild/linux-lqx
 	url = https://aur.archlinux.org/linux-lqx
+[submodule "pkgbuild/firedragon-bin"]
+	path = pkgbuild/firedragon-bin
+	url = https://aur.archlinux.org/firedragon-bin
