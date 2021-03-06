@@ -1999,3 +1999,6 @@
 [submodule "pkgbuild/firedragon-bin"]
 	path = pkgbuild/firedragon-bin
 	url = https://aur.archlinux.org/firedragon-bin
+[submodule "pkgbuild/ytfzf-git"]
+	path = pkgbuild/ytfzf-git
+	url = https://aur.archlinux.org/ytfzf-git
