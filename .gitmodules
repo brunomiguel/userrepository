@@ -1147,9 +1147,6 @@
 [submodule "pkgbuild/office-code-pro"]
 	path = pkgbuild/office-code-pro
 	url = https://aur.archlinux.org/office-code-pro
-[submodule "pkgbuild/bpytop"]
-	path = pkgbuild/bpytop
-	url = https://aur.archlinux.org/bpytop
 [submodule "pkgbuild/otf-openmoji"]
 	path = pkgbuild/otf-openmoji
 	url = https://aur.archlinux.org/otf-openmoji
