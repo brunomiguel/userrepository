@@ -2002,3 +2002,12 @@
 [submodule "pkgbuild/ytfzf-git"]
 	path = pkgbuild/ytfzf-git
 	url = https://aur.archlinux.org/ytfzf-git
+[submodule "pkgbuild/su2"]
+	path = pkgbuild/su2
+	url = https://aur.archlinux.org/su2
+[submodule "pkgbuild/konsave"]
+	path = pkgbuild/konsave
+	url = https://aur.archlinux.org/konsave
+[submodule "pkgbuild/friture"]
+	path = pkgbuild/friture
+	url = https://aur.archlinux.org/friture
