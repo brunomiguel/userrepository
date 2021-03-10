@@ -2020,3 +2020,6 @@
 [submodule "pkgbuild/python-v4l2_antmicro"]
 	path = pkgbuild/python-v4l2_antmicro
 	url = https://aur.archlinux.org/python-v4l2_antmicro
+[submodule "pkgbuild/apostrophe"]
+	path = pkgbuild/apostrophe
+	url = https://aur.archlinux.org/apostrophe
