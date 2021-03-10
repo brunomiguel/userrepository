@@ -2008,3 +2008,15 @@
 [submodule "pkgbuild/friture"]
 	path = pkgbuild/friture
 	url = https://aur.archlinux.org/friture
+[submodule "pkgbuild/obs-v4l2sink"]
+	path = pkgbuild/obs-v4l2sink
+	url = https://aur.archlinux.org/obs-v4l2sink
+[submodule "pkgbuild/v4l2loopback-utils"]
+	path = pkgbuild/v4l2loopback-utils
+	url = https://aur.archlinux.org/v4l2loopback-utils
+[submodule "pkgbuild/pyvidctrl"]
+	path = pkgbuild/pyvidctrl
+	url = https://aur.archlinux.org/pyvidctrl
+[submodule "pkgbuild/python-v4l2_antmicro"]
+	path = pkgbuild/python-v4l2_antmicro
+	url = https://aur.archlinux.org/python-v4l2_antmicro
