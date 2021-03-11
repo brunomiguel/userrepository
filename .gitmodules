@@ -2023,3 +2023,6 @@
 [submodule "pkgbuild/apostrophe"]
 	path = pkgbuild/apostrophe
 	url = https://aur.archlinux.org/apostrophe
+[submodule "pkgbuild/userrepository-mirrorlist"]
+	path = pkgbuild/userrepository-mirrorlist
+	url = https://github.com/brunomiguel/userrepository-mirrorlist
