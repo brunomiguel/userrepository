@@ -42,7 +42,7 @@ build() {
             git clean -x -d -f -q > ../noise.log 2>&1;
             git stash --quiet > ../noise.log 2>&1;
             # rebase
-            git rebase HEAD master
+            # git rebase HEAD master
 			# update submodules
             git pull
             git pull origin master
