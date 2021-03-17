@@ -2026,3 +2026,30 @@
 [submodule "pkgbuild/userrepository-mirrorlist"]
 	path = pkgbuild/userrepository-mirrorlist
 	url = https://github.com/brunomiguel/userrepository-mirrorlist
+[submodule "pkgbuild/scaramanga"]
+	path = pkgbuild/scaramanga
+	url = https://aur.archlinux.org/scaramanga
+[submodule "pkgbuild/aura"]
+	path = pkgbuild/aura
+	url = https://aur.archlinux.org/aura
+[submodule "pkgbuild/webfontkitgenerator-git"]
+	path = pkgbuild/webfontkitgenerator-git
+	url = https://aur.archlinux.org/webfontkitgenerator-git
+[submodule "pkgbuild/jrnl-git"]
+	path = pkgbuild/jrnl-git
+	url = https://aur.archlinux.org/jrnl-git
+[submodule "pkgbuild/hackernews_tui"]
+	path = pkgbuild/hackernews_tui
+	url = https://aur.archlinux.org/hackernews_tui
+[submodule "pkgbuild/vivarium-git"]
+	path = pkgbuild/vivarium-git
+	url = https://aur.archlinux.org/vivarium-git
+[submodule "pkgbuild/3mux"]
+	path = pkgbuild/3mux
+	url = https://aur.archlinux.org/3mux
+[submodule "pkgbuild/ttf-cmu-typewriter"]
+	path = pkgbuild/ttf-cmu-typewriter
+	url = https://aur.archlinux.org/ttf-cmu-typewriter
+[submodule "pkgbuild/aur-out-of-date"]
+	path = pkgbuild/aur-out-of-date
+	url = https://aur.archlinux.org/aur-out-of-date
