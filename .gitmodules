@@ -301,9 +301,6 @@
 [submodule "pkgbuild/sshrc"]
 	path = pkgbuild/sshrc
 	url = https://aur.archlinux.org/sshrc.git
-[submodule "pkgbuild/stf"]
-	path = pkgbuild/stf
-	url = https://aur.archlinux.org/stf.git
 [submodule "pkgbuild/swayshot"]
 	path = pkgbuild/swayshot
 	url = https://aur.archlinux.org/swayshot.git
