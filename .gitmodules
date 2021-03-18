@@ -205,9 +205,6 @@
 [submodule "pkgbuild/notementum"]
 	path = pkgbuild/notementum
 	url = https://aur.archlinux.org/notementum.git
-[submodule "pkgbuild/nx-gtk-themes-git"]
-	path = pkgbuild/nx-gtk-themes-git
-	url = https://aur.archlinux.org/nx-gtk-themes-git.git
 [submodule "pkgbuild/nx-plasma-look-and-feel-git"]
 	path = pkgbuild/nx-plasma-look-and-feel-git
 	url = https://aur.archlinux.org/nx-plasma-look-and-feel-git.git
