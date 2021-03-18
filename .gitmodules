@@ -67,9 +67,6 @@
 [submodule "pkgbuild/chezmoi"]
 	path = pkgbuild/chezmoi
 	url = https://aur.archlinux.org/chezmoi.git
-[submodule "pkgbuild/cht.sh"]
-	path = pkgbuild/cht.sh
-	url = https://aur.archlinux.org/cht.sh.git
 [submodule "pkgbuild/clipman"]
 	path = pkgbuild/clipman
 	url = https://aur.archlinux.org/clipman.git
