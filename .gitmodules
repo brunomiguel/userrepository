@@ -865,9 +865,6 @@
 [submodule "pkgbuild/libsodium-static"]
 	path = pkgbuild/libsodium-static
 	url = https://aur.archlinux.org/libsodium-static
-[submodule "pkgbuild/lightzone"]
-	path = pkgbuild/lightzone
-	url = https://aur.archlinux.org/lightzone
 [submodule "pkgbuild/python-pyephem"]
 	path = pkgbuild/python-pyephem
 	url = https://aur.archlinux.org/python-pyephem
