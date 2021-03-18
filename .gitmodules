@@ -1963,9 +1963,6 @@
 [submodule "pkgbuild/webfontkitgenerator-git"]
 	path = pkgbuild/webfontkitgenerator-git
 	url = https://aur.archlinux.org/webfontkitgenerator-git
-[submodule "pkgbuild/jrnl-git"]
-	path = pkgbuild/jrnl-git
-	url = https://aur.archlinux.org/jrnl-git
 [submodule "pkgbuild/hackernews_tui"]
 	path = pkgbuild/hackernews_tui
 	url = https://aur.archlinux.org/hackernews_tui
