@@ -1537,9 +1537,6 @@
 [submodule "pkgbuild/peepdf"]
 	path = pkgbuild/peepdf
 	url = https://aur.archlinux.org/peepdf
-[submodule "pkgbuild/bauerbill"]
-	path = pkgbuild/bauerbill
-	url = https://aur.archlinux.org/bauerbill
 [submodule "pkgbuild/pop-nord"]
 	path = pkgbuild/pop-nord
 	url = https://aur.archlinux.org/pop-nord
