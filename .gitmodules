@@ -1213,9 +1213,6 @@
 [submodule "pkgbuild/ttf-juliamono"]
 	path = pkgbuild/ttf-juliamono
 	url = https://aur.archlinux.org/ttf-juliamono
-[submodule "pkgbuild/gpu-screen-recorder-gtk-git"]
-	path = pkgbuild/gpu-screen-recorder-gtk-git
-	url = https://aur.archlinux.org/gpu-screen-recorder-gtk-git
 [submodule "pkgbuild/ezzram"]
 	path = pkgbuild/ezzram
 	url = https://aur.archlinux.org/ezzram
