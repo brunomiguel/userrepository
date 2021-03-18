@@ -82,9 +82,6 @@
 [submodule "pkgbuild/criptext-bin"]
 	path = pkgbuild/criptext-bin
 	url = https://aur.archlinux.org/criptext-bin.git
-[submodule "pkgbuild/cucumber"]
-	path = pkgbuild/cucumber
-	url = https://aur.archlinux.org/cucumber.git
 [submodule "pkgbuild/curseradio-git"]
 	path = pkgbuild/curseradio-git
 	url = https://aur.archlinux.org/curseradio-git.git
