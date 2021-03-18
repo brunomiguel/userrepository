@@ -1819,9 +1819,6 @@
 [submodule "pkgbuild/limine"]
 	path = pkgbuild/limine
 	url = https://aur.archlinux.org/limine
-[submodule "pkgbuild/kaidan"]
-	path = pkgbuild/kaidan
-	url = https://aur.archlinux.org/kaidan
 [submodule "pkgbuild/vt-cli"]
 	path = pkgbuild/vt-cli
 	url = https://aur.archlinux.org/vt-cli
