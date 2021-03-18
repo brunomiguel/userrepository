@@ -586,9 +586,6 @@
 [submodule "pkgbuild/simplenote-electron-bin"]
 	path = pkgbuild/simplenote-electron-bin
 	url = https://aur.archlinux.org/simplenote-electron-bin
-[submodule "pkgbuild/kde-rounded-corners-git"]
-	path = pkgbuild/kde-rounded-corners-git
-	url = https://aur.archlinux.org/kde-rounded-corners-git
 [submodule "pkgbuild/otf-saira"]
 	path = pkgbuild/otf-saira
 	url = https://aur.archlinux.org/otf-saira
