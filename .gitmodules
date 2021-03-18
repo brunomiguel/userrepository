@@ -1723,9 +1723,6 @@
 [submodule "pkgbuild/flipclock"]
 	path = pkgbuild/flipclock
 	url = https://aur.archlinux.org/flipclock
-[submodule "pkgbuild/uivonim-git"]
-	path = pkgbuild/uivonim-git
-	url = https://aur.archlinux.org/uivonim-git
 [submodule "pkgbuild/tramp"]
 	path = pkgbuild/tramp
 	url = https://aur.archlinux.org/tramp
