@@ -202,9 +202,6 @@
 [submodule "pkgbuild/notable-bin"]
 	path = pkgbuild/notable-bin
 	url = https://aur.archlinux.org/notable-bin.git
-[submodule "pkgbuild/notekit-git"]
-	path = pkgbuild/notekit-git
-	url = https://aur.archlinux.org/notekit-git.git
 [submodule "pkgbuild/notementum"]
 	path = pkgbuild/notementum
 	url = https://aur.archlinux.org/notementum.git
