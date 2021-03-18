@@ -445,9 +445,6 @@
 [submodule "pkgbuild/ne"]
 	path = pkgbuild/ne
 	url = https://aur.archlinux.org/ne
-[submodule "pkgbuild/ms-pacman"]
-	path = pkgbuild/ms-pacman
-	url = https://aur.archlinux.org/ms-pacman
 [submodule "pkgbuild/cleanupdate-git"]
 	path = pkgbuild/cleanupdate-git
 	url = https://aur.archlinux.org/cleanupdate-git
