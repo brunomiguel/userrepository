@@ -1033,9 +1033,6 @@
 [submodule "pkgbuild/vscodium-bin"]
 	path = pkgbuild/vscodium-bin
 	url = https://aur.archlinux.org/vscodium-bin
-[submodule "pkgbuild/elstob-font"]
-	path = pkgbuild/elstob-font
-	url = https://aur.archlinux.org/elstob-font
 [submodule "pkgbuild/neoleo-git"]
 	path = pkgbuild/neoleo-git
 	url = https://aur.archlinux.org/neoleo-git
