@@ -1327,9 +1327,6 @@
 [submodule "pkgbuild/sicuit"]
 	path = pkgbuild/sicuit
 	url = https://aur.archlinux.org/sicuit
-[submodule "pkgbuild/ricochet"]
-	path = pkgbuild/ricochet
-	url = https://aur.archlinux.org/ricochet
 [submodule "pkgbuild/passman++"]
 	path = pkgbuild/passman++
 	url = https://aur.archlinux.org/passman++
