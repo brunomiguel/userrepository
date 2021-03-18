@@ -1333,9 +1333,6 @@
 [submodule "pkgbuild/tab-rs"]
 	path = pkgbuild/tab-rs
 	url = https://aur.archlinux.org/tab-rs
-[submodule "pkgbuild/mtodo"]
-	path = pkgbuild/mtodo
-	url = https://aur.archlinux.org/mtodo
 [submodule "pkgbuild/organize"]
 	path = pkgbuild/organize
 	url = https://aur.archlinux.org/organize
