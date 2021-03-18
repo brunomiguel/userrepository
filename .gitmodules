@@ -1126,9 +1126,6 @@
 [submodule "pkgbuild/wego"]
 	path = pkgbuild/wego
 	url = https://aur.archlinux.org/wego
-[submodule "pkgbuild/tijolo"]
-	path = pkgbuild/tijolo
-	url = https://aur.archlinux.org/tijolo
 [submodule "pkgbuild/plymouth"]
 	path = pkgbuild/plymouth
 	url = https://aur.archlinux.org/plymouth
