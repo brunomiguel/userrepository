@@ -1321,9 +1321,6 @@
 [submodule "pkgbuild/zsh-pure-prompt"]
 	path = pkgbuild/zsh-pure-prompt
 	url = https://aur.archlinux.org/zsh-pure-prompt
-[submodule "pkgbuild/tab-rs"]
-	path = pkgbuild/tab-rs
-	url = https://aur.archlinux.org/tab-rs
 [submodule "pkgbuild/organize"]
 	path = pkgbuild/organize
 	url = https://aur.archlinux.org/organize
