@@ -1753,9 +1753,6 @@
 [submodule "pkgbuild/librtprocess"]
 	path = pkgbuild/librtprocess
 	url = https://aur.archlinux.org/librtprocess
-[submodule "pkgbuild/crema"]
-	path = pkgbuild/crema
-	url = https://aur.archlinux.org/crema
 [submodule "pkgbuild/dimport"]
 	path = pkgbuild/dimport
 	url = https://aur.archlinux.org/dimport
