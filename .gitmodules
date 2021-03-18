@@ -913,9 +913,6 @@
 [submodule "pkgbuild/sameboy"]
 	path = pkgbuild/sameboy
 	url = https://aur.archlinux.org/sameboy
-[submodule "pkgbuild/dwm-jacob-git"]
-	path = pkgbuild/dwm-jacob-git
-	url = https://aur.archlinux.org/dwm-jacob-git
 [submodule "pkgbuild/dwm-distrotube-git"]
 	path = pkgbuild/dwm-distrotube-git
 	url = https://aur.archlinux.org/dwm-distrotube-git
