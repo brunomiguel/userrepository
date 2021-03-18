@@ -505,9 +505,6 @@
 [submodule "pkgbuild/torbrowser-launcher-git"]
 	path = pkgbuild/torbrowser-launcher-git
 	url = https://aur.archlinux.org/torbrowser-launcher-git
-[submodule "pkgbuild/darkmod"]
-	path = pkgbuild/darkmod
-	url = https://aur.archlinux.org/darkmod
 [submodule "pkgbuild/bim"]
 	path = pkgbuild/bim
 	url = https://aur.archlinux.org/bim
