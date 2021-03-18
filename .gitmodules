@@ -1216,9 +1216,6 @@
 [submodule "pkgbuild/ezzram"]
 	path = pkgbuild/ezzram
 	url = https://aur.archlinux.org/ezzram
-[submodule "pkgbuild/gpu-screen-recorder-git"]
-	path = pkgbuild/gpu-screen-recorder-git
-	url = https://aur.archlinux.org/gpu-screen-recorder-git
 [submodule "pkgbuild/python2-apsw"]
 	path = pkgbuild/python2-apsw
 	url = https://aur.archlinux.org/python2-apsw
