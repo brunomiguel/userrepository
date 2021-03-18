@@ -1396,9 +1396,6 @@
 [submodule "pkgbuild/zsh-pure-prompt"]
 	path = pkgbuild/zsh-pure-prompt
 	url = https://aur.archlinux.org/zsh-pure-prompt
-[submodule "pkgbuild/faint-git"]
-	path = pkgbuild/faint-git
-	url = https://aur.archlinux.org/faint-git
 [submodule "pkgbuild/tab-rs"]
 	path = pkgbuild/tab-rs
 	url = https://aur.archlinux.org/tab-rs
