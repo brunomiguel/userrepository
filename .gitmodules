@@ -772,9 +772,6 @@
 [submodule "pkgbuild/krayan-gtk-theme-git"]
 	path = pkgbuild/krayan-gtk-theme-git
 	url = https://aur.archlinux.org/krayan-gtk-theme-git
-[submodule "pkgbuild/cartaodecidadao"]
-	path = pkgbuild/cartaodecidadao
-	url = https://aur.archlinux.org/cartaodecidadao
 [submodule "pkgbuild/netkit-telnet-ssl"]
 	path = pkgbuild/netkit-telnet-ssl
 	url = https://aur.archlinux.org/netkit-telnet-ssl
