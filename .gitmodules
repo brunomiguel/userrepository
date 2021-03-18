@@ -538,9 +538,6 @@
 [submodule "pkgbuild/flauncher"]
 	path = pkgbuild/flauncher
 	url = https://aur.archlinux.org/flauncher
-[submodule "pkgbuild/clight-git"]
-	path = pkgbuild/clight-git
-	url = https://aur.archlinux.org/clight-git
 [submodule "pkgbuild/linux-bfq"]
 	path = pkgbuild/linux-bfq
 	url = https://aur.archlinux.org/linux-bfq
