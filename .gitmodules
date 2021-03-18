@@ -172,9 +172,6 @@
 [submodule "pkgbuild/kindd-git"]
 	path = pkgbuild/kindd-git
 	url = https://aur.archlinux.org/kindd-git.git
-[submodule "pkgbuild/kitematic-git"]
-	path = pkgbuild/kitematic-git
-	url = https://aur.archlinux.org/kitematic-git.git
 [submodule "pkgbuild/korla-icon-theme"]
 	path = pkgbuild/korla-icon-theme
 	url = https://aur.archlinux.org/korla-icon-theme.git
