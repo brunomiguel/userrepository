@@ -829,9 +829,6 @@
 [submodule "pkgbuild/graviton-bin"]
 	path = pkgbuild/graviton-bin
 	url = https://aur.archlinux.org/graviton-bin
-[submodule "pkgbuild/jrnl"]
-	path = pkgbuild/jrnl
-	url = https://aur.archlinux.org/jrnl
 [submodule "pkgbuild/python-acestream"]
 	path = pkgbuild/python-acestream
 	url = https://aur.archlinux.org/python-acestream
