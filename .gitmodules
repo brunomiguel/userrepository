@@ -496,9 +496,6 @@
 [submodule "pkgbuild/bim"]
 	path = pkgbuild/bim
 	url = https://aur.archlinux.org/bim
-[submodule "pkgbuild/mini-diary-git"]
-	path = pkgbuild/mini-diary-git
-	url = https://aur.archlinux.org/mini-diary-git
 [submodule "pkgbuild/lazygit"]
 	path = pkgbuild/lazygit
 	url = https://aur.archlinux.org/lazygit
