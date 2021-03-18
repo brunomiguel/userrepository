@@ -1180,9 +1180,6 @@
 [submodule "pkgbuild/youtube-music-appimage"]
 	path = pkgbuild/youtube-music-appimage
 	url = https://aur.archlinux.org/youtube-music-appimage
-[submodule "pkgbuild/deltachat-desktop"]
-	path = pkgbuild/deltachat-desktop
-	url = https://aur.archlinux.org/deltachat-desktop
 [submodule "pkgbuild/boston-icon-theme"]
 	path = pkgbuild/boston-icon-theme
 	url = https://aur.archlinux.org/boston-icon-theme
