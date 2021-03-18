@@ -832,9 +832,6 @@
 [submodule "pkgbuild/session-desktop-bin"]
 	path = pkgbuild/session-desktop-bin
 	url = https://aur.archlinux.org/session-desktop-bin
-[submodule "pkgbuild/bat-cat-git"]
-	path = pkgbuild/bat-cat-git
-	url = https://aur.archlinux.org/bat-cat-git
 [submodule "pkgbuild/gimp-refocus"]
 	path = pkgbuild/gimp-refocus
 	url = https://aur.archlinux.org/gimp-refocus
@@ -1504,9 +1501,6 @@
 [submodule "pkgbuild/osticket"]
 	path = pkgbuild/osticket
 	url = https://aur.archlinux.org/osticket
-[submodule "pkgbuild/bottles-git"]
-	path = pkgbuild/bottles-git
-	url = https://aur.archlinux.org/bottles-git
 [submodule "pkgbuild/pacoloco-git"]
 	path = pkgbuild/pacoloco-git
 	url = https://aur.archlinux.org/pacoloco-git
