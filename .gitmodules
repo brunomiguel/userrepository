@@ -610,9 +610,6 @@
 [submodule "pkgbuild/kde-rounded-corners-git"]
 	path = pkgbuild/kde-rounded-corners-git
 	url = https://aur.archlinux.org/kde-rounded-corners-git
-[submodule "pkgbuild/gegl-operation-negative-darkroom-git"]
-	path = pkgbuild/gegl-operation-negative-darkroom-git
-	url = https://aur.archlinux.org/gegl-operation-negative-darkroom-git
 [submodule "pkgbuild/otf-saira"]
 	path = pkgbuild/otf-saira
 	url = https://aur.archlinux.org/otf-saira
