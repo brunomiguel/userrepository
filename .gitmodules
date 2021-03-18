@@ -727,9 +727,6 @@
 [submodule "pkgbuild/glorytun"]
 	path = pkgbuild/glorytun
 	url = https://aur.archlinux.org/glorytun
-[submodule "pkgbuild/future-fetch"]
-	path = pkgbuild/future-fetch
-	url = https://aur.archlinux.org/future-fetch
 [submodule "pkgbuild/katfetch-git"]
 	path = pkgbuild/katfetch-git
 	url = https://aur.archlinux.org/katfetch-git
