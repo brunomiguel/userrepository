@@ -1099,9 +1099,6 @@
 [submodule "pkgbuild/lcms"]
 	path = pkgbuild/lcms
 	url = https://aur.archlinux.org/lcms
-[submodule "pkgbuild/firefox-kde-opensuse-bin"]
-	path = pkgbuild/firefox-kde-opensuse-bin
-	url = https://aur.archlinux.org/firefox-kde-opensuse-bin
 [submodule "pkgbuild/graphite-mozilla"]
 	path = pkgbuild/graphite-mozilla
 	url = https://aur.archlinux.org/graphite-mozilla
