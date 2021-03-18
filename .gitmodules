@@ -1624,9 +1624,6 @@
 [submodule "pkgbuild/fotokilof"]
 	path = pkgbuild/fotokilof
 	url = https://aur.archlinux.org/fotokilof
-[submodule "pkgbuild/cascadia-code-git"]
-	path = pkgbuild/cascadia-code-git
-	url = https://aur.archlinux.org/cascadia-code-git
 [submodule "pkgbuild/soundux"]
 	path = pkgbuild/soundux
 	url = https://aur.archlinux.org/soundux
