@@ -1939,3 +1939,18 @@
 [submodule "pkgbuild/uivonim-git"]
 	path = pkgbuild/uivonim-git
 	url = https://aur.archlinux.org/uivonim-git
+[submodule "pkgbuild/cornus"]
+	path = pkgbuild/cornus
+	url = https://aur.archlinux.org/cornus
+[submodule "pkgbuild/outrun-git"]
+	path = pkgbuild/outrun-git
+	url = https://aur.archlinux.org/outrun-git
+[submodule "pkgbuild/vscodium-bin-marketplace"]
+	path = pkgbuild/vscodium-bin-marketplace
+	url = https://aur.archlinux.org/vscodium-bin-marketplace
+[submodule "pkgbuild/firedm"]
+	path = pkgbuild/firedm
+	url = https://aur.archlinux.org/firedm
+[submodule "pkgbuild/session-desktop"]
+	path = pkgbuild/session-desktop
+	url = https://aur.archlinux.org/session-desktop
