@@ -1957,3 +1957,9 @@
 [submodule "pkgbuild/spotify-qt"]
 	path = pkgbuild/spotify-qt
 	url = https://aur.archlinux.org/spotify-qt
+[submodule "pkgbuild/zramd"]
+	path = pkgbuild/zramd
+	url = https://aur.archlinux.org/zramd
+[submodule "pkgbuild/gentor"]
+	path = pkgbuild/gentor
+	url = https://aur.archlinux.org/gentor
