@@ -177,7 +177,7 @@
 	url = https://aur.archlinux.org/korla-icon-theme.git
 [submodule "pkgbuild/librewolf-bin"]
 	path = pkgbuild/librewolf-bin
-	url = https://aur.archlinux.org/librewolf-bin.git
+	url = https://aur.archlinux.org/librewolf-bin
 [submodule "pkgbuild/marktext-bin"]
 	path = pkgbuild/marktext-bin
 	url = https://aur.archlinux.org/marktext-bin.git
@@ -1954,3 +1954,6 @@
 [submodule "pkgbuild/kooha"]
 	path = pkgbuild/kooha
 	url = https://aur.archlinux.org/kooha
+[submodule "pkgbuild/spotify-qt"]
+	path = pkgbuild/spotify-qt
+	url = https://aur.archlinux.org/spotify-qt
