@@ -1951,9 +1951,6 @@
 [submodule "pkgbuild/firedm"]
 	path = pkgbuild/firedm
 	url = https://aur.archlinux.org/firedm
-[submodule "pkgbuild/session-desktop"]
-	path = pkgbuild/session-desktop
-	url = https://aur.archlinux.org/session-desktop
 [submodule "pkgbuild/kooha"]
 	path = pkgbuild/kooha
 	url = https://aur.archlinux.org/kooha
