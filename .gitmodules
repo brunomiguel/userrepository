@@ -1942,9 +1942,6 @@
 [submodule "pkgbuild/cornus"]
 	path = pkgbuild/cornus
 	url = https://aur.archlinux.org/cornus
-[submodule "pkgbuild/outrun-git"]
-	path = pkgbuild/outrun-git
-	url = https://aur.archlinux.org/outrun-git
 [submodule "pkgbuild/vscodium-bin-marketplace"]
 	path = pkgbuild/vscodium-bin-marketplace
 	url = https://aur.archlinux.org/vscodium-bin-marketplace
