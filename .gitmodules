@@ -1960,3 +1960,12 @@
 [submodule "pkgbuild/zramd"]
 	path = pkgbuild/zramd
 	url = https://aur.archlinux.org/zramd
+[submodule "pkgbuild/eqonomize"]
+	path = pkgbuild/eqonomize
+	url = https://aur.archlinux.org/eqonomize
+[submodule "pkgbuild/thiefmd"]
+	path = pkgbuild/thiefmd
+	url = https://aur.archlinux.org/thiefmd
+[submodule "pkgbuild/clean-chroot-manager"]
+	path = pkgbuild/clean-chroot-manager
+	url = https://aur.archlinux.org/clean-chroot-manager
