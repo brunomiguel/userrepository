@@ -1966,3 +1966,6 @@
 [submodule "pkgbuild/clean-chroot-manager"]
 	path = pkgbuild/clean-chroot-manager
 	url = https://aur.archlinux.org/clean-chroot-manager
+[submodule "pkgbuild/micropad"]
+	path = pkgbuild/micropad
+	url = https://aur.archlinux.org/micropad
