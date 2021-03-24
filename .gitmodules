@@ -1966,3 +1966,6 @@
 [submodule "pkgbuild/micropad"]
 	path = pkgbuild/micropad
 	url = https://aur.archlinux.org/micropad
+[submodule "pkgbuild/userrepository-mirrorlist"]
+	path = pkgbuild/userrepository-mirrorlist
+	url = https://aur.archlinux.org/userrepository-mirrorlist
