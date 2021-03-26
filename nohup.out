@@ -1,0 +1,18 @@
+Pueue daemon 0.12.1
+Arne Beer <contact@arne.beer>
+Start the daemon for pueue
+
+USAGE:
+    pueued [FLAGS] [OPTIONS]
+
+FLAGS:
+    -d, --daemonize    If this flag is set, the daemon will start and fork itself into the
+                       background. Closing the terminal won't kill the daemon any longer. This
+                       should be avoided and rather be properly done using a service manager
+    -h, --help         Prints help information
+    -v, --verbose      Verbose mode (-v, -vv, -vvv)
+    -V, --version      Prints version information
+
+OPTIONS:
+    -c, --config <config>    Path to a specific pueue config file to use. This ignores all other
+                             config files
