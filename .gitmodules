@@ -1969,3 +1969,6 @@
 [submodule "pkgbuild/userrepository-mirrorlist"]
 	path = pkgbuild/userrepository-mirrorlist
 	url = https://aur.archlinux.org/userrepository-mirrorlist
+[submodule "pkgbuild/firedragon-stable"]
+	path = pkgbuild/firedragon-stable
+	url = https://aur.archlinux.org/firedragon-stable
