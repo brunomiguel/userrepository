@@ -1285,9 +1285,6 @@
 [submodule "pkgbuild/license"]
 	path = pkgbuild/license
 	url = https://aur.archlinux.org/license
-[submodule "pkgbuild/mdview"]
-	path = pkgbuild/mdview
-	url = https://aur.archlinux.org/mdview
 [submodule "pkgbuild/btdu"]
 	path = pkgbuild/btdu
 	url = https://aur.archlinux.org/btdu
