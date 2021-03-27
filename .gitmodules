@@ -925,9 +925,6 @@
 [submodule "pkgbuild/tabbed"]
 	path = pkgbuild/tabbed
 	url = https://aur.archlinux.org/tabbed
-[submodule "pkgbuild/vokoscreen-git"]
-	path = pkgbuild/vokoscreen-git
-	url = https://aur.archlinux.org/vokoscreen-git
 [submodule "pkgbuild/yakyak"]
 	path = pkgbuild/yakyak
 	url = https://aur.archlinux.org/yakyak
