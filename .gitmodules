@@ -1318,9 +1318,6 @@
 [submodule "pkgbuild/wayvnc"]
 	path = pkgbuild/wayvnc
 	url = https://aur.archlinux.org/wayvnc
-[submodule "pkgbuild/sicuit"]
-	path = pkgbuild/sicuit
-	url = https://aur.archlinux.org/sicuit
 [submodule "pkgbuild/passman++"]
 	path = pkgbuild/passman++
 	url = https://aur.archlinux.org/passman++
