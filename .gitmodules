@@ -1978,3 +1978,12 @@
 [submodule "pkgbuild/termscp"]
 	path = pkgbuild/termscp
 	url = https://aur.archlinux.org/termscp
+[submodule "pkgbuild/shutter-encoder"]
+	path = pkgbuild/shutter-encoder
+	url = https://aur.archlinux.org/shutter-encoder
+[submodule "pkgbuild/kleiner-brauhelfer"]
+	path = pkgbuild/kleiner-brauhelfer
+	url = https://aur.archlinux.org/kleiner-brauhelfer
+[submodule "pkgbuild/otpclient"]
+	path = pkgbuild/otpclient
+	url = https://aur.archlinux.org/otpclient
