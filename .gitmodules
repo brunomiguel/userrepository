@@ -1960,3 +1960,15 @@
 [submodule "pkgbuild/libadwaita-git"]
 	path = pkgbuild/libadwaita-git
 	url = https://aur.archlinux.org/libadwaita-git
+[submodule "pkgbuild/kwin-script-grid-tiling-git"]
+	path = pkgbuild/kwin-script-grid-tiling-git
+	url = https://aur.archlinux.org/kwin-script-grid-tiling-git
+[submodule "pkgbuild/nwg-panel"]
+	path = pkgbuild/nwg-panel
+	url = https://aur.archlinux.org/nwg-panel
+[submodule "pkgbuild/firedragon-stable-bin"]
+	path = pkgbuild/firedragon-stable-bin
+	url = https://aur.archlinux.org/firedragon-stable-bin
+[submodule "pkgbuild/heimer"]
+	path = pkgbuild/heimer
+	url = https://aur.archlinux.org/heimer
