@@ -1972,3 +1972,12 @@
 [submodule "pkgbuild/heimer"]
 	path = pkgbuild/heimer
 	url = https://aur.archlinux.org/heimer
+[submodule "pkgbuild/tre-command"]
+	path = pkgbuild/tre-command
+	url = https://aur.archlinux.org/tre-command
+[submodule "pkgbuild/jitsi-meet-desktop"]
+	path = pkgbuild/jitsi-meet-desktop
+	url = https://aur.archlinux.org/jitsi-meet-desktop
+[submodule "pkgbuild/termscp"]
+	path = pkgbuild/termscp
+	url = https://aur.archlinux.org/termscp
