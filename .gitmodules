@@ -940,9 +940,6 @@
 [submodule "pkgbuild/plasma5-applets-chiliclock-git"]
 	path = pkgbuild/plasma5-applets-chiliclock-git
 	url = https://aur.archlinux.org/plasma5-applets-chiliclock-git
-[submodule "pkgbuild/riot-desktop-git"]
-	path = pkgbuild/riot-desktop-git
-	url = https://aur.archlinux.org/riot-desktop-git
 [submodule "pkgbuild/ventoy-bin"]
 	path = pkgbuild/ventoy-bin
 	url = https://aur.archlinux.org/ventoy-bin
