@@ -1984,6 +1984,9 @@
 [submodule "pkgbuild/kleiner-brauhelfer"]
 	path = pkgbuild/kleiner-brauhelfer
 	url = https://aur.archlinux.org/kleiner-brauhelfer
-[submodule "pkgbuild/otpclient"]
-	path = pkgbuild/otpclient
-	url = https://aur.archlinux.org/otpclient
+[submodule "pkgbuild/karaokemugen"]
+	path = pkgbuild/karaokemugen
+	url = https://aur.archlinux.org/karaokemugen
+[submodule "pkgbuild/kb"]
+	path = pkgbuild/kb
+	url = https://aur.archlinux.org/kb
