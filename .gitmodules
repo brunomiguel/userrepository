@@ -1984,3 +1984,6 @@
 [submodule "pkgbuild/kb"]
 	path = pkgbuild/kb
 	url = https://aur.archlinux.org/kb
+[submodule "pkgbuild/hosts-update"]
+	path = pkgbuild/hosts-update
+	url = https://aur.archlinux.org/hosts-update
