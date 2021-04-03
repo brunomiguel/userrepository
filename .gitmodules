@@ -1987,3 +1987,6 @@
 [submodule "pkgbuild/hosts-update"]
 	path = pkgbuild/hosts-update
 	url = https://aur.archlinux.org/hosts-update
+[submodule "pkgbuild/paclog"]
+	path = pkgbuild/paclog
+	url = https://aur.archlinux.org/paclog
