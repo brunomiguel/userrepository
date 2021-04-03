@@ -673,9 +673,6 @@
 [submodule "pkgbuild/birch-git"]
 	path = pkgbuild/birch-git
 	url = https://aur.archlinux.org/birch-git
-[submodule "pkgbuild/arc-gtk-theme-jnsh-git"]
-	path = pkgbuild/arc-gtk-theme-jnsh-git
-	url = https://aur.archlinux.org/arc-gtk-theme-jnsh-git
 [submodule "pkgbuild/glorytun"]
 	path = pkgbuild/glorytun
 	url = https://aur.archlinux.org/glorytun
