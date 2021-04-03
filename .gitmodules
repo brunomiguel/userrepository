@@ -1753,9 +1753,6 @@
 [submodule "pkgbuild/reddio-git"]
 	path = pkgbuild/reddio-git
 	url = https://aur.archlinux.org/reddio-git
-[submodule "pkgbuild/tarry-git"]
-	path = pkgbuild/tarry-git
-	url = https://aur.archlinux.org/tarry-git
 [submodule "pkgbuild/opensurge"]
 	path = pkgbuild/opensurge
 	url = https://aur.archlinux.org/opensurge
