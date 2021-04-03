@@ -1426,9 +1426,6 @@
 [submodule "pkgbuild/darkman"]
 	path = pkgbuild/darkman
 	url = https://aur.archlinux.org/darkman
-[submodule "pkgbuild/taffybar"]
-	path = pkgbuild/taffybar
-	url = https://aur.archlinux.org/taffybar
 [submodule "pkgbuild/imagewriter"]
 	path = pkgbuild/imagewriter
 	url = https://aur.archlinux.org/imagewriter
