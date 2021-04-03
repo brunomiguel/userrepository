@@ -1915,9 +1915,6 @@
 [submodule "pkgbuild/zoxide-bin"]
 	path = pkgbuild/zoxide-bin
 	url = https://aur.archlinux.org/zoxide-bin
-[submodule "pkgbuild/uivonim-git"]
-	path = pkgbuild/uivonim-git
-	url = https://aur.archlinux.org/uivonim-git
 [submodule "pkgbuild/cornus"]
 	path = pkgbuild/cornus
 	url = https://aur.archlinux.org/cornus
