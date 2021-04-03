@@ -1966,3 +1966,6 @@
 [submodule "pkgbuild/newsflash"]
 	path = pkgbuild/newsflash
 	url = https://aur.archlinux.org/newsflash
+[submodule "pkgbuild/cpufetch-git"]
+	path = pkgbuild/cpufetch-git
+	url = https://aur.archlinux.org/cpufetch-git
