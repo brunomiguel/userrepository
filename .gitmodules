@@ -1033,9 +1033,6 @@
 [submodule "pkgbuild/noaftodo-git"]
 	path = pkgbuild/noaftodo-git
 	url = https://aur.archlinux.org/noaftodo-git
-[submodule "pkgbuild/newsflash-git"]
-	path = pkgbuild/newsflash-git
-	url = https://aur.archlinux.org/newsflash-git
 [submodule "pkgbuild/ttf-antonio"]
 	path = pkgbuild/ttf-antonio
 	url = https://aur.archlinux.org/ttf-antonio
