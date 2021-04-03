@@ -1978,3 +1978,6 @@
 [submodule "pkgbuild/paclog"]
 	path = pkgbuild/paclog
 	url = https://aur.archlinux.org/paclog
+[submodule "pkgbuild/newsflash"]
+	path = pkgbuild/newsflash
+	url = https://aur.archlinux.org/newsflash
