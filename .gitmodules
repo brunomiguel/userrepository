@@ -1075,9 +1075,6 @@
 [submodule "pkgbuild/ttf-monoid-git"]
 	path = pkgbuild/ttf-monoid-git
 	url = https://aur.archlinux.org/ttf-monoid-git
-[submodule "pkgbuild/akira"]
-	path = pkgbuild/akira
-	url = https://aur.archlinux.org/akira
 [submodule "pkgbuild/spleen-font"]
 	path = pkgbuild/spleen-font
 	url = https://aur.archlinux.org/spleen-font
