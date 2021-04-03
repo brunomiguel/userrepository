@@ -1273,9 +1273,6 @@
 [submodule "pkgbuild/license"]
 	path = pkgbuild/license
 	url = https://aur.archlinux.org/license
-[submodule "pkgbuild/btdu"]
-	path = pkgbuild/btdu
-	url = https://aur.archlinux.org/btdu
 [submodule "pkgbuild/vopono-git"]
 	path = pkgbuild/vopono-git
 	url = https://aur.archlinux.org/vopono-git
