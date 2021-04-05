@@ -1969,3 +1969,24 @@
 [submodule "pkgbuild/cpufetch-git"]
 	path = pkgbuild/cpufetch-git
 	url = https://aur.archlinux.org/cpufetch-git
+[submodule "pkgbuild/pyfetch-git"]
+	path = pkgbuild/pyfetch-git
+	url = https://aur.archlinux.org/pyfetch-git
+[submodule "pkgbuild/xml-security-c"]
+	path = pkgbuild/xml-security-c
+	url = https://aur.archlinux.org/xml-security-c
+[submodule "pkgbuild/libxerces-c-3.1"]
+	path = pkgbuild/libxerces-c-3.1
+	url = https://aur.archlinux.org/libxerces-c-3.1
+[submodule "pkgbuild/lockbook"]
+	path = pkgbuild/lockbook
+	url = https://aur.archlinux.org/lockbook
+[submodule "pkgbuild/notekeeper"]
+	path = pkgbuild/notekeeper
+	url = https://aur.archlinux.org/notekeeper
+[submodule "pkgbuild/hmm"]
+	path = pkgbuild/hmm
+	url = https://aur.archlinux.org/hmm
+[submodule "pkgbuild/himalaya-git"]
+	path = pkgbuild/himalaya-git
+	url = https://aur.archlinux.org/himalaya-git
