@@ -1990,3 +1990,24 @@
 [submodule "pkgbuild/himalaya-git"]
 	path = pkgbuild/himalaya-git
 	url = https://aur.archlinux.org/himalaya-git
+[submodule "pkgbuild/gitrob-git"]
+	path = pkgbuild/gitrob-git
+	url = https://aur.archlinux.org/gitrob-git
+[submodule "pkgbuild/fastfetch-git"]
+	path = pkgbuild/fastfetch-git
+	url = https://aur.archlinux.org/fastfetch-git
+[submodule "pkgbuild/cardboard-git"]
+	path = pkgbuild/cardboard-git
+	url = https://aur.archlinux.org/cardboard-git
+[submodule "pkgbuild/snapperoo-git"]
+	path = pkgbuild/snapperoo-git
+	url = https://aur.archlinux.org/snapperoo-git
+[submodule "pkgbuild/ambit-git"]
+	path = pkgbuild/ambit-git
+	url = https://aur.archlinux.org/ambit-git
+[submodule "pkgbuild/dnspeep"]
+	path = pkgbuild/dnspeep
+	url = https://aur.archlinux.org/dnspeep
+[submodule "pkgbuild/q-dns-git"]
+	path = pkgbuild/q-dns-git
+	url = https://aur.archlinux.org/q-dns-git
