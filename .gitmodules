@@ -262,9 +262,6 @@
 [submodule "pkgbuild/qtws-base"]
 	path = pkgbuild/qtws-base
 	url = https://aur.archlinux.org/qtws-base.git
-[submodule "pkgbuild/quilter"]
-	path = pkgbuild/quilter
-	url = https://aur.archlinux.org/quilter.git
 [submodule "pkgbuild/raven-reader"]
 	path = pkgbuild/raven-reader
 	url = https://aur.archlinux.org/raven-reader.git
