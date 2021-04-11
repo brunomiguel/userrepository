@@ -2011,3 +2011,12 @@
 [submodule "pkgbuild/q-dns-git"]
 	path = pkgbuild/q-dns-git
 	url = https://aur.archlinux.org/q-dns-git
+[submodule "pkgbuild/dot"]
+	path = pkgbuild/dot
+	url = https://aur.archlinux.org/dot
+[submodule "pkgbuild/srain"]
+	path = pkgbuild/srain
+	url = https://aur.archlinux.org/srain
+[submodule "pkgbuild/grit-task-manager"]
+	path = pkgbuild/grit-task-manager
+	url = https://aur.archlinux.org/grit-task-manager
