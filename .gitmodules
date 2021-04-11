@@ -280,9 +280,6 @@
 [submodule "pkgbuild/rememberthemilk"]
 	path = pkgbuild/rememberthemilk
 	url = https://aur.archlinux.org/rememberthemilk.git
-[submodule "pkgbuild/rofimoji-git"]
-	path = pkgbuild/rofimoji-git
-	url = https://aur.archlinux.org/rofimoji-git.git
 [submodule "pkgbuild/scaleway-cli"]
 	path = pkgbuild/scaleway-cli
 	url = https://aur.archlinux.org/scaleway-cli
