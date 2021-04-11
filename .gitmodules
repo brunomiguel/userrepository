@@ -772,9 +772,6 @@
 [submodule "pkgbuild/gimp-refocus"]
 	path = pkgbuild/gimp-refocus
 	url = https://aur.archlinux.org/gimp-refocus
-[submodule "pkgbuild/gimp-plugin-wavelet-denoise"]
-	path = pkgbuild/gimp-plugin-wavelet-denoise
-	url = https://aur.archlinux.org/gimp-plugin-wavelet-denoise
 [submodule "pkgbuild/giti-git"]
 	path = pkgbuild/giti-git
 	url = https://aur.archlinux.org/giti-git
