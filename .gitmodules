@@ -1498,9 +1498,6 @@
 [submodule "pkgbuild/leftwm"]
 	path = pkgbuild/leftwm
 	url = https://aur.archlinux.org/leftwm
-[submodule "pkgbuild/yambar"]
-	path = pkgbuild/yambar
-	url = https://aur.archlinux.org/yambar
 [submodule "pkgbuild/gitui-git"]
 	path = pkgbuild/gitui-git
 	url = https://aur.archlinux.org/gitui-git
