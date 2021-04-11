@@ -259,9 +259,6 @@
 [submodule "pkgbuild/qtemu-git"]
 	path = pkgbuild/qtemu-git
 	url = https://aur.archlinux.org/qtemu-git.git
-[submodule "pkgbuild/qtwebflix-git"]
-	path = pkgbuild/qtwebflix-git
-	url = https://aur.archlinux.org/qtwebflix-git.git
 [submodule "pkgbuild/qtws-base"]
 	path = pkgbuild/qtws-base
 	url = https://aur.archlinux.org/qtws-base.git
