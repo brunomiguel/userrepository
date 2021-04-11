@@ -1747,9 +1747,6 @@
 [submodule "pkgbuild/reddio-git"]
 	path = pkgbuild/reddio-git
 	url = https://aur.archlinux.org/reddio-git
-[submodule "pkgbuild/opensurge"]
-	path = pkgbuild/opensurge
-	url = https://aur.archlinux.org/opensurge
 [submodule "pkgbuild/lightly-qt"]
 	path = pkgbuild/lightly-qt
 	url = https://aur.archlinux.org/lightly-qt
