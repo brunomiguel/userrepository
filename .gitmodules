@@ -2011,3 +2011,21 @@
 [submodule "pkgbuild/python-npyscreen"]
 	path = pkgbuild/python-npyscreen
 	url = https://aur.archlinux.org/python-npyscreen
+[submodule "pkgbuild/datasette"]
+	path = pkgbuild/datasette
+	url = https://aur.archlinux.org/datasette
+[submodule "pkgbuild/python-asgi-csrf"]
+	path = pkgbuild/python-asgi-csrf
+	url = https://aur.archlinux.org/python-asgi-csrf
+[submodule "pkgbuild/python-hupper"]
+	path = pkgbuild/python-hupper
+	url = https://aur.archlinux.org/python-hupper
+[submodule "pkgbuild/python-mergedeep"]
+	path = pkgbuild/python-mergedeep
+	url = https://aur.archlinux.org/python-mergedeep
+[submodule "pkgbuild/python-baseconv"]
+	path = pkgbuild/python-baseconv
+	url = https://aur.archlinux.org/python-baseconv
+[submodule "pkgbuild/crow-translate"]
+	path = pkgbuild/crow-translate
+	url = https://aur.archlinux.org/crow-translate
