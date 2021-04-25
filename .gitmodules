@@ -2029,3 +2029,21 @@
 [submodule "pkgbuild/crow-translate"]
 	path = pkgbuild/crow-translate
 	url = https://aur.archlinux.org/crow-translate
+[submodule "pkgbuild/aminal-git"]
+	path = pkgbuild/aminal-git
+	url = https://aur.archlinux.org/aminal-git
+[submodule "pkgbuild/macchina"]
+	path = pkgbuild/macchina
+	url = https://aur.archlinux.org/macchina
+[submodule "pkgbuild/showmethekey"]
+	path = pkgbuild/showmethekey
+	url = https://aur.archlinux.org/showmethekey
+[submodule "pkgbuild/blanket"]
+	path = pkgbuild/blanket
+	url = https://aur.archlinux.org/blanket
+[submodule "pkgbuild/untrunc-anthwlock-cli-git"]
+	path = pkgbuild/untrunc-anthwlock-cli-git
+	url = https://aur.archlinux.org/untrunc-anthwlock-cli-git
+[submodule "pkgbuild/logseq-desktop"]
+	path = pkgbuild/logseq-desktop
+	url = https://aur.archlinux.org/logseq-desktop
