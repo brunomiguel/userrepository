@@ -2050,9 +2050,6 @@
 [submodule "pkgbuild/nextgen"]
 	path = pkgbuild/nextgen
 	url = https://aur.archlinux.org/nextgen
-[submodule "pkgbuild/buho-git"]
-	path = pkgbuild/buho-git
-	url = https://aur.archlinux.org/buho-git
 [submodule "pkgbuild/nautilus-hide"]
 	path = pkgbuild/nautilus-hide
 	url = https://aur.archlinux.org/nautilus-hide
