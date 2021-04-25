@@ -2047,3 +2047,18 @@
 [submodule "pkgbuild/logseq-desktop"]
 	path = pkgbuild/logseq-desktop
 	url = https://aur.archlinux.org/logseq-desktop
+[submodule "pkgbuild/nextgen"]
+	path = pkgbuild/nextgen
+	url = https://aur.archlinux.org/nextgen
+[submodule "pkgbuild/buho-git"]
+	path = pkgbuild/buho-git
+	url = https://aur.archlinux.org/buho-git
+[submodule "pkgbuild/nautilus-hide"]
+	path = pkgbuild/nautilus-hide
+	url = https://aur.archlinux.org/nautilus-hide
+[submodule "pkgbuild/nautilus-hide-git"]
+	path = pkgbuild/nautilus-hide-git
+	url = https://aur.archlinux.org/nautilus-hide-git
+[submodule "pkgbuild/eless"]
+	path = pkgbuild/eless
+	url = https://aur.archlinux.org/eless
