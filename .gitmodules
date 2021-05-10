@@ -2059,3 +2059,54 @@
 [submodule "pkgbuild/eless"]
 	path = pkgbuild/eless
 	url = https://aur.archlinux.org/eless
+[submodule "pkgbuild/aurto"]
+	path = pkgbuild/aurto
+	url = https://aur.archlinux.org/aurto
+[submodule "pkgbuild/plasmatube-git"]
+	path = pkgbuild/plasmatube-git
+	url = https://aur.archlinux.org/plasmatube-git
+[submodule "pkgbuild/pkger-rs"]
+	path = pkgbuild/pkger-rs
+	url = https://aur.archlinux.org/pkger-rs
+[submodule "pkgbuild/evdi"]
+	path = pkgbuild/evdi
+	url = https://aur.archlinux.org/evdi
+[submodule "pkgbuild/akira"]
+	path = pkgbuild/akira
+	url = https://aur.archlinux.org/akira
+[submodule "pkgbuild/worldwind"]
+	path = pkgbuild/worldwind
+	url = https://aur.archlinux.org/worldwind
+[submodule "pkgbuild/mailspring-libre"]
+	path = pkgbuild/mailspring-libre
+	url = https://aur.archlinux.org/mailspring-libre
+[submodule "pkgbuild/t-rec"]
+	path = pkgbuild/t-rec
+	url = https://aur.archlinux.org/t-rec
+[submodule "pkgbuild/t-rec-git"]
+	path = pkgbuild/t-rec-git
+	url = https://aur.archlinux.org/t-rec-git
+[submodule "pkgbuild/vscodium-bin-features"]
+	path = pkgbuild/vscodium-bin-features
+	url = https://aur.archlinux.org/vscodium-bin-features
+[submodule "pkgbuild/mrwriter-git"]
+	path = pkgbuild/mrwriter-git
+	url = https://aur.archlinux.org/mrwriter-git
+[submodule "pkgbuild/obs-source-switcher"]
+	path = pkgbuild/obs-source-switcher
+	url = https://aur.archlinux.org/obs-source-switcher
+[submodule "pkgbuild/ice-ssb-git"]
+	path = pkgbuild/ice-ssb-git
+	url = https://aur.archlinux.org/ice-ssb-git
+[submodule "pkgbuild/fosstriangulator"]
+	path = pkgbuild/fosstriangulator
+	url = https://aur.archlinux.org/fosstriangulator
+[submodule "pkgbuild/castero"]
+	path = pkgbuild/castero
+	url = https://aur.archlinux.org/castero
+[submodule "pkgbuild/mememaker-quiet"]
+	path = pkgbuild/mememaker-quiet
+	url = https://aur.archlinux.org/mememaker-quiet
+[submodule "pkgbuild/instawm"]
+	path = pkgbuild/instawm
+	url = https://aur.archlinux.org/instawm
