@@ -2110,3 +2110,9 @@
 [submodule "pkgbuild/instawm"]
 	path = pkgbuild/instawm
 	url = https://aur.archlinux.org/instawm
+[submodule "pkgbuild/ttf-roboto-flex"]
+	path = pkgbuild/ttf-roboto-flex
+	url = https://aur.archlinux.org/ttf-roboto-flex
+[submodule "pkgbuild/astrofox"]
+	path = pkgbuild/astrofox
+	url = https://aur.archlinux.org/astrofox
