@@ -2113,3 +2113,6 @@
 [submodule "pkgbuild/astrofox"]
 	path = pkgbuild/astrofox
 	url = https://aur.archlinux.org/astrofox
+[submodule "pkgbuild/dendron"]
+	path = pkgbuild/dendron
+	url = https://aur.archlinux.org/dendron
