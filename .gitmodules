@@ -112,9 +112,6 @@
 [submodule "pkgbuild/ffsend"]
 	path = pkgbuild/ffsend
 	url = https://aur.archlinux.org/ffsend.git
-[submodule "pkgbuild/flowblade"]
-	path = pkgbuild/flowblade
-	url = https://aur.archlinux.org/flowblade.git
 [submodule "pkgbuild/focuswriter"]
 	path = pkgbuild/focuswriter
 	url = https://aur.archlinux.org/focuswriter.git
