@@ -133,9 +133,6 @@
 [submodule "pkgbuild/gamehub"]
 	path = pkgbuild/gamehub
 	url = https://aur.archlinux.org/gamehub.git
-[submodule "pkgbuild/ghostwriter"]
-	path = pkgbuild/ghostwriter
-	url = https://aur.archlinux.org/ghostwriter.git
 [submodule "pkgbuild/glrnvim"]
 	path = pkgbuild/glrnvim
 	url = https://aur.archlinux.org/glrnvim.git
@@ -2116,3 +2113,15 @@
 [submodule "pkgbuild/dendron"]
 	path = pkgbuild/dendron
 	url = https://aur.archlinux.org/dendron
+[submodule "pkgbuild/ghostwriter-git"]
+	path = pkgbuild/ghostwriter-git
+	url = https://aur.archlinux.org/ghostwriter-git
+[submodule "pkgbuild/libxlsxwriter"]
+	path = pkgbuild/libxlsxwriter
+	url = https://aur.archlinux.org/libxlsxwriter
+[submodule "pkgbuild/sc-im"]
+	path = pkgbuild/sc-im
+	url = https://aur.archlinux.org/sc-im
+[submodule "pkgbuild/lefthook"]
+	path = pkgbuild/lefthook
+	url = https://aur.archlinux.org/lefthook
