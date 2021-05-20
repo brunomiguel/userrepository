@@ -154,9 +154,6 @@
 [submodule "pkgbuild/i3-volume"]
 	path = pkgbuild/i3-volume
 	url = https://aur.archlinux.org/i3-volume
-[submodule "pkgbuild/icecat-bin"]
-	path = pkgbuild/icecat-bin
-	url = https://aur.archlinux.org/icecat-bin.git
 [submodule "pkgbuild/interui-otf"]
 	path = pkgbuild/interui-otf
 	url = https://aur.archlinux.org/interui-otf.git
