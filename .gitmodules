@@ -2125,3 +2125,9 @@
 [submodule "pkgbuild/noisetorch"]
 	path = pkgbuild/noisetorch
 	url = https://aur.archlinux.org/noisetorch
+[submodule "pkgbuild/timetrace"]
+	path = pkgbuild/timetrace
+	url = https://aur.archlinux.org/timetrace
+[submodule "pkgbuild/gcalert"]
+	path = pkgbuild/gcalert
+	url = https://aur.archlinux.org/gcalert
