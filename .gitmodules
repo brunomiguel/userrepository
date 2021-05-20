@@ -2122,3 +2122,6 @@
 [submodule "pkgbuild/lefthook"]
 	path = pkgbuild/lefthook
 	url = https://aur.archlinux.org/lefthook
+[submodule "pkgbuild/textimg"]
+	path = pkgbuild/textimg
+	url = https://aur.archlinux.org/textimg
