@@ -2122,3 +2122,6 @@
 [submodule "pkgbuild/textimg"]
 	path = pkgbuild/textimg
 	url = https://aur.archlinux.org/textimg
+[submodule "pkgbuild/noisetorch"]
+	path = pkgbuild/noisetorch
+	url = https://aur.archlinux.org/noisetorch
