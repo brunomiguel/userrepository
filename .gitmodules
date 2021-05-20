@@ -2122,6 +2122,3 @@
 [submodule "pkgbuild/textimg"]
 	path = pkgbuild/textimg
 	url = https://aur.archlinux.org/textimg
-[submodule "pkgbuild/icecat"]
-	path = pkgbuild/icecat
-	url = https://aur.archlinux.org/icecat
