@@ -2131,3 +2131,6 @@
 [submodule "pkgbuild/gcalert"]
 	path = pkgbuild/gcalert
 	url = https://aur.archlinux.org/gcalert
+[submodule "pkgbuild/pacmixer"]
+	path = pkgbuild/pacmixer
+	url = https://aur.archlinux.org/pacmixer
