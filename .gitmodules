@@ -2143,9 +2143,6 @@
 [submodule "pkgbuild/otf-besley"]
 	path = pkgbuild/otf-besley
 	url = https://aur.archlinux.org/otf-besley
-[submodule "pkgbuild/librewolf"]
-	path = pkgbuild/librewolf
-	url = https://aur.archlinux.org/librewolf
 [submodule "pkgbuild/librewolf-ublock-origin"]
 	path = pkgbuild/librewolf-ublock-origin
 	url = https://aur.archlinux.org/librewolf-ublock-origin
