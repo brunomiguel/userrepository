@@ -2143,9 +2143,6 @@
 [submodule "pkgbuild/otf-besley"]
 	path = pkgbuild/otf-besley
 	url = https://aur.archlinux.org/otf-besley
-[submodule "pkgbuild/firedragon"]
-	path = pkgbuild/firedragon
-	url = https://aur.archlinux.org/firedragon
 [submodule "pkgbuild/kfiredragonhelper"]
 	path = pkgbuild/kfiredragonhelper
 	url = https://aur.archlinux.org/kfiredragonhelper
