@@ -2134,3 +2134,42 @@
 [submodule "pkgbuild/pacmixer"]
 	path = pkgbuild/pacmixer
 	url = https://aur.archlinux.org/pacmixer
+[submodule "pkgbuild/dracula-qt5-theme"]
+	path = pkgbuild/dracula-qt5-theme
+	url = https://aur.archlinux.org/dracula-qt5-theme
+[submodule "pkgbuild/dracula-gtk-theme"]
+	path = pkgbuild/dracula-gtk-theme
+	url = https://aur.archlinux.org/dracula-gtk-theme
+[submodule "pkgbuild/otf-besley"]
+	path = pkgbuild/otf-besley
+	url = https://aur.archlinux.org/otf-besley
+[submodule "pkgbuild/firedragon"]
+	path = pkgbuild/firedragon
+	url = https://aur.archlinux.org/firedragon
+[submodule "pkgbuild/kfiredragonhelper"]
+	path = pkgbuild/kfiredragonhelper
+	url = https://aur.archlinux.org/kfiredragonhelper
+[submodule "pkgbuild/librewolf"]
+	path = pkgbuild/librewolf
+	url = https://aur.archlinux.org/librewolf
+[submodule "pkgbuild/librewolf-ublock-origin"]
+	path = pkgbuild/librewolf-ublock-origin
+	url = https://aur.archlinux.org/librewolf-ublock-origin
+[submodule "pkgbuild/librewolf-extension-noscript"]
+	path = pkgbuild/librewolf-extension-noscript
+	url = https://aur.archlinux.org/librewolf-extension-noscript
+[submodule "pkgbuild/librewolf-extension-plasma-integration"]
+	path = pkgbuild/librewolf-extension-plasma-integration
+	url = https://aur.archlinux.org/librewolf-extension-plasma-integration
+[submodule "pkgbuild/librewolf-extension-gnome-shell-integration"]
+	path = pkgbuild/librewolf-extension-gnome-shell-integration
+	url = https://aur.archlinux.org/librewolf-extension-gnome-shell-integration
+[submodule "pkgbuild/librewolf-comment-out-cfg-hook"]
+	path = pkgbuild/librewolf-comment-out-cfg-hook
+	url = https://aur.archlinux.org/librewolf-comment-out-cfg-hook
+[submodule "pkgbuild/lite-xl"]
+	path = pkgbuild/lite-xl
+	url = https://aur.archlinux.org/lite-xl
+[submodule "pkgbuild/agg"]
+	path = pkgbuild/agg
+	url = https://aur.archlinux.org/agg
