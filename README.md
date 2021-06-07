@@ -28,7 +28,9 @@ You can just create a corresponding directory in the `pkgbuild` directory and pu
 To synchronize the repository with your server you can run `./jarvis.sh -r`.
 
 ## Building
-Just run `./jarvis.sh -b`. It will update the PKGBUILDs (if possible), build the packages, create the repository list and rsync all the files from ./repository to your endpoint (specified in `config`).
+Just run `./jarvis.sh -f` to do a full build. It will update the PKGBUILDs (if possible), build the packages, create the repository list and rsync all the files from ./repository to your endpoint (specified in `config`).
+
+You can also run `./jarvis.sh -b` to build only submodules with updates, but it's not at the best shape at the moment, so I would advice not using it. This is because some AUR packages create different packages and I haven't found a way to deal with that yet.
 
 # License
 All scripts in this repository are licensed under GNU General Public License 3.0. Full license text under [LICENSE](LICENSE)
