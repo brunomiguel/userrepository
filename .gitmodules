@@ -2164,6 +2164,3 @@
 [submodule "pkgbuild/agg"]
 	path = pkgbuild/agg
 	url = https://aur.archlinux.org/agg
-[submodule "pkgbuild/bart"]
-	path = pkgbuild/bart
-	url = https://aur.archlinux.org/bart
