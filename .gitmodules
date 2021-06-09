@@ -2167,6 +2167,3 @@
 [submodule "pkgbuild/bart"]
 	path = pkgbuild/bart
 	url = https://aur.archlinux.org/bart
-[submodule "pkgbuild/openblas-lapack"]
-	path = pkgbuild/openblas-lapack
-	url = https://aur.archlinux.org/openblas-lapack
