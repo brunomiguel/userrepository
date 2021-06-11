@@ -2161,3 +2161,6 @@
 [submodule "pkgbuild/macchina"]
 	path = pkgbuild/macchina
 	url = https://aur.archlinux.org/macchina
+[submodule "pkgbuild/giara-git"]
+	path = pkgbuild/giara-git
+	url = https://aur.archlinux.org/giara-git
