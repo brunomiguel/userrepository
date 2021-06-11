@@ -2020,9 +2020,6 @@
 [submodule "pkgbuild/aminal-git"]
 	path = pkgbuild/aminal-git
 	url = https://aur.archlinux.org/aminal-git
-[submodule "pkgbuild/macchina"]
-	path = pkgbuild/macchina
-	url = https://aur.archlinux.org/macchina
 [submodule "pkgbuild/showmethekey"]
 	path = pkgbuild/showmethekey
 	url = https://aur.archlinux.org/showmethekey
