@@ -2158,3 +2158,15 @@
 [submodule "pkgbuild/macchina"]
 	path = pkgbuild/macchina
 	url = https://aur.archlinux.org/macchina
+[submodule "pkgbuild/fritzing"]
+	path = pkgbuild/fritzing
+	url = https://aur.archlinux.org/fritzing
+[submodule "pkgbuild/bookstack"]
+	path = pkgbuild/bookstack
+	url = https://aur.archlinux.org/bookstack
+[submodule "pkgbuild/visidata"]
+	path = pkgbuild/visidata
+	url = https://aur.archlinux.org/visidata
+[submodule "pkgbuild/lipsum-git"]
+	path = pkgbuild/lipsum-git
+	url = https://aur.archlinux.org/lipsum-git
