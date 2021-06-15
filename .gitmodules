@@ -2170,3 +2170,12 @@
 [submodule "pkgbuild/lipsum-git"]
 	path = pkgbuild/lipsum-git
 	url = https://aur.archlinux.org/lipsum-git
+[submodule "pkgbuild/gedit-source-code-browser-git"]
+	path = pkgbuild/gedit-source-code-browser-git
+	url = https://aur.archlinux.org/gedit-source-code-browser-git
+[submodule "pkgbuild/akwaita-theme-git"]
+	path = pkgbuild/akwaita-theme-git
+	url = https://aur.archlinux.org/akwaita-theme-git
+[submodule "pkgbuild/peerflix-git"]
+	path = pkgbuild/peerflix-git
+	url = https://aur.archlinux.org/peerflix-git
