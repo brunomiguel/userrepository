@@ -2191,9 +2191,6 @@
 [submodule "pkgbuild/git-completion"]
 	path = pkgbuild/git-completion
 	url = https://aur.archlinux.org/git-completion
-[submodule "pkgbuild/firefox-beta-bin-all-localizations"]
-	path = pkgbuild/firefox-beta-bin-all-localizations
-	url = https://aur.archlinux.org/firefox-beta-bin-all-localizations
 [submodule "pkgbuild/klog"]
 	path = pkgbuild/klog
 	url = https://aur.archlinux.org/klog
