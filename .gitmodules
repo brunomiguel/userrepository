@@ -2194,3 +2194,33 @@
 [submodule "pkgbuild/klog"]
 	path = pkgbuild/klog
 	url = https://aur.archlinux.org/klog
+[submodule "pkgbuild/shutter"]
+	path = pkgbuild/shutter
+	url = https://aur.archlinux.org/shutter
+[submodule "pkgbuild/audiotube-git"]
+	path = pkgbuild/audiotube-git
+	url = https://aur.archlinux.org/audiotube-git
+[submodule "pkgbuild/slides-git"]
+	path = pkgbuild/slides-git
+	url = https://aur.archlinux.org/slides-git
+[submodule "pkgbuild/slides"]
+	path = pkgbuild/slides
+	url = https://aur.archlinux.org/slides
+[submodule "pkgbuild/nutty-git"]
+	path = pkgbuild/nutty-git
+	url = https://aur.archlinux.org/nutty-git
+[submodule "pkgbuild/fcp-git"]
+	path = pkgbuild/fcp-git
+	url = https://aur.archlinux.org/fcp-git
+[submodule "pkgbuild/czkawka-git"]
+	path = pkgbuild/czkawka-git
+	url = https://aur.archlinux.org/czkawka-git
+[submodule "pkgbuild/clapper"]
+	path = pkgbuild/clapper
+	url = https://aur.archlinux.org/clapper
+[submodule "pkgbuild/deskx-git"]
+	path = pkgbuild/deskx-git
+	url = https://aur.archlinux.org/deskx-git
+[submodule "pkgbuild/goodvibes-git"]
+	path = pkgbuild/goodvibes-git
+	url = https://aur.archlinux.org/goodvibes-git
