@@ -2224,3 +2224,12 @@
 [submodule "pkgbuild/goodvibes-git"]
 	path = pkgbuild/goodvibes-git
 	url = https://aur.archlinux.org/goodvibes-git
+[submodule "pkgbuild/tealdeer"]
+	path = pkgbuild/tealdeer
+	url = https://aur.archlinux.org/tealdeer
+[submodule "pkgbuild/ancestris"]
+	path = pkgbuild/ancestris
+	url = https://aur.archlinux.org/ancestris
+[submodule "pkgbuild/asciidocfx"]
+	path = pkgbuild/asciidocfx
+	url = https://aur.archlinux.org/asciidocfx
