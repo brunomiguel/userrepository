@@ -2230,6 +2230,18 @@
 [submodule "pkgbuild/ancestris"]
 	path = pkgbuild/ancestris
 	url = https://aur.archlinux.org/ancestris
-[submodule "pkgbuild/asciidocfx"]
-	path = pkgbuild/asciidocfx
-	url = https://aur.archlinux.org/asciidocfx
+[submodule "pkgbuild/qtext"]
+	path = pkgbuild/qtext
+	url = https://aur.archlinux.org/qtext
+[submodule "pkgbuild/katriawm"]
+	path = pkgbuild/katriawm
+	url = https://aur.archlinux.org/katriawm
+[submodule "pkgbuild/plow"]
+	path = pkgbuild/plow
+	url = https://aur.archlinux.org/plow
+[submodule "pkgbuild/usbboot"]
+	path = pkgbuild/usbboot
+	url = https://aur.archlinux.org/usbboot
+[submodule "pkgbuild/usbbootgui"]
+	path = pkgbuild/usbbootgui
+	url = https://aur.archlinux.org/usbbootgui
