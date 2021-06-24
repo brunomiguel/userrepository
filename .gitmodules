@@ -2236,3 +2236,12 @@
 [submodule "pkgbuild/usbbootgui"]
 	path = pkgbuild/usbbootgui
 	url = https://aur.archlinux.org/usbbootgui
+[submodule "pkgbuild/todo.c-git"]
+	path = pkgbuild/todo.c-git
+	url = https://aur.archlinux.org/todo.c-git
+[submodule "pkgbuild/downgrade"]
+	path = pkgbuild/downgrade
+	url = https://aur.archlinux.org/downgrade
+[submodule "pkgbuild/suricata"]
+	path = pkgbuild/suricata
+	url = https://aur.archlinux.org/suricata
