@@ -511,9 +511,6 @@
 [submodule "pkgbuild/glow"]
 	path = pkgbuild/glow
 	url = https://aur.archlinux.org/glow
-[submodule "pkgbuild/minify"]
-	path = pkgbuild/minify
-	url = https://aur.archlinux.org/minify
 [submodule "pkgbuild/minder-git"]
 	path = pkgbuild/minder-git
 	url = https://aur.archlinux.org/minder-git
