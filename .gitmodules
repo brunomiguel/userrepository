@@ -2155,9 +2155,6 @@
 [submodule "pkgbuild/agg"]
 	path = pkgbuild/agg
 	url = https://aur.archlinux.org/agg
-[submodule "pkgbuild/macchina"]
-	path = pkgbuild/macchina
-	url = https://aur.archlinux.org/macchina
 [submodule "pkgbuild/fritzing"]
 	path = pkgbuild/fritzing
 	url = https://aur.archlinux.org/fritzing
