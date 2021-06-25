@@ -2275,3 +2275,6 @@
 [submodule "pkgbuild/gpg-tui"]
 	path = pkgbuild/gpg-tui
 	url = https://aur.archlinux.org/gpg-tui
+[submodule "pkgbuild/diary-git"]
+	path = pkgbuild/diary-git
+	url = https://aur.archlinux.org/diary-git
