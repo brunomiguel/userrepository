@@ -2245,3 +2245,6 @@
 [submodule "pkgbuild/kwinft-git"]
 	path = pkgbuild/kwinft-git
 	url = https://aur.archlinux.org/kwinft-git
+[submodule "pkgbuild/zk"]
+	path = pkgbuild/zk
+	url = https://aur.archlinux.org/zk
