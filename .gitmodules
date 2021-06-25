@@ -2248,3 +2248,6 @@
 [submodule "pkgbuild/zk"]
 	path = pkgbuild/zk
 	url = https://aur.archlinux.org/zk
+[submodule "pkgbuild/whoogle-git"]
+	path = pkgbuild/whoogle-git
+	url = https://aur.archlinux.org/whoogle-git
