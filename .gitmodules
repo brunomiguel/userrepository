@@ -2251,3 +2251,6 @@
 [submodule "pkgbuild/whoogle-git"]
 	path = pkgbuild/whoogle-git
 	url = https://aur.archlinux.org/whoogle-git
+[submodule "pkgbuild/whoogle"]
+	path = pkgbuild/whoogle
+	url = https://aur.archlinux.org/whoogle
