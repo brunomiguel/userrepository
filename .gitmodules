@@ -2278,3 +2278,6 @@
 [submodule "pkgbuild/diary-git"]
 	path = pkgbuild/diary-git
 	url = https://aur.archlinux.org/diary-git
+[submodule "pkgbuild/bupstash"]
+	path = pkgbuild/bupstash
+	url = https://aur.archlinux.org/bupstash
