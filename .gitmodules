@@ -2272,3 +2272,6 @@
 [submodule "pkgbuild/helix"]
 	path = pkgbuild/helix
 	url = https://aur.archlinux.org/helix
+[submodule "pkgbuild/gpg-tui"]
+	path = pkgbuild/gpg-tui
+	url = https://aur.archlinux.org/gpg-tui
