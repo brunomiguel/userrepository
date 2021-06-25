@@ -2266,3 +2266,6 @@
 [submodule "pkgbuild/otf-allerta"]
 	path = pkgbuild/otf-allerta
 	url = https://aur.archlinux.org/otf-allerta
+[submodule "pkgbuild/journee-bin"]
+	path = pkgbuild/journee-bin
+	url = https://aur.archlinux.org/journee-bin
