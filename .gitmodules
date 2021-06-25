@@ -2260,3 +2260,6 @@
 [submodule "pkgbuild/pdfsam"]
 	path = pkgbuild/pdfsam
 	url = https://aur.archlinux.org/pdfsam
+[submodule "pkgbuild/pacmanfile"]
+	path = pkgbuild/pacmanfile
+	url = https://aur.archlinux.org/pacmanfile
