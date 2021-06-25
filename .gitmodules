@@ -2254,3 +2254,6 @@
 [submodule "pkgbuild/whoogle"]
 	path = pkgbuild/whoogle
 	url = https://aur.archlinux.org/whoogle
+[submodule "pkgbuild/simple-diary-gtk"]
+	path = pkgbuild/simple-diary-gtk
+	url = https://aur.archlinux.org/simple-diary-gtk
