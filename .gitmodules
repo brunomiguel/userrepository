@@ -2263,3 +2263,6 @@
 [submodule "pkgbuild/pacmanfile"]
 	path = pkgbuild/pacmanfile
 	url = https://aur.archlinux.org/pacmanfile
+[submodule "pkgbuild/otf-allerta"]
+	path = pkgbuild/otf-allerta
+	url = https://aur.archlinux.org/otf-allerta
