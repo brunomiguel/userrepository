@@ -2281,3 +2281,6 @@
 [submodule "pkgbuild/bupstash"]
 	path = pkgbuild/bupstash
 	url = https://aur.archlinux.org/bupstash
+[submodule "pkgbuild/autogit"]
+	path = pkgbuild/autogit
+	url = https://aur.archlinux.org/autogit
