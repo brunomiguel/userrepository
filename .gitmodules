@@ -2257,3 +2257,6 @@
 [submodule "pkgbuild/simple-diary-gtk"]
 	path = pkgbuild/simple-diary-gtk
 	url = https://aur.archlinux.org/simple-diary-gtk
+[submodule "pkgbuild/pdfsam"]
+	path = pkgbuild/pdfsam
+	url = https://aur.archlinux.org/pdfsam
