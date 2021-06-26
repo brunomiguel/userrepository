@@ -2284,3 +2284,6 @@
 [submodule "pkgbuild/autogit"]
 	path = pkgbuild/autogit
 	url = https://aur.archlinux.org/autogit
+[submodule "pkgbuild/gpg-tui-git"]
+	path = pkgbuild/gpg-tui-git
+	url = https://aur.archlinux.org/gpg-tui-git
