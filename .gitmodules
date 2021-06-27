@@ -829,9 +829,6 @@
 [submodule "pkgbuild/flac2all"]
 	path = pkgbuild/flac2all
 	url = https://aur.archlinux.org/flac2all
-[submodule "pkgbuild/hikari"]
-	path = pkgbuild/hikari
-	url = https://aur.archlinux.org/hikari
 [submodule "pkgbuild/libucl-git"]
 	path = pkgbuild/libucl-git
 	url = https://aur.archlinux.org/libucl-git
@@ -1747,9 +1744,6 @@
 [submodule "pkgbuild/paru-git"]
 	path = pkgbuild/paru-git
 	url = https://aur.archlinux.org/paru-git
-[submodule "pkgbuild/haruhi-dl"]
-	path = pkgbuild/haruhi-dl
-	url = https://aur.archlinux.org/haruhi-dl
 [submodule "pkgbuild/otf-public-sans"]
 	path = pkgbuild/otf-public-sans
 	url = https://aur.archlinux.org/otf-public-sans
@@ -2251,6 +2245,3 @@
 [submodule "pkgbuild/newsflash-git"]
 	path = pkgbuild/newsflash-git
 	url = https://aur.archlinux.org/newsflash-git
-[submodule "pkgbuild/freshfetch"]
-	path = pkgbuild/freshfetch
-	url = https://aur.archlinux.org/freshfetch
