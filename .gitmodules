@@ -1105,9 +1105,6 @@
 [submodule "pkgbuild/little-brother"]
 	path = pkgbuild/little-brother
 	url = https://aur.archlinux.org/little-brother
-[submodule "pkgbuild/freshfetch-git"]
-	path = pkgbuild/freshfetch-git
-	url = https://aur.archlinux.org/freshfetch-git
 [submodule "pkgbuild/picom-tryone-git"]
 	path = pkgbuild/picom-tryone-git
 	url = https://aur.archlinux.org/picom-tryone-git
@@ -1714,9 +1711,6 @@
 [submodule "pkgbuild/media-downloader-git"]
 	path = pkgbuild/media-downloader-git
 	url = https://aur.archlinux.org/media-downloader-git
-[submodule "pkgbuild/athens-git"]
-	path = pkgbuild/athens-git
-	url = https://aur.archlinux.org/athens-git
 [submodule "pkgbuild/novelwriter-git"]
 	path = pkgbuild/novelwriter-git
 	url = https://aur.archlinux.org/novelwriter-git
@@ -2257,3 +2251,6 @@
 [submodule "pkgbuild/newsflash-git"]
 	path = pkgbuild/newsflash-git
 	url = https://aur.archlinux.org/newsflash-git
+[submodule "pkgbuild/freshfetch"]
+	path = pkgbuild/freshfetch
+	url = https://aur.archlinux.org/freshfetch
