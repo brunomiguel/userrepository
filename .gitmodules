@@ -232,9 +232,6 @@
 [submodule "pkgbuild/python-pyshp"]
 	path = pkgbuild/python-pyshp
 	url = https://aur.archlinux.org/python-pyshp
-[submodule "pkgbuild/qimgv-git"]
-	path = pkgbuild/qimgv-git
-	url = https://aur.archlinux.org/qimgv-git.git
 [submodule "pkgbuild/qjournalctl"]
 	path = pkgbuild/qjournalctl
 	url = https://aur.archlinux.org/qjournalctl.git
@@ -529,9 +526,6 @@
 [submodule "pkgbuild/firewarden"]
 	path = pkgbuild/firewarden
 	url = https://aur.archlinux.org/firewarden
-[submodule "pkgbuild/pueue"]
-	path = pkgbuild/pueue
-	url = https://aur.archlinux.org/pueue
 [submodule "pkgbuild/libcprime"]
 	path = pkgbuild/libcprime
 	url = https://aur.archlinux.org/libcprime
@@ -2272,3 +2266,6 @@
 [submodule "pkgbuild/gpg-tui-git"]
 	path = pkgbuild/gpg-tui-git
 	url = https://aur.archlinux.org/gpg-tui-git
+[submodule "pkgbuild/pueue-git"]
+	path = pkgbuild/pueue-git
+	url = https://aur.archlinux.org/pueue-git
