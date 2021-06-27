@@ -1903,9 +1903,6 @@
 [submodule "pkgbuild/libxerces-c-3.1"]
 	path = pkgbuild/libxerces-c-3.1
 	url = https://aur.archlinux.org/libxerces-c-3.1
-[submodule "pkgbuild/lockbook"]
-	path = pkgbuild/lockbook
-	url = https://aur.archlinux.org/lockbook
 [submodule "pkgbuild/notekeeper"]
 	path = pkgbuild/notekeeper
 	url = https://aur.archlinux.org/notekeeper
