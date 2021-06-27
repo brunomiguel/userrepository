@@ -703,9 +703,6 @@
 [submodule "pkgbuild/bok"]
 	path = pkgbuild/bok
 	url = https://aur.archlinux.org/bok
-[submodule "pkgbuild/yup"]
-	path = pkgbuild/yup
-	url = https://aur.archlinux.org/yup
 [submodule "pkgbuild/autenticacao-gov-pt"]
 	path = pkgbuild/autenticacao-gov-pt
 	url = https://aur.archlinux.org/autenticacao-gov-pt
@@ -1270,9 +1267,6 @@
 [submodule "pkgbuild/passman++"]
 	path = pkgbuild/passman++
 	url = https://aur.archlinux.org/passman++
-[submodule "pkgbuild/wtftw-git"]
-	path = pkgbuild/wtftw-git
-	url = https://aur.archlinux.org/wtftw-git
 [submodule "pkgbuild/gping"]
 	path = pkgbuild/gping
 	url = https://aur.archlinux.org/gping
@@ -1372,9 +1366,6 @@
 [submodule "pkgbuild/protontricks"]
 	path = pkgbuild/protontricks
 	url = https://aur.archlinux.org/protontricks
-[submodule "pkgbuild/streampager"]
-	path = pkgbuild/streampager
-	url = https://aur.archlinux.org/streampager
 [submodule "pkgbuild/iicalc"]
 	path = pkgbuild/iicalc
 	url = https://aur.archlinux.org/iicalc
@@ -1804,9 +1795,6 @@
 [submodule "pkgbuild/ytfzf-git"]
 	path = pkgbuild/ytfzf-git
 	url = https://aur.archlinux.org/ytfzf-git
-[submodule "pkgbuild/su2"]
-	path = pkgbuild/su2
-	url = https://aur.archlinux.org/su2
 [submodule "pkgbuild/konsave"]
 	path = pkgbuild/konsave
 	url = https://aur.archlinux.org/konsave
@@ -2272,9 +2260,6 @@
 [submodule "pkgbuild/helix"]
 	path = pkgbuild/helix
 	url = https://aur.archlinux.org/helix
-[submodule "pkgbuild/gpg-tui"]
-	path = pkgbuild/gpg-tui
-	url = https://aur.archlinux.org/gpg-tui
 [submodule "pkgbuild/diary-git"]
 	path = pkgbuild/diary-git
 	url = https://aur.archlinux.org/diary-git
