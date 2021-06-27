@@ -583,9 +583,6 @@
 [submodule "pkgbuild/midna-theme"]
 	path = pkgbuild/midna-theme
 	url = https://aur.archlinux.org/midna-theme
-[submodule "pkgbuild/pastel"]
-	path = pkgbuild/pastel
-	url = https://aur.archlinux.org/pastel
 [submodule "pkgbuild/nordic-kde-git"]
 	path = pkgbuild/nordic-kde-git
 	url = https://aur.archlinux.org/nordic-kde-git
@@ -907,9 +904,6 @@
 [submodule "pkgbuild/ventoy-bin"]
 	path = pkgbuild/ventoy-bin
 	url = https://aur.archlinux.org/ventoy-bin
-[submodule "pkgbuild/picterm"]
-	path = pkgbuild/picterm
-	url = https://aur.archlinux.org/picterm
 [submodule "pkgbuild/azdrawing"]
 	path = pkgbuild/azdrawing
 	url = https://aur.archlinux.org/azdrawing
@@ -1897,9 +1891,6 @@
 [submodule "pkgbuild/paclog"]
 	path = pkgbuild/paclog
 	url = https://aur.archlinux.org/paclog
-[submodule "pkgbuild/newsflash"]
-	path = pkgbuild/newsflash
-	url = https://aur.archlinux.org/newsflash
 [submodule "pkgbuild/cpufetch-git"]
 	path = pkgbuild/cpufetch-git
 	url = https://aur.archlinux.org/cpufetch-git
@@ -2179,9 +2170,6 @@
 [submodule "pkgbuild/slides"]
 	path = pkgbuild/slides
 	url = https://aur.archlinux.org/slides
-[submodule "pkgbuild/nutty-git"]
-	path = pkgbuild/nutty-git
-	url = https://aur.archlinux.org/nutty-git
 [submodule "pkgbuild/fcp-git"]
 	path = pkgbuild/fcp-git
 	url = https://aur.archlinux.org/fcp-git
@@ -2269,3 +2257,6 @@
 [submodule "pkgbuild/pueue-git"]
 	path = pkgbuild/pueue-git
 	url = https://aur.archlinux.org/pueue-git
+[submodule "pkgbuild/newsflash-git"]
+	path = pkgbuild/newsflash-git
+	url = https://aur.archlinux.org/newsflash-git
