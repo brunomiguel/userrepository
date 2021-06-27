@@ -1588,9 +1588,6 @@
 [submodule "pkgbuild/lensfun-git"]
 	path = pkgbuild/lensfun-git
 	url = https://aur.archlinux.org/lensfun-git
-[submodule "pkgbuild/librtprocess"]
-	path = pkgbuild/librtprocess
-	url = https://aur.archlinux.org/librtprocess
 [submodule "pkgbuild/dimport"]
 	path = pkgbuild/dimport
 	url = https://aur.archlinux.org/dimport
