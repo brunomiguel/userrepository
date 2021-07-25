@@ -2242,3 +2242,27 @@
 [submodule "pkgbuild/newsflash-git"]
 	path = pkgbuild/newsflash-git
 	url = https://aur.archlinux.org/newsflash-git
+[submodule "pkgbuild/contour-git"]
+	path = pkgbuild/contour-git
+	url = https://aur.archlinux.org/contour-git
+[submodule "pkgbuild/resistor-decoder"]
+	path = pkgbuild/resistor-decoder
+	url = https://aur.archlinux.org/resistor-decoder
+[submodule "pkgbuild/obs-source-dock"]
+	path = pkgbuild/obs-source-dock
+	url = https://aur.archlinux.org/obs-source-dock
+[submodule "pkgbuild/obs-rtspserver"]
+	path = pkgbuild/obs-rtspserver
+	url = https://aur.archlinux.org/obs-rtspserver
+[submodule "pkgbuild/duf"]
+	path = pkgbuild/duf
+	url = https://aur.archlinux.org/duf
+[submodule "pkgbuild/moebius"]
+	path = pkgbuild/moebius
+	url = https://aur.archlinux.org/moebius
+[submodule "pkgbuild/webtorrent-cli"]
+	path = pkgbuild/webtorrent-cli
+	url = https://aur.archlinux.org/webtorrent-cli
+[submodule "pkgbuild/avvie-git"]
+	path = pkgbuild/avvie-git
+	url = https://aur.archlinux.org/avvie-git
