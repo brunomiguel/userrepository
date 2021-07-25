@@ -2266,3 +2266,6 @@
 [submodule "pkgbuild/avvie-git"]
 	path = pkgbuild/avvie-git
 	url = https://aur.archlinux.org/avvie-git
+[submodule "pkgbuild/font-downloader-git"]
+	path = pkgbuild/font-downloader-git
+	url = https://aur.archlinux.org/font-downloader-git
