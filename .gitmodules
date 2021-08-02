@@ -2272,3 +2272,9 @@
 [submodule "pkgbuild/minify"]
 	path = pkgbuild/minify
 	url = https://aur.archlinux.org/minify
+[submodule "pkgbuild/terminal-parrot"]
+	path = pkgbuild/terminal-parrot
+	url = https://aur.archlinux.org/terminal-parrot
+[submodule "pkgbuild/proton-ge-custom-bin"]
+	path = pkgbuild/proton-ge-custom-bin
+	url = https://aur.archlinux.org/proton-ge-custom-bin
