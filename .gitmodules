@@ -1054,9 +1054,6 @@
 [submodule "pkgbuild/pop-icon-theme-bin"]
 	path = pkgbuild/pop-icon-theme-bin
 	url = https://aur.archlinux.org/pop-icon-theme-bin
-[submodule "pkgbuild/performance-tweaks"]
-	path = pkgbuild/performance-tweaks
-	url = https://aur.archlinux.org/performance-tweaks
 [submodule "pkgbuild/vimtips"]
 	path = pkgbuild/vimtips
 	url = https://aur.archlinux.org/vimtips
