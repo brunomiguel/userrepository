@@ -2278,3 +2278,6 @@
 [submodule "pkgbuild/proton-ge-custom-bin"]
 	path = pkgbuild/proton-ge-custom-bin
 	url = https://aur.archlinux.org/proton-ge-custom-bin
+[submodule "pkgbuild/python-launcher"]
+	path = pkgbuild/python-launcher
+	url = https://aur.archlinux.org/python-launcher
