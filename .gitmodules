@@ -2278,3 +2278,36 @@
 [submodule "pkgbuild/python-launcher"]
 	path = pkgbuild/python-launcher
 	url = https://aur.archlinux.org/python-launcher
+[submodule "pkgbuild/clipper-git"]
+	path = pkgbuild/clipper-git
+	url = https://aur.archlinux.org/clipper-git
+[submodule "pkgbuild/decoder-git"]
+	path = pkgbuild/decoder-git
+	url = https://aur.archlinux.org/decoder-git
+[submodule "pkgbuild/pacdef"]
+	path = pkgbuild/pacdef
+	url = https://aur.archlinux.org/pacdef
+[submodule "pkgbuild/plymouth-themes-adi1090x-pack2-git"]
+	path = pkgbuild/plymouth-themes-adi1090x-pack2-git
+	url = https://aur.archlinux.org/plymouth-themes-adi1090x-pack2-git
+[submodule "pkgbuild/ttf-recursive"]
+	path = pkgbuild/ttf-recursive
+	url = https://aur.archlinux.org/ttf-recursive
+[submodule "pkgbuild/ahriman"]
+	path = pkgbuild/ahriman
+	url = https://aur.archlinux.org/ahriman
+[submodule "pkgbuild/disfetch"]
+	path = pkgbuild/disfetch
+	url = https://aur.archlinux.org/disfetch
+[submodule "pkgbuild/psad"]
+	path = pkgbuild/psad
+	url = https://aur.archlinux.org/psad
+[submodule "pkgbuild/tlpui"]
+	path = pkgbuild/tlpui
+	url = https://aur.archlinux.org/tlpui
+[submodule "pkgbuild/tuidoku-git"]
+	path = pkgbuild/tuidoku-git
+	url = https://aur.archlinux.org/tuidoku-git
+[submodule "pkgbuild/lact"]
+	path = pkgbuild/lact
+	url = https://aur.archlinux.org/lact
