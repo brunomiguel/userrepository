@@ -2323,9 +2323,9 @@
 [submodule "pkgbuild/fonts-clarity-city"]
 	path = pkgbuild/fonts-clarity-city
 	url = https://aur.archlinux.org/fonts-clarity-city
-[submodule "pkgbuild/sleek"]
-	path = pkgbuild/sleek
-	url = https://aur.archlinux.org/sleek
 [submodule "pkgbuild/yapa"]
 	path = pkgbuild/yapa
 	url = https://aur.archlinux.org/yapa
+[submodule "pkgbuild/toru"]
+	path = pkgbuild/toru
+	url = https://aur.archlinux.org/toru
