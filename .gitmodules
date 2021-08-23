@@ -1162,9 +1162,6 @@
 [submodule "pkgbuild/alpine"]
 	path = pkgbuild/alpine
 	url = https://aur.archlinux.org/alpine
-[submodule "pkgbuild/jurism"]
-	path = pkgbuild/jurism
-	url = https://aur.archlinux.org/jurism
 [submodule "pkgbuild/straw-viewer-git"]
 	path = pkgbuild/straw-viewer-git
 	url = https://aur.archlinux.org/straw-viewer-git
@@ -2329,3 +2326,12 @@
 [submodule "pkgbuild/toru"]
 	path = pkgbuild/toru
 	url = https://aur.archlinux.org/toru
+[submodule "pkgbuild/switchhosts"]
+	path = pkgbuild/switchhosts
+	url = https://aur.archlinux.org/switchhosts
+[submodule "pkgbuild/wluma"]
+	path = pkgbuild/wluma
+	url = https://aur.archlinux.org/wluma
+[submodule "pkgbuild/lebiniou"]
+	path = pkgbuild/lebiniou
+	url = https://aur.archlinux.org/lebiniou
