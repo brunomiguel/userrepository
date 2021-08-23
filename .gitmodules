@@ -2311,3 +2311,21 @@
 [submodule "pkgbuild/lact"]
 	path = pkgbuild/lact
 	url = https://aur.archlinux.org/lact
+[submodule "pkgbuild/brave-beta-bin"]
+	path = pkgbuild/brave-beta-bin
+	url = https://aur.archlinux.org/brave-beta-bin
+[submodule "pkgbuild/spotblock-rs"]
+	path = pkgbuild/spotblock-rs
+	url = https://aur.archlinux.org/spotblock-rs
+[submodule "pkgbuild/mt"]
+	path = pkgbuild/mt
+	url = https://aur.archlinux.org/mt
+[submodule "pkgbuild/fonts-clarity-city"]
+	path = pkgbuild/fonts-clarity-city
+	url = https://aur.archlinux.org/fonts-clarity-city
+[submodule "pkgbuild/sleek"]
+	path = pkgbuild/sleek
+	url = https://aur.archlinux.org/sleek
+[submodule "pkgbuild/yapa"]
+	path = pkgbuild/yapa
+	url = https://aur.archlinux.org/yapa
