@@ -2326,12 +2326,12 @@
 [submodule "pkgbuild/toru"]
 	path = pkgbuild/toru
 	url = https://aur.archlinux.org/toru
-[submodule "pkgbuild/switchhosts"]
-	path = pkgbuild/switchhosts
-	url = https://aur.archlinux.org/switchhosts
 [submodule "pkgbuild/wluma"]
 	path = pkgbuild/wluma
 	url = https://aur.archlinux.org/wluma
 [submodule "pkgbuild/lebiniou"]
 	path = pkgbuild/lebiniou
 	url = https://aur.archlinux.org/lebiniou
+[submodule "pkgbuild/viddy"]
+	path = pkgbuild/viddy
+	url = https://aur.archlinux.org/viddy
