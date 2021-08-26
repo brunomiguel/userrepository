@@ -172,9 +172,6 @@
 [submodule "pkgbuild/marktext-bin"]
 	path = pkgbuild/marktext-bin
 	url = https://aur.archlinux.org/marktext-bin.git
-[submodule "pkgbuild/micro"]
-	path = pkgbuild/micro
-	url = https://aur.archlinux.org/micro.git
 [submodule "pkgbuild/mindforger"]
 	path = pkgbuild/mindforger
 	url = https://aur.archlinux.org/mindforger.git
