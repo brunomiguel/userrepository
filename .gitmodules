@@ -1414,9 +1414,6 @@
 [submodule "pkgbuild/rambox-bin"]
 	path = pkgbuild/rambox-bin
 	url = https://aur.archlinux.org/rambox-bin
-[submodule "pkgbuild/pyradio-git"]
-	path = pkgbuild/pyradio-git
-	url = https://aur.archlinux.org/pyradio-git
 [submodule "pkgbuild/get_iplayer-git"]
 	path = pkgbuild/get_iplayer-git
 	url = https://aur.archlinux.org/get_iplayer-git
@@ -2335,3 +2332,9 @@
 [submodule "pkgbuild/viddy"]
 	path = pkgbuild/viddy
 	url = https://aur.archlinux.org/viddy
+[submodule "pkgbuild/tartube"]
+	path = pkgbuild/tartube
+	url = https://aur.archlinux.org/tartube
+[submodule "pkgbuild/btrfs-snapshots"]
+	path = pkgbuild/btrfs-snapshots
+	url = https://aur.archlinux.org/btrfs-snapshots
