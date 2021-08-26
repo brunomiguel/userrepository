@@ -2335,3 +2335,18 @@
 [submodule "pkgbuild/btrfs-snapshots"]
 	path = pkgbuild/btrfs-snapshots
 	url = https://aur.archlinux.org/btrfs-snapshots
+[submodule "pkgbuild/exatorrent"]
+	path = pkgbuild/exatorrent
+	url = https://aur.archlinux.org/exatorrent
+[submodule "pkgbuild/cork-rs-git"]
+	path = pkgbuild/cork-rs-git
+	url = https://aur.archlinux.org/cork-rs-git
+[submodule "pkgbuild/smuxi-git"]
+	path = pkgbuild/smuxi-git
+	url = https://aur.archlinux.org/smuxi-git
+[submodule "pkgbuild/log4net"]
+	path = pkgbuild/log4net
+	url = https://aur.archlinux.org/log4net
+[submodule "pkgbuild/nini"]
+	path = pkgbuild/nini
+	url = https://aur.archlinux.org/nini
