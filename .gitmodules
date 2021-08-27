@@ -2365,6 +2365,3 @@
 [submodule "pkgbuild/fcft"]
 	path = pkgbuild/fcft
 	url = https://aur.archlinux.org/fcft
-[submodule "pkgbuild/mousai"]
-	path = pkgbuild/mousai
-	url = https://aur.archlinux.org/mousai
