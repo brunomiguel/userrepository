@@ -2344,3 +2344,24 @@
 [submodule "pkgbuild/yt-dlp-git"]
 	path = pkgbuild/yt-dlp-git
 	url = https://aur.archlinux.org/yt-dlp-git
+[submodule "pkgbuild/ttf-buenard"]
+	path = pkgbuild/ttf-buenard
+	url = https://aur.archlinux.org/ttf-buenard
+[submodule "pkgbuild/nwg-drawer"]
+	path = pkgbuild/nwg-drawer
+	url = https://aur.archlinux.org/nwg-drawer
+[submodule "pkgbuild/pizarra-git"]
+	path = pkgbuild/pizarra-git
+	url = https://aur.archlinux.org/pizarra-git
+[submodule "pkgbuild/foot"]
+	path = pkgbuild/foot
+	url = https://aur.archlinux.org/foot
+[submodule "pkgbuild/foot-terminfo"]
+	path = pkgbuild/foot-terminfo
+	url = https://aur.archlinux.org/foot-terminfo
+[submodule "pkgbuild/tllist"]
+	path = pkgbuild/tllist
+	url = https://aur.archlinux.org/tllist
+[submodule "pkgbuild/fcft"]
+	path = pkgbuild/fcft
+	url = https://aur.archlinux.org/fcft
