@@ -291,7 +291,7 @@
 	url = https://aur.archlinux.org/termtrack-git.git
 [submodule "pkgbuild/thonny"]
 	path = pkgbuild/thonny
-	url = https://aur.archlinux.org/thonny.git
+	url = https://aur.archlinux.org/thonny
 [submodule "pkgbuild/tlpui-git"]
 	path = pkgbuild/tlpui-git
 	url = https://aur.archlinux.org/tlpui-git.git
@@ -2365,3 +2365,57 @@
 [submodule "pkgbuild/fcft"]
 	path = pkgbuild/fcft
 	url = https://aur.archlinux.org/fcft
+[submodule "pkgbuild/qelectrotech"]
+	path = pkgbuild/qelectrotech
+	url = https://aur.archlinux.org/qelectrotech
+[submodule "pkgbuild/image-roll"]
+	path = pkgbuild/image-roll
+	url = https://aur.archlinux.org/image-roll
+[submodule "pkgbuild/vcsh-git"]
+	path = pkgbuild/vcsh-git
+	url = https://aur.archlinux.org/vcsh-git
+[submodule "pkgbuild/ttf-mplus-git"]
+	path = pkgbuild/ttf-mplus-git
+	url = https://aur.archlinux.org/ttf-mplus-git
+[submodule "pkgbuild/ttf-paratype"]
+	path = pkgbuild/ttf-paratype
+	url = https://aur.archlinux.org/ttf-paratype
+[submodule "pkgbuild/ttfautohint"]
+	path = pkgbuild/ttfautohint
+	url = https://aur.archlinux.org/ttfautohint
+[submodule "pkgbuild/ttf-gowun-dodum"]
+	path = pkgbuild/ttf-gowun-dodum
+	url = https://aur.archlinux.org/ttf-gowun-dodum
+[submodule "pkgbuild/otf-aileron"]
+	path = pkgbuild/otf-aileron
+	url = https://aur.archlinux.org/otf-aileron
+[submodule "pkgbuild/ttf-heuristica"]
+	path = pkgbuild/ttf-heuristica
+	url = https://aur.archlinux.org/ttf-heuristica
+[submodule "pkgbuild/antscope2-git"]
+	path = pkgbuild/antscope2-git
+	url = https://aur.archlinux.org/antscope2-git
+[submodule "pkgbuild/linux-xanmod"]
+	path = pkgbuild/linux-xanmod
+	url = https://aur.archlinux.org/linux-xanmod
+[submodule "pkgbuild/dablin"]
+	path = pkgbuild/dablin
+	url = https://aur.archlinux.org/dablin
+[submodule "pkgbuild/ajnin"]
+	path = pkgbuild/ajnin
+	url = https://aur.archlinux.org/ajnin
+[submodule "pkgbuild/tut"]
+	path = pkgbuild/tut
+	url = https://aur.archlinux.org/tut
+[submodule "pkgbuild/paruz"]
+	path = pkgbuild/paruz
+	url = https://aur.archlinux.org/paruz
+[submodule "pkgbuild/tkp-git"]
+	path = pkgbuild/tkp-git
+	url = https://aur.archlinux.org/tkp-git
+[submodule "pkgbuild/palletizer"]
+	path = pkgbuild/palletizer
+	url = https://aur.archlinux.org/palletizer
+[submodule "pkgbuild/kickshaw"]
+	path = pkgbuild/kickshaw
+	url = https://aur.archlinux.org/kickshaw
