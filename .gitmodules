@@ -2416,6 +2416,3 @@
 [submodule "pkgbuild/palletizer"]
 	path = pkgbuild/palletizer
 	url = https://aur.archlinux.org/palletizer
-[submodule "pkgbuild/kickshaw"]
-	path = pkgbuild/kickshaw
-	url = https://aur.archlinux.org/kickshaw

@@ -1,9 +1,9 @@
 #!/bin/bash
 # This file will be sourced by the scripts automatically
-MAKEFLAGS="-j6"
+MAKEFLAGS="-j11"
 PKGEXT=".pkg.tar.zst"
 #COMPRESSXZ=(xz -c -z - --threads=3)
-COMPRESSZSTD=(zstd -c -z -q -3 -v -T6 -)
+COMPRESSZSTD=(zstd -c -z -q -3 -v -T10 -)
 PACKAGER="Bruno Miguel <brunoalexandremiguel@gmail.com>"
 #GPGKEY=""
 
