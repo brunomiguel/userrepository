@@ -2440,6 +2440,3 @@
 [submodule "pkgbuild/labnote2-git"]
 	path = pkgbuild/labnote2-git
 	url = https://aur.archlinux.org/labnote2-git
-[submodule "pkgbuild/japokwm-git"]
-	path = pkgbuild/japokwm-git
-	url = https://aur.archlinux.org/japokwm-git
