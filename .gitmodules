@@ -2416,3 +2416,30 @@
 [submodule "pkgbuild/palletizer"]
 	path = pkgbuild/palletizer
 	url = https://aur.archlinux.org/palletizer
+[submodule "pkgbuild/lumi"]
+	path = pkgbuild/lumi
+	url = https://aur.archlinux.org/lumi
+[submodule "pkgbuild/waycorner"]
+	path = pkgbuild/waycorner
+	url = https://aur.archlinux.org/waycorner
+[submodule "pkgbuild/wayward-git"]
+	path = pkgbuild/wayward-git
+	url = https://aur.archlinux.org/wayward-git
+[submodule "pkgbuild/vimix"]
+	path = pkgbuild/vimix
+	url = https://aur.archlinux.org/vimix
+[submodule "pkgbuild/fbcat"]
+	path = pkgbuild/fbcat
+	url = https://aur.archlinux.org/fbcat
+[submodule "pkgbuild/rustbuster"]
+	path = pkgbuild/rustbuster
+	url = https://aur.archlinux.org/rustbuster
+[submodule "pkgbuild/skeuos-gtk-theme-git"]
+	path = pkgbuild/skeuos-gtk-theme-git
+	url = https://aur.archlinux.org/skeuos-gtk-theme-git
+[submodule "pkgbuild/labnote2-git"]
+	path = pkgbuild/labnote2-git
+	url = https://aur.archlinux.org/labnote2-git
+[submodule "pkgbuild/japokwm-git"]
+	path = pkgbuild/japokwm-git
+	url = https://aur.archlinux.org/japokwm-git
