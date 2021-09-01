@@ -109,9 +109,6 @@
 [submodule "pkgbuild/ferdi-git"]
 	path = pkgbuild/ferdi-git
 	url = https://aur.archlinux.org/ferdi-git.git
-[submodule "pkgbuild/ffsend"]
-	path = pkgbuild/ffsend
-	url = https://aur.archlinux.org/ffsend.git
 [submodule "pkgbuild/focuswriter"]
 	path = pkgbuild/focuswriter
 	url = https://aur.archlinux.org/focuswriter.git
@@ -1912,9 +1909,6 @@
 [submodule "pkgbuild/srain"]
 	path = pkgbuild/srain
 	url = https://aur.archlinux.org/srain
-[submodule "pkgbuild/grit-task-manager"]
-	path = pkgbuild/grit-task-manager
-	url = https://aur.archlinux.org/grit-task-manager
 [submodule "pkgbuild/stowtui-git"]
 	path = pkgbuild/stowtui-git
 	url = https://aur.archlinux.org/stowtui-git
@@ -2254,9 +2248,6 @@
 [submodule "pkgbuild/avvie-git"]
 	path = pkgbuild/avvie-git
 	url = https://aur.archlinux.org/avvie-git
-[submodule "pkgbuild/font-downloader-git"]
-	path = pkgbuild/font-downloader-git
-	url = https://aur.archlinux.org/font-downloader-git
 [submodule "pkgbuild/minify"]
 	path = pkgbuild/minify
 	url = https://aur.archlinux.org/minify
