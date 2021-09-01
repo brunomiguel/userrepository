@@ -1651,9 +1651,6 @@
 [submodule "pkgbuild/python-pulsectl"]
 	path = pkgbuild/python-pulsectl
 	url = https://aur.archlinux.org/python-pulsectl
-[submodule "pkgbuild/teaiso"]
-	path = pkgbuild/teaiso
-	url = https://aur.archlinux.org/teaiso
 [submodule "pkgbuild/gtk-theme-arc-gruvbox-git"]
 	path = pkgbuild/gtk-theme-arc-gruvbox-git
 	url = https://aur.archlinux.org/gtk-theme-arc-gruvbox-git
@@ -1915,9 +1912,6 @@
 [submodule "pkgbuild/leocad"]
 	path = pkgbuild/leocad
 	url = https://aur.archlinux.org/leocad
-[submodule "pkgbuild/myxer"]
-	path = pkgbuild/myxer
-	url = https://aur.archlinux.org/myxer
 [submodule "pkgbuild/wike"]
 	path = pkgbuild/wike
 	url = https://aur.archlinux.org/wike
@@ -2077,9 +2071,6 @@
 [submodule "pkgbuild/librewolf-extension-gnome-shell-integration"]
 	path = pkgbuild/librewolf-extension-gnome-shell-integration
 	url = https://aur.archlinux.org/librewolf-extension-gnome-shell-integration
-[submodule "pkgbuild/librewolf-comment-out-cfg-hook"]
-	path = pkgbuild/librewolf-comment-out-cfg-hook
-	url = https://aur.archlinux.org/librewolf-comment-out-cfg-hook
 [submodule "pkgbuild/lite-xl"]
 	path = pkgbuild/lite-xl
 	url = https://aur.archlinux.org/lite-xl
@@ -2188,9 +2179,6 @@
 [submodule "pkgbuild/whoogle"]
 	path = pkgbuild/whoogle
 	url = https://aur.archlinux.org/whoogle
-[submodule "pkgbuild/simple-diary-gtk"]
-	path = pkgbuild/simple-diary-gtk
-	url = https://aur.archlinux.org/simple-diary-gtk
 [submodule "pkgbuild/pdfsam"]
 	path = pkgbuild/pdfsam
 	url = https://aur.archlinux.org/pdfsam
