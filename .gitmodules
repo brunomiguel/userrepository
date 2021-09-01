@@ -1177,9 +1177,6 @@
 [submodule "pkgbuild/qt-logout"]
 	path = pkgbuild/qt-logout
 	url = https://aur.archlinux.org/qt-logout
-[submodule "pkgbuild/ttf-economica"]
-	path = pkgbuild/ttf-economica
-	url = https://aur.archlinux.org/ttf-economica
 [submodule "pkgbuild/ttf-abel-regular"]
 	path = pkgbuild/ttf-abel-regular
 	url = https://aur.archlinux.org/ttf-abel-regular
