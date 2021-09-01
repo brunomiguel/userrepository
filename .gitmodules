@@ -2440,3 +2440,15 @@
 [submodule "pkgbuild/labnote2-git"]
 	path = pkgbuild/labnote2-git
 	url = https://aur.archlinux.org/labnote2-git
+[submodule "pkgbuild/fetch-scm"]
+	path = pkgbuild/fetch-scm
+	url = https://aur.archlinux.org/fetch-scm
+[submodule "pkgbuild/bitwarden"]
+	path = pkgbuild/bitwarden
+	url = https://aur.archlinux.org/bitwarden
+[submodule "pkgbuild/giara"]
+	path = pkgbuild/giara
+	url = https://aur.archlinux.org/giara
+[submodule "pkgbuild/tai"]
+	path = pkgbuild/tai
+	url = https://aur.archlinux.org/tai
