@@ -2059,9 +2059,6 @@
 [submodule "pkgbuild/otf-besley"]
 	path = pkgbuild/otf-besley
 	url = https://aur.archlinux.org/otf-besley
-[submodule "pkgbuild/librewolf-ublock-origin"]
-	path = pkgbuild/librewolf-ublock-origin
-	url = https://aur.archlinux.org/librewolf-ublock-origin
 [submodule "pkgbuild/librewolf-extension-noscript"]
 	path = pkgbuild/librewolf-extension-noscript
 	url = https://aur.archlinux.org/librewolf-extension-noscript
@@ -2086,9 +2083,6 @@
 [submodule "pkgbuild/visidata"]
 	path = pkgbuild/visidata
 	url = https://aur.archlinux.org/visidata
-[submodule "pkgbuild/lipsum-git"]
-	path = pkgbuild/lipsum-git
-	url = https://aur.archlinux.org/lipsum-git
 [submodule "pkgbuild/gedit-source-code-browser-git"]
 	path = pkgbuild/gedit-source-code-browser-git
 	url = https://aur.archlinux.org/gedit-source-code-browser-git
