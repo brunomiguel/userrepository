@@ -127,9 +127,6 @@
 [submodule "pkgbuild/galois"]
 	path = pkgbuild/galois
 	url = https://aur.archlinux.org/galois.git
-[submodule "pkgbuild/gamehub"]
-	path = pkgbuild/gamehub
-	url = https://aur.archlinux.org/gamehub.git
 [submodule "pkgbuild/glrnvim"]
 	path = pkgbuild/glrnvim
 	url = https://aur.archlinux.org/glrnvim.git
