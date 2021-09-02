@@ -2422,3 +2422,12 @@
 [submodule "pkgbuild/tai"]
 	path = pkgbuild/tai
 	url = https://aur.archlinux.org/tai
+[submodule "pkgbuild/legendary"]
+	path = pkgbuild/legendary
+	url = https://aur.archlinux.org/legendary
+[submodule "pkgbuild/btspk"]
+	path = pkgbuild/btspk
+	url = https://aur.archlinux.org/btspk
+[submodule "pkgbuild/gita"]
+	path = pkgbuild/gita
+	url = https://aur.archlinux.org/gita
