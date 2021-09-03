@@ -34,13 +34,18 @@ build() {
     
     for f in *; do
         if [ -d "$f" ]; then
-        	echo -e "\n\e[1;33mUpdating $f...\e[0m"
+            echo -e "\n\e[1;33mUpdating $f...\e[0m"
         		
-        	cd "$f" > ../noise.log 2>&1 || exit
+            cd "$f" > ../noise.log 2>&1 || exit
         		
-        	# remove artifacts from previous builds
-        	git clean -x -d -f -q > ../noise.log 2>&1;
+            # remove artifacts from previous builds
+	    git clean -x -d -f -q > ../noise.log 2>&1;
             git stash --quiet > ../noise.log 2>&1;
+            
+            # rebase AUR git and git outside AUR
+            git rebase HEAD master
+            git rebase HEAD main
+            
             git fetch
             git remote update
 
@@ -60,54 +65,10 @@ build() {
             
             # check if local revision is the same as the remote revision
             if [ $GITLOCAL = $GITREMOTE ]; then
+                echo "Already up-to-date. Skipping..."
 
-                # check if the package is already compiled and available for installation
-                # if yes, move on to the next one; if not, build it
-                if [ -f "$REMOTE/$NAME"* ]; then
-                        echo "$NAME already exists in $REMOTE and up-to-date. Skipping..."
-                else
-                        echo "$NAME still not compiled and available in $REMOTE"
-
-                        # start timing the time it takes to create the package
-                        res1=$(date +%s.%N)
-                            
-                        # check if PKGBUILD exists
-                        if [ -f "PKGBUILD" ]; then
-                            echo "Found PKGBUILD for $f. Building..."
-
-                            # clean build force overwrite
-                            PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
-                            
-                            # remove existing package version in $REMOTE
-                            rm "$REMOTE/$NAME"*
-
-                            # copy new package version to $REMOTE
-                            cp "$PKGDEST/$NAME"* "$REMOTE"
-
-                            # add new package version to the package index
-                            repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/$NAME"*
-
-                            # clean cached files
-                            pikaur -Sccc --noconfirm
-                            rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src
-
-                            # Stop timing the time it took to create the package \
-                            # and log it in makepkg.log
-                            res2=$(date +%s.%N)
-                            dt=$(echo "$res2 - $res1" | bc)
-                            dd=$(echo "$dt/86400" | bc)
-                            dt2=$(echo "$dt-86400*$dd" | bc)
-                            dh=$(echo "$dt2/3600" | bc)
-                            dt3=$(echo "$dt2-3600*$dh" | bc)
-                            dm=$(echo "$dt3/60" | bc)
-                            ds=$(echo "$dt3-60*$dm" | bc)
-                            LC_NUMERIC=C printf "Total runtime: %02d:%02d:%02.4f\n" "$dh" "$dm" "$ds" >> makepkg.log
-                        else
-                            # display error
-                            echo -e "PKGBUILD not found\n"
-                        fi
-                fi
-			else
+            # update out-of-date submodule for building the package    
+		else
 
                 # update package revision
 			    git pull
@@ -122,14 +83,11 @@ build() {
                	    # clean build force overwrite
             	    PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
                     
-                    # remove existing package version in $REMOTE
-                    rm "$REMOTE/$NAME"*
-
-                    # copy new package version to $REMOTE
-                    cp "$PKGDEST/$NAME"* "$REMOTE"
+                    # copy package to remote dir with rsync, deleting the old version
+                    rsync --copy-links --delete -avr *.zst "$REMOTE"
 
                     # add new package version to the package index
-                    repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/$NAME"*
+                    repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz *.zst
 
             	    # clean cached files
                     pikaur -Sccc --noconfirm
