@@ -87,7 +87,7 @@ build() {
                     rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
 
                     # add new package version to the package index
-                    repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz *.zst
+                    repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/"*.zst
 
             	    # clean cached files
                     pikaur -Sccc --noconfirm
