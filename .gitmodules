@@ -2422,3 +2422,12 @@
 [submodule "pkgbuild/gita"]
 	path = pkgbuild/gita
 	url = https://aur.archlinux.org/gita
+[submodule "pkgbuild/drawio-desktop-bin"]
+	path = pkgbuild/drawio-desktop-bin
+	url = https://aur.archlinux.org/drawio-desktop-bin
+[submodule "pkgbuild/pipe-viewer-git"]
+	path = pkgbuild/pipe-viewer-git
+	url = https://aur.archlinux.org/pipe-viewer-git
+[submodule "pkgbuild/rare"]
+	path = pkgbuild/rare
+	url = https://aur.archlinux.org/rare
