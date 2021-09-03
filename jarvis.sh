@@ -56,7 +56,7 @@ build() {
 	        local GITBASE=$(git merge-base @ "$GITUPSTREAM")
 
             # set local variable to get package name using the working dir name
-            local NAME=$(pwd | rev | cut -f1 -d'/' - | rev)
+            # local NAME=$(pwd | rev | cut -f1 -d'/' - | rev)
             
             # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
             if [ -f "../noise.log" ]; then
@@ -84,7 +84,7 @@ build() {
             	    PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
                     
                     # copy package to remote dir with rsync, deleting the old version
-                    rsync --copy-links --delete -avr *.zst "$REMOTE"
+                    rsync --copy-links --delete -avr "PKGDEST"/*.zst "$REMOTE"
 
                     # add new package version to the package index
                     repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz *.zst
