@@ -84,7 +84,7 @@ build() {
             	    PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
                     
                     # copy package to remote dir with rsync, deleting the old version
-                    rsync --copy-links --delete -avr "PKGDEST"/*.zst "$REMOTE"
+                    rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
 
                     # add new package version to the package index
                     repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz *.zst
