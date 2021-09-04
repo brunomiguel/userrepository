@@ -2434,3 +2434,12 @@
 [submodule "pkgbuild/ulauncher"]
 	path = pkgbuild/ulauncher
 	url = https://aur.archlinux.org/ulauncher
+[submodule "pkgbuild/rust-df-git"]
+	path = pkgbuild/rust-df-git
+	url = https://aur.archlinux.org/rust-df-git
+[submodule "pkgbuild/gabtag"]
+	path = pkgbuild/gabtag
+	url = https://aur.archlinux.org/gabtag
+[submodule "pkgbuild/archey4"]
+	path = pkgbuild/archey4
+	url = https://aur.archlinux.org/archey4
