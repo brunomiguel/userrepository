@@ -2458,6 +2458,3 @@
 [submodule "pkgbuild/mopidy-autoplay"]
 	path = pkgbuild/mopidy-autoplay
 	url = https://aur.archlinux.org/mopidy-autoplay
-[submodule "pkgbuild/mopidy-advanced-scrobbler"]
-	path = pkgbuild/mopidy-advanced-scrobbler
-	url = https://aur.archlinux.org/mopidy-advanced-scrobbler
