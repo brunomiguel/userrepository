@@ -23,23 +23,23 @@ usage() {
 
 build() {
 
-	if [ ! -f "$DIR/captains.log" ]; then
+    if [ ! -f "$DIR/captains.log" ]; then
         touch "$DIR/captains.log"
     fi
 
-	# fix for pikaur lock file in /tmp
-	sudo rm /tmp/pikaur_build_deps.lock
-	    
+    # fix for pikaur lock file in /tmp
+    sudo rm /tmp/pikaur_build_deps.lock
+        
     cd "$DIR/pkgbuild" || exit
     
     for f in *; do
         if [ -d "$f" ]; then
             echo -e "\n\e[1;33mUpdating $f...\e[0m"
-        		
+                
             cd "$f" > ../noise.log 2>&1 || exit
-        		
+                
             # remove artifacts from previous builds
-	    git clean -x -d -f -q > ../noise.log 2>&1;
+            git clean -x -d -f -q > ../noise.log 2>&1;
             git stash --quiet > ../noise.log 2>&1;
             
             # rebase AUR git and git outside AUR
@@ -50,10 +50,10 @@ build() {
             git remote update
 
             # set local function variables for building only updated git repositories
-	        local GITUPSTREAM=${1:-'@{u}'}
-	        local GITLOCAL=$(git rev-parse @)
-	        local GITREMOTE=$(git rev-parse "$GITUPSTREAM")
-	        local GITBASE=$(git merge-base @ "$GITUPSTREAM")
+            local GITUPSTREAM=${1:-'@{u}'}
+            local GITLOCAL=$(git rev-parse @)
+            local GITREMOTE=$(git rev-parse "$GITUPSTREAM")
+            local GITBASE=$(git merge-base @ "$GITUPSTREAM")
 
             # set local variable to get package name using the working dir name
             # local NAME=$(pwd | rev | cut -f1 -d'/' - | rev)
@@ -68,30 +68,23 @@ build() {
                 echo "Already up-to-date. Skipping..."
 
             # update out-of-date submodule for building the package    
-		else
+        else
 
                 # update package revision
-			    git pull
-								
-			    # start timing the time it takes to create the package
-		        res1=$(date +%s.%N)
-		            
-		        # check if PKGBUILD exists
-		        if [ -f "PKGBUILD" ]; then
+                git pull
+                                
+                # start timing the time it takes to create the package
+                res1=$(date +%s.%N)
+                    
+                # check if PKGBUILD exists
+                if [ -f "PKGBUILD" ]; then
                     echo "Found PKGBUILD for $f. Building..."
 
-               	    # clean build force overwrite
-            	    PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
+                    # clean build force overwrite
+                    PACMAN="pikaur" BUILDDIR="$f" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
                     
                     # copy package to remote dir with rsync, deleting the old version
-                    rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
-
-                    # add new package version to the package index
-                    repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/"*.zst
-
-            	    # clean cached files
-                    pikaur -Sccc --noconfirm
-                    rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src
+                    rsync --copy-links --delete -avr *.zst "$REMOTE"
 
                     # Stop timing the time it took to create the package \
                     # and log it in makepkg.log
@@ -104,14 +97,22 @@ build() {
                     dm=$(echo "$dt3/60" | bc)
                     ds=$(echo "$dt3-60*$dm" | bc)
                     LC_NUMERIC=C printf "Total runtime: %02d:%02d:%02.4f\n" "$dh" "$dm" "$ds" >> makepkg.log
-			    else
+                else
                     # display error
-			        echo -e "PKGBUILD not found\n"
+                    echo -e "PKGBUILD not found\n"
                 fi
-		    fi
-		fi				
+            fi
+        fi				
 
         cd .. 2>&1 || exit
+    
+    # add new package version to the package index
+    repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/"*.zst
+    
+    # clean cached files
+    pikaur -Sccc --noconfirm
+    rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src
+    
     done
 }
 
