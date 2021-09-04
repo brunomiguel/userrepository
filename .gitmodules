@@ -2458,3 +2458,54 @@
 [submodule "pkgbuild/mopidy-autoplay"]
 	path = pkgbuild/mopidy-autoplay
 	url = https://aur.archlinux.org/mopidy-autoplay
+[submodule "pkgbuild/mopidy-mpris"]
+	path = pkgbuild/mopidy-mpris
+	url = https://aur.archlinux.org/mopidy-mpris
+[submodule "pkgbuild/mopidy-youtube-git"]
+	path = pkgbuild/mopidy-youtube-git
+	url = https://aur.archlinux.org/mopidy-youtube-git
+[submodule "pkgbuild/mopidy-youtube"]
+	path = pkgbuild/mopidy-youtube
+	url = https://aur.archlinux.org/mopidy-youtube
+[submodule "pkgbuild/mopidy-mpd"]
+	path = pkgbuild/mopidy-mpd
+	url = https://aur.archlinux.org/mopidy-mpd
+[submodule "pkgbuild/mopidy-local"]
+	path = pkgbuild/mopidy-local
+	url = https://aur.archlinux.org/mopidy-local
+[submodule "pkgbuild/mopidy-alsamixer"]
+	path = pkgbuild/mopidy-alsamixer
+	url = https://aur.archlinux.org/mopidy-alsamixer
+[submodule "pkgbuild/mopidy-tunein"]
+	path = pkgbuild/mopidy-tunein
+	url = https://aur.archlinux.org/mopidy-tunein
+[submodule "pkgbuild/mopidy-spotify"]
+	path = pkgbuild/mopidy-spotify
+	url = https://aur.archlinux.org/mopidy-spotify
+[submodule "pkgbuild/mopidy-scrobbler"]
+	path = pkgbuild/mopidy-scrobbler
+	url = https://aur.archlinux.org/mopidy-scrobbler
+[submodule "pkgbuild/mopidy-somafm"]
+	path = pkgbuild/mopidy-somafm
+	url = https://aur.archlinux.org/mopidy-somafm
+[submodule "pkgbuild/mopidy-soundcloud"]
+	path = pkgbuild/mopidy-soundcloud
+	url = https://aur.archlinux.org/mopidy-soundcloud
+[submodule "pkgbuild/mopidy-mopify"]
+	path = pkgbuild/mopidy-mopify
+	url = https://aur.archlinux.org/mopidy-mopify
+[submodule "pkgbuild/python-pyspotify"]
+	path = pkgbuild/python-pyspotify
+	url = https://aur.archlinux.org/python-pyspotify
+[submodule "pkgbuild/python-pyalsaaudio"]
+	path = pkgbuild/python-pyalsaaudio
+	url = https://aur.archlinux.org/python-pyalsaaudio
+[submodule "pkgbuild/python-uritools"]
+	path = pkgbuild/python-uritools
+	url = https://aur.archlinux.org/python-uritools
+[submodule "pkgbuild/libspotify"]
+	path = pkgbuild/libspotify
+	url = https://aur.archlinux.org/libspotify
+[submodule "pkgbuild/mopidy-moped"]
+	path = pkgbuild/mopidy-moped
+	url = https://aur.archlinux.org/mopidy-moped
