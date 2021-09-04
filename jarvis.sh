@@ -27,6 +27,9 @@ build() {
         touch "$DIR/captains.log"
     fi
 
+	# clean cache/bin before proceding
+	rm -rfv "$HOME"/userrepository/cache/bin
+	
 	# fix for pikaur lock file in /tmp
 	sudo rm /tmp/pikaur_build_deps.lock
 	    
