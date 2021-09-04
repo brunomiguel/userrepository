@@ -34,6 +34,9 @@ build() {
     
     for f in *; do
         if [ -d "$f" ]; then
+        	# put each compiled package inside it's own folder in the pkgbuild directory
+            local PKGDEST="$f"
+            
             echo -e "\n\e[1;33mUpdating $f...\e[0m"
                 
             cd "$f" > ../noise.log 2>&1 || exit
@@ -81,7 +84,7 @@ build() {
                     echo "Found PKGBUILD for $f. Building..."
 
                     # clean build force overwrite
-                    PACMAN="pikaur" BUILDDIR="$f" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
+                    PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
                     
                     # copy package to remote dir with rsync, deleting the old version
                     rsync --copy-links --delete -avr *.zst "$REMOTE"
@@ -105,6 +108,8 @@ build() {
         fi				
 
         cd .. 2>&1 || exit
+
+    done
     
     # add new package version to the package index
     repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/"*.zst
@@ -113,7 +118,6 @@ build() {
     pikaur -Sccc --noconfirm
     rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src
     
-    done
 }
 
 fullbuild() {

@@ -2431,3 +2431,6 @@
 [submodule "pkgbuild/rare"]
 	path = pkgbuild/rare
 	url = https://aur.archlinux.org/rare
+[submodule "pkgbuild/ulauncher"]
+	path = pkgbuild/ulauncher
+	url = https://aur.archlinux.org/ulauncher
