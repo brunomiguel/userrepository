@@ -2446,3 +2446,18 @@
 [submodule "pkgbuild/nostalgia"]
 	path = pkgbuild/nostalgia
 	url = https://aur.archlinux.org/nostalgia
+[submodule "pkgbuild/decoder"]
+	path = pkgbuild/decoder
+	url = https://aur.archlinux.org/decoder
+[submodule "pkgbuild/icon-library"]
+	path = pkgbuild/icon-library
+	url = https://aur.archlinux.org/icon-library
+[submodule "pkgbuild/mopidy-iris"]
+	path = pkgbuild/mopidy-iris
+	url = https://aur.archlinux.org/mopidy-iris
+[submodule "pkgbuild/mopidy-autoplay"]
+	path = pkgbuild/mopidy-autoplay
+	url = https://aur.archlinux.org/mopidy-autoplay
+[submodule "pkgbuild/mopidy-advanced-scrobbler"]
+	path = pkgbuild/mopidy-advanced-scrobbler
+	url = https://aur.archlinux.org/mopidy-advanced-scrobbler
