@@ -2443,3 +2443,6 @@
 [submodule "pkgbuild/archey4"]
 	path = pkgbuild/archey4
 	url = https://aur.archlinux.org/archey4
+[submodule "pkgbuild/nostalgia"]
+	path = pkgbuild/nostalgia
+	url = https://aur.archlinux.org/nostalgia
