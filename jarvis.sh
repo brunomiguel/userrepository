@@ -91,7 +91,7 @@ build() {
 
             	    # clean cached files
                     pikaur -Sccc --noconfirm
-                    rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src
+                    rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src "$HOME"/userrepository/cache/bin
 
                     # Stop timing the time it took to create the package \
                     # and log it in makepkg.log
