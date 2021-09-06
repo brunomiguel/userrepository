@@ -2509,3 +2509,30 @@
 [submodule "pkgbuild/mopidy-moped"]
 	path = pkgbuild/mopidy-moped
 	url = https://aur.archlinux.org/mopidy-moped
+[submodule "pkgbuild/somafm-qt-git"]
+	path = pkgbuild/somafm-qt-git
+	url = https://aur.archlinux.org/somafm-qt-git
+[submodule "pkgbuild/ascii-image-converter-git"]
+	path = pkgbuild/ascii-image-converter-git
+	url = https://aur.archlinux.org/ascii-image-converter-git
+[submodule "pkgbuild/ttf-twemoji"]
+	path = pkgbuild/ttf-twemoji
+	url = https://aur.archlinux.org/ttf-twemoji
+[submodule "pkgbuild/ncmpy"]
+	path = pkgbuild/ncmpy
+	url = https://aur.archlinux.org/ncmpy
+[submodule "pkgbuild/gnome-shell-extension-material-shell"]
+	path = pkgbuild/gnome-shell-extension-material-shell
+	url = https://aur.archlinux.org/gnome-shell-extension-material-shell
+[submodule "pkgbuild/kvantum-theme-vimix-git"]
+	path = pkgbuild/kvantum-theme-vimix-git
+	url = https://aur.archlinux.org/kvantum-theme-vimix-git
+[submodule "pkgbuild/keysmith"]
+	path = pkgbuild/keysmith
+	url = https://aur.archlinux.org/keysmith
+[submodule "pkgbuild/sdrangel-bin"]
+	path = pkgbuild/sdrangel-bin
+	url = https://aur.archlinux.org/sdrangel-bin
+[submodule "pkgbuild/photivo-git"]
+	path = pkgbuild/photivo-git
+	url = https://aur.archlinux.org/photivo-git
