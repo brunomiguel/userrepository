@@ -2533,6 +2533,3 @@
 [submodule "pkgbuild/sdrangel-bin"]
 	path = pkgbuild/sdrangel-bin
 	url = https://aur.archlinux.org/sdrangel-bin
-[submodule "pkgbuild/photoflow-git"]
-	path = pkgbuild/photoflow-git
-	url = https://aur.archlinux.org/photoflow-git
