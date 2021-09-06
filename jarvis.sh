@@ -127,7 +127,7 @@ build() {
         if [ -d "$g" ]; then
             echo -e "\n\e[1;33mUpdating $g...\e[0m"
         		
-            cd "$f" > ../noise.log 2>&1 || exit
+            cd "$g" > ../noise.log 2>&1 || exit
         		
             # remove artifacts from previous builds
 	    git clean -x -d -f -q > ../noise.log 2>&1;
@@ -150,7 +150,7 @@ build() {
 		            
 		 # check if PKGBUILD exists
 		 if [ -f "PKGBUILD" ]; then
-                    echo "Found PKGBUILD for $f. Building..."
+                    echo "Found PKGBUILD for $g. Building..."
 
                	    # clean build force overwrite
             	    PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
