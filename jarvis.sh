@@ -116,6 +116,72 @@ build() {
 
         cd .. 2>&1 || exit
     done
+    
+    # always build for -git packages
+    # for now, in a hackish state
+    for g in *-git; do
+    	echo "Building *-git packages"
+    
+        if [ -d "$g" ]; then
+            echo -e "\n\e[1;33mUpdating $g...\e[0m"
+        		
+            cd "$f" > ../noise.log 2>&1 || exit
+        		
+            # remove artifacts from previous builds
+	    git clean -x -d -f -q > ../noise.log 2>&1;
+            git stash --quiet > ../noise.log 2>&1;
+            
+            # rebase AUR git and git outside AUR
+            git rebase HEAD master
+            git rebase HEAD main
+            
+            # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
+            if [ -f "../noise.log" ]; then
+                rm ../noise.log
+            fi
+	    
+        	# update package revision
+		git pull
+								
+		# start timing the time it takes to create the package
+		res1=$(date +%s.%N)
+		            
+		 # check if PKGBUILD exists
+		 if [ -f "PKGBUILD" ]; then
+                    echo "Found PKGBUILD for $f. Building..."
+
+               	    # clean build force overwrite
+            	    PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
+                    
+                    # copy package to remote dir with rsync, deleting the old version
+                    rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
+
+                    # add new package version to the package index
+                    repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/"*.zst
+
+            	    # clean cached files
+                    pikaur -Sccc --noconfirm
+                    rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src "$HOME"/userrepository/cache/bin
+
+                    # Stop timing the time it took to create the package \
+                    # and log it in makepkg.log
+                    res2=$(date +%s.%N)
+                    dt=$(echo "$res2 - $res1" | bc)
+                    dd=$(echo "$dt/86400" | bc)
+                    dt2=$(echo "$dt-86400*$dd" | bc)
+                    dh=$(echo "$dt2/3600" | bc)
+                    dt3=$(echo "$dt2-3600*$dh" | bc)
+                    dm=$(echo "$dt3/60" | bc)
+                    ds=$(echo "$dt3-60*$dm" | bc)
+                    LC_NUMERIC=C printf "Total runtime: %02d:%02d:%02.4f\n" "$dh" "$dm" "$ds" >> makepkg.log
+			    else
+                    # display error
+			        echo -e "PKGBUILD not found\n"
+                fi
+	fi				
+
+        cd .. 2>&1 || exit
+    done
 }
 
 fullbuild() {
