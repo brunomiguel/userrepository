@@ -119,8 +119,10 @@ build() {
     
     # always build for -git packages
     # for now, in a hackish state
+    
+    echo -e "\nBuilding *-git packages\n"
+    
     for g in *-git; do
-    	echo "Building *-git packages"
     
         if [ -d "$g" ]; then
             echo -e "\n\e[1;33mUpdating $g...\e[0m"
