@@ -2533,3 +2533,9 @@
 [submodule "pkgbuild/sdrangel-bin"]
 	path = pkgbuild/sdrangel-bin
 	url = https://aur.archlinux.org/sdrangel-bin
+[submodule "pkgbuild/verco-git"]
+	path = pkgbuild/verco-git
+	url = https://aur.archlinux.org/verco-git
+[submodule "pkgbuild/orchis-theme-git"]
+	path = pkgbuild/orchis-theme-git
+	url = https://aur.archlinux.org/orchis-theme-git
