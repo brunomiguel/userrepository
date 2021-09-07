@@ -2539,3 +2539,6 @@
 [submodule "pkgbuild/orchis-theme-git"]
 	path = pkgbuild/orchis-theme-git
 	url = https://aur.archlinux.org/orchis-theme-git
+[submodule "pkgbuild/tangram"]
+	path = pkgbuild/tangram
+	url = https://aur.archlinux.org/tangram
