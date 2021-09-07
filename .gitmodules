@@ -55,9 +55,6 @@
 [submodule "pkgbuild/brave-dev-bin"]
 	path = pkgbuild/brave-dev-bin
 	url = https://aur.archlinux.org/brave-dev-bin.git
-[submodule "pkgbuild/brightnessctl-git"]
-	path = pkgbuild/brightnessctl-git
-	url = https://aur.archlinux.org/brightnessctl-git.git
 [submodule "pkgbuild/broot"]
 	path = pkgbuild/broot
 	url = https://aur.archlinux.org/broot.git
