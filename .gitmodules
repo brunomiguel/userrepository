@@ -2536,3 +2536,33 @@
 [submodule "pkgbuild/tangram"]
 	path = pkgbuild/tangram
 	url = https://aur.archlinux.org/tangram
+[submodule "pkgbuild/pfetch-git"]
+	path = pkgbuild/pfetch-git
+	url = https://aur.archlinux.org/pfetch-git
+[submodule "pkgbuild/brightnessctl-git"]
+	path = pkgbuild/brightnessctl-git
+	url = https://aur.archlinux.org/brightnessctl-git
+[submodule "pkgbuild/mybrowse"]
+	path = pkgbuild/mybrowse
+	url = https://aur.archlinux.org/mybrowse
+[submodule "pkgbuild/argon"]
+	path = pkgbuild/argon
+	url = https://aur.archlinux.org/argon
+[submodule "pkgbuild/kora-icon-theme"]
+	path = pkgbuild/kora-icon-theme
+	url = https://aur.archlinux.org/kora-icon-theme
+[submodule "pkgbuild/eovpn"]
+	path = pkgbuild/eovpn
+	url = https://aur.archlinux.org/eovpn
+[submodule "pkgbuild/mangadesk"]
+	path = pkgbuild/mangadesk
+	url = https://aur.archlinux.org/mangadesk
+[submodule "pkgbuild/plug-git"]
+	path = pkgbuild/plug-git
+	url = https://aur.archlinux.org/plug-git
+[submodule "pkgbuild/dockle"]
+	path = pkgbuild/dockle
+	url = https://aur.archlinux.org/dockle
+[submodule "pkgbuild/rustcat"]
+	path = pkgbuild/rustcat
+	url = https://aur.archlinux.org/rustcat
