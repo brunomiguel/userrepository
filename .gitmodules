@@ -2566,3 +2566,15 @@
 [submodule "pkgbuild/rustcat"]
 	path = pkgbuild/rustcat
 	url = https://aur.archlinux.org/rustcat
+[submodule "pkgbuild/gtkeddit"]
+	path = pkgbuild/gtkeddit
+	url = https://aur.archlinux.org/gtkeddit
+[submodule "pkgbuild/jekyll"]
+	path = pkgbuild/jekyll
+	url = https://aur.archlinux.org/jekyll
+[submodule "pkgbuild/ruby-jekyll-watch"]
+	path = pkgbuild/ruby-jekyll-watch
+	url = https://aur.archlinux.org/ruby-jekyll-watch
+[submodule "pkgbuild/ruby-liquid"]
+	path = pkgbuild/ruby-liquid
+	url = https://aur.archlinux.org/ruby-liquid
