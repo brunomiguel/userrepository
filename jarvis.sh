@@ -89,8 +89,10 @@ build() {
                     # copy package to remote dir with rsync, deleting the old version
                     rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
 
-                    # add new package version to the package index
-                    repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/"*.zst
+                    # add new package version to the package index, but remove the index first to avoid index corruption
+					rm -v "$REMOTE/"userrepository.db* "$REMOTE"/userrepository.file*
+                    repo-add -n -R -s -v "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/"*.zst
+                                        
 
             	    # clean cached files
                     pikaur -Sccc --noconfirm
@@ -158,8 +160,9 @@ build() {
                     # copy package to remote dir with rsync, deleting the old version
                     rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
 
-                    # add new package version to the package index
-                    repo-add -n -R -s "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/"*.zst
+                    # add new package version to the package index, but remove the index first to avoid index corruption
+					rm -v "$REMOTE/"userrepository.db* "$REMOTE"/userrepository.file*
+                    repo-add -n -R -s -v "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/"*.zst
 
             	    # clean cached files
                     pikaur -Sccc --noconfirm
