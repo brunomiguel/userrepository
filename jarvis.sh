@@ -18,7 +18,7 @@ shopt -s expand_aliases
 alias pikaur='pikaur --needed --noprogressbar --noconfirm'
 
 usage() {
-    echo -e "$(tput bold)\e[33m\nHi. I'm Jarvis.\e[0m$(tput bold)\nTo make use of my immense powers, specify one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build updated packages, deploy and sync repository to webserver folder\n\t-f: full build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-h: print this help message\n"
+    echo -e "$(tput bold)\e[33m\nHi. I'm Jarvis.\e[0m$(tput bold)\nTo make use of my immense powers, specify one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build updated packages, deploy and sync repository to webserver folder\n\t-f: full build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-h: print this help message\n" ;
 }
 
 build() {
@@ -208,19 +208,19 @@ fullbuild() {
 
     # fix for pikaur lock file in /tmp
     sudo rm /tmp/pikaur_build_deps.lock
-
+        
     #pushd "$DIR/pkgbuild" || exit
     cd "$DIR/pkgbuild" || exit
-
+    
     for f in *; do
         if [ -d "$f" ]; then
             echo -e "\n\e[1;33mUpdating $f...\e[0m"
             #pushd "$f" > ../noise.log 2>&1 || exit
+            
+            cd "$f" > ../noise.log 2>&1 || exit
 
-            cd "$f" >../noise.log 2>&1 || exit
-
-            git clean -x -d -f -q >../noise.log 2>&1
-            git stash --quiet >../noise.log 2>&1
+            git clean -x -d -f -q > ../noise.log 2>&1;
+            git stash --quiet > ../noise.log 2>&1;
 
             # rebase AUR git and git outside AUR
             git rebase HEAD master
@@ -233,7 +233,7 @@ fullbuild() {
             if [ -f "../noise.log" ]; then
                 rm ../noise.log
             fi
-
+            
             # start timing the time it takes to create the package
             res1=$(date +%s.%N)
             #rm -rfv $HOME/userrepository/cache/$f/{src,.git}
@@ -242,7 +242,7 @@ fullbuild() {
             if [ -f "PKGBUILD" ]; then
                 echo "Found PKGBUILD for $f. Building..."
                 # clean build force overwrite
-                PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
+                PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
 
                 # clean cached files
                 pikaur -Sccc --noconfirm
@@ -262,27 +262,27 @@ fullbuild() {
             dt3=$(echo "$dt2-3600*$dh" | bc)
             dm=$(echo "$dt3/60" | bc)
             ds=$(echo "$dt3-60*$dm" | bc)
-            LC_NUMERIC=C printf "Total runtime: %02d:%02d:%02.4f\n" "$dh" "$dm" "$ds" >>makepkg.log
+            LC_NUMERIC=C printf "Total runtime: %02d:%02d:%02.4f\n" "$dh" "$dm" "$ds" >> makepkg.log
 
             #popd > /dev/null 2>&1 || exit
             cd .. 2>&1 || exit
         fi
     done
     #popd || exit
-
+    
 }
 
 refresh() {
-    pushd "$DIR/pkgbuild" >/dev/null 2>&1 || exit
+    pushd "$DIR/pkgbuild" > /dev/null 2>&1 || exit
     echo -e "\n\e[1;33mUpdating submodules...\e[0m"
-
+    
     # update all submodules
     for D in */; do
-        cd "$D" || exit
+        cd "$D" || exit;
         echo -e "\n\e[1;34mupdating $D\e[0m"
         # clean unwanted changes made to submodules locally
-        git clean -x -d -f -q >../noise.log 2>&1
-        git stash --quiet >../noise.log 2>&1
+        git clean -x -d -f -q > ../noise.log 2>&1;
+        git stash --quiet > ../noise.log 2>&1;
 
         # rebase
         git rebase HEAD master
@@ -295,21 +295,21 @@ refresh() {
         if [ -f "../noise.log" ]; then
             rm ../noise.log
         fi
-        cd ..
-        sleep 0.25s
+        cd ..;
+    sleep 0.25s;
     done
-    popd >/dev/null 2>&1 || exit
+    popd > /dev/null 2>&1 || exit
 }
 
 deploy() {
     # move built packages to cache/
-    pushd "$DIR/repository" >/dev/null 2>&1 || exit
+    pushd "$DIR/repository" > /dev/null 2>&1 || exit
     for f in *"${PKGEXT}"; do
         [ -f "$f" ] || break
         echo -e "\e[1;33mArchiving $f...\e[0m"
         mv "$f" "$BUILDDIR"
     done
-
+    
     # add built packages to repository database
     for f in "${PKGDEST}"/*"${PKGEXT}"; do
         [ -f "$f" ] || break
@@ -334,12 +334,12 @@ add() {
 
 delete() {
     #pushd "$DIR" || exit
-    git rm --cached "$DIR/pkgbuild/${OPTARG}"
-    rm -rf "$DIR/pkgbuild/${OPTARG}"
-    git commit -m "Removed ${OPTARG} submodule"
-    #rm -rf "$DIR/.git/modules/pkgbuild/${OPTARG}"
-    git config -f .gitmodules --remove-section "submodule.pkgbuild/${OPTARG}"
-    git config -f .git/config --remove-section "submodule.pkgbuild/${OPTARG}"
+        git rm --cached "$DIR/pkgbuild/${OPTARG}"
+        rm -rf "$DIR/pkgbuild/${OPTARG}"
+        git commit -m "Removed ${OPTARG} submodule"
+        #rm -rf "$DIR/.git/modules/pkgbuild/${OPTARG}"
+        git config -f .gitmodules --remove-section "submodule.pkgbuild/${OPTARG}"
+        git config -f .git/config --remove-section "submodule.pkgbuild/${OPTARG}"
     #popd || exit
 }
 
