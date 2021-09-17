@@ -2593,3 +2593,6 @@
 [submodule "pkgbuild/ruby-http_parser.rb"]
 	path = pkgbuild/ruby-http_parser.rb
 	url = https://aur.archlinux.org/ruby-http_parser.rb
+[submodule "pkgbuild/tutanota-desktop"]
+	path = pkgbuild/tutanota-desktop
+	url = https://aur.archlinux.org/tutanota-desktop
