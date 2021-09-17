@@ -347,30 +347,12 @@ delete() {
 [ $# -eq 0 ] && usage
 while getopts "ad:rbfh:" arg; do
     case $arg in
-    a)
-        shift $((OPTIND - 1))
-        for pkg in "$@"; do add; done
-        ;;
-    b)
-        pikaur -Syyuv
-        build
-        exit 0
-        ;;
-    f)
-        pikaur -Syyuv
-        fullbuild
-        deploy
-        sync
-        sudo pacman -Rsc plasma gnome vlc --noconfirm
-        grep -rnw 'pkgbuild/' -e 'Total runtime'
-        exit 0
-        ;;
-    r)
-        pikaur -Syyuv
-        refresh
-        ;;
-    d) delete ;;
-    h) usage ;;
-    *) usage ;;
+        a) shift $(( OPTIND - 1 )); for pkg in "$@"; do add; done ;;
+        b) pikaur -Syyuv; build; exit 0;;
+        f) pikaur -Syyuv; fullbuild; deploy; sync; sudo pacman -Rsc plasma gnome vlc --noconfirm; grep -rnw 'pkgbuild/' -e 'Total runtime'; exit 0 ;;
+        r) pikaur -Syyuv; refresh ;;
+        d) delete ;;
+        h) usage ;;
+        *) usage ;;
     esac
 done
