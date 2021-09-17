@@ -2578,3 +2578,18 @@
 [submodule "pkgbuild/ruby-liquid"]
 	path = pkgbuild/ruby-liquid
 	url = https://aur.archlinux.org/ruby-liquid
+[submodule "pkgbuild/ruby-em-websocket"]
+	path = pkgbuild/ruby-em-websocket
+	url = https://aur.archlinux.org/ruby-em-websocket
+[submodule "pkgbuild/ruby-kramdown-parser-gfm"]
+	path = pkgbuild/ruby-kramdown-parser-gfm
+	url = https://aur.archlinux.org/ruby-kramdown-parser-gfm
+[submodule "pkgbuild/ruby-terminal-table"]
+	path = pkgbuild/ruby-terminal-table
+	url = https://aur.archlinux.org/ruby-terminal-table
+[submodule "pkgbuild/ruby-listen"]
+	path = pkgbuild/ruby-listen
+	url = https://aur.archlinux.org/ruby-listen
+[submodule "pkgbuild/ruby-http_parser.rb"]
+	path = pkgbuild/ruby-http_parser.rb
+	url = https://aur.archlinux.org/ruby-http_parser.rb
