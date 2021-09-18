@@ -2614,9 +2614,12 @@
 [submodule "pkgbuild/asusctl"]
 	path = pkgbuild/asusctl
 	url = https://aur.archlinux.org/asusctl
-[submodule "pkgbuild/plots"]
-	path = pkgbuild/plots
-	url = https://aur.archlinux.org/plots
 [submodule "pkgbuild/mongoclock"]
 	path = pkgbuild/mongoclock
 	url = https://aur.archlinux.org/mongoclock
+[submodule "pkgbuild/mongotimer"]
+	path = pkgbuild/mongotimer
+	url = https://aur.archlinux.org/mongotimer
+[submodule "pkgbuild/i3-gnome"]
+	path = pkgbuild/i3-gnome
+	url = https://aur.archlinux.org/i3-gnome
