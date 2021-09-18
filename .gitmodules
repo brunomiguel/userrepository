@@ -2593,6 +2593,15 @@
 [submodule "pkgbuild/ruby-http_parser.rb"]
 	path = pkgbuild/ruby-http_parser.rb
 	url = https://aur.archlinux.org/ruby-http_parser.rb
-[submodule "pkgbuild/tutanota-desktop"]
-	path = pkgbuild/tutanota-desktop
-	url = https://aur.archlinux.org/tutanota-desktop
+[submodule "pkgbuild/ttf-delugia-code"]
+	path = pkgbuild/ttf-delugia-code
+	url = https://aur.archlinux.org/ttf-delugia-code
+[submodule "pkgbuild/sysz"]
+	path = pkgbuild/sysz
+	url = https://aur.archlinux.org/sysz
+[submodule "pkgbuild/mnamer"]
+	path = pkgbuild/mnamer
+	url = https://aur.archlinux.org/mnamer
+[submodule "pkgbuild/ttf-impallari-cantora"]
+	path = pkgbuild/ttf-impallari-cantora
+	url = https://aur.archlinux.org/ttf-impallari-cantora

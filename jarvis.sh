@@ -67,7 +67,7 @@ build() {
             fi
 
             # check if local revision is the same as the remote revision
-            if [ $GITLOCAL = $GITREMOTE ]; then
+            if [ "$GITLOCAL" = "$GITREMOTE" ]; then
                 echo "Already up-to-date. Skipping..."
 
                 # update out-of-date submodule for building the package
@@ -165,7 +165,7 @@ build() {
                 # clean cached files
                 pikaur -Sccc --noconfirm
                 #rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src "$HOME"/userrepository/cache/bin
-
+                
                 # Stop timing the time it took to create the package \
                 # and log it in makepkg.log
                 res2=$(date +%s.%N)
@@ -190,7 +190,7 @@ build() {
     rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
 
     # change the working folder to $REMOTE and add new package version to the package index, but remove the index first to avoid index corruption
-    cd "$REMOTE"
+    cd "$REMOTE" || exit
     rm -v userrepository.db* userrepository.file*
     repo-add -n -R -s -v "$REPONAME".db.tar.gz *.zst
 
@@ -198,7 +198,7 @@ build() {
     rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src "$HOME"/userrepository/cache/bin
 
     # return to the script's directory
-    cd "$DIR"
+    cd "$DIR" || exit
 }
 
 fullbuild() {

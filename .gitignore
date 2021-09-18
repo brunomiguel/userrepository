@@ -1,10 +1,4 @@
 .directory
 
-cache/*
-!cache/.gitkeep
-
-repository/*
-!repository/.gitkeep
-
 captains.log
 noise.log
