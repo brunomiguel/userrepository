@@ -7,7 +7,6 @@ Customize the `config` file to your needs.
 
 ## Adding PKGBUILDs
 #### AUR
-If you want to create a repository for AUR packages you can just use the `addaurpkg.sh` script:
 ```
 $ ./jarvis.sh -a packagename
 ```
@@ -25,12 +24,12 @@ You can just create a corresponding directory in the `pkgbuild` directory and pu
 <br>_NOTE: `./jarvis.sh -r` will not automatically update these PKGBUILDs as they are not submodules. It's up to you to update them._
 
 ## Updating submodules
-To synchronize the repository with your server you can run `./jarvis.sh -r`.
+To only update all the submodules, run `./jarvis.sh -r`. The script will check if there are new versions on AUR or the git repository for the packages and update them to the newest version.
 
 ## Building
 Just run `./jarvis.sh -f` to do a full build. It will update the PKGBUILDs (if possible), build the packages, create the repository list and rsync all the files from ./repository to your endpoint (specified in `config`).
 
-You can also run `./jarvis.sh -b` to build only submodules with updates, but it's not at the best shape at the moment, so I would advice not using it. This is because some AUR packages create different packages and I haven't found a way to deal with that yet.
+You can also run `./jarvis.sh -b` to build only updated submodules and all the *.git submodules. This way, even if an AUR *-git package isn't updated to display the newest version, the script will build the latest version of that package (provided the PKGBUILD file is well created).
 
 # License
 All scripts in this repository are licensed under GNU General Public License 3.0. Full license text under [LICENSE](LICENSE)
