@@ -2605,3 +2605,18 @@
 [submodule "pkgbuild/ttf-impallari-cantora"]
 	path = pkgbuild/ttf-impallari-cantora
 	url = https://aur.archlinux.org/ttf-impallari-cantora
+[submodule "pkgbuild/pixelorama"]
+	path = pkgbuild/pixelorama
+	url = https://aur.archlinux.org/pixelorama
+[submodule "pkgbuild/hellpot-git"]
+	path = pkgbuild/hellpot-git
+	url = https://aur.archlinux.org/hellpot-git
+[submodule "pkgbuild/asusctl"]
+	path = pkgbuild/asusctl
+	url = https://aur.archlinux.org/asusctl
+[submodule "pkgbuild/plots"]
+	path = pkgbuild/plots
+	url = https://aur.archlinux.org/plots
+[submodule "pkgbuild/mongoclock"]
+	path = pkgbuild/mongoclock
+	url = https://aur.archlinux.org/mongoclock
