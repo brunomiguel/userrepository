@@ -195,7 +195,7 @@ build() {
     repo-add -n -R -s -v "$REPONAME".db.tar.gz *.zst
 
     # clean newly build files from $PKGDEST
-    rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src "$HOME"/userrepository/cache/bin
+    rm -rfv "$HOME"/userrepository/cache/*
 
     # return to the script's directory
     cd "$DIR" || exit
