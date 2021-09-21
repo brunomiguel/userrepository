@@ -2632,6 +2632,3 @@
 [submodule "pkgbuild/knemo"]
 	path = pkgbuild/knemo
 	url = https://aur.archlinux.org/knemo
-[submodule "pkgbuild/virter"]
-	path = pkgbuild/virter
-	url = https://aur.archlinux.org/virter
