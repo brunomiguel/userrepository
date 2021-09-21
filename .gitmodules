@@ -2626,3 +2626,12 @@
 [submodule "pkgbuild/linux-lqx"]
 	path = pkgbuild/linux-lqx
 	url = https://aur.archlinux.org/linux-lqx
+[submodule "pkgbuild/blocky"]
+	path = pkgbuild/blocky
+	url = https://aur.archlinux.org/blocky
+[submodule "pkgbuild/knemo"]
+	path = pkgbuild/knemo
+	url = https://aur.archlinux.org/knemo
+[submodule "pkgbuild/virter"]
+	path = pkgbuild/virter
+	url = https://aur.archlinux.org/virter
