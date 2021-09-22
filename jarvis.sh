@@ -48,6 +48,7 @@ build() {
             # rebase AUR git and git outside AUR
             git rebase HEAD master
             git rebase HEAD main
+            git rebase HEAD master
 
             git fetch
             git remote update

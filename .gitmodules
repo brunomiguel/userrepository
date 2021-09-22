@@ -2632,3 +2632,18 @@
 [submodule "pkgbuild/knemo"]
 	path = pkgbuild/knemo
 	url = https://aur.archlinux.org/knemo
+[submodule "pkgbuild/gnome-cowsay"]
+	path = pkgbuild/gnome-cowsay
+	url = https://aur.archlinux.org/gnome-cowsay
+[submodule "pkgbuild/ttf-signika"]
+	path = pkgbuild/ttf-signika
+	url = https://aur.archlinux.org/ttf-signika
+[submodule "pkgbuild/alacritty-themes"]
+	path = pkgbuild/alacritty-themes
+	url = https://aur.archlinux.org/alacritty-themes
+[submodule "pkgbuild/toppler"]
+	path = pkgbuild/toppler
+	url = https://aur.archlinux.org/toppler
+[submodule "pkgbuild/snyk"]
+	path = pkgbuild/snyk
+	url = https://aur.archlinux.org/snyk
