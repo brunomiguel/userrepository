@@ -2662,3 +2662,12 @@
 [submodule "pkgbuild/linux-lqx"]
 	path = pkgbuild/linux-lqx
 	url = https://aur.archlinux.org/linux-lqx
+[submodule "pkgbuild/ttf-d2coding"]
+	path = pkgbuild/ttf-d2coding
+	url = https://aur.archlinux.org/ttf-d2coding
+[submodule "pkgbuild/termusic"]
+	path = pkgbuild/termusic
+	url = https://aur.archlinux.org/termusic
+[submodule "pkgbuild/btop"]
+	path = pkgbuild/btop
+	url = https://aur.archlinux.org/btop
