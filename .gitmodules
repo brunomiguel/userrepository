@@ -2659,3 +2659,6 @@
 [submodule "pkgbuild/ttf-courier-prime"]
 	path = pkgbuild/ttf-courier-prime
 	url = https://aur.archlinux.org/ttf-courier-prime
+[submodule "pkgbuild/linux-lqx"]
+	path = pkgbuild/linux-lqx
+	url = https://aur.archlinux.org/linux-lqx
