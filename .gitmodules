@@ -2644,6 +2644,3 @@
 [submodule "pkgbuild/snyk"]
 	path = pkgbuild/snyk
 	url = https://aur.archlinux.org/snyk
-[submodule "pkgbuild/linux-lqx"]
-	path = pkgbuild/linux-lqx
-	url = https://aur.archlinux.org/linux-lqx
