@@ -2623,9 +2623,6 @@
 [submodule "pkgbuild/i3-gnome"]
 	path = pkgbuild/i3-gnome
 	url = https://aur.archlinux.org/i3-gnome
-[submodule "pkgbuild/linux-lqx"]
-	path = pkgbuild/linux-lqx
-	url = https://aur.archlinux.org/linux-lqx
 [submodule "pkgbuild/blocky"]
 	path = pkgbuild/blocky
 	url = https://aur.archlinux.org/blocky
@@ -2647,3 +2644,6 @@
 [submodule "pkgbuild/snyk"]
 	path = pkgbuild/snyk
 	url = https://aur.archlinux.org/snyk
+[submodule "pkgbuild/linux-lqx"]
+	path = pkgbuild/linux-lqx
+	url = https://aur.archlinux.org/linux-lqx
