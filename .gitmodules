@@ -2671,3 +2671,6 @@
 [submodule "pkgbuild/btop"]
 	path = pkgbuild/btop
 	url = https://aur.archlinux.org/btop
+[submodule "pkgbuild/tea-qt"]
+	path = pkgbuild/tea-qt
+	url = https://aur.archlinux.org/tea-qt
