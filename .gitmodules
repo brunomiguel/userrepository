@@ -2644,3 +2644,18 @@
 [submodule "pkgbuild/snyk"]
 	path = pkgbuild/snyk
 	url = https://aur.archlinux.org/snyk
+[submodule "pkgbuild/ttf-agave"]
+	path = pkgbuild/ttf-agave
+	url = https://aur.archlinux.org/ttf-agave
+[submodule "pkgbuild/ttf-anka-coder"]
+	path = pkgbuild/ttf-anka-coder
+	url = https://aur.archlinux.org/ttf-anka-coder
+[submodule "pkgbuild/ttf-b612"]
+	path = pkgbuild/ttf-b612
+	url = https://aur.archlinux.org/ttf-b612
+[submodule "pkgbuild/ttf-borg-sans-mono"]
+	path = pkgbuild/ttf-borg-sans-mono
+	url = https://aur.archlinux.org/ttf-borg-sans-mono
+[submodule "pkgbuild/ttf-courier-prime"]
+	path = pkgbuild/ttf-courier-prime
+	url = https://aur.archlinux.org/ttf-courier-prime
