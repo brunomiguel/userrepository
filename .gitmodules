@@ -2674,3 +2674,27 @@
 [submodule "pkgbuild/tea-qt"]
 	path = pkgbuild/tea-qt
 	url = https://aur.archlinux.org/tea-qt
+[submodule "pkgbuild/otto-kde-git"]
+	path = pkgbuild/otto-kde-git
+	url = https://aur.archlinux.org/otto-kde-git
+[submodule "pkgbuild/protonvpn-cli"]
+	path = pkgbuild/protonvpn-cli
+	url = https://aur.archlinux.org/protonvpn-cli
+[submodule "pkgbuild/protonvpn-gui"]
+	path = pkgbuild/protonvpn-gui
+	url = https://aur.archlinux.org/protonvpn-gui
+[submodule "pkgbuild/otf-rosario"]
+	path = pkgbuild/otf-rosario
+	url = https://aur.archlinux.org/otf-rosario
+[submodule "pkgbuild/pretendard"]
+	path = pkgbuild/pretendard
+	url = https://aur.archlinux.org/pretendard
+[submodule "pkgbuild/find-the-command-git"]
+	path = pkgbuild/find-the-command-git
+	url = https://aur.archlinux.org/find-the-command-git
+[submodule "pkgbuild/ostorybook"]
+	path = pkgbuild/ostorybook
+	url = https://aur.archlinux.org/ostorybook
+[submodule "pkgbuild/gourmand"]
+	path = pkgbuild/gourmand
+	url = https://aur.archlinux.org/gourmand
