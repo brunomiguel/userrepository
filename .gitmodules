@@ -2725,6 +2725,3 @@
 [submodule "pkgbuild/gnome-shell-extension-ddterm"]
 	path = pkgbuild/gnome-shell-extension-ddterm
 	url = https://aur.archlinux.org/gnome-shell-extension-ddterm
-[submodule "pkgbuild/ulist"]
-	path = pkgbuild/ulist
-	url = https://aur.archlinux.org/ulist
