@@ -2698,3 +2698,33 @@
 [submodule "pkgbuild/gourmand"]
 	path = pkgbuild/gourmand
 	url = https://aur.archlinux.org/gourmand
+[submodule "pkgbuild/ttf-octicons"]
+	path = pkgbuild/ttf-octicons
+	url = https://aur.archlinux.org/ttf-octicons
+[submodule "pkgbuild/ttf-karla"]
+	path = pkgbuild/ttf-karla
+	url = https://aur.archlinux.org/ttf-karla
+[submodule "pkgbuild/dk"]
+	path = pkgbuild/dk
+	url = https://aur.archlinux.org/dk
+[submodule "pkgbuild/aretext"]
+	path = pkgbuild/aretext
+	url = https://aur.archlinux.org/aretext
+[submodule "pkgbuild/mympd"]
+	path = pkgbuild/mympd
+	url = https://aur.archlinux.org/mympd
+[submodule "pkgbuild/photoflow"]
+	path = pkgbuild/photoflow
+	url = https://aur.archlinux.org/photoflow
+[submodule "pkgbuild/gingerblue"]
+	path = pkgbuild/gingerblue
+	url = https://aur.archlinux.org/gingerblue
+[submodule "pkgbuild/screendimmer"]
+	path = pkgbuild/screendimmer
+	url = https://aur.archlinux.org/screendimmer
+[submodule "pkgbuild/gnome-shell-extension-ddterm"]
+	path = pkgbuild/gnome-shell-extension-ddterm
+	url = https://aur.archlinux.org/gnome-shell-extension-ddterm
+[submodule "pkgbuild/ulist"]
+	path = pkgbuild/ulist
+	url = https://aur.archlinux.org/ulist
