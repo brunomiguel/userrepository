@@ -4,7 +4,7 @@ MAKEFLAGS="-j11"
 PKGEXT=".pkg.tar.zst"
 #COMPRESSXZ=(xz -c -z - --threads=3)
 COMPRESSZSTD=(zstd -c -z -q -3 -v -T10 -)
-PACKAGER="Bruno Miguel <brunoalexandremiguel@gmail.com>"
+PACKAGER="Bruno Miguel <bruno@userrepository.eu>"
 #GPGKEY=""
 
 REPONAME="userrepository"
