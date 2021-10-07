@@ -2737,6 +2737,9 @@
 [submodule "pkgbuild/librtprocess"]
 	path = pkgbuild/librtprocess
 	url = https://aur.archlinux.org/librtprocess
-[submodule "pkgbuild/guapow"]
-	path = pkgbuild/guapow
-	url = https://aur.archlinux.org/guapow
+[submodule "pkgbuild/ohmysvg"]
+	path = pkgbuild/ohmysvg
+	url = https://aur.archlinux.org/ohmysvg
+[submodule "pkgbuild/zammad"]
+	path = pkgbuild/zammad
+	url = https://aur.archlinux.org/zammad
