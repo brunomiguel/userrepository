@@ -2761,6 +2761,6 @@
 [submodule "pkgbuild/trilium-bin"]
 	path = pkgbuild/trilium-bin
 	url = https://aur.archlinux.org/trilium-bin
-[submodule "pkgbuild/poddr-deb"]
-	path = pkgbuild/poddr-deb
-	url = https://aur.archlinux.org/poddr-deb
+[submodule "pkgbuild/poddr-bin"]
+	path = pkgbuild/poddr-bin
+	url = https://aur.archlinux.org/poddr-bin
