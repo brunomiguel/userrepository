@@ -2740,6 +2740,27 @@
 [submodule "pkgbuild/ohmysvg"]
 	path = pkgbuild/ohmysvg
 	url = https://aur.archlinux.org/ohmysvg
-[submodule "pkgbuild/zammad"]
-	path = pkgbuild/zammad
-	url = https://aur.archlinux.org/zammad
+[submodule "pkgbuild/termite-aperezdc-git"]
+	path = pkgbuild/termite-aperezdc-git
+	url = https://aur.archlinux.org/termite-aperezdc-git
+[submodule "pkgbuild/soju"]
+	path = pkgbuild/soju
+	url = https://aur.archlinux.org/soju
+[submodule "pkgbuild/spotrec"]
+	path = pkgbuild/spotrec
+	url = https://aur.archlinux.org/spotrec
+[submodule "pkgbuild/macchina"]
+	path = pkgbuild/macchina
+	url = https://aur.archlinux.org/macchina
+[submodule "pkgbuild/ly"]
+	path = pkgbuild/ly
+	url = https://aur.archlinux.org/ly
+[submodule "pkgbuild/archtorify-git"]
+	path = pkgbuild/archtorify-git
+	url = https://aur.archlinux.org/archtorify-git
+[submodule "pkgbuild/trilium-bin"]
+	path = pkgbuild/trilium-bin
+	url = https://aur.archlinux.org/trilium-bin
+[submodule "pkgbuild/poddr-deb"]
+	path = pkgbuild/poddr-deb
+	url = https://aur.archlinux.org/poddr-deb
