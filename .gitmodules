@@ -2776,3 +2776,21 @@
 [submodule "pkgbuild/kopia"]
 	path = pkgbuild/kopia
 	url = https://aur.archlinux.org/kopia
+[submodule "pkgbuild/slimbookbattery"]
+	path = pkgbuild/slimbookbattery
+	url = https://aur.archlinux.org/slimbookbattery
+[submodule "pkgbuild/slimbookamdcontroller"]
+	path = pkgbuild/slimbookamdcontroller
+	url = https://aur.archlinux.org/slimbookamdcontroller
+[submodule "pkgbuild/ryzenadj-git"]
+	path = pkgbuild/ryzenadj-git
+	url = https://aur.archlinux.org/ryzenadj-git
+[submodule "pkgbuild/python-pyamdgpuinfo"]
+	path = pkgbuild/python-pyamdgpuinfo
+	url = https://aur.archlinux.org/python-pyamdgpuinfo
+[submodule "pkgbuild/slimbookintelcontroller"]
+	path = pkgbuild/slimbookintelcontroller
+	url = https://aur.archlinux.org/slimbookintelcontroller
+[submodule "pkgbuild/tidy-viewer"]
+	path = pkgbuild/tidy-viewer
+	url = https://aur.archlinux.org/tidy-viewer
