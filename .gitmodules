@@ -2764,9 +2764,15 @@
 [submodule "pkgbuild/poddr-bin"]
 	path = pkgbuild/poddr-bin
 	url = https://aur.archlinux.org/poddr-bin
-[submodule "pkgbuild/mullvad-vpn"]
-	path = pkgbuild/mullvad-vpn
-	url = https://aur.archlinux.org/mullvad-vpn
 [submodule "pkgbuild/gsubs"]
 	path = pkgbuild/gsubs
 	url = https://aur.archlinux.org/gsubs
+[submodule "pkgbuild/digital"]
+	path = pkgbuild/digital
+	url = https://aur.archlinux.org/digital
+[submodule "pkgbuild/uwufetch-git"]
+	path = pkgbuild/uwufetch-git
+	url = https://aur.archlinux.org/uwufetch-git
+[submodule "pkgbuild/kopia"]
+	path = pkgbuild/kopia
+	url = https://aur.archlinux.org/kopia

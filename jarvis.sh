@@ -75,7 +75,8 @@ build() {
             else
 
                 # update package revision
-                git pull
+                git pull origin main
+                git pull origin master
 
                 # start timing the time it takes to create the package
                 res1=$(date +%s.%N)
@@ -144,7 +145,8 @@ build() {
             fi
 
             # update package revision
-            git pull
+            git pull origin main
+            git pull origin master
 
             # start timing the time it takes to create the package
             res1=$(date +%s.%N)
@@ -228,8 +230,9 @@ fullbuild() {
             git rebase HEAD main
 
             # update submodules
-            git pull
-            #git pull origin master
+            git pull origin main
+            git pull origin master
+            
             # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
             if [ -f "../noise.log" ]; then
                 rm ../noise.log
@@ -290,8 +293,8 @@ refresh() {
         git rebase HEAD main
 
         # update submodules
-        git pull
-        #git pull origin master
+        git pull origin main
+        git pull origin master
         # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
         if [ -f "../noise.log" ]; then
             rm ../noise.log
