@@ -2764,3 +2764,9 @@
 [submodule "pkgbuild/poddr-bin"]
 	path = pkgbuild/poddr-bin
 	url = https://aur.archlinux.org/poddr-bin
+[submodule "pkgbuild/mullvad-vpn"]
+	path = pkgbuild/mullvad-vpn
+	url = https://aur.archlinux.org/mullvad-vpn
+[submodule "pkgbuild/gsubs"]
+	path = pkgbuild/gsubs
+	url = https://aur.archlinux.org/gsubs
