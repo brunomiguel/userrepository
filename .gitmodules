@@ -2803,3 +2803,6 @@
 [submodule "pkgbuild/maldita-castilla"]
 	path = pkgbuild/maldita-castilla
 	url = https://aur.archlinux.org/maldita-castilla
+[submodule "pkgbuild/userrepository-mirrors"]
+	path = pkgbuild/userrepository-mirrors
+	url = https://aur.archlinux.org/userrepository-mirrors
