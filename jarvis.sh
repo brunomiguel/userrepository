@@ -347,13 +347,17 @@ delete() {
     #popd || exit
 }
 
+mirror_sync() {
+	rsync -rtlvH --delete-after --delay-updates --safe-links /var/pkg/userrepository/ userrepository@us.mirrors.fossho.st:/
+}
+
 # script options
 [ $# -eq 0 ] && usage
 while getopts "ad:rbfh:" arg; do
     case $arg in
         a) shift $(( OPTIND - 1 )); for pkg in "$@"; do add; done ;;
-        b) pikaur -Syyuv; build; exit 0;;
-        f) pikaur -Syyuv; fullbuild; deploy; sync; sudo pacman -Rsc plasma gnome vlc --noconfirm; grep -rnw 'pkgbuild/' -e 'Total runtime'; exit 0 ;;
+        b) pikaur -Syyuv; build; mirror_sync; exit 0;;
+        f) pikaur -Syyuv; fullbuild; deploy; mirror_sync; sync; sudo pacman -Rsc plasma gnome vlc --noconfirm; grep -rnw 'pkgbuild/' -e 'Total runtime'; exit 0 ;;
         r) pikaur -Syyuv; refresh ;;
         d) delete ;;
         h) usage ;;

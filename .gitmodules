@@ -2794,3 +2794,12 @@
 [submodule "pkgbuild/tidy-viewer"]
 	path = pkgbuild/tidy-viewer
 	url = https://aur.archlinux.org/tidy-viewer
+[submodule "pkgbuild/python-mistletoe"]
+	path = pkgbuild/python-mistletoe
+	url = https://aur.archlinux.org/python-mistletoe
+[submodule "pkgbuild/beautysh"]
+	path = pkgbuild/beautysh
+	url = https://aur.archlinux.org/beautysh
+[submodule "pkgbuild/maldita-castilla"]
+	path = pkgbuild/maldita-castilla
+	url = https://aur.archlinux.org/maldita-castilla
