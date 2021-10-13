@@ -349,6 +349,7 @@ delete() {
 
 mirror_sync() {
 	rsync -rtlvH --delete-after --delay-updates --safe-links /var/pkg/userrepository/ userrepository@us.mirrors.fossho.st:/
+	rsync -rtlvH --delete-after --delay-updates --safe-links /var/pkg/userrepository/ userrepository@uk.mirrors.fossho.st:/
 }
 
 # script options
