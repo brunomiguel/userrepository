@@ -8,4 +8,4 @@ PACKAGER="Bruno Miguel <bruno@userrepository.eu>"
 #GPGKEY=""
 
 REPONAME="userrepository"
-REMOTE="/var/pkg/userrepository"
+REMOTE="/var/pkg/userrepository/"
