@@ -18,7 +18,7 @@ shopt -s expand_aliases
 alias pikaur='pikaur --needed --noprogressbar --noconfirm'
 
 usage() {
-    echo -e "$(tput bold)\e[33m\nHi. I'm Jarvis.\e[0m$(tput bold)\nTo make use of my immense powers, specify one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build updated packages, deploy and sync repository to webserver folder\n\t-f: full build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-h: print this help message\n" ;
+    echo -e "$(tput bold)\e[33m\nHi. I'm Jarvis.\e[0m$(tput bold)\nTo make use of my immense powers, specify one of the following options:$(tput sgr0)\n\t-a: add package to repository\n\t-b: build updated packages, deploy and sync repository to webserver folder\n\t-f: full build, deploy and sync repository to webserver folder\n\t-d: delete package\n\t-r: update submodules\n\t-m: syncs packages with the mirrors\n\t-h: print this help message\n" ;
 }
 
 build() {
