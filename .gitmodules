@@ -1093,9 +1093,6 @@
 [submodule "pkgbuild/dialect"]
 	path = pkgbuild/dialect
 	url = https://aur.archlinux.org/dialect
-[submodule "pkgbuild/tootle-git"]
-	path = pkgbuild/tootle-git
-	url = https://aur.archlinux.org/tootle-git
 [submodule "pkgbuild/hyperspace-appimage"]
 	path = pkgbuild/hyperspace-appimage
 	url = https://aur.archlinux.org/hyperspace-appimage
