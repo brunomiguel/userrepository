@@ -97,9 +97,6 @@
 [submodule "pkgbuild/f3"]
 	path = pkgbuild/f3
 	url = https://aur.archlinux.org/f3.git
-[submodule "pkgbuild/falkon-git"]
-	path = pkgbuild/falkon-git
-	url = https://aur.archlinux.org/falkon-git.git
 [submodule "pkgbuild/fedora-firefox-wayland-bin"]
 	path = pkgbuild/fedora-firefox-wayland-bin
 	url = https://aur.archlinux.org/fedora-firefox-wayland-bin.git
@@ -796,9 +793,6 @@
 [submodule "pkgbuild/sameboy"]
 	path = pkgbuild/sameboy
 	url = https://aur.archlinux.org/sameboy
-[submodule "pkgbuild/dwm-distrotube-git"]
-	path = pkgbuild/dwm-distrotube-git
-	url = https://aur.archlinux.org/dwm-distrotube-git
 [submodule "pkgbuild/notorious-git"]
 	path = pkgbuild/notorious-git
 	url = https://aur.archlinux.org/notorious-git
