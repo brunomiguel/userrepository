@@ -829,9 +829,6 @@
 [submodule "pkgbuild/lite"]
 	path = pkgbuild/lite
 	url = https://aur.archlinux.org/lite
-[submodule "pkgbuild/st-syaoran-git"]
-	path = pkgbuild/st-syaoran-git
-	url = https://aur.archlinux.org/st-syaoran-git
 [submodule "pkgbuild/st-musiyenko-git"]
 	path = pkgbuild/st-musiyenko-git
 	url = https://aur.archlinux.org/st-musiyenko-git
