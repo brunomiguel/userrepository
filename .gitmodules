@@ -2788,6 +2788,6 @@
 [submodule "pkgbuild/encrypted-dns"]
 	path = pkgbuild/encrypted-dns
 	url = https://aur.archlinux.org/encrypted-dns
-[submodule "pkgbuild/brightnessztl"]
-	path = pkgbuild/brightnessztl
-	url = https://aur.archlinux.org/brightnessztl
+[submodule "pkgbuild/paccat"]
+	path = pkgbuild/paccat
+	url = https://aur.archlinux.org/paccat

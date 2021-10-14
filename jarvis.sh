@@ -354,13 +354,14 @@ mirror_sync() {
 
 # script options
 [ $# -eq 0 ] && usage
-while getopts "ad:rbfh:" arg; do
+while getopts "ad:rbfhm:" arg; do
     case $arg in
         a) shift $(( OPTIND - 1 )); for pkg in "$@"; do add; done ;;
         b) pikaur -Syyuv; build; mirror_sync; exit 0;;
         f) pikaur -Syyuv; fullbuild; deploy;sync; mirror_sync; sudo pacman -Rsc plasma gnome vlc --noconfirm; grep -rnw 'pkgbuild/' -e 'Total runtime'; exit 0 ;;
         r) pikaur -Syyuv; refresh ;;
         d) delete ;;
+        m) mirror_sync;;
         h) usage ;;
         *) usage ;;
     esac
