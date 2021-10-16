@@ -2779,3 +2779,39 @@
 [submodule "pkgbuild/paccat"]
 	path = pkgbuild/paccat
 	url = https://aur.archlinux.org/paccat
+[submodule "pkgbuild/tootle"]
+	path = pkgbuild/tootle
+	url = https://aur.archlinux.org/tootle
+[submodule "pkgbuild/ahriman-git"]
+	path = pkgbuild/ahriman-git
+	url = https://aur.archlinux.org/ahriman-git
+[submodule "pkgbuild/grit-task-manager"]
+	path = pkgbuild/grit-task-manager
+	url = https://aur.archlinux.org/grit-task-manager
+[submodule "pkgbuild/kvantum-theme-qogir-git"]
+	path = pkgbuild/kvantum-theme-qogir-git
+	url = https://aur.archlinux.org/kvantum-theme-qogir-git
+[submodule "pkgbuild/pacautomation"]
+	path = pkgbuild/pacautomation
+	url = https://aur.archlinux.org/pacautomation
+[submodule "pkgbuild/ani-cli-git"]
+	path = pkgbuild/ani-cli-git
+	url = https://aur.archlinux.org/ani-cli-git
+[submodule "pkgbuild/mdzk"]
+	path = pkgbuild/mdzk
+	url = https://aur.archlinux.org/mdzk
+[submodule "pkgbuild/todo"]
+	path = pkgbuild/todo
+	url = https://aur.archlinux.org/todo
+[submodule "pkgbuild/opentodolist"]
+	path = pkgbuild/opentodolist
+	url = https://aur.archlinux.org/opentodolist
+[submodule "pkgbuild/moe-kde-git"]
+	path = pkgbuild/moe-kde-git
+	url = https://aur.archlinux.org/moe-kde-git
+[submodule "pkgbuild/uptime-kuma"]
+	path = pkgbuild/uptime-kuma
+	url = https://aur.archlinux.org/uptime-kuma
+[submodule "pkgbuild/dofi-manager"]
+	path = pkgbuild/dofi-manager
+	url = https://aur.archlinux.org/dofi-manager
