@@ -2815,3 +2815,9 @@
 [submodule "pkgbuild/dofi-manager"]
 	path = pkgbuild/dofi-manager
 	url = https://aur.archlinux.org/dofi-manager
+[submodule "pkgbuild/git-xargs"]
+	path = pkgbuild/git-xargs
+	url = https://aur.archlinux.org/git-xargs
+[submodule "pkgbuild/hyperpad"]
+	path = pkgbuild/hyperpad
+	url = https://aur.archlinux.org/hyperpad
