@@ -2836,3 +2836,12 @@
 [submodule "pkgbuild/zxpy"]
 	path = pkgbuild/zxpy
 	url = https://aur.archlinux.org/zxpy
+[submodule "pkgbuild/sotw"]
+	path = pkgbuild/sotw
+	url = https://aur.archlinux.org/sotw
+[submodule "pkgbuild/ttf-scientifica"]
+	path = pkgbuild/ttf-scientifica
+	url = https://aur.archlinux.org/ttf-scientifica
+[submodule "pkgbuild/swisswatch"]
+	path = pkgbuild/swisswatch
+	url = https://aur.archlinux.org/swisswatch
