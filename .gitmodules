@@ -2821,3 +2821,18 @@
 [submodule "pkgbuild/hyperpad"]
 	path = pkgbuild/hyperpad
 	url = https://aur.archlinux.org/hyperpad
+[submodule "pkgbuild/ant-dracula-kde-theme-git"]
+	path = pkgbuild/ant-dracula-kde-theme-git
+	url = https://aur.archlinux.org/ant-dracula-kde-theme-git
+[submodule "pkgbuild/abaddon"]
+	path = pkgbuild/abaddon
+	url = https://aur.archlinux.org/abaddon
+[submodule "pkgbuild/sbsimple"]
+	path = pkgbuild/sbsimple
+	url = https://aur.archlinux.org/sbsimple
+[submodule "pkgbuild/difftastic"]
+	path = pkgbuild/difftastic
+	url = https://aur.archlinux.org/difftastic
+[submodule "pkgbuild/zxpy"]
+	path = pkgbuild/zxpy
+	url = https://aur.archlinux.org/zxpy
