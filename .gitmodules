@@ -2845,3 +2845,9 @@
 [submodule "pkgbuild/swisswatch"]
 	path = pkgbuild/swisswatch
 	url = https://aur.archlinux.org/swisswatch
+[submodule "pkgbuild/ttf-impallari-cabin-font"]
+	path = pkgbuild/ttf-impallari-cabin-font
+	url = https://aur.archlinux.org/ttf-impallari-cabin-font
+[submodule "pkgbuild/otf-fira-go"]
+	path = pkgbuild/otf-fira-go
+	url = https://aur.archlinux.org/otf-fira-go
