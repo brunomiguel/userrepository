@@ -2851,3 +2851,9 @@
 [submodule "pkgbuild/otf-fira-go"]
 	path = pkgbuild/otf-fira-go
 	url = https://aur.archlinux.org/otf-fira-go
+[submodule "pkgbuild/otf-openbaskerville"]
+	path = pkgbuild/otf-openbaskerville
+	url = https://aur.archlinux.org/otf-openbaskerville
+[submodule "pkgbuild/ufo2otf"]
+	path = pkgbuild/ufo2otf
+	url = https://aur.archlinux.org/ufo2otf
