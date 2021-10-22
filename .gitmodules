@@ -2857,3 +2857,21 @@
 [submodule "pkgbuild/ufo2otf"]
 	path = pkgbuild/ufo2otf
 	url = https://aur.archlinux.org/ufo2otf
+[submodule "pkgbuild/gitprompt"]
+	path = pkgbuild/gitprompt
+	url = https://aur.archlinux.org/gitprompt
+[submodule "pkgbuild/lf"]
+	path = pkgbuild/lf
+	url = https://aur.archlinux.org/lf
+[submodule "pkgbuild/sauklaue"]
+	path = pkgbuild/sauklaue
+	url = https://aur.archlinux.org/sauklaue
+[submodule "pkgbuild/phockup"]
+	path = pkgbuild/phockup
+	url = https://aur.archlinux.org/phockup
+[submodule "pkgbuild/rnote"]
+	path = pkgbuild/rnote
+	url = https://aur.archlinux.org/rnote
+[submodule "pkgbuild/lorien-bin"]
+	path = pkgbuild/lorien-bin
+	url = https://aur.archlinux.org/lorien-bin
