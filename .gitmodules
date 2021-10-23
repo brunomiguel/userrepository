@@ -2890,6 +2890,21 @@
 [submodule "pkgbuild/informant"]
 	path = pkgbuild/informant
 	url = https://aur.archlinux.org/informant
-[submodule "pkgbuild/ttf-plemoljp"]
-	path = pkgbuild/ttf-plemoljp
-	url = https://aur.archlinux.org/ttf-plemoljp
+[submodule "pkgbuild/freyr-git"]
+	path = pkgbuild/freyr-git
+	url = https://aur.archlinux.org/freyr-git
+[submodule "pkgbuild/fortune-mod-anarchism"]
+	path = pkgbuild/fortune-mod-anarchism
+	url = https://aur.archlinux.org/fortune-mod-anarchism
+[submodule "pkgbuild/i3keys"]
+	path = pkgbuild/i3keys
+	url = https://aur.archlinux.org/i3keys
+[submodule "pkgbuild/xkcd-gtk"]
+	path = pkgbuild/xkcd-gtk
+	url = https://aur.archlinux.org/xkcd-gtk
+[submodule "pkgbuild/dt-cli"]
+	path = pkgbuild/dt-cli
+	url = https://aur.archlinux.org/dt-cli
+[submodule "pkgbuild/caatinga"]
+	path = pkgbuild/caatinga
+	url = https://aur.archlinux.org/caatinga
