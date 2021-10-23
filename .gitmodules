@@ -2875,3 +2875,9 @@
 [submodule "pkgbuild/lorien-bin"]
 	path = pkgbuild/lorien-bin
 	url = https://aur.archlinux.org/lorien-bin
+[submodule "pkgbuild/yafetch-git"]
+	path = pkgbuild/yafetch-git
+	url = https://aur.archlinux.org/yafetch-git
+[submodule "pkgbuild/librespeed-cli"]
+	path = pkgbuild/librespeed-cli
+	url = https://aur.archlinux.org/librespeed-cli
