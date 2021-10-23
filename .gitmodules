@@ -2881,3 +2881,15 @@
 [submodule "pkgbuild/librespeed-cli"]
 	path = pkgbuild/librespeed-cli
 	url = https://aur.archlinux.org/librespeed-cli
+[submodule "pkgbuild/qogir-kde-theme-git"]
+	path = pkgbuild/qogir-kde-theme-git
+	url = https://aur.archlinux.org/qogir-kde-theme-git
+[submodule "pkgbuild/bgrm-git"]
+	path = pkgbuild/bgrm-git
+	url = https://aur.archlinux.org/bgrm-git
+[submodule "pkgbuild/informant"]
+	path = pkgbuild/informant
+	url = https://aur.archlinux.org/informant
+[submodule "pkgbuild/ttf-plemoljp"]
+	path = pkgbuild/ttf-plemoljp
+	url = https://aur.archlinux.org/ttf-plemoljp
