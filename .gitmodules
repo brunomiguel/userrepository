@@ -2908,3 +2908,9 @@
 [submodule "pkgbuild/caatinga"]
 	path = pkgbuild/caatinga
 	url = https://aur.archlinux.org/caatinga
+[submodule "pkgbuild/linux-xanmod-lts"]
+	path = pkgbuild/linux-xanmod-lts
+	url = https://aur.archlinux.org/linux-xanmod-lts
+[submodule "pkgbuild/gobble"]
+	path = pkgbuild/gobble
+	url = https://aur.archlinux.org/gobble
