@@ -2914,3 +2914,6 @@
 [submodule "pkgbuild/gobble"]
 	path = pkgbuild/gobble
 	url = https://aur.archlinux.org/gobble
+[submodule "pkgbuild/podbit"]
+	path = pkgbuild/podbit
+	url = https://aur.archlinux.org/podbit
