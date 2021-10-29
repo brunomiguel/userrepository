@@ -205,9 +205,6 @@
 [submodule "pkgbuild/pikaur"]
 	path = pkgbuild/pikaur
 	url = https://aur.archlinux.org/pikaur.git
-[submodule "pkgbuild/pngzop"]
-	path = pkgbuild/pngzop
-	url = https://aur.archlinux.org/pngzop.git
 [submodule "pkgbuild/polybar"]
 	path = pkgbuild/polybar
 	url = https://aur.archlinux.org/polybar.git
@@ -325,9 +322,6 @@
 [submodule "pkgbuild/ttf-public-sans"]
 	path = pkgbuild/ttf-public-sans
 	url = https://aur.archlinux.org/ttf-public-sans.git
-[submodule "pkgbuild/ttf-roboto-mono"]
-	path = pkgbuild/ttf-roboto-mono
-	url = https://aur.archlinux.org/ttf-roboto-mono.git
 [submodule "pkgbuild/typora"]
 	path = pkgbuild/typora
 	url = https://aur.archlinux.org/typora.git
@@ -424,9 +418,6 @@
 [submodule "pkgbuild/featherpad"]
 	path = pkgbuild/featherpad
 	url = https://aur.archlinux.org/featherpad
-[submodule "pkgbuild/qvault"]
-	path = pkgbuild/qvault
-	url = https://aur.archlinux.org/qvault
 [submodule "pkgbuild/zps"]
 	path = pkgbuild/zps
 	url = https://aur.archlinux.org/zps
@@ -646,9 +637,6 @@
 [submodule "pkgbuild/waybox-git"]
 	path = pkgbuild/waybox-git
 	url = https://aur.archlinux.org/waybox-git
-[submodule "pkgbuild/turbodiary"]
-	path = pkgbuild/turbodiary
-	url = https://aur.archlinux.org/turbodiary
 [submodule "pkgbuild/diodon"]
 	path = pkgbuild/diodon
 	url = https://aur.archlinux.org/diodon
@@ -661,9 +649,6 @@
 [submodule "pkgbuild/ttf-jam-icons"]
 	path = pkgbuild/ttf-jam-icons
 	url = https://aur.archlinux.org/ttf-jam-icons
-[submodule "pkgbuild/jami-ubuntu-latest"]
-	path = pkgbuild/jami-ubuntu-latest
-	url = https://aur.archlinux.org/jami-ubuntu-latest
 [submodule "pkgbuild/bashtop-git"]
 	path = pkgbuild/bashtop-git
 	url = https://aur.archlinux.org/bashtop-git
@@ -718,9 +703,6 @@
 [submodule "pkgbuild/gimp-refocus"]
 	path = pkgbuild/gimp-refocus
 	url = https://aur.archlinux.org/gimp-refocus
-[submodule "pkgbuild/peazip-qt"]
-	path = pkgbuild/peazip-qt
-	url = https://aur.archlinux.org/peazip-qt
 [submodule "pkgbuild/linux-wifi-hotspot"]
 	path = pkgbuild/linux-wifi-hotspot
 	url = https://aur.archlinux.org/linux-wifi-hotspot
@@ -889,9 +871,6 @@
 [submodule "pkgbuild/gst"]
 	path = pkgbuild/gst
 	url = https://aur.archlinux.org/gst
-[submodule "pkgbuild/stress-ng"]
-	path = pkgbuild/stress-ng
-	url = https://aur.archlinux.org/stress-ng
 [submodule "pkgbuild/python-humanfriendly"]
 	path = pkgbuild/python-humanfriendly
 	url = https://aur.archlinux.org/python-humanfriendly
@@ -1021,9 +1000,6 @@
 [submodule "pkgbuild/wttr"]
 	path = pkgbuild/wttr
 	url = https://aur.archlinux.org/wttr
-[submodule "pkgbuild/wego"]
-	path = pkgbuild/wego
-	url = https://aur.archlinux.org/wego
 [submodule "pkgbuild/plymouth"]
 	path = pkgbuild/plymouth
 	url = https://aur.archlinux.org/plymouth
@@ -2095,9 +2071,6 @@
 [submodule "pkgbuild/ancestris"]
 	path = pkgbuild/ancestris
 	url = https://aur.archlinux.org/ancestris
-[submodule "pkgbuild/qtext"]
-	path = pkgbuild/qtext
-	url = https://aur.archlinux.org/qtext
 [submodule "pkgbuild/katriawm"]
 	path = pkgbuild/katriawm
 	url = https://aur.archlinux.org/katriawm
@@ -2680,9 +2653,6 @@
 [submodule "pkgbuild/mympd"]
 	path = pkgbuild/mympd
 	url = https://aur.archlinux.org/mympd
-[submodule "pkgbuild/photoflow"]
-	path = pkgbuild/photoflow
-	url = https://aur.archlinux.org/photoflow
 [submodule "pkgbuild/gingerblue"]
 	path = pkgbuild/gingerblue
 	url = https://aur.archlinux.org/gingerblue
@@ -2779,9 +2749,6 @@
 [submodule "pkgbuild/paccat"]
 	path = pkgbuild/paccat
 	url = https://aur.archlinux.org/paccat
-[submodule "pkgbuild/tootle"]
-	path = pkgbuild/tootle
-	url = https://aur.archlinux.org/tootle
 [submodule "pkgbuild/ahriman-git"]
 	path = pkgbuild/ahriman-git
 	url = https://aur.archlinux.org/ahriman-git
@@ -2827,9 +2794,6 @@
 [submodule "pkgbuild/abaddon"]
 	path = pkgbuild/abaddon
 	url = https://aur.archlinux.org/abaddon
-[submodule "pkgbuild/sbsimple"]
-	path = pkgbuild/sbsimple
-	url = https://aur.archlinux.org/sbsimple
 [submodule "pkgbuild/difftastic"]
 	path = pkgbuild/difftastic
 	url = https://aur.archlinux.org/difftastic
