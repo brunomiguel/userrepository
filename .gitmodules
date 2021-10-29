@@ -43,9 +43,6 @@
 [submodule "pkgbuild/bootiso"]
 	path = pkgbuild/bootiso
 	url = https://aur.archlinux.org/bootiso.git
-[submodule "pkgbuild/boram"]
-	path = pkgbuild/boram
-	url = https://aur.archlinux.org/boram.git
 [submodule "pkgbuild/boston-icon-theme-git"]
 	path = pkgbuild/boston-icon-theme-git
 	url = https://aur.archlinux.org/boston-icon-theme-git.git
