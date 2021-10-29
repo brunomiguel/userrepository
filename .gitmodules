@@ -2878,6 +2878,3 @@
 [submodule "pkgbuild/podbit"]
 	path = pkgbuild/podbit
 	url = https://aur.archlinux.org/podbit
-[submodule "pkgbuild/apostrophe-git"]
-	path = pkgbuild/apostrophe-git
-	url = https://aur.archlinux.org/apostrophe-git
