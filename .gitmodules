@@ -2881,3 +2881,15 @@
 [submodule "pkgbuild/barify"]
 	path = pkgbuild/barify
 	url = https://aur.archlinux.org/barify
+[submodule "pkgbuild/stargate"]
+	path = pkgbuild/stargate
+	url = https://aur.archlinux.org/stargate
+[submodule "pkgbuild/python-mido"]
+	path = pkgbuild/python-mido
+	url = https://aur.archlinux.org/python-mido
+[submodule "pkgbuild/font-downloader"]
+	path = pkgbuild/font-downloader
+	url = https://aur.archlinux.org/font-downloader
+[submodule "pkgbuild/crema-git"]
+	path = pkgbuild/crema-git
+	url = https://aur.archlinux.org/crema-git
