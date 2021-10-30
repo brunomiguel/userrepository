@@ -2239,9 +2239,6 @@
 [submodule "pkgbuild/cork-rs-git"]
 	path = pkgbuild/cork-rs-git
 	url = https://aur.archlinux.org/cork-rs-git
-[submodule "pkgbuild/yt-dlp-git"]
-	path = pkgbuild/yt-dlp-git
-	url = https://aur.archlinux.org/yt-dlp-git
 [submodule "pkgbuild/ttf-buenard"]
 	path = pkgbuild/ttf-buenard
 	url = https://aur.archlinux.org/ttf-buenard
