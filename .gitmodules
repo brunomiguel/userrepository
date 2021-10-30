@@ -2881,3 +2881,6 @@
 [submodule "pkgbuild/matrix-mirage"]
 	path = pkgbuild/matrix-mirage
 	url = https://aur.archlinux.org/matrix-mirage
+[submodule "pkgbuild/barify"]
+	path = pkgbuild/barify
+	url = https://aur.archlinux.org/barify
