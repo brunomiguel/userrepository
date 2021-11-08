@@ -2893,3 +2893,9 @@
 [submodule "pkgbuild/crema-git"]
 	path = pkgbuild/crema-git
 	url = https://aur.archlinux.org/crema-git
+[submodule "pkgbuild/font-editor"]
+	path = pkgbuild/font-editor
+	url = https://aur.archlinux.org/font-editor
+[submodule "pkgbuild/azpainterb"]
+	path = pkgbuild/azpainterb
+	url = https://aur.archlinux.org/azpainterb
