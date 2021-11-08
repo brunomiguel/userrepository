@@ -2896,6 +2896,15 @@
 [submodule "pkgbuild/font-editor"]
 	path = pkgbuild/font-editor
 	url = https://aur.archlinux.org/font-editor
-[submodule "pkgbuild/azpainterb"]
-	path = pkgbuild/azpainterb
-	url = https://aur.archlinux.org/azpainterb
+[submodule "pkgbuild/rasa-font"]
+	path = pkgbuild/rasa-font
+	url = https://aur.archlinux.org/rasa-font
+[submodule "pkgbuild/yrsa-font"]
+	path = pkgbuild/yrsa-font
+	url = https://aur.archlinux.org/yrsa-font
+[submodule "pkgbuild/kwin-bismuth"]
+	path = pkgbuild/kwin-bismuth
+	url = https://aur.archlinux.org/kwin-bismuth
+[submodule "pkgbuild/findex-git"]
+	path = pkgbuild/findex-git
+	url = https://aur.archlinux.org/findex-git
