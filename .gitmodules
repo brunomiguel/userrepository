@@ -2908,3 +2908,6 @@
 [submodule "pkgbuild/findex-git"]
 	path = pkgbuild/findex-git
 	url = https://aur.archlinux.org/findex-git
+[submodule "pkgbuild/pyroom"]
+	path = pkgbuild/pyroom
+	url = https://aur.archlinux.org/pyroom
