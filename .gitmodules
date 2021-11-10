@@ -2911,3 +2911,12 @@
 [submodule "pkgbuild/coffeetch-git"]
 	path = pkgbuild/coffeetch-git
 	url = https://aur.archlinux.org/coffeetch-git
+[submodule "pkgbuild/tdrop"]
+	path = pkgbuild/tdrop
+	url = https://aur.archlinux.org/tdrop
+[submodule "pkgbuild/quickemu"]
+	path = pkgbuild/quickemu
+	url = https://aur.archlinux.org/quickemu
+[submodule "pkgbuild/mandown-md-viewer"]
+	path = pkgbuild/mandown-md-viewer
+	url = https://aur.archlinux.org/mandown-md-viewer
