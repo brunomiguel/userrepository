@@ -2938,9 +2938,6 @@
 [submodule "pkgbuild/wp-desktop"]
 	path = pkgbuild/wp-desktop
 	url = https://aur.archlinux.org/wp-desktop
-[submodule "pkgbuild/multisystem"]
-	path = pkgbuild/multisystem
-	url = https://aur.archlinux.org/multisystem
 [submodule "pkgbuild/cfs-zen-tweaks"]
 	path = pkgbuild/cfs-zen-tweaks
 	url = https://aur.archlinux.org/cfs-zen-tweaks
