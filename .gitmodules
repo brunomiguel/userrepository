@@ -2920,3 +2920,27 @@
 [submodule "pkgbuild/mandown-md-viewer"]
 	path = pkgbuild/mandown-md-viewer
 	url = https://aur.archlinux.org/mandown-md-viewer
+[submodule "pkgbuild/onagre-git"]
+	path = pkgbuild/onagre-git
+	url = https://aur.archlinux.org/onagre-git
+[submodule "pkgbuild/media-downloader"]
+	path = pkgbuild/media-downloader
+	url = https://aur.archlinux.org/media-downloader
+[submodule "pkgbuild/hydrapaper"]
+	path = pkgbuild/hydrapaper
+	url = https://aur.archlinux.org/hydrapaper
+[submodule "pkgbuild/popuradns"]
+	path = pkgbuild/popuradns
+	url = https://aur.archlinux.org/popuradns
+[submodule "pkgbuild/tuifeed"]
+	path = pkgbuild/tuifeed
+	url = https://aur.archlinux.org/tuifeed
+[submodule "pkgbuild/wp-desktop"]
+	path = pkgbuild/wp-desktop
+	url = https://aur.archlinux.org/wp-desktop
+[submodule "pkgbuild/multisystem"]
+	path = pkgbuild/multisystem
+	url = https://aur.archlinux.org/multisystem
+[submodule "pkgbuild/cfs-zen-tweaks"]
+	path = pkgbuild/cfs-zen-tweaks
+	url = https://aur.archlinux.org/cfs-zen-tweaks
