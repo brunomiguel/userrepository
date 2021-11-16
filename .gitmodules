@@ -2941,3 +2941,9 @@
 [submodule "pkgbuild/cfs-zen-tweaks"]
 	path = pkgbuild/cfs-zen-tweaks
 	url = https://aur.archlinux.org/cfs-zen-tweaks
+[submodule "pkgbuild/shiny-mirrors"]
+	path = pkgbuild/shiny-mirrors
+	url = https://aur.archlinux.org/shiny-mirrors
+[submodule "pkgbuild/cryptobox"]
+	path = pkgbuild/cryptobox
+	url = https://aur.archlinux.org/cryptobox
