@@ -2959,6 +2959,3 @@
 [submodule "pkgbuild/profetch"]
 	path = pkgbuild/profetch
 	url = https://aur.archlinux.org/profetch
-[submodule "pkgbuild/gtg-git"]
-	path = pkgbuild/gtg-git
-	url = https://aur.archlinux.org/gtg-git
