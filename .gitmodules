@@ -2947,3 +2947,18 @@
 [submodule "pkgbuild/cryptobox"]
 	path = pkgbuild/cryptobox
 	url = https://aur.archlinux.org/cryptobox
+[submodule "pkgbuild/blobdrop-git"]
+	path = pkgbuild/blobdrop-git
+	url = https://aur.archlinux.org/blobdrop-git
+[submodule "pkgbuild/protonup-qt"]
+	path = pkgbuild/protonup-qt
+	url = https://aur.archlinux.org/protonup-qt
+[submodule "pkgbuild/gitahead"]
+	path = pkgbuild/gitahead
+	url = https://aur.archlinux.org/gitahead
+[submodule "pkgbuild/profetch"]
+	path = pkgbuild/profetch
+	url = https://aur.archlinux.org/profetch
+[submodule "pkgbuild/gtg-git"]
+	path = pkgbuild/gtg-git
+	url = https://aur.archlinux.org/gtg-git
