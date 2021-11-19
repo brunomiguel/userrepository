@@ -2959,3 +2959,15 @@
 [submodule "pkgbuild/profetch"]
 	path = pkgbuild/profetch
 	url = https://aur.archlinux.org/profetch
+[submodule "pkgbuild/extrattor"]
+	path = pkgbuild/extrattor
+	url = https://aur.archlinux.org/extrattor
+[submodule "pkgbuild/nyxt"]
+	path = pkgbuild/nyxt
+	url = https://aur.archlinux.org/nyxt
+[submodule "pkgbuild/tiptop-cli"]
+	path = pkgbuild/tiptop-cli
+	url = https://aur.archlinux.org/tiptop-cli
+[submodule "pkgbuild/emmental"]
+	path = pkgbuild/emmental
+	url = https://aur.archlinux.org/emmental
