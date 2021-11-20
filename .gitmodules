@@ -2971,6 +2971,6 @@
 [submodule "pkgbuild/emmental"]
 	path = pkgbuild/emmental
 	url = https://aur.archlinux.org/emmental
-[submodule "pkgbuild/linux-cachyos-tt"]
-	path = pkgbuild/linux-cachyos-tt
-	url = https://aur.archlinux.org/linux-cachyos-tt
+[submodule "pkgbuild/linux-cacule-rdb"]
+	path = pkgbuild/linux-cacule-rdb
+	url = https://aur.archlinux.org/linux-cacule-rdb
