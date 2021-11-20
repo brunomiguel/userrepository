@@ -2992,3 +2992,15 @@
 [submodule "pkgbuild/polydock"]
 	path = pkgbuild/polydock
 	url = https://aur.archlinux.org/polydock
+[submodule "pkgbuild/aniwrapper-git"]
+	path = pkgbuild/aniwrapper-git
+	url = https://aur.archlinux.org/aniwrapper-git
+[submodule "pkgbuild/mango"]
+	path = pkgbuild/mango
+	url = https://aur.archlinux.org/mango
+[submodule "pkgbuild/ytdownloader"]
+	path = pkgbuild/ytdownloader
+	url = https://aur.archlinux.org/ytdownloader
+[submodule "pkgbuild/speedtest++"]
+	path = pkgbuild/speedtest++
+	url = https://aur.archlinux.org/speedtest++
