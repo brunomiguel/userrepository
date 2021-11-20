@@ -2971,3 +2971,6 @@
 [submodule "pkgbuild/emmental"]
 	path = pkgbuild/emmental
 	url = https://aur.archlinux.org/emmental
+[submodule "pkgbuild/linux-tt"]
+	path = pkgbuild/linux-tt
+	url = https://aur.archlinux.org/linux-tt
