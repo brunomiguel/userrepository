@@ -2986,3 +2986,9 @@
 [submodule "pkgbuild/joshuto"]
 	path = pkgbuild/joshuto
 	url = https://aur.archlinux.org/joshuto
+[submodule "pkgbuild/ossia-score"]
+	path = pkgbuild/ossia-score
+	url = https://aur.archlinux.org/ossia-score
+[submodule "pkgbuild/polydock"]
+	path = pkgbuild/polydock
+	url = https://aur.archlinux.org/polydock
