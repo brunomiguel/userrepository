@@ -2971,6 +2971,18 @@
 [submodule "pkgbuild/emmental"]
 	path = pkgbuild/emmental
 	url = https://aur.archlinux.org/emmental
-[submodule "pkgbuild/hyperlap2d-git"]
-	path = pkgbuild/hyperlap2d-git
-	url = https://aur.archlinux.org/hyperlap2d-git
+[submodule "pkgbuild/adwaita-blue-icon-theme-git"]
+	path = pkgbuild/adwaita-blue-icon-theme-git
+	url = https://aur.archlinux.org/adwaita-blue-icon-theme-git
+[submodule "pkgbuild/yeetgif"]
+	path = pkgbuild/yeetgif
+	url = https://aur.archlinux.org/yeetgif
+[submodule "pkgbuild/gtree"]
+	path = pkgbuild/gtree
+	url = https://aur.archlinux.org/gtree
+[submodule "pkgbuild/sniffer"]
+	path = pkgbuild/sniffer
+	url = https://aur.archlinux.org/sniffer
+[submodule "pkgbuild/joshuto"]
+	path = pkgbuild/joshuto
+	url = https://aur.archlinux.org/joshuto
