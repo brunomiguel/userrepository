@@ -3004,3 +3004,6 @@
 [submodule "pkgbuild/speedtest++"]
 	path = pkgbuild/speedtest++
 	url = https://aur.archlinux.org/speedtest++
+[submodule "pkgbuild/icon-library-git"]
+	path = pkgbuild/icon-library-git
+	url = https://aur.archlinux.org/icon-library-git
