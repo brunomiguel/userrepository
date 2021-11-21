@@ -3007,3 +3007,12 @@
 [submodule "pkgbuild/icon-library-git"]
 	path = pkgbuild/icon-library-git
 	url = https://aur.archlinux.org/icon-library-git
+[submodule "pkgbuild/qimgv-qt6-kde-git"]
+	path = pkgbuild/qimgv-qt6-kde-git
+	url = https://aur.archlinux.org/qimgv-qt6-kde-git
+[submodule "pkgbuild/openstego"]
+	path = pkgbuild/openstego
+	url = https://aur.archlinux.org/openstego
+[submodule "pkgbuild/koel"]
+	path = pkgbuild/koel
+	url = https://aur.archlinux.org/koel
