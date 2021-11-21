@@ -3013,6 +3013,9 @@
 [submodule "pkgbuild/openstego"]
 	path = pkgbuild/openstego
 	url = https://aur.archlinux.org/openstego
-[submodule "pkgbuild/koel"]
-	path = pkgbuild/koel
-	url = https://aur.archlinux.org/koel
+[submodule "pkgbuild/miniplayer-git"]
+	path = pkgbuild/miniplayer-git
+	url = https://aur.archlinux.org/miniplayer-git
+[submodule "pkgbuild/kalendar-git"]
+	path = pkgbuild/kalendar-git
+	url = https://aur.archlinux.org/kalendar-git
