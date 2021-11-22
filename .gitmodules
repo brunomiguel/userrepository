@@ -3019,3 +3019,21 @@
 [submodule "pkgbuild/kalendar-git"]
 	path = pkgbuild/kalendar-git
 	url = https://aur.archlinux.org/kalendar-git
+[submodule "pkgbuild/tmplgen"]
+	path = pkgbuild/tmplgen
+	url = https://aur.archlinux.org/tmplgen
+[submodule "pkgbuild/tmux-bash-completion-git"]
+	path = pkgbuild/tmux-bash-completion-git
+	url = https://aur.archlinux.org/tmux-bash-completion-git
+[submodule "pkgbuild/overmind"]
+	path = pkgbuild/overmind
+	url = https://aur.archlinux.org/overmind
+[submodule "pkgbuild/lemons"]
+	path = pkgbuild/lemons
+	url = https://aur.archlinux.org/lemons
+[submodule "pkgbuild/dooble"]
+	path = pkgbuild/dooble
+	url = https://aur.archlinux.org/dooble
+[submodule "pkgbuild/headlines"]
+	path = pkgbuild/headlines
+	url = https://aur.archlinux.org/headlines
