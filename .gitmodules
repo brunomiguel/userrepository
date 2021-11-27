@@ -3037,3 +3037,6 @@
 [submodule "pkgbuild/headlines"]
 	path = pkgbuild/headlines
 	url = https://aur.archlinux.org/headlines
+[submodule "pkgbuild/qpwgraph"]
+	path = pkgbuild/qpwgraph
+	url = https://aur.archlinux.org/qpwgraph
