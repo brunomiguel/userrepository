@@ -3040,3 +3040,6 @@
 [submodule "pkgbuild/qpwgraph"]
 	path = pkgbuild/qpwgraph
 	url = https://aur.archlinux.org/qpwgraph
+[submodule "pkgbuild/gfeeds-git"]
+	path = pkgbuild/gfeeds-git
+	url = https://aur.archlinux.org/gfeeds-git
