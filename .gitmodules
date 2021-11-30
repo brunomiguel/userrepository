@@ -3046,3 +3046,18 @@
 [submodule "pkgbuild/linux-ck"]
 	path = pkgbuild/linux-ck
 	url = https://aur.archlinux.org/linux-ck
+[submodule "pkgbuild/kirc"]
+	path = pkgbuild/kirc
+	url = https://aur.archlinux.org/kirc
+[submodule "pkgbuild/otf-stilu"]
+	path = pkgbuild/otf-stilu
+	url = https://aur.archlinux.org/otf-stilu
+[submodule "pkgbuild/graphite-gtk-theme"]
+	path = pkgbuild/graphite-gtk-theme
+	url = https://aur.archlinux.org/graphite-gtk-theme
+[submodule "pkgbuild/otf-londrina"]
+	path = pkgbuild/otf-londrina
+	url = https://aur.archlinux.org/otf-londrina
+[submodule "pkgbuild/earthly"]
+	path = pkgbuild/earthly
+	url = https://aur.archlinux.org/earthly
