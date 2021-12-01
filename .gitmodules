@@ -3076,6 +3076,9 @@
 [submodule "pkgbuild/ttf-montepetrum"]
 	path = pkgbuild/ttf-montepetrum
 	url = https://aur.archlinux.org/ttf-montepetrum
-[submodule "pkgbuild/armutils-git"]
-	path = pkgbuild/armutils-git
-	url = https://aur.archlinux.org/armutils-git
+[submodule "pkgbuild/intellij-idea-community-edition-jre"]
+	path = pkgbuild/intellij-idea-community-edition-jre
+	url = https://aur.archlinux.org/intellij-idea-community-edition-jre
+[submodule "pkgbuild/webcord"]
+	path = pkgbuild/webcord
+	url = https://aur.archlinux.org/webcord
