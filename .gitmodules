@@ -3061,3 +3061,21 @@
 [submodule "pkgbuild/earthly"]
 	path = pkgbuild/earthly
 	url = https://aur.archlinux.org/earthly
+[submodule "pkgbuild/crowdsec"]
+	path = pkgbuild/crowdsec
+	url = https://aur.archlinux.org/crowdsec
+[submodule "pkgbuild/ttf-lastwaerk"]
+	path = pkgbuild/ttf-lastwaerk
+	url = https://aur.archlinux.org/ttf-lastwaerk
+[submodule "pkgbuild/mycorrhiza"]
+	path = pkgbuild/mycorrhiza
+	url = https://aur.archlinux.org/mycorrhiza
+[submodule "pkgbuild/rhythmbox-plugin-alternative-toolbar"]
+	path = pkgbuild/rhythmbox-plugin-alternative-toolbar
+	url = https://aur.archlinux.org/rhythmbox-plugin-alternative-toolbar
+[submodule "pkgbuild/ttf-montepetrum"]
+	path = pkgbuild/ttf-montepetrum
+	url = https://aur.archlinux.org/ttf-montepetrum
+[submodule "pkgbuild/armutils-git"]
+	path = pkgbuild/armutils-git
+	url = https://aur.archlinux.org/armutils-git
