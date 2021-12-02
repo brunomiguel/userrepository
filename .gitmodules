@@ -3082,3 +3082,36 @@
 [submodule "pkgbuild/webcord"]
 	path = pkgbuild/webcord
 	url = https://aur.archlinux.org/webcord
+[submodule "pkgbuild/mwptools-git"]
+	path = pkgbuild/mwptools-git
+	url = https://aur.archlinux.org/mwptools-git
+[submodule "pkgbuild/alerta"]
+	path = pkgbuild/alerta
+	url = https://aur.archlinux.org/alerta
+[submodule "pkgbuild/primenote-git"]
+	path = pkgbuild/primenote-git
+	url = https://aur.archlinux.org/primenote-git
+[submodule "pkgbuild/shonenjump"]
+	path = pkgbuild/shonenjump
+	url = https://aur.archlinux.org/shonenjump
+[submodule "pkgbuild/python-spotdl"]
+	path = pkgbuild/python-spotdl
+	url = https://aur.archlinux.org/python-spotdl
+[submodule "pkgbuild/kalendar"]
+	path = pkgbuild/kalendar
+	url = https://aur.archlinux.org/kalendar
+[submodule "pkgbuild/kwin-bismuth-git"]
+	path = pkgbuild/kwin-bismuth-git
+	url = https://aur.archlinux.org/kwin-bismuth-git
+[submodule "pkgbuild/stagit"]
+	path = pkgbuild/stagit
+	url = https://aur.archlinux.org/stagit
+[submodule "pkgbuild/whatsappqt"]
+	path = pkgbuild/whatsappqt
+	url = https://aur.archlinux.org/whatsappqt
+[submodule "pkgbuild/minigalaxy"]
+	path = pkgbuild/minigalaxy
+	url = https://aur.archlinux.org/minigalaxy
+[submodule "pkgbuild/betterdiscord-installer"]
+	path = pkgbuild/betterdiscord-installer
+	url = https://aur.archlinux.org/betterdiscord-installer
