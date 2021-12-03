@@ -3115,3 +3115,6 @@
 [submodule "pkgbuild/carapace"]
 	path = pkgbuild/carapace
 	url = https://aur.archlinux.org/carapace
+[submodule "pkgbuild/linux-pds"]
+	path = pkgbuild/linux-pds
+	url = https://aur.archlinux.org/linux-pds
