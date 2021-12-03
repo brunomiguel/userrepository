@@ -3115,3 +3115,6 @@
 [submodule "pkgbuild/betterdiscord-installer-bin"]
 	path = pkgbuild/betterdiscord-installer-bin
 	url = https://aur.archlinux.org/betterdiscord-installer-bin
+[submodule "pkgbuild/carapace"]
+	path = pkgbuild/carapace
+	url = https://aur.archlinux.org/carapace
