@@ -3043,9 +3043,6 @@
 [submodule "pkgbuild/tachidesk"]
 	path = pkgbuild/tachidesk
 	url = https://aur.archlinux.org/tachidesk
-[submodule "pkgbuild/linux-ck"]
-	path = pkgbuild/linux-ck
-	url = https://aur.archlinux.org/linux-ck
 [submodule "pkgbuild/kirc"]
 	path = pkgbuild/kirc
 	url = https://aur.archlinux.org/kirc
