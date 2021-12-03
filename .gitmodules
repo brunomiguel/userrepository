@@ -3118,3 +3118,9 @@
 [submodule "pkgbuild/linux-pds"]
 	path = pkgbuild/linux-pds
 	url = https://aur.archlinux.org/linux-pds
+[submodule "pkgbuild/tizonia-all"]
+	path = pkgbuild/tizonia-all
+	url = https://aur.archlinux.org/tizonia-all
+[submodule "pkgbuild/tizonia-all-git"]
+	path = pkgbuild/tizonia-all-git
+	url = https://aur.archlinux.org/tizonia-all-git
