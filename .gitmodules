@@ -3124,3 +3124,15 @@
 [submodule "pkgbuild/tizonia-all-git"]
 	path = pkgbuild/tizonia-all-git
 	url = https://aur.archlinux.org/tizonia-all-git
+[submodule "pkgbuild/webapp-manager"]
+	path = pkgbuild/webapp-manager
+	url = https://aur.archlinux.org/webapp-manager
+[submodule "pkgbuild/spip"]
+	path = pkgbuild/spip
+	url = https://aur.archlinux.org/spip
+[submodule "pkgbuild/newm-git"]
+	path = pkgbuild/newm-git
+	url = https://aur.archlinux.org/newm-git
+[submodule "pkgbuild/agedu"]
+	path = pkgbuild/agedu
+	url = https://aur.archlinux.org/agedu
