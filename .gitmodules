@@ -3160,6 +3160,24 @@
 [submodule "pkgbuild/web-greeter"]
 	path = pkgbuild/web-greeter
 	url = https://aur.archlinux.org/web-greeter
-[submodule "pkgbuild/imagine-git"]
-	path = pkgbuild/imagine-git
-	url = https://aur.archlinux.org/imagine-git
+[submodule "pkgbuild/scorecard"]
+	path = pkgbuild/scorecard
+	url = https://aur.archlinux.org/scorecard
+[submodule "pkgbuild/ffaudioconverter"]
+	path = pkgbuild/ffaudioconverter
+	url = https://aur.archlinux.org/ffaudioconverter
+[submodule "pkgbuild/fluent-gtk-theme"]
+	path = pkgbuild/fluent-gtk-theme
+	url = https://aur.archlinux.org/fluent-gtk-theme
+[submodule "pkgbuild/archey3-git"]
+	path = pkgbuild/archey3-git
+	url = https://aur.archlinux.org/archey3-git
+[submodule "pkgbuild/dnsdist"]
+	path = pkgbuild/dnsdist
+	url = https://aur.archlinux.org/dnsdist
+[submodule "pkgbuild/httpstat-go"]
+	path = pkgbuild/httpstat-go
+	url = https://aur.archlinux.org/httpstat-go
+[submodule "pkgbuild/yaloco"]
+	path = pkgbuild/yaloco
+	url = https://aur.archlinux.org/yaloco
