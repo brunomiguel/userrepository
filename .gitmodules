@@ -3136,3 +3136,21 @@
 [submodule "pkgbuild/agedu"]
 	path = pkgbuild/agedu
 	url = https://aur.archlinux.org/agedu
+[submodule "pkgbuild/mpvpaper"]
+	path = pkgbuild/mpvpaper
+	url = https://aur.archlinux.org/mpvpaper
+[submodule "pkgbuild/remotebox"]
+	path = pkgbuild/remotebox
+	url = https://aur.archlinux.org/remotebox
+[submodule "pkgbuild/breath-classic-theme-git"]
+	path = pkgbuild/breath-classic-theme-git
+	url = https://aur.archlinux.org/breath-classic-theme-git
+[submodule "pkgbuild/kotatogram-desktop"]
+	path = pkgbuild/kotatogram-desktop
+	url = https://aur.archlinux.org/kotatogram-desktop
+[submodule "pkgbuild/mkdocs-material"]
+	path = pkgbuild/mkdocs-material
+	url = https://aur.archlinux.org/mkdocs-material
+[submodule "pkgbuild/wiredtiger"]
+	path = pkgbuild/wiredtiger
+	url = https://aur.archlinux.org/wiredtiger
