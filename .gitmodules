@@ -3151,3 +3151,6 @@
 [submodule "pkgbuild/mkdocs-material"]
 	path = pkgbuild/mkdocs-material
 	url = https://aur.archlinux.org/mkdocs-material
+[submodule "pkgbuild/qogir-gtk-theme-git"]
+	path = pkgbuild/qogir-gtk-theme-git
+	url = https://aur.archlinux.org/qogir-gtk-theme-git
