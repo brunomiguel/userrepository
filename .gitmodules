@@ -3154,3 +3154,12 @@
 [submodule "pkgbuild/qogir-gtk-theme-git"]
 	path = pkgbuild/qogir-gtk-theme-git
 	url = https://aur.archlinux.org/qogir-gtk-theme-git
+[submodule "pkgbuild/anki-git"]
+	path = pkgbuild/anki-git
+	url = https://aur.archlinux.org/anki-git
+[submodule "pkgbuild/cider"]
+	path = pkgbuild/cider
+	url = https://aur.archlinux.org/cider
+[submodule "pkgbuild/web-greeter"]
+	path = pkgbuild/web-greeter
+	url = https://aur.archlinux.org/web-greeter
