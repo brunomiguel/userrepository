@@ -3160,3 +3160,6 @@
 [submodule "pkgbuild/web-greeter"]
 	path = pkgbuild/web-greeter
 	url = https://aur.archlinux.org/web-greeter
+[submodule "pkgbuild/imagine-git"]
+	path = pkgbuild/imagine-git
+	url = https://aur.archlinux.org/imagine-git
