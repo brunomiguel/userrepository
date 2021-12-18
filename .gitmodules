@@ -3199,6 +3199,3 @@
 [submodule "pkgbuild/picosnitch"]
 	path = pkgbuild/picosnitch
 	url = https://aur.archlinux.org/picosnitch
-[submodule "pkgbuild/notekit"]
-	path = pkgbuild/notekit
-	url = https://aur.archlinux.org/notekit
