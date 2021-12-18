@@ -3199,3 +3199,9 @@
 [submodule "pkgbuild/picosnitch"]
 	path = pkgbuild/picosnitch
 	url = https://aur.archlinux.org/picosnitch
+[submodule "pkgbuild/harvey"]
+	path = pkgbuild/harvey
+	url = https://aur.archlinux.org/harvey
+[submodule "pkgbuild/tmpmail"]
+	path = pkgbuild/tmpmail
+	url = https://aur.archlinux.org/tmpmail
