@@ -3181,3 +3181,12 @@
 [submodule "pkgbuild/yaloco"]
 	path = pkgbuild/yaloco
 	url = https://aur.archlinux.org/yaloco
+[submodule "pkgbuild/gitty"]
+	path = pkgbuild/gitty
+	url = https://aur.archlinux.org/gitty
+[submodule "pkgbuild/classifier-git"]
+	path = pkgbuild/classifier-git
+	url = https://aur.archlinux.org/classifier-git
+[submodule "pkgbuild/tilt"]
+	path = pkgbuild/tilt
+	url = https://aur.archlinux.org/tilt
