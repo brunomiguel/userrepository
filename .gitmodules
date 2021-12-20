@@ -3211,9 +3211,15 @@
 [submodule "pkgbuild/feroxbuster"]
 	path = pkgbuild/feroxbuster
 	url = https://aur.archlinux.org/feroxbuster
-[submodule "pkgbuild/rancher-desktop"]
-	path = pkgbuild/rancher-desktop
-	url = https://aur.archlinux.org/rancher-desktop
 [submodule "pkgbuild/cropgui"]
 	path = pkgbuild/cropgui
 	url = https://aur.archlinux.org/cropgui
+[submodule "pkgbuild/rocketchat-desktop"]
+	path = pkgbuild/rocketchat-desktop
+	url = https://aur.archlinux.org/rocketchat-desktop
+[submodule "pkgbuild/castnow-git"]
+	path = pkgbuild/castnow-git
+	url = https://aur.archlinux.org/castnow-git
+[submodule "pkgbuild/gnome-console"]
+	path = pkgbuild/gnome-console
+	url = https://aur.archlinux.org/gnome-console
