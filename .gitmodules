@@ -3223,3 +3223,12 @@
 [submodule "pkgbuild/gnome-console"]
 	path = pkgbuild/gnome-console
 	url = https://aur.archlinux.org/gnome-console
+[submodule "pkgbuild/turbowarp-desktop-bin"]
+	path = pkgbuild/turbowarp-desktop-bin
+	url = https://aur.archlinux.org/turbowarp-desktop-bin
+[submodule "pkgbuild/dots-git"]
+	path = pkgbuild/dots-git
+	url = https://aur.archlinux.org/dots-git
+[submodule "pkgbuild/spotify-ripper"]
+	path = pkgbuild/spotify-ripper
+	url = https://aur.archlinux.org/spotify-ripper
