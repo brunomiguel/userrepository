@@ -3226,9 +3226,9 @@
 [submodule "pkgbuild/turbowarp-desktop-bin"]
 	path = pkgbuild/turbowarp-desktop-bin
 	url = https://aur.archlinux.org/turbowarp-desktop-bin
-[submodule "pkgbuild/dots-git"]
-	path = pkgbuild/dots-git
-	url = https://aur.archlinux.org/dots-git
 [submodule "pkgbuild/spotify-ripper"]
 	path = pkgbuild/spotify-ripper
 	url = https://aur.archlinux.org/spotify-ripper
+[submodule "pkgbuild/weaver-fossil"]
+	path = pkgbuild/weaver-fossil
+	url = https://aur.archlinux.org/weaver-fossil
