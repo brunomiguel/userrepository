@@ -3232,6 +3232,3 @@
 [submodule "pkgbuild/weaver-fossil"]
 	path = pkgbuild/weaver-fossil
 	url = https://aur.archlinux.org/weaver-fossil
-[submodule "pkgbuild/docker4ssh"]
-	path = pkgbuild/docker4ssh
-	url = https://aur.archlinux.org/docker4ssh
