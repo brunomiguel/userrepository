@@ -3232,3 +3232,12 @@
 [submodule "pkgbuild/weaver-fossil"]
 	path = pkgbuild/weaver-fossil
 	url = https://aur.archlinux.org/weaver-fossil
+[submodule "pkgbuild/vaults"]
+	path = pkgbuild/vaults
+	url = https://aur.archlinux.org/vaults
+[submodule "pkgbuild/foy"]
+	path = pkgbuild/foy
+	url = https://aur.archlinux.org/foy
+[submodule "pkgbuild/ognibuild"]
+	path = pkgbuild/ognibuild
+	url = https://aur.archlinux.org/ognibuild
