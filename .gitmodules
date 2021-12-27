@@ -3241,3 +3241,15 @@
 [submodule "pkgbuild/ognibuild"]
 	path = pkgbuild/ognibuild
 	url = https://aur.archlinux.org/ognibuild
+[submodule "pkgbuild/hypr-git"]
+	path = pkgbuild/hypr-git
+	url = https://aur.archlinux.org/hypr-git
+[submodule "pkgbuild/yt-watch"]
+	path = pkgbuild/yt-watch
+	url = https://aur.archlinux.org/yt-watch
+[submodule "pkgbuild/distrobox-git"]
+	path = pkgbuild/distrobox-git
+	url = https://aur.archlinux.org/distrobox-git
+[submodule "pkgbuild/otf-miama"]
+	path = pkgbuild/otf-miama
+	url = https://aur.archlinux.org/otf-miama
