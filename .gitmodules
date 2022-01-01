@@ -3262,6 +3262,21 @@
 [submodule "pkgbuild/wirespider"]
 	path = pkgbuild/wirespider
 	url = https://aur.archlinux.org/wirespider
-[submodule "pkgbuild/shadowsocks-rust"]
-	path = pkgbuild/shadowsocks-rust
-	url = https://aur.archlinux.org/shadowsocks-rust
+[submodule "pkgbuild/linux-ck-uksm"]
+	path = pkgbuild/linux-ck-uksm
+	url = https://aur.archlinux.org/linux-ck-uksm
+[submodule "pkgbuild/windterm-bin"]
+	path = pkgbuild/windterm-bin
+	url = https://aur.archlinux.org/windterm-bin
+[submodule "pkgbuild/vibrantlinux"]
+	path = pkgbuild/vibrantlinux
+	url = https://aur.archlinux.org/vibrantlinux
+[submodule "pkgbuild/vibrant"]
+	path = pkgbuild/vibrant
+	url = https://aur.archlinux.org/vibrant
+[submodule "pkgbuild/dotref"]
+	path = pkgbuild/dotref
+	url = https://aur.archlinux.org/dotref
+[submodule "pkgbuild/tailwindcss"]
+	path = pkgbuild/tailwindcss
+	url = https://aur.archlinux.org/tailwindcss
