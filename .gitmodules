@@ -3259,3 +3259,9 @@
 [submodule "pkgbuild/dra"]
 	path = pkgbuild/dra
 	url = https://aur.archlinux.org/dra
+[submodule "pkgbuild/wirespider"]
+	path = pkgbuild/wirespider
+	url = https://aur.archlinux.org/wirespider
+[submodule "pkgbuild/shadowsocks-rust"]
+	path = pkgbuild/shadowsocks-rust
+	url = https://aur.archlinux.org/shadowsocks-rust
