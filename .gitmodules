@@ -3277,6 +3277,6 @@
 [submodule "pkgbuild/dotref"]
 	path = pkgbuild/dotref
 	url = https://aur.archlinux.org/dotref
-[submodule "pkgbuild/tailwindcss"]
-	path = pkgbuild/tailwindcss
-	url = https://aur.archlinux.org/tailwindcss
+[submodule "pkgbuild/siril"]
+	path = pkgbuild/siril
+	url = https://aur.archlinux.org/siril
