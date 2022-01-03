@@ -2131,9 +2131,6 @@
 [submodule "pkgbuild/newsflash-git"]
 	path = pkgbuild/newsflash-git
 	url = https://aur.archlinux.org/newsflash-git
-[submodule "pkgbuild/contour-git"]
-	path = pkgbuild/contour-git
-	url = https://aur.archlinux.org/contour-git
 [submodule "pkgbuild/resistor-decoder"]
 	path = pkgbuild/resistor-decoder
 	url = https://aur.archlinux.org/resistor-decoder
@@ -3292,3 +3289,6 @@
 [submodule "pkgbuild/mmark"]
 	path = pkgbuild/mmark
 	url = https://aur.archlinux.org/mmark
+[submodule "pkgbuild/admbrowser-git"]
+	path = pkgbuild/admbrowser-git
+	url = https://aur.archlinux.org/admbrowser-git
