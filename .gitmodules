@@ -3280,3 +3280,12 @@
 [submodule "pkgbuild/siril"]
 	path = pkgbuild/siril
 	url = https://aur.archlinux.org/siril
+[submodule "pkgbuild/treeline"]
+	path = pkgbuild/treeline
+	url = https://aur.archlinux.org/treeline
+[submodule "pkgbuild/senpahe-git"]
+	path = pkgbuild/senpahe-git
+	url = https://aur.archlinux.org/senpahe-git
+[submodule "pkgbuild/tuptime"]
+	path = pkgbuild/tuptime
+	url = https://aur.archlinux.org/tuptime
