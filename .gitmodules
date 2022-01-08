@@ -3292,3 +3292,30 @@
 [submodule "pkgbuild/admbrowser-git"]
 	path = pkgbuild/admbrowser-git
 	url = https://aur.archlinux.org/admbrowser-git
+[submodule "pkgbuild/kmdr"]
+	path = pkgbuild/kmdr
+	url = https://aur.archlinux.org/kmdr
+[submodule "pkgbuild/nincat-git"]
+	path = pkgbuild/nincat-git
+	url = https://aur.archlinux.org/nincat-git
+[submodule "pkgbuild/wrash-git"]
+	path = pkgbuild/wrash-git
+	url = https://aur.archlinux.org/wrash-git
+[submodule "pkgbuild/amsynth-git"]
+	path = pkgbuild/amsynth-git
+	url = https://aur.archlinux.org/amsynth-git
+[submodule "pkgbuild/pademelon"]
+	path = pkgbuild/pademelon
+	url = https://aur.archlinux.org/pademelon
+[submodule "pkgbuild/epy-git"]
+	path = pkgbuild/epy-git
+	url = https://aur.archlinux.org/epy-git
+[submodule "pkgbuild/xdg-environment"]
+	path = pkgbuild/xdg-environment
+	url = https://aur.archlinux.org/xdg-environment
+[submodule "pkgbuild/httplz"]
+	path = pkgbuild/httplz
+	url = https://aur.archlinux.org/httplz
+[submodule "pkgbuild/bwping"]
+	path = pkgbuild/bwping
+	url = https://aur.archlinux.org/bwping
