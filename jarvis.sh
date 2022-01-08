@@ -352,9 +352,34 @@ mirror_sync() {
 	rsync -rtlvH --delete-after --delay-updates --safe-links "$REMOTE" userrepository@uk.mirrors.fossho.st:/
 }
 
+teste() {
+cd "$DIR/pkgbuild" || exit
+
+	for t in *; do
+	
+	    if [ -d "*-git" ]; then
+	    	cd "$t"
+	        echo -e "git folder \n"
+	        pwd
+	        cd ..
+	
+	    else
+			cd "$t"
+	        echo -e "regular folder \n"
+	        pwd
+	        cd ..
+	
+	    fi
+
+#cd .. 2>&1 || exit
+	
+done
+
+}
+
 # script options
 [ $# -eq 0 ] && usage
-while getopts "ad:rbfmh:" arg; do
+while getopts "ad:rbfmth:" arg; do
     case $arg in
         a) shift $(( OPTIND - 1 )); for pkg in "$@"; do add; done ;;
         b) pikaur -Syyuv; build; mirror_sync; exit 0;;
@@ -363,6 +388,7 @@ while getopts "ad:rbfmh:" arg; do
         d) delete ;;
         m) mirror_sync ;;
         h) usage ;;
+        t) teste ;;
         *) usage ;;
     esac
 done
