@@ -3319,3 +3319,6 @@
 [submodule "pkgbuild/bwping"]
 	path = pkgbuild/bwping
 	url = https://aur.archlinux.org/bwping
+[submodule "pkgbuild/cerebro-git"]
+	path = pkgbuild/cerebro-git
+	url = https://aur.archlinux.org/cerebro-git
