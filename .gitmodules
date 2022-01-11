@@ -3325,6 +3325,6 @@
 [submodule "pkgbuild/gig"]
 	path = pkgbuild/gig
 	url = https://aur.archlinux.org/gig
-[submodule "pkgbuild/gftools"]
-	path = pkgbuild/gftools
-	url = https://aur.archlinux.org/gftools
+[submodule "pkgbuild/python-fontmake"]
+	path = pkgbuild/python-fontmake
+	url = https://aur.archlinux.org/python-fontmake
