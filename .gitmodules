@@ -3319,6 +3319,9 @@
 [submodule "pkgbuild/bwping"]
 	path = pkgbuild/bwping
 	url = https://aur.archlinux.org/bwping
-[submodule "pkgbuild/cerebro-git"]
-	path = pkgbuild/cerebro-git
-	url = https://aur.archlinux.org/cerebro-git
+[submodule "pkgbuild/canonical-multipass"]
+	path = pkgbuild/canonical-multipass
+	url = https://aur.archlinux.org/canonical-multipass
+[submodule "pkgbuild/gig"]
+	path = pkgbuild/gig
+	url = https://aur.archlinux.org/gig
