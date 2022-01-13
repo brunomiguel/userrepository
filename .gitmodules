@@ -3328,3 +3328,9 @@
 [submodule "pkgbuild/python-fontmake"]
 	path = pkgbuild/python-fontmake
 	url = https://aur.archlinux.org/python-fontmake
+[submodule "pkgbuild/macast-git"]
+	path = pkgbuild/macast-git
+	url = https://aur.archlinux.org/macast-git
+[submodule "pkgbuild/tim-bin"]
+	path = pkgbuild/tim-bin
+	url = https://aur.archlinux.org/tim-bin
