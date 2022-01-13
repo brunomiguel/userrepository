@@ -3331,6 +3331,27 @@
 [submodule "pkgbuild/macast-git"]
 	path = pkgbuild/macast-git
 	url = https://aur.archlinux.org/macast-git
-[submodule "pkgbuild/tim-bin"]
-	path = pkgbuild/tim-bin
-	url = https://aur.archlinux.org/tim-bin
+[submodule "pkgbuild/windows2usb-git"]
+	path = pkgbuild/windows2usb-git
+	url = https://aur.archlinux.org/windows2usb-git
+[submodule "pkgbuild/eleventy"]
+	path = pkgbuild/eleventy
+	url = https://aur.archlinux.org/eleventy
+[submodule "pkgbuild/aaaaxy"]
+	path = pkgbuild/aaaaxy
+	url = https://aur.archlinux.org/aaaaxy
+[submodule "pkgbuild/pixterm-rust"]
+	path = pkgbuild/pixterm-rust
+	url = https://aur.archlinux.org/pixterm-rust
+[submodule "pkgbuild/pdfcpu-git"]
+	path = pkgbuild/pdfcpu-git
+	url = https://aur.archlinux.org/pdfcpu-git
+[submodule "pkgbuild/plymouth-theme-ecorp-glitch"]
+	path = pkgbuild/plymouth-theme-ecorp-glitch
+	url = https://aur.archlinux.org/plymouth-theme-ecorp-glitch
+[submodule "pkgbuild/mandown-git"]
+	path = pkgbuild/mandown-git
+	url = https://aur.archlinux.org/mandown-git
+[submodule "pkgbuild/cfetch"]
+	path = pkgbuild/cfetch
+	url = https://aur.archlinux.org/cfetch
