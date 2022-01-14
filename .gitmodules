@@ -3355,3 +3355,9 @@
 [submodule "pkgbuild/cfetch"]
 	path = pkgbuild/cfetch
 	url = https://aur.archlinux.org/cfetch
+[submodule "pkgbuild/photoprism"]
+	path = pkgbuild/photoprism
+	url = https://aur.archlinux.org/photoprism
+[submodule "pkgbuild/litemdview"]
+	path = pkgbuild/litemdview
+	url = https://aur.archlinux.org/litemdview
