@@ -3361,3 +3361,9 @@
 [submodule "pkgbuild/litemdview"]
 	path = pkgbuild/litemdview
 	url = https://aur.archlinux.org/litemdview
+[submodule "pkgbuild/libshumate-git"]
+	path = pkgbuild/libshumate-git
+	url = https://aur.archlinux.org/libshumate-git
+[submodule "pkgbuild/spot-client-git"]
+	path = pkgbuild/spot-client-git
+	url = https://aur.archlinux.org/spot-client-git
