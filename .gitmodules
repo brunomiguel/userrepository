@@ -3367,3 +3367,12 @@
 [submodule "pkgbuild/spot-client-git"]
 	path = pkgbuild/spot-client-git
 	url = https://aur.archlinux.org/spot-client-git
+[submodule "pkgbuild/funkwhale"]
+	path = pkgbuild/funkwhale
+	url = https://aur.archlinux.org/funkwhale
+[submodule "pkgbuild/freerouting"]
+	path = pkgbuild/freerouting
+	url = https://aur.archlinux.org/freerouting
+[submodule "pkgbuild/pyradio-git"]
+	path = pkgbuild/pyradio-git
+	url = https://aur.archlinux.org/pyradio-git
