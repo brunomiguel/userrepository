@@ -3370,3 +3370,6 @@
 [submodule "pkgbuild/freerouting"]
 	path = pkgbuild/freerouting
 	url = https://aur.archlinux.org/freerouting
+[submodule "pkgbuild/cbatticon-gtk3-git"]
+	path = pkgbuild/cbatticon-gtk3-git
+	url = https://aur.archlinux.org/cbatticon-gtk3-git
