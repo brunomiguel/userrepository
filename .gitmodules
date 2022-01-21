@@ -3400,6 +3400,6 @@
 [submodule "pkgbuild/lagrange"]
 	path = pkgbuild/lagrange
 	url = https://aur.archlinux.org/lagrange
-[submodule "pkgbuild/dnstwist"]
-	path = pkgbuild/dnstwist
-	url = https://aur.archlinux.org/dnstwist
+[submodule "pkgbuild/swayr"]
+	path = pkgbuild/swayr
+	url = https://aur.archlinux.org/swayr
