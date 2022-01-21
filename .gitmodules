@@ -3388,3 +3388,18 @@
 [submodule "pkgbuild/ludo"]
 	path = pkgbuild/ludo
 	url = https://aur.archlinux.org/ludo
+[submodule "pkgbuild/i3gopher"]
+	path = pkgbuild/i3gopher
+	url = https://aur.archlinux.org/i3gopher
+[submodule "pkgbuild/okteto"]
+	path = pkgbuild/okteto
+	url = https://aur.archlinux.org/okteto
+[submodule "pkgbuild/shuffledns"]
+	path = pkgbuild/shuffledns
+	url = https://aur.archlinux.org/shuffledns
+[submodule "pkgbuild/lagrange"]
+	path = pkgbuild/lagrange
+	url = https://aur.archlinux.org/lagrange
+[submodule "pkgbuild/dnstwist"]
+	path = pkgbuild/dnstwist
+	url = https://aur.archlinux.org/dnstwist
