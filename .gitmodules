@@ -3403,3 +3403,24 @@
 [submodule "pkgbuild/swayr"]
 	path = pkgbuild/swayr
 	url = https://aur.archlinux.org/swayr
+[submodule "pkgbuild/greetd-tuigreet"]
+	path = pkgbuild/greetd-tuigreet
+	url = https://aur.archlinux.org/greetd-tuigreet
+[submodule "pkgbuild/lux"]
+	path = pkgbuild/lux
+	url = https://aur.archlinux.org/lux
+[submodule "pkgbuild/ictree"]
+	path = pkgbuild/ictree
+	url = https://aur.archlinux.org/ictree
+[submodule "pkgbuild/alohomora"]
+	path = pkgbuild/alohomora
+	url = https://aur.archlinux.org/alohomora
+[submodule "pkgbuild/shadowsocks-rust"]
+	path = pkgbuild/shadowsocks-rust
+	url = https://aur.archlinux.org/shadowsocks-rust
+[submodule "pkgbuild/git-town"]
+	path = pkgbuild/git-town
+	url = https://aur.archlinux.org/git-town
+[submodule "pkgbuild/qtalarm"]
+	path = pkgbuild/qtalarm
+	url = https://aur.archlinux.org/qtalarm
