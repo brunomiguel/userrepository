@@ -3424,3 +3424,24 @@
 [submodule "pkgbuild/qtalarm"]
 	path = pkgbuild/qtalarm
 	url = https://aur.archlinux.org/qtalarm
+[submodule "pkgbuild/myterm"]
+	path = pkgbuild/myterm
+	url = https://aur.archlinux.org/myterm
+[submodule "pkgbuild/mothur"]
+	path = pkgbuild/mothur
+	url = https://aur.archlinux.org/mothur
+[submodule "pkgbuild/qprompt"]
+	path = pkgbuild/qprompt
+	url = https://aur.archlinux.org/qprompt
+[submodule "pkgbuild/conserve-git"]
+	path = pkgbuild/conserve-git
+	url = https://aur.archlinux.org/conserve-git
+[submodule "pkgbuild/dwarfs"]
+	path = pkgbuild/dwarfs
+	url = https://aur.archlinux.org/dwarfs
+[submodule "pkgbuild/cyanrip"]
+	path = pkgbuild/cyanrip
+	url = https://aur.archlinux.org/cyanrip
+[submodule "pkgbuild/vim-markdown-git"]
+	path = pkgbuild/vim-markdown-git
+	url = https://aur.archlinux.org/vim-markdown-git
