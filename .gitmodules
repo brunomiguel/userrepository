@@ -3445,9 +3445,6 @@
 [submodule "pkgbuild/vim-markdown-git"]
 	path = pkgbuild/vim-markdown-git
 	url = https://aur.archlinux.org/vim-markdown-git
-[submodule "pkgbuild/sysfex-git"]
-	path = pkgbuild/sysfex-git
-	url = https://aur.archlinux.org/sysfex-git
 [submodule "pkgbuild/youtubedr"]
 	path = pkgbuild/youtubedr
 	url = https://aur.archlinux.org/youtubedr
