@@ -3463,3 +3463,6 @@
 [submodule "pkgbuild/dyff"]
 	path = pkgbuild/dyff
 	url = https://aur.archlinux.org/dyff
+[submodule "pkgbuild/textadept"]
+	path = pkgbuild/textadept
+	url = https://aur.archlinux.org/textadept
