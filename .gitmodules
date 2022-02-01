@@ -3445,3 +3445,21 @@
 [submodule "pkgbuild/vim-markdown-git"]
 	path = pkgbuild/vim-markdown-git
 	url = https://aur.archlinux.org/vim-markdown-git
+[submodule "pkgbuild/sysfex-git"]
+	path = pkgbuild/sysfex-git
+	url = https://aur.archlinux.org/sysfex-git
+[submodule "pkgbuild/youtubedr"]
+	path = pkgbuild/youtubedr
+	url = https://aur.archlinux.org/youtubedr
+[submodule "pkgbuild/parzip"]
+	path = pkgbuild/parzip
+	url = https://aur.archlinux.org/parzip
+[submodule "pkgbuild/gummy"]
+	path = pkgbuild/gummy
+	url = https://aur.archlinux.org/gummy
+[submodule "pkgbuild/rsyncinator-desktop"]
+	path = pkgbuild/rsyncinator-desktop
+	url = https://aur.archlinux.org/rsyncinator-desktop
+[submodule "pkgbuild/dyff"]
+	path = pkgbuild/dyff
+	url = https://aur.archlinux.org/dyff
