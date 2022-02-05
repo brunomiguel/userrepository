@@ -3466,3 +3466,27 @@
 [submodule "pkgbuild/soketi"]
 	path = pkgbuild/soketi
 	url = https://aur.archlinux.org/soketi
+[submodule "pkgbuild/html2md"]
+	path = pkgbuild/html2md
+	url = https://aur.archlinux.org/html2md
+[submodule "pkgbuild/ttf-spline-sans"]
+	path = pkgbuild/ttf-spline-sans
+	url = https://aur.archlinux.org/ttf-spline-sans
+[submodule "pkgbuild/catppuccin-grub-theme-git"]
+	path = pkgbuild/catppuccin-grub-theme-git
+	url = https://aur.archlinux.org/catppuccin-grub-theme-git
+[submodule "pkgbuild/qpdftools"]
+	path = pkgbuild/qpdftools
+	url = https://aur.archlinux.org/qpdftools
+[submodule "pkgbuild/ttf-archivo-narrow"]
+	path = pkgbuild/ttf-archivo-narrow
+	url = https://aur.archlinux.org/ttf-archivo-narrow
+[submodule "pkgbuild/adw-gtk3"]
+	path = pkgbuild/adw-gtk3
+	url = https://aur.archlinux.org/adw-gtk3
+[submodule "pkgbuild/pioneer"]
+	path = pkgbuild/pioneer
+	url = https://aur.archlinux.org/pioneer
+[submodule "pkgbuild/tecnoballz"]
+	path = pkgbuild/tecnoballz
+	url = https://aur.archlinux.org/tecnoballz
