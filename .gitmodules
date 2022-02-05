@@ -3463,3 +3463,6 @@
 [submodule "pkgbuild/textadept"]
 	path = pkgbuild/textadept
 	url = https://aur.archlinux.org/textadept
+[submodule "pkgbuild/maestral"]
+	path = pkgbuild/maestral
+	url = https://aur.archlinux.org/maestral
