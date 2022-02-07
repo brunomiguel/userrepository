@@ -3490,3 +3490,24 @@
 [submodule "pkgbuild/tecnoballz"]
 	path = pkgbuild/tecnoballz
 	url = https://aur.archlinux.org/tecnoballz
+[submodule "pkgbuild/python-gaphor"]
+	path = pkgbuild/python-gaphor
+	url = https://aur.archlinux.org/python-gaphor
+[submodule "pkgbuild/python-gaphas"]
+	path = pkgbuild/python-gaphas
+	url = https://aur.archlinux.org/python-gaphas
+[submodule "pkgbuild/python-generic"]
+	path = pkgbuild/python-generic
+	url = https://aur.archlinux.org/python-generic
+[submodule "pkgbuild/adhocspot-script-git"]
+	path = pkgbuild/adhocspot-script-git
+	url = https://aur.archlinux.org/adhocspot-script-git
+[submodule "pkgbuild/haunt"]
+	path = pkgbuild/haunt
+	url = https://aur.archlinux.org/haunt
+[submodule "pkgbuild/guile-commonmark"]
+	path = pkgbuild/guile-commonmark
+	url = https://aur.archlinux.org/guile-commonmark
+[submodule "pkgbuild/guile-reader"]
+	path = pkgbuild/guile-reader
+	url = https://aur.archlinux.org/guile-reader
