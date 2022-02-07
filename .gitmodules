@@ -3502,12 +3502,3 @@
 [submodule "pkgbuild/adhocspot-script-git"]
 	path = pkgbuild/adhocspot-script-git
 	url = https://aur.archlinux.org/adhocspot-script-git
-[submodule "pkgbuild/haunt"]
-	path = pkgbuild/haunt
-	url = https://aur.archlinux.org/haunt
-[submodule "pkgbuild/guile-commonmark"]
-	path = pkgbuild/guile-commonmark
-	url = https://aur.archlinux.org/guile-commonmark
-[submodule "pkgbuild/guile-reader"]
-	path = pkgbuild/guile-reader
-	url = https://aur.archlinux.org/guile-reader
