@@ -3502,3 +3502,12 @@
 [submodule "pkgbuild/adhocspot-script-git"]
 	path = pkgbuild/adhocspot-script-git
 	url = https://aur.archlinux.org/adhocspot-script-git
+[submodule "pkgbuild/tutanota-desktop"]
+	path = pkgbuild/tutanota-desktop
+	url = https://aur.archlinux.org/tutanota-desktop
+[submodule "pkgbuild/fuzzynote"]
+	path = pkgbuild/fuzzynote
+	url = https://aur.archlinux.org/fuzzynote
+[submodule "pkgbuild/etherguard-go"]
+	path = pkgbuild/etherguard-go
+	url = https://aur.archlinux.org/etherguard-go
