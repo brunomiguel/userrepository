@@ -3511,3 +3511,15 @@
 [submodule "pkgbuild/etherguard-go"]
 	path = pkgbuild/etherguard-go
 	url = https://aur.archlinux.org/etherguard-go
+[submodule "pkgbuild/spotube-bin"]
+	path = pkgbuild/spotube-bin
+	url = https://aur.archlinux.org/spotube-bin
+[submodule "pkgbuild/hikarujs"]
+	path = pkgbuild/hikarujs
+	url = https://aur.archlinux.org/hikarujs
+[submodule "pkgbuild/ttf-fixedsys-excelsior-linux"]
+	path = pkgbuild/ttf-fixedsys-excelsior-linux
+	url = https://aur.archlinux.org/ttf-fixedsys-excelsior-linux
+[submodule "pkgbuild/gpuvis"]
+	path = pkgbuild/gpuvis
+	url = https://aur.archlinux.org/gpuvis
