@@ -9,3 +9,4 @@ PACKAGER="Bruno Miguel <bruno@userrepository.eu>"
 
 REPONAME="userrepository"
 REMOTE="/var/pkg/userrepository/"
+
