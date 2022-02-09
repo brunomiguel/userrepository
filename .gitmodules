@@ -3523,3 +3523,6 @@
 [submodule "pkgbuild/gpuvis"]
 	path = pkgbuild/gpuvis
 	url = https://aur.archlinux.org/gpuvis
+[submodule "pkgbuild/megasync"]
+	path = pkgbuild/megasync
+	url = https://aur.archlinux.org/megasync
