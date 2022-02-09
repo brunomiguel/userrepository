@@ -3526,3 +3526,6 @@
 [submodule "pkgbuild/megasync"]
 	path = pkgbuild/megasync
 	url = https://aur.archlinux.org/megasync
+[submodule "pkgbuild/linux-xanmod-edge"]
+	path = pkgbuild/linux-xanmod-edge
+	url = https://aur.archlinux.org/linux-xanmod-edge
