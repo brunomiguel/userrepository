@@ -3535,3 +3535,6 @@
 [submodule "pkgbuild/cassowary"]
 	path = pkgbuild/cassowary
 	url = https://aur.archlinux.org/cassowary
+[submodule "pkgbuild/darkhttpd-git"]
+	path = pkgbuild/darkhttpd-git
+	url = https://aur.archlinux.org/darkhttpd-git
