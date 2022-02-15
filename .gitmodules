@@ -3529,3 +3529,9 @@
 [submodule "pkgbuild/linux-xanmod-edge"]
 	path = pkgbuild/linux-xanmod-edge
 	url = https://aur.archlinux.org/linux-xanmod-edge
+[submodule "pkgbuild/dtodo"]
+	path = pkgbuild/dtodo
+	url = https://aur.archlinux.org/dtodo
+[submodule "pkgbuild/cassowary"]
+	path = pkgbuild/cassowary
+	url = https://aur.archlinux.org/cassowary
