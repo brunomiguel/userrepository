@@ -3538,3 +3538,9 @@
 [submodule "pkgbuild/darkhttpd-git"]
 	path = pkgbuild/darkhttpd-git
 	url = https://aur.archlinux.org/darkhttpd-git
+[submodule "pkgbuild/cpuid"]
+	path = pkgbuild/cpuid
+	url = https://aur.archlinux.org/cpuid
+[submodule "pkgbuild/md2term-git"]
+	path = pkgbuild/md2term-git
+	url = https://aur.archlinux.org/md2term-git
