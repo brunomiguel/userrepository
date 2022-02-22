@@ -3544,3 +3544,48 @@
 [submodule "pkgbuild/md2term-git"]
 	path = pkgbuild/md2term-git
 	url = https://aur.archlinux.org/md2term-git
+[submodule "pkgbuild/bfs-git"]
+	path = pkgbuild/bfs-git
+	url = https://aur.archlinux.org/bfs-git
+[submodule "pkgbuild/alvr"]
+	path = pkgbuild/alvr
+	url = https://aur.archlinux.org/alvr
+[submodule "pkgbuild/xdcc-git"]
+	path = pkgbuild/xdcc-git
+	url = https://aur.archlinux.org/xdcc-git
+[submodule "pkgbuild/wine-valve"]
+	path = pkgbuild/wine-valve
+	url = https://aur.archlinux.org/wine-valve
+[submodule "pkgbuild/appflowy-bin"]
+	path = pkgbuild/appflowy-bin
+	url = https://aur.archlinux.org/appflowy-bin
+[submodule "pkgbuild/tomb-git"]
+	path = pkgbuild/tomb-git
+	url = https://aur.archlinux.org/tomb-git
+[submodule "pkgbuild/hotwire-rs"]
+	path = pkgbuild/hotwire-rs
+	url = https://aur.archlinux.org/hotwire-rs
+[submodule "pkgbuild/vobsub2srt-git"]
+	path = pkgbuild/vobsub2srt-git
+	url = https://aur.archlinux.org/vobsub2srt-git
+[submodule "pkgbuild/djlint"]
+	path = pkgbuild/djlint
+	url = https://aur.archlinux.org/djlint
+[submodule "pkgbuild/archer-dwmstat-git"]
+	path = pkgbuild/archer-dwmstat-git
+	url = https://aur.archlinux.org/archer-dwmstat-git
+[submodule "pkgbuild/zsh-hist-git"]
+	path = pkgbuild/zsh-hist-git
+	url = https://aur.archlinux.org/zsh-hist-git
+[submodule "pkgbuild/cod"]
+	path = pkgbuild/cod
+	url = https://aur.archlinux.org/cod
+[submodule "pkgbuild/gitstatus"]
+	path = pkgbuild/gitstatus
+	url = https://aur.archlinux.org/gitstatus
+[submodule "pkgbuild/auto-root-git"]
+	path = pkgbuild/auto-root-git
+	url = https://aur.archlinux.org/auto-root-git
+[submodule "pkgbuild/hstr"]
+	path = pkgbuild/hstr
+	url = https://aur.archlinux.org/hstr
