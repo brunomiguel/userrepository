@@ -3610,6 +3610,3 @@
 [submodule "pkgbuild/gimp-plugin-akkana-git"]
 	path = pkgbuild/gimp-plugin-akkana-git
 	url = https://aur.archlinux.org/gimp-plugin-akkana-git
-[submodule "pkgbuild/gimp-script-luminosity-masks"]
-	path = pkgbuild/gimp-script-luminosity-masks
-	url = https://aur.archlinux.org/gimp-script-luminosity-masks
