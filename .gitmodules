@@ -3589,3 +3589,15 @@
 [submodule "pkgbuild/hstr"]
 	path = pkgbuild/hstr
 	url = https://aur.archlinux.org/hstr
+[submodule "pkgbuild/python2-gimp"]
+	path = pkgbuild/python2-gimp
+	url = https://aur.archlinux.org/python2-gimp
+[submodule "pkgbuild/gimp-plugin-instagram-effects"]
+	path = pkgbuild/gimp-plugin-instagram-effects
+	url = https://aur.archlinux.org/gimp-plugin-instagram-effects
+[submodule "pkgbuild/gegl-git"]
+	path = pkgbuild/gegl-git
+	url = https://aur.archlinux.org/gegl-git
+[submodule "pkgbuild/babl-git"]
+	path = pkgbuild/babl-git
+	url = https://aur.archlinux.org/babl-git
