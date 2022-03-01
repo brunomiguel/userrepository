@@ -3628,3 +3628,6 @@
 [submodule "pkgbuild/x11docker"]
 	path = pkgbuild/x11docker
 	url = https://aur.archlinux.org/x11docker
+[submodule "pkgbuild/arti"]
+	path = pkgbuild/arti
+	url = https://aur.archlinux.org/arti
