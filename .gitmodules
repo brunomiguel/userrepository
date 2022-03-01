@@ -3610,3 +3610,6 @@
 [submodule "pkgbuild/gimp-plugin-akkana-git"]
 	path = pkgbuild/gimp-plugin-akkana-git
 	url = https://aur.archlinux.org/gimp-plugin-akkana-git
+[submodule "pkgbuild/diylc"]
+	path = pkgbuild/diylc
+	url = https://aur.archlinux.org/diylc
