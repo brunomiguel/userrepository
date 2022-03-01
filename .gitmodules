@@ -3613,3 +3613,18 @@
 [submodule "pkgbuild/diylc"]
 	path = pkgbuild/diylc
 	url = https://aur.archlinux.org/diylc
+[submodule "pkgbuild/ruplacer"]
+	path = pkgbuild/ruplacer
+	url = https://aur.archlinux.org/ruplacer
+[submodule "pkgbuild/gojq"]
+	path = pkgbuild/gojq
+	url = https://aur.archlinux.org/gojq
+[submodule "pkgbuild/frp"]
+	path = pkgbuild/frp
+	url = https://aur.archlinux.org/frp
+[submodule "pkgbuild/fdns-git"]
+	path = pkgbuild/fdns-git
+	url = https://aur.archlinux.org/fdns-git
+[submodule "pkgbuild/x11docker"]
+	path = pkgbuild/x11docker
+	url = https://aur.archlinux.org/x11docker
