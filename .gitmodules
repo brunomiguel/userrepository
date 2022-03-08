@@ -3631,3 +3631,6 @@
 [submodule "pkgbuild/arti"]
 	path = pkgbuild/arti
 	url = https://aur.archlinux.org/arti
+[submodule "pkgbuild/bakelite"]
+	path = pkgbuild/bakelite
+	url = https://aur.archlinux.org/bakelite
