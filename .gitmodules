@@ -3634,3 +3634,6 @@
 [submodule "pkgbuild/vignette-git"]
 	path = pkgbuild/vignette-git
 	url = https://aur.archlinux.org/vignette-git
+[submodule "pkgbuild/dotnet-core-bin"]
+	path = pkgbuild/dotnet-core-bin
+	url = https://aur.archlinux.org/dotnet-core-bin
