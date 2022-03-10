@@ -3637,3 +3637,9 @@
 [submodule "pkgbuild/dotnet-core-bin"]
 	path = pkgbuild/dotnet-core-bin
 	url = https://aur.archlinux.org/dotnet-core-bin
+[submodule "pkgbuild/quarto-cli"]
+	path = pkgbuild/quarto-cli
+	url = https://aur.archlinux.org/quarto-cli
+[submodule "pkgbuild/desktop-files-creator"]
+	path = pkgbuild/desktop-files-creator
+	url = https://aur.archlinux.org/desktop-files-creator
