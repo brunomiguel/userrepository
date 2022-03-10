@@ -3631,3 +3631,6 @@
 [submodule "pkgbuild/bakelite"]
 	path = pkgbuild/bakelite
 	url = https://aur.archlinux.org/bakelite
+[submodule "pkgbuild/vignette-git"]
+	path = pkgbuild/vignette-git
+	url = https://aur.archlinux.org/vignette-git
