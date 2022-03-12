@@ -3655,6 +3655,3 @@
 [submodule "pkgbuild/yoku-git"]
 	path = pkgbuild/yoku-git
 	url = https://aur.archlinux.org/yoku-git
-[submodule "pkgbuild/marktext"]
-	path = pkgbuild/marktext
-	url = https://aur.archlinux.org/marktext
