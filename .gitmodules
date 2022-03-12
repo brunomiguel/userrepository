@@ -3643,3 +3643,18 @@
 [submodule "pkgbuild/desktop-files-creator"]
 	path = pkgbuild/desktop-files-creator
 	url = https://aur.archlinux.org/desktop-files-creator
+[submodule "pkgbuild/ttf-gowun-batang"]
+	path = pkgbuild/ttf-gowun-batang
+	url = https://aur.archlinux.org/ttf-gowun-batang
+[submodule "pkgbuild/ddosify"]
+	path = pkgbuild/ddosify
+	url = https://aur.archlinux.org/ddosify
+[submodule "pkgbuild/yoku"]
+	path = pkgbuild/yoku
+	url = https://aur.archlinux.org/yoku
+[submodule "pkgbuild/yoku-git"]
+	path = pkgbuild/yoku-git
+	url = https://aur.archlinux.org/yoku-git
+[submodule "pkgbuild/marktext"]
+	path = pkgbuild/marktext
+	url = https://aur.archlinux.org/marktext
