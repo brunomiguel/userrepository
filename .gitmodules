@@ -3655,3 +3655,6 @@
 [submodule "pkgbuild/yoku-git"]
 	path = pkgbuild/yoku-git
 	url = https://aur.archlinux.org/yoku-git
+[submodule "pkgbuild/nwg-displays"]
+	path = pkgbuild/nwg-displays
+	url = https://aur.archlinux.org/nwg-displays
