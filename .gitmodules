@@ -3676,3 +3676,15 @@
 [submodule "pkgbuild/pyqt4"]
 	path = pkgbuild/pyqt4
 	url = https://aur.archlinux.org/pyqt4
+[submodule "pkgbuild/ptree"]
+	path = pkgbuild/ptree
+	url = https://aur.archlinux.org/ptree
+[submodule "pkgbuild/gytparse"]
+	path = pkgbuild/gytparse
+	url = https://aur.archlinux.org/gytparse
+[submodule "pkgbuild/ttf-nova"]
+	path = pkgbuild/ttf-nova
+	url = https://aur.archlinux.org/ttf-nova
+[submodule "pkgbuild/openvpn-update-resolv-conf-git"]
+	path = pkgbuild/openvpn-update-resolv-conf-git
+	url = https://aur.archlinux.org/openvpn-update-resolv-conf-git
