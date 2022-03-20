@@ -3670,3 +3670,9 @@
 [submodule "pkgbuild/qtarot-git"]
 	path = pkgbuild/qtarot-git
 	url = https://aur.archlinux.org/qtarot-git
+[submodule "pkgbuild/pyswisseph3"]
+	path = pkgbuild/pyswisseph3
+	url = https://aur.archlinux.org/pyswisseph3
+[submodule "pkgbuild/pyqt4"]
+	path = pkgbuild/pyqt4
+	url = https://aur.archlinux.org/pyqt4
