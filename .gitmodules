@@ -3658,3 +3658,15 @@
 [submodule "pkgbuild/nwg-displays"]
 	path = pkgbuild/nwg-displays
 	url = https://aur.archlinux.org/nwg-displays
+[submodule "pkgbuild/mullvad-vpn-cli"]
+	path = pkgbuild/mullvad-vpn-cli
+	url = https://aur.archlinux.org/mullvad-vpn-cli
+[submodule "pkgbuild/chronoslnx-git"]
+	path = pkgbuild/chronoslnx-git
+	url = https://aur.archlinux.org/chronoslnx-git
+[submodule "pkgbuild/todotxt-machine-git"]
+	path = pkgbuild/todotxt-machine-git
+	url = https://aur.archlinux.org/todotxt-machine-git
+[submodule "pkgbuild/qtarot-git"]
+	path = pkgbuild/qtarot-git
+	url = https://aur.archlinux.org/qtarot-git
