@@ -3688,3 +3688,12 @@
 [submodule "pkgbuild/openvpn-update-resolv-conf-git"]
 	path = pkgbuild/openvpn-update-resolv-conf-git
 	url = https://aur.archlinux.org/openvpn-update-resolv-conf-git
+[submodule "pkgbuild/coolero"]
+	path = pkgbuild/coolero
+	url = https://aur.archlinux.org/coolero
+[submodule "pkgbuild/nodejs-autoprefixer"]
+	path = pkgbuild/nodejs-autoprefixer
+	url = https://aur.archlinux.org/nodejs-autoprefixer
+[submodule "pkgbuild/nodejs-postcss"]
+	path = pkgbuild/nodejs-postcss
+	url = https://aur.archlinux.org/nodejs-postcss
