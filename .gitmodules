@@ -3694,3 +3694,6 @@
 [submodule "pkgbuild/nodejs-postcss"]
 	path = pkgbuild/nodejs-postcss
 	url = https://aur.archlinux.org/nodejs-postcss
+[submodule "pkgbuild/mailspring"]
+	path = pkgbuild/mailspring
+	url = https://aur.archlinux.org/mailspring
