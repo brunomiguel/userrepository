@@ -3697,3 +3697,15 @@
 [submodule "pkgbuild/mailspring"]
 	path = pkgbuild/mailspring
 	url = https://aur.archlinux.org/mailspring
+[submodule "pkgbuild/rezolus"]
+	path = pkgbuild/rezolus
+	url = https://aur.archlinux.org/rezolus
+[submodule "pkgbuild/gpu-screen-recorder-git"]
+	path = pkgbuild/gpu-screen-recorder-git
+	url = https://aur.archlinux.org/gpu-screen-recorder-git
+[submodule "pkgbuild/gpu-screen-recorder-gtk-git"]
+	path = pkgbuild/gpu-screen-recorder-gtk-git
+	url = https://aur.archlinux.org/gpu-screen-recorder-gtk-git
+[submodule "pkgbuild/identity-git"]
+	path = pkgbuild/identity-git
+	url = https://aur.archlinux.org/identity-git
