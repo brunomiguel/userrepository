@@ -3709,3 +3709,9 @@
 [submodule "pkgbuild/identity-git"]
 	path = pkgbuild/identity-git
 	url = https://aur.archlinux.org/identity-git
+[submodule "pkgbuild/thunderbird-extension-cardbook"]
+	path = pkgbuild/thunderbird-extension-cardbook
+	url = https://aur.archlinux.org/thunderbird-extension-cardbook
+[submodule "pkgbuild/seashell-git"]
+	path = pkgbuild/seashell-git
+	url = https://aur.archlinux.org/seashell-git
