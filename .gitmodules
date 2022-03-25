@@ -3727,3 +3727,15 @@
 [submodule "pkgbuild/cocoa"]
 	path = pkgbuild/cocoa
 	url = https://aur.archlinux.org/cocoa
+[submodule "pkgbuild/geogebra-5"]
+	path = pkgbuild/geogebra-5
+	url = https://aur.archlinux.org/geogebra-5
+[submodule "pkgbuild/parapara"]
+	path = pkgbuild/parapara
+	url = https://aur.archlinux.org/parapara
+[submodule "pkgbuild/elementary-xfce-icons"]
+	path = pkgbuild/elementary-xfce-icons
+	url = https://aur.archlinux.org/elementary-xfce-icons
+[submodule "pkgbuild/joplin"]
+	path = pkgbuild/joplin
+	url = https://aur.archlinux.org/joplin
