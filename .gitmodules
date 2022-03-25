@@ -3718,3 +3718,12 @@
 [submodule "pkgbuild/kde-material-you-colors"]
 	path = pkgbuild/kde-material-you-colors
 	url = https://github.com/luisbocanegra/kde-material-you-colors
+[submodule "pkgbuild/normcap"]
+	path = pkgbuild/normcap
+	url = https://aur.archlinux.org/normcap
+[submodule "pkgbuild/mate-hud"]
+	path = pkgbuild/mate-hud
+	url = https://aur.archlinux.org/mate-hud
+[submodule "pkgbuild/cocoa"]
+	path = pkgbuild/cocoa
+	url = https://aur.archlinux.org/cocoa
