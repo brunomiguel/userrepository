@@ -3745,12 +3745,9 @@
 [submodule "pkgbuild/loupe-git"]
 	path = pkgbuild/loupe-git
 	url = https://aur.archlinux.org/loupe-git
-[submodule "pkgbuild/3dslicer"]
-	path = pkgbuild/3dslicer
-	url = https://aur.archlinux.org/3dslicer
-[submodule "pkgbuild/teem"]
-	path = pkgbuild/teem
-	url = https://aur.archlinux.org/teem
 [submodule "pkgbuild/teem-svn"]
 	path = pkgbuild/teem-svn
 	url = https://aur.archlinux.org/teem-svn
+[submodule "pkgbuild/3dslicer-bin"]
+	path = pkgbuild/3dslicer-bin
+	url = https://aur.archlinux.org/3dslicer-bin
