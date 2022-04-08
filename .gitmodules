@@ -3751,3 +3751,18 @@
 [submodule "pkgbuild/3dslicer-bin"]
 	path = pkgbuild/3dslicer-bin
 	url = https://aur.archlinux.org/3dslicer-bin
+[submodule "pkgbuild/waypoint"]
+	path = pkgbuild/waypoint
+	url = https://aur.archlinux.org/waypoint
+[submodule "pkgbuild/catapult"]
+	path = pkgbuild/catapult
+	url = https://aur.archlinux.org/catapult
+[submodule "pkgbuild/avvie"]
+	path = pkgbuild/avvie
+	url = https://aur.archlinux.org/avvie
+[submodule "pkgbuild/openblok"]
+	path = pkgbuild/openblok
+	url = https://aur.archlinux.org/openblok
+[submodule "pkgbuild/ovito"]
+	path = pkgbuild/ovito
+	url = https://aur.archlinux.org/ovito
