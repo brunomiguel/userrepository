@@ -117,6 +117,9 @@ build() {
             fi
         fi
 
+        echo "sleeping for 5 seconds"
+        sleep 5s
+
         cd .. 2>&1 || exit
     done
 
@@ -185,6 +188,9 @@ build() {
                 echo -e "PKGBUILD not found\n"
             fi
         fi
+
+        echo "sleeping for 5 seconds"
+        sleep 5s
 
         cd .. 2>&1 || exit
     done
