@@ -3766,3 +3766,18 @@
 [submodule "pkgbuild/ovito"]
 	path = pkgbuild/ovito
 	url = https://aur.archlinux.org/ovito
+[submodule "pkgbuild/tldr-page"]
+	path = pkgbuild/tldr-page
+	url = https://aur.archlinux.org/tldr-page
+[submodule "pkgbuild/paper-git"]
+	path = pkgbuild/paper-git
+	url = https://aur.archlinux.org/paper-git
+[submodule "pkgbuild/tundra"]
+	path = pkgbuild/tundra
+	url = https://aur.archlinux.org/tundra
+[submodule "pkgbuild/kvantum-qt6-git"]
+	path = pkgbuild/kvantum-qt6-git
+	url = https://aur.archlinux.org/kvantum-qt6-git
+[submodule "pkgbuild/kvantum-qt5-git"]
+	path = pkgbuild/kvantum-qt5-git
+	url = https://aur.archlinux.org/kvantum-qt5-git
