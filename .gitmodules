@@ -3781,3 +3781,6 @@
 [submodule "pkgbuild/kvantum-qt5-git"]
 	path = pkgbuild/kvantum-qt5-git
 	url = https://aur.archlinux.org/kvantum-qt5-git
+[submodule "pkgbuild/md-git"]
+	path = pkgbuild/md-git
+	url = https://aur.archlinux.org/md-git
