@@ -3790,3 +3790,6 @@
 [submodule "pkgbuild/dsq"]
 	path = pkgbuild/dsq
 	url = https://aur.archlinux.org/dsq
+[submodule "pkgbuild/krabby-git"]
+	path = pkgbuild/krabby-git
+	url = https://aur.archlinux.org/krabby-git
