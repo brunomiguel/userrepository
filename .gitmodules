@@ -3784,3 +3784,6 @@
 [submodule "pkgbuild/reproc"]
 	path = pkgbuild/reproc
 	url = https://aur.archlinux.org/reproc
+[submodule "pkgbuild/botsay"]
+	path = pkgbuild/botsay
+	url = https://aur.archlinux.org/botsay
