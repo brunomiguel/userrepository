@@ -3793,3 +3793,12 @@
 [submodule "pkgbuild/krabby-git"]
 	path = pkgbuild/krabby-git
 	url = https://aur.archlinux.org/krabby-git
+[submodule "pkgbuild/pokeshell-git"]
+	path = pkgbuild/pokeshell-git
+	url = https://aur.archlinux.org/pokeshell-git
+[submodule "pkgbuild/timg"]
+	path = pkgbuild/timg
+	url = https://aur.archlinux.org/timg
+[submodule "pkgbuild/openslide"]
+	path = pkgbuild/openslide
+	url = https://aur.archlinux.org/openslide
