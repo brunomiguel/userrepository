@@ -3787,3 +3787,6 @@
 [submodule "pkgbuild/botsay"]
 	path = pkgbuild/botsay
 	url = https://aur.archlinux.org/botsay
+[submodule "pkgbuild/dsq"]
+	path = pkgbuild/dsq
+	url = https://aur.archlinux.org/dsq
