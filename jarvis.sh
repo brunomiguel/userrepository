@@ -546,7 +546,7 @@ while getopts "ad:rbfmth:" arg; do
         d) delete ;;
         m) mirror_sync ;;
         h) usage ;;
-        t) pikaur -Syyuv --noconfirm; testbuild; mirror_sync; exit 0;; ;;
+        t) pikaur -Syyuv --noconfirm; testbuild; mirror_sync; exit 0;;
         *) usage ;;
     esac
 done
