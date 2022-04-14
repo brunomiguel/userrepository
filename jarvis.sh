@@ -210,6 +210,183 @@ build() {
     cd "$DIR" || exit
 }
 
+testbuild() {
+
+    if [ ! -f "$DIR/captains.log" ]; then
+        touch "$DIR/captains.log"
+    fi
+
+    # clean cache/bin before proceding
+    rm -rfv "$HOME"/userrepository/cache/bin
+
+    # fix for pikaur lock file in /tmp
+    sudo rm /tmp/pikaur_build_deps.lock
+
+    cd "$DIR/pkgbuild" || exit
+
+    for f in *; do
+        # check non -git folders
+        if [ find . -type d -not -name "*-git" ]; then
+            echo -e "\n\e[1;33mUpdating $f...\e[0m"
+
+            cd "$f" >../noise.log 2>&1 || exit
+
+            # remove artifacts from previous builds
+            git clean -x -d -f -q >../noise.log 2>&1
+            git stash --quiet >../noise.log 2>&1
+
+            # rebase AUR git and git outside AUR
+            git rebase HEAD master
+            git rebase HEAD main
+            git rebase HEAD master
+
+            git fetch
+            git remote update
+
+            # set local function variables for building only updated git repositories
+            local GITUPSTREAM=${1:-'@{u}'}
+            local GITLOCAL=$(git rev-parse @)
+            local GITREMOTE=$(git rev-parse "$GITUPSTREAM")
+            local GITBASE=$(git merge-base @ "$GITUPSTREAM")
+
+            # set local variable to get package name using the working dir name
+            # local NAME=$(pwd | rev | cut -f1 -d'/' - | rev)
+
+            # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
+            if [ -f "../noise.log" ]; then
+                rm ../noise.log
+            fi
+
+            # check if local revision is the same as the remote revision
+            if [ "$GITLOCAL" = "$GITREMOTE" ]; then
+                echo "Already up-to-date. Skipping..."
+
+                # update out-of-date submodule for building the package
+            else
+
+                # update package revision
+                git pull origin main
+                git pull origin master
+
+                # start timing the time it takes to create the package
+                res1=$(date +%s.%N)
+
+                # check if PKGBUILD exists
+                if [ -f "PKGBUILD" ]; then
+                    echo "Found PKGBUILD for $f. Building..."
+
+                    # clean build force overwrite
+                    PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
+
+                    # copy package to remote dir with rsync, deleting the old version
+                    #rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
+
+                    # add new package version to the package index, but remove the index first to avoid index corruption
+                    #rm -v "$REMOTE/"userrepository.db* "$REMOTE"/userrepository.file*
+                    #repo-add -n -R -s -v "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/"*.zst
+
+                    # clean cached files
+                    pikaur -Sccc --noconfirm
+                    #rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src "$HOME"/userrepository/cache/bin
+
+                    # Stop timing the time it took to create the package \
+                    # and log it in makepkg.log
+                    res2=$(date +%s.%N)
+                    dt=$(echo "$res2 - $res1" | bc)
+                    dd=$(echo "$dt/86400" | bc)
+                    dt2=$(echo "$dt-86400*$dd" | bc)
+                    dh=$(echo "$dt2/3600" | bc)
+                    dt3=$(echo "$dt2-3600*$dh" | bc)
+                    dm=$(echo "$dt3/60" | bc)
+                    ds=$(echo "$dt3-60*$dm" | bc)
+                    LC_NUMERIC=C printf "Total runtime: %02d:%02d:%02.4f\n" "$dh" "$dm" "$ds" >>makepkg.log
+                else
+                    # display error
+                    echo -e "PKGBUILD not found\n"
+                fi
+            fi
+        else
+            # always build -git folders
+            echo -e "\n\e[1;33mUpdating $f...\e[0m"
+
+            cd "$f" >../noise.log 2>&1 || exit
+
+            # remove artifacts from previous builds
+            git clean -x -d -f -q >../noise.log 2>&1
+            git stash --quiet >../noise.log 2>&1
+
+            # rebase AUR git and git outside AUR
+            git rebase HEAD master
+            git rebase HEAD main
+
+            # remove noise.log, used for redirecting stin, stdout and stderr and hide "noisy" output from shell
+            if [ -f "../noise.log" ]; then
+                rm ../noise.log
+            fi
+
+            # update package revision
+            git pull origin main
+            git pull origin master
+
+            # start timing the time it takes to create the package
+            res1=$(date +%s.%N)
+
+            # check if PKGBUILD exists
+            if [ -f "PKGBUILD" ]; then
+                echo "Found PKGBUILD for $f. Building..."
+
+                # clean build force overwrite
+                PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
+
+                # copy package to remote dir with rsync, deleting the old version
+                #rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
+
+                # add new package version to the package index, but remove the index first to avoid index corruption
+                #rm -v "$REMOTE/"userrepository.db* "$REMOTE"/userrepository.file*
+                #repo-add -n -R -s -v "$REMOTE/$REPONAME".db.tar.gz "$REMOTE/"*.zst
+
+                # clean cached files
+                pikaur -Sccc --noconfirm
+                #rm -rfv "$HOME"/userrepository/cache/"$f"/{src,.git} "$HOME"/userrepository/cache/src "$HOME"/userrepository/cache/bin
+                
+                # Stop timing the time it took to create the package \
+                # and log it in makepkg.log
+                res2=$(date +%s.%N)
+                dt=$(echo "$res2 - $res1" | bc)
+                dd=$(echo "$dt/86400" | bc)
+                dt2=$(echo "$dt-86400*$dd" | bc)
+                dh=$(echo "$dt2/3600" | bc)
+                dt3=$(echo "$dt2-3600*$dh" | bc)
+                dm=$(echo "$dt3/60" | bc)
+                ds=$(echo "$dt3-60*$dm" | bc)
+                LC_NUMERIC=C printf "Total runtime: %02d:%02d:%02.4f\n" "$dh" "$dm" "$ds" >>makepkg.log
+            else
+                # display error
+                echo -e "PKGBUILD not found\n"
+            fi
+        fi
+
+        echo "sleeping for 10 seconds"
+        sleep 5s
+
+        cd .. 2>&1 || exit
+    done
+
+    # copy newly created packages to $REMOTE
+    rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
+
+    # change the working folder to $REMOTE and add new package version to the package index, but remove the index first to avoid index corruption
+    cd "$REMOTE" || exit
+    rm -v userrepository.db* userrepository.file*
+    repo-add -n -R -s -v "$REPONAME".db.tar.gz *.zst
+
+    # clean newly build files from $PKGDEST
+    rm -rfv "$HOME"/userrepository/cache/*
+
+    # return to the script's directory
+    cd "$DIR" || exit
+}
+
 fullbuild() {
     if [ ! -f "$DIR/captains.log" ]; then
         touch "$DIR/captains.log"
@@ -358,29 +535,6 @@ mirror_sync() {
 	rsync -rtlvH --delete-after --delay-updates --safe-links "$REMOTE" userrepository@uk.mirrors.fossho.st:/
 }
 
-teste() {
-cd "$DIR/pkgbuild" || exit
-
-	for t in *; do
-	
-	    if [ -d "*-git" ]; then
-	    	cd "$t"
-	        echo -e "git folder \n"
-	        pwd
-	        cd ..
-	
-	    else
-			cd "$t"
-	        echo -e "regular folder \n"
-	        pwd
-	        cd ..
-	
-	    fi
-
-#cd .. 2>&1 || exit
-	
-done
-
 }
 
 # script options
@@ -394,7 +548,7 @@ while getopts "ad:rbfmth:" arg; do
         d) delete ;;
         m) mirror_sync ;;
         h) usage ;;
-        t) teste ;;
+        t) pikaur -Syyuv --noconfirm; testbuild; mirror_sync; exit 0;; ;;
         *) usage ;;
     esac
 done
