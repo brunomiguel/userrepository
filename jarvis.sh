@@ -307,18 +307,16 @@ testbuild() {
             fi
         fi
 
-        echo "sleeping for 10 seconds"
+        echo "sleeping for 5 seconds"
         sleep 5s
 
         cd .. 2>&1 || exit
     done
 
     # always build for -git packages
-    # for now, in a hackish state
     echo -e "\nBuilding *-git packages\n"
 
     for i in *-git; do
-
         if [ -d "$i" ]; then
             echo -e "\n\e[1;33mUpdating $i...\e[0m"
 
