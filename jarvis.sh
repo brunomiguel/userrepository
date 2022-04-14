@@ -535,8 +535,6 @@ mirror_sync() {
 	rsync -rtlvH --delete-after --delay-updates --safe-links "$REMOTE" userrepository@uk.mirrors.fossho.st:/
 }
 
-}
-
 # script options
 [ $# -eq 0 ] && usage
 while getopts "ad:rbfmth:" arg; do
