@@ -226,7 +226,7 @@ testbuild() {
 
     for f in *; do
         # check non -git folders
-        if [ find . -type d -not -name "*-git" ]; then
+        if [ "$(find . -type d -not -name '*-git')" ]; then
             echo -e "\n\e[1;33mUpdating $f...\e[0m"
 
             cd "$f" >../noise.log 2>&1 || exit
