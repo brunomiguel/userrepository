@@ -223,13 +223,13 @@ testbuild() {
     sudo rm /tmp/pikaur_build_deps.lock
 
     cd "$DIR/pkgbuild" || exit
+    echo -e "\n$(pwd)\n"
 
-    for f in *; do
-        # check non -git folders
-        if [ "$(find . -type d -not -name '*-git')" ]; then
-            echo -e "\n\e[1;33mUpdating $f...\e[0m"
+    for h in `find . -maxdepth 1 -mindepth 1 -type d -not -name '*-git' | sort`; do
+        if [ -d "$h" ]; then
+            echo -e "\n\e[1;33mUpdating $h...\e[0m"
 
-            cd "$f" >../noise.log 2>&1 || exit
+            cd "$h" >../noise.log 2>&1 || exit
 
             # remove artifacts from previous builds
             git clean -x -d -f -q >../noise.log 2>&1
@@ -273,7 +273,7 @@ testbuild() {
 
                 # check if PKGBUILD exists
                 if [ -f "PKGBUILD" ]; then
-                    echo "Found PKGBUILD for $f. Building..."
+                    echo "Found PKGBUILD for $h. Building..."
 
                     # clean build force overwrite
                     PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
@@ -305,11 +305,24 @@ testbuild() {
                     echo -e "PKGBUILD not found\n"
                 fi
             fi
-        else
-            # always build -git folders
-            echo -e "\n\e[1;33mUpdating $f...\e[0m"
+        fi
 
-            cd "$f" >../noise.log 2>&1 || exit
+        echo "sleeping for 10 seconds"
+        sleep 5s
+
+        cd .. 2>&1 || exit
+    done
+
+    # always build for -git packages
+    # for now, in a hackish state
+    echo -e "\nBuilding *-git packages\n"
+
+    for i in *-git; do
+
+        if [ -d "$i" ]; then
+            echo -e "\n\e[1;33mUpdating $i...\e[0m"
+
+            cd "$i" >../noise.log 2>&1 || exit
 
             # remove artifacts from previous builds
             git clean -x -d -f -q >../noise.log 2>&1
@@ -333,7 +346,7 @@ testbuild() {
 
             # check if PKGBUILD exists
             if [ -f "PKGBUILD" ]; then
-                echo "Found PKGBUILD for $f. Building..."
+                echo "Found PKGBUILD for $i. Building..."
 
                 # clean build force overwrite
                 PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
@@ -366,7 +379,7 @@ testbuild() {
             fi
         fi
 
-        echo "sleeping for 10 seconds"
+        echo "sleeping for 5 seconds"
         sleep 5s
 
         cd .. 2>&1 || exit
