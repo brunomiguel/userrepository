@@ -3802,3 +3802,6 @@
 [submodule "pkgbuild/openslide"]
 	path = pkgbuild/openslide
 	url = https://aur.archlinux.org/openslide
+[submodule "pkgbuild/verco"]
+	path = pkgbuild/verco
+	url = https://aur.archlinux.org/verco
