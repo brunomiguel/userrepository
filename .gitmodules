@@ -3829,3 +3829,6 @@
 [submodule "pkgbuild/autokey"]
 	path = pkgbuild/autokey
 	url = https://aur.archlinux.org/autokey
+[submodule "pkgbuild/qlstatus"]
+	path = pkgbuild/qlstatus
+	url = https://aur.archlinux.org/qlstatus
