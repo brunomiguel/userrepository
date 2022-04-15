@@ -3805,3 +3805,15 @@
 [submodule "pkgbuild/verco"]
 	path = pkgbuild/verco
 	url = https://aur.archlinux.org/verco
+[submodule "pkgbuild/rustlings"]
+	path = pkgbuild/rustlings
+	url = https://aur.archlinux.org/rustlings
+[submodule "pkgbuild/ttf-spline-sans-mono"]
+	path = pkgbuild/ttf-spline-sans-mono
+	url = https://aur.archlinux.org/ttf-spline-sans-mono
+[submodule "pkgbuild/ttf-lxgw-wenkai"]
+	path = pkgbuild/ttf-lxgw-wenkai
+	url = https://aur.archlinux.org/ttf-lxgw-wenkai
+[submodule "pkgbuild/minissdpd"]
+	path = pkgbuild/minissdpd
+	url = https://aur.archlinux.org/minissdpd
