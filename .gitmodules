@@ -3832,3 +3832,6 @@
 [submodule "pkgbuild/qlstatus"]
 	path = pkgbuild/qlstatus
 	url = https://aur.archlinux.org/qlstatus
+[submodule "pkgbuild/sov"]
+	path = pkgbuild/sov
+	url = https://aur.archlinux.org/sov
