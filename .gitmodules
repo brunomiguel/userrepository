@@ -3826,3 +3826,6 @@
 [submodule "pkgbuild/python-colored"]
 	path = pkgbuild/python-colored
 	url = https://aur.archlinux.org/python-colored
+[submodule "pkgbuild/autokey"]
+	path = pkgbuild/autokey
+	url = https://aur.archlinux.org/autokey
