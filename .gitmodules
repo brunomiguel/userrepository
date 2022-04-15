@@ -3820,3 +3820,9 @@
 [submodule "pkgbuild/bottles"]
 	path = pkgbuild/bottles
 	url = https://aur.archlinux.org/bottles
+[submodule "pkgbuild/vizex"]
+	path = pkgbuild/vizex
+	url = https://aur.archlinux.org/vizex
+[submodule "pkgbuild/python-colored"]
+	path = pkgbuild/python-colored
+	url = https://aur.archlinux.org/python-colored
