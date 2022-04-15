@@ -3817,3 +3817,6 @@
 [submodule "pkgbuild/minissdpd"]
 	path = pkgbuild/minissdpd
 	url = https://aur.archlinux.org/minissdpd
+[submodule "pkgbuild/bottles"]
+	path = pkgbuild/bottles
+	url = https://aur.archlinux.org/bottles
