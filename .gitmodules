@@ -3835,3 +3835,18 @@
 [submodule "pkgbuild/sov"]
 	path = pkgbuild/sov
 	url = https://aur.archlinux.org/sov
+[submodule "pkgbuild/ghorg"]
+	path = pkgbuild/ghorg
+	url = https://aur.archlinux.org/ghorg
+[submodule "pkgbuild/bubblejail-git"]
+	path = pkgbuild/bubblejail-git
+	url = https://aur.archlinux.org/bubblejail-git
+[submodule "pkgbuild/holehe-git"]
+	path = pkgbuild/holehe-git
+	url = https://aur.archlinux.org/holehe-git
+[submodule "pkgbuild/python-bs4"]
+	path = pkgbuild/python-bs4
+	url = https://aur.archlinux.org/python-bs4
+[submodule "pkgbuild/zammad"]
+	path = pkgbuild/zammad
+	url = https://aur.archlinux.org/zammad
