@@ -3850,3 +3850,15 @@
 [submodule "pkgbuild/zammad"]
 	path = pkgbuild/zammad
 	url = https://aur.archlinux.org/zammad
+[submodule "pkgbuild/myuzi"]
+	path = pkgbuild/myuzi
+	url = https://aur.archlinux.org/myuzi
+[submodule "pkgbuild/spotify_dl"]
+	path = pkgbuild/spotify_dl
+	url = https://aur.archlinux.org/spotify_dl
+[submodule "pkgbuild/gitextensions"]
+	path = pkgbuild/gitextensions
+	url = https://aur.archlinux.org/gitextensions
+[submodule "pkgbuild/gittyup"]
+	path = pkgbuild/gittyup
+	url = https://aur.archlinux.org/gittyup
