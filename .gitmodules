@@ -3862,3 +3862,6 @@
 [submodule "pkgbuild/gittyup-git"]
 	path = pkgbuild/gittyup-git
 	url = https://aur.archlinux.org/gittyup-git
+[submodule "pkgbuild/ferdium-git"]
+	path = pkgbuild/ferdium-git
+	url = https://aur.archlinux.org/ferdium-git
