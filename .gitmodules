@@ -3859,6 +3859,6 @@
 [submodule "pkgbuild/gitextensions"]
 	path = pkgbuild/gitextensions
 	url = https://aur.archlinux.org/gitextensions
-[submodule "pkgbuild/gittyup"]
-	path = pkgbuild/gittyup
-	url = https://aur.archlinux.org/gittyup
+[submodule "pkgbuild/gittyup-git"]
+	path = pkgbuild/gittyup-git
+	url = https://aur.archlinux.org/gittyup-git
