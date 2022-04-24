@@ -3865,3 +3865,9 @@
 [submodule "pkgbuild/ferdium-git"]
 	path = pkgbuild/ferdium-git
 	url = https://aur.archlinux.org/ferdium-git
+[submodule "pkgbuild/qfetch"]
+	path = pkgbuild/qfetch
+	url = https://aur.archlinux.org/qfetch
+[submodule "pkgbuild/radio-cli-git"]
+	path = pkgbuild/radio-cli-git
+	url = https://aur.archlinux.org/radio-cli-git
