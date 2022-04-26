@@ -3874,9 +3874,6 @@
 [submodule "pkgbuild/tokodon-git"]
 	path = pkgbuild/tokodon-git
 	url = https://aur.archlinux.org/tokodon-git
-[submodule "pkgbuild/tootle"]
-	path = pkgbuild/tootle
-	url = https://aur.archlinux.org/tootle
 [submodule "pkgbuild/tootle-git"]
 	path = pkgbuild/tootle-git
 	url = https://aur.archlinux.org/tootle-git
