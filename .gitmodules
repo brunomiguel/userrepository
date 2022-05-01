@@ -3877,3 +3877,21 @@
 [submodule "pkgbuild/tootle-git"]
 	path = pkgbuild/tootle-git
 	url = https://aur.archlinux.org/tootle-git
+[submodule "pkgbuild/lxroot"]
+	path = pkgbuild/lxroot
+	url = https://aur.archlinux.org/lxroot
+[submodule "pkgbuild/unicorn-git"]
+	path = pkgbuild/unicorn-git
+	url = https://aur.archlinux.org/unicorn-git
+[submodule "pkgbuild/ferdium"]
+	path = pkgbuild/ferdium
+	url = https://aur.archlinux.org/ferdium
+[submodule "pkgbuild/electricsheep"]
+	path = pkgbuild/electricsheep
+	url = https://aur.archlinux.org/electricsheep
+[submodule "pkgbuild/flam3"]
+	path = pkgbuild/flam3
+	url = https://aur.archlinux.org/flam3
+[submodule "pkgbuild/glee"]
+	path = pkgbuild/glee
+	url = https://aur.archlinux.org/glee
