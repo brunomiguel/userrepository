@@ -3895,6 +3895,3 @@
 [submodule "pkgbuild/glee"]
 	path = pkgbuild/glee
 	url = https://aur.archlinux.org/glee
-[submodule "pkgbuild/txdx"]
-	path = pkgbuild/txdx
-	url = https://aur.archlinux.org/txdx
