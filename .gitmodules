@@ -3895,9 +3895,6 @@
 [submodule "pkgbuild/glee"]
 	path = pkgbuild/glee
 	url = https://aur.archlinux.org/glee
-[submodule "pkgbuild/speed-dreams-svn"]
-	path = pkgbuild/speed-dreams-svn
-	url = https://aur.archlinux.org/speed-dreams-svn
-[submodule "pkgbuild/plib"]
-	path = pkgbuild/plib
-	url = https://aur.archlinux.org/plib
+[submodule "pkgbuild/txdx"]
+	path = pkgbuild/txdx
+	url = https://aur.archlinux.org/txdx
