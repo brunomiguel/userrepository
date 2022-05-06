@@ -3910,3 +3910,27 @@
 [submodule "pkgbuild/firefox-nightly-i18n"]
 	path = pkgbuild/firefox-nightly-i18n
 	url = https://aur.archlinux.org/firefox-nightly-i18n
+[submodule "pkgbuild/keyboard-configurator"]
+	path = pkgbuild/keyboard-configurator
+	url = https://aur.archlinux.org/keyboard-configurator
+[submodule "pkgbuild/system76-scheduler"]
+	path = pkgbuild/system76-scheduler
+	url = https://aur.archlinux.org/system76-scheduler
+[submodule "pkgbuild/system76-power"]
+	path = pkgbuild/system76-power
+	url = https://aur.archlinux.org/system76-power
+[submodule "pkgbuild/system76-dkms"]
+	path = pkgbuild/system76-dkms
+	url = https://aur.archlinux.org/system76-dkms
+[submodule "pkgbuild/system76-driver"]
+	path = pkgbuild/system76-driver
+	url = https://aur.archlinux.org/system76-driver
+[submodule "pkgbuild/system76-oled"]
+	path = pkgbuild/system76-oled
+	url = https://aur.archlinux.org/system76-oled
+[submodule "pkgbuild/system76-io-dkms"]
+	path = pkgbuild/system76-io-dkms
+	url = https://aur.archlinux.org/system76-io-dkms
+[submodule "pkgbuild/system76-acpi-dkms"]
+	path = pkgbuild/system76-acpi-dkms
+	url = https://aur.archlinux.org/system76-acpi-dkms
