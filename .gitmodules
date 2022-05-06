@@ -3907,3 +3907,6 @@
 [submodule "pkgbuild/system76-firmware"]
 	path = pkgbuild/system76-firmware
 	url = https://aur.archlinux.org/system76-firmware
+[submodule "pkgbuild/firefox-nightly-i18n"]
+	path = pkgbuild/firefox-nightly-i18n
+	url = https://aur.archlinux.org/firefox-nightly-i18n
