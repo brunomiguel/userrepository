@@ -3898,3 +3898,12 @@
 [submodule "pkgbuild/txdx"]
 	path = pkgbuild/txdx
 	url = https://aur.archlinux.org/txdx
+[submodule "pkgbuild/hydroxide"]
+	path = pkgbuild/hydroxide
+	url = https://aur.archlinux.org/hydroxide
+[submodule "pkgbuild/phocus-gtk-theme-git"]
+	path = pkgbuild/phocus-gtk-theme-git
+	url = https://aur.archlinux.org/phocus-gtk-theme-git
+[submodule "pkgbuild/system76-firmware"]
+	path = pkgbuild/system76-firmware
+	url = https://aur.archlinux.org/system76-firmware
