@@ -3934,3 +3934,12 @@
 [submodule "pkgbuild/system76-acpi-dkms"]
 	path = pkgbuild/system76-acpi-dkms
 	url = https://aur.archlinux.org/system76-acpi-dkms
+[submodule "pkgbuild/pokemon-colorscripts-git"]
+	path = pkgbuild/pokemon-colorscripts-git
+	url = https://aur.archlinux.org/pokemon-colorscripts-git
+[submodule "pkgbuild/beautyline"]
+	path = pkgbuild/beautyline
+	url = https://aur.archlinux.org/beautyline
+[submodule "pkgbuild/harmony"]
+	path = pkgbuild/harmony
+	url = https://aur.archlinux.org/harmony
