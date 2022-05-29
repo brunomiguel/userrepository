@@ -3946,3 +3946,6 @@
 [submodule "pkgbuild/chicago95-git"]
 	path = pkgbuild/chicago95-git
 	url = https://aur.archlinux.org/chicago95-git
+[submodule "pkgbuild/icoextract"]
+	path = pkgbuild/icoextract
+	url = https://aur.archlinux.org/icoextract
