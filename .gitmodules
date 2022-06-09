@@ -3949,3 +3949,12 @@
 [submodule "pkgbuild/icoextract"]
 	path = pkgbuild/icoextract
 	url = https://aur.archlinux.org/icoextract
+[submodule "pkgbuild/nota-git"]
+	path = pkgbuild/nota-git
+	url = https://aur.archlinux.org/nota-git
+[submodule "pkgbuild/mauikit-filebrowsing-git"]
+	path = pkgbuild/mauikit-filebrowsing-git
+	url = https://aur.archlinux.org/mauikit-filebrowsing-git
+[submodule "pkgbuild/mauikit-git"]
+	path = pkgbuild/mauikit-git
+	url = https://aur.archlinux.org/mauikit-git
