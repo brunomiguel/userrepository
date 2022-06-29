@@ -3958,3 +3958,6 @@
 [submodule "pkgbuild/mauikit-git"]
 	path = pkgbuild/mauikit-git
 	url = https://aur.archlinux.org/mauikit-git
+[submodule "pkgbuild/thunderbird-beta-bin"]
+	path = pkgbuild/thunderbird-beta-bin
+	url = https://aur.archlinux.org/thunderbird-beta-bin
