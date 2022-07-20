@@ -3961,3 +3961,9 @@
 [submodule "pkgbuild/thunderbird-beta-bin"]
 	path = pkgbuild/thunderbird-beta-bin
 	url = https://aur.archlinux.org/thunderbird-beta-bin
+[submodule "pkgbuild/nuclear-player-bin"]
+	path = pkgbuild/nuclear-player-bin
+	url = https://aur.archlinux.org/nuclear-player-bin
+[submodule "pkgbuild/nuclear-player-git"]
+	path = pkgbuild/nuclear-player-git
+	url = https://aur.archlinux.org/nuclear-player-git
