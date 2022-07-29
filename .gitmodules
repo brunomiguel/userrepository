@@ -3964,6 +3964,12 @@
 [submodule "pkgbuild/nuclear-player-bin"]
 	path = pkgbuild/nuclear-player-bin
 	url = https://aur.archlinux.org/nuclear-player-bin
-[submodule "pkgbuild/wayshot-git"]
-	path = pkgbuild/wayshot-git
-	url = https://aur.archlinux.org/wayshot-git
+[submodule "pkgbuild/jinx"]
+	path = pkgbuild/jinx
+	url = https://aur.archlinux.org/jinx
+[submodule "pkgbuild/godns"]
+	path = pkgbuild/godns
+	url = https://aur.archlinux.org/godns
+[submodule "pkgbuild/pqmusic"]
+	path = pkgbuild/pqmusic
+	url = https://aur.archlinux.org/pqmusic
