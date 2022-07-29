@@ -3964,3 +3964,6 @@
 [submodule "pkgbuild/nuclear-player-bin"]
 	path = pkgbuild/nuclear-player-bin
 	url = https://aur.archlinux.org/nuclear-player-bin
+[submodule "pkgbuild/wayshot-git"]
+	path = pkgbuild/wayshot-git
+	url = https://aur.archlinux.org/wayshot-git
