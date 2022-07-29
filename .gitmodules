@@ -3973,3 +3973,9 @@
 [submodule "pkgbuild/pqmusic"]
 	path = pkgbuild/pqmusic
 	url = https://aur.archlinux.org/pqmusic
+[submodule "pkgbuild/contour-git"]
+	path = pkgbuild/contour-git
+	url = https://aur.archlinux.org/contour-git
+[submodule "pkgbuild/argc-git"]
+	path = pkgbuild/argc-git
+	url = https://aur.archlinux.org/argc-git
