@@ -3979,3 +3979,21 @@
 [submodule "pkgbuild/argc-git"]
 	path = pkgbuild/argc-git
 	url = https://aur.archlinux.org/argc-git
+[submodule "pkgbuild/bluetype-git"]
+	path = pkgbuild/bluetype-git
+	url = https://aur.archlinux.org/bluetype-git
+[submodule "pkgbuild/janus-gateway"]
+	path = pkgbuild/janus-gateway
+	url = https://aur.archlinux.org/janus-gateway
+[submodule "pkgbuild/libusrsctp"]
+	path = pkgbuild/libusrsctp
+	url = https://aur.archlinux.org/libusrsctp
+[submodule "pkgbuild/sofia-sip"]
+	path = pkgbuild/sofia-sip
+	url = https://aur.archlinux.org/sofia-sip
+[submodule "pkgbuild/paho-mqtt-c"]
+	path = pkgbuild/paho-mqtt-c
+	url = https://aur.archlinux.org/paho-mqtt-c
+[submodule "pkgbuild/atoms-git"]
+	path = pkgbuild/atoms-git
+	url = https://aur.archlinux.org/atoms-git
