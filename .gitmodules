@@ -3994,6 +3994,9 @@
 [submodule "pkgbuild/paho-mqtt-c"]
 	path = pkgbuild/paho-mqtt-c
 	url = https://aur.archlinux.org/paho-mqtt-c
-[submodule "pkgbuild/atoms-git"]
-	path = pkgbuild/atoms-git
-	url = https://aur.archlinux.org/atoms-git
+[submodule "pkgbuild/trufflehog"]
+	path = pkgbuild/trufflehog
+	url = https://aur.archlinux.org/trufflehog
+[submodule "pkgbuild/dnslookup"]
+	path = pkgbuild/dnslookup
+	url = https://aur.archlinux.org/dnslookup
