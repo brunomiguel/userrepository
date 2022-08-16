@@ -4030,9 +4030,6 @@
 [submodule "pkgbuild/pretty-exec"]
 	path = pkgbuild/pretty-exec
 	url = https://aur.archlinux.org/pretty-exec
-[submodule "pkgbuild/sawsge"]
-	path = pkgbuild/sawsge
-	url = https://aur.archlinux.org/sawsge
 [submodule "pkgbuild/pam_usb"]
 	path = pkgbuild/pam_usb
 	url = https://aur.archlinux.org/pam_usb
