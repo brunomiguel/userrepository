@@ -4000,3 +4000,39 @@
 [submodule "pkgbuild/dnslookup"]
 	path = pkgbuild/dnslookup
 	url = https://aur.archlinux.org/dnslookup
+[submodule "pkgbuild/weather-cli"]
+	path = pkgbuild/weather-cli
+	url = https://aur.archlinux.org/weather-cli
+[submodule "pkgbuild/nomadnet"]
+	path = pkgbuild/nomadnet
+	url = https://aur.archlinux.org/nomadnet
+[submodule "pkgbuild/python-lxmf"]
+	path = pkgbuild/python-lxmf
+	url = https://aur.archlinux.org/python-lxmf
+[submodule "pkgbuild/python-rns"]
+	path = pkgbuild/python-rns
+	url = https://aur.archlinux.org/python-rns
+[submodule "pkgbuild/gxrfetch-git"]
+	path = pkgbuild/gxrfetch-git
+	url = https://aur.archlinux.org/gxrfetch-git
+[submodule "pkgbuild/xcp"]
+	path = pkgbuild/xcp
+	url = https://aur.archlinux.org/xcp
+[submodule "pkgbuild/plover-git"]
+	path = pkgbuild/plover-git
+	url = https://aur.archlinux.org/plover-git
+[submodule "pkgbuild/python-rtf_tokenize"]
+	path = pkgbuild/python-rtf_tokenize
+	url = https://aur.archlinux.org/python-rtf_tokenize
+[submodule "pkgbuild/python-plover_stroke"]
+	path = pkgbuild/python-plover_stroke
+	url = https://aur.archlinux.org/python-plover_stroke
+[submodule "pkgbuild/pretty-exec"]
+	path = pkgbuild/pretty-exec
+	url = https://aur.archlinux.org/pretty-exec
+[submodule "pkgbuild/sawsge"]
+	path = pkgbuild/sawsge
+	url = https://aur.archlinux.org/sawsge
+[submodule "pkgbuild/pam_usb"]
+	path = pkgbuild/pam_usb
+	url = https://aur.archlinux.org/pam_usb
