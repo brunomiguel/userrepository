@@ -4039,3 +4039,6 @@
 [submodule "pkgbuild/dvtm-git"]
 	path = pkgbuild/dvtm-git
 	url = https://aur.archlinux.org/dvtm-git
+[submodule "pkgbuild/linux-clear"]
+	path = pkgbuild/linux-clear
+	url = https://aur.archlinux.org/linux-clear
