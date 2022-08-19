@@ -4033,3 +4033,9 @@
 [submodule "pkgbuild/pam_usb"]
 	path = pkgbuild/pam_usb
 	url = https://aur.archlinux.org/pam_usb
+[submodule "pkgbuild/fox-neat-wallpaper"]
+	path = pkgbuild/fox-neat-wallpaper
+	url = https://aur.archlinux.org/fox-neat-wallpaper
+[submodule "pkgbuild/dvtm-git"]
+	path = pkgbuild/dvtm-git
+	url = https://aur.archlinux.org/dvtm-git
