@@ -4042,3 +4042,6 @@
 [submodule "pkgbuild/linux-clear"]
 	path = pkgbuild/linux-clear
 	url = https://aur.archlinux.org/linux-clear
+[submodule "pkgbuild/fw"]
+	path = pkgbuild/fw
+	url = https://aur.archlinux.org/fw
