@@ -276,7 +276,7 @@ testbuild() {
                     echo "Found PKGBUILD for $h. Building..."
 
                     # clean build force overwrite
-                    PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
+                    PACMAN="pikaur" _subarch=37 /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
 
                     # copy package to remote dir with rsync, deleting the old version
                     #rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
