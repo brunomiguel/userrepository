@@ -4045,3 +4045,9 @@
 [submodule "pkgbuild/fw"]
 	path = pkgbuild/fw
 	url = https://aur.archlinux.org/fw
+[submodule "pkgbuild/guapow"]
+	path = pkgbuild/guapow
+	url = https://aur.archlinux.org/guapow
+[submodule "pkgbuild/t2sz"]
+	path = pkgbuild/t2sz
+	url = https://aur.archlinux.org/t2sz
