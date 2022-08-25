@@ -4051,3 +4051,15 @@
 [submodule "pkgbuild/t2sz"]
 	path = pkgbuild/t2sz
 	url = https://aur.archlinux.org/t2sz
+[submodule "pkgbuild/ttf-maple"]
+	path = pkgbuild/ttf-maple
+	url = https://aur.archlinux.org/ttf-maple
+[submodule "pkgbuild/waynergy"]
+	path = pkgbuild/waynergy
+	url = https://aur.archlinux.org/waynergy
+[submodule "pkgbuild/miru-bin"]
+	path = pkgbuild/miru-bin
+	url = https://aur.archlinux.org/miru-bin
+[submodule "pkgbuild/blackbox-terminal-git"]
+	path = pkgbuild/blackbox-terminal-git
+	url = https://aur.archlinux.org/blackbox-terminal-git
