@@ -2347,9 +2347,6 @@
 [submodule "pkgbuild/gita"]
 	path = pkgbuild/gita
 	url = https://aur.archlinux.org/gita
-[submodule "pkgbuild/drawio-desktop-bin"]
-	path = pkgbuild/drawio-desktop-bin
-	url = https://aur.archlinux.org/drawio-desktop-bin
 [submodule "pkgbuild/pipe-viewer-git"]
 	path = pkgbuild/pipe-viewer-git
 	url = https://aur.archlinux.org/pipe-viewer-git
@@ -4063,3 +4060,6 @@
 [submodule "pkgbuild/blackbox-terminal-git"]
 	path = pkgbuild/blackbox-terminal-git
 	url = https://aur.archlinux.org/blackbox-terminal-git
+[submodule "pkgbuild/drawio-desktop-bin"]
+	path = pkgbuild/drawio-desktop-bin
+	url = https://aur.archlinux.org/drawio-desktop-bin
