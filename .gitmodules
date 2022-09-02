@@ -4063,3 +4063,15 @@
 [submodule "pkgbuild/drawio-desktop-bin"]
 	path = pkgbuild/drawio-desktop-bin
 	url = https://aur.archlinux.org/drawio-desktop-bin
+[submodule "pkgbuild/catppuccin-gtk-theme-mocha"]
+	path = pkgbuild/catppuccin-gtk-theme-mocha
+	url = https://aur.archlinux.org/catppuccin-gtk-theme-mocha
+[submodule "pkgbuild/catppuccin-gtk-theme-macchiato"]
+	path = pkgbuild/catppuccin-gtk-theme-macchiato
+	url = https://aur.archlinux.org/catppuccin-gtk-theme-macchiato
+[submodule "pkgbuild/catppuccin-gtk-theme-latte"]
+	path = pkgbuild/catppuccin-gtk-theme-latte
+	url = https://aur.archlinux.org/catppuccin-gtk-theme-latte
+[submodule "pkgbuild/catppuccin-gtk-theme-frappe"]
+	path = pkgbuild/catppuccin-gtk-theme-frappe
+	url = https://aur.archlinux.org/catppuccin-gtk-theme-frappe
