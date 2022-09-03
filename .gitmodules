@@ -4075,3 +4075,24 @@
 [submodule "pkgbuild/catppuccin-gtk-theme-frappe"]
 	path = pkgbuild/catppuccin-gtk-theme-frappe
 	url = https://aur.archlinux.org/catppuccin-gtk-theme-frappe
+[submodule "pkgbuild/powerctl-git"]
+	path = pkgbuild/powerctl-git
+	url = https://aur.archlinux.org/powerctl-git
+[submodule "pkgbuild/harec"]
+	path = pkgbuild/harec
+	url = https://aur.archlinux.org/harec
+[submodule "pkgbuild/harec-git"]
+	path = pkgbuild/harec-git
+	url = https://aur.archlinux.org/harec-git
+[submodule "pkgbuild/hare-git"]
+	path = pkgbuild/hare-git
+	url = https://aur.archlinux.org/hare-git
+[submodule "pkgbuild/hare"]
+	path = pkgbuild/hare
+	url = https://aur.archlinux.org/hare
+[submodule "pkgbuild/qbe-git"]
+	path = pkgbuild/qbe-git
+	url = https://aur.archlinux.org/qbe-git
+[submodule "pkgbuild/ffdiaporama"]
+	path = pkgbuild/ffdiaporama
+	url = https://aur.archlinux.org/ffdiaporama
