@@ -4093,6 +4093,15 @@
 [submodule "pkgbuild/qbe-git"]
 	path = pkgbuild/qbe-git
 	url = https://aur.archlinux.org/qbe-git
-[submodule "pkgbuild/ffdiaporama"]
-	path = pkgbuild/ffdiaporama
-	url = https://aur.archlinux.org/ffdiaporama
+[submodule "pkgbuild/betterbird-bin"]
+	path = pkgbuild/betterbird-bin
+	url = https://aur.archlinux.org/betterbird-bin
+[submodule "pkgbuild/betterbird-pt-bin"]
+	path = pkgbuild/betterbird-pt-bin
+	url = https://aur.archlinux.org/betterbird-pt-bin
+[submodule "pkgbuild/debops"]
+	path = pkgbuild/debops
+	url = https://aur.archlinux.org/debops
+[submodule "pkgbuild/smart-notifier"]
+	path = pkgbuild/smart-notifier
+	url = https://aur.archlinux.org/smart-notifier
