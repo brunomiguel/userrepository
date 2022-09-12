@@ -4105,3 +4105,24 @@
 [submodule "pkgbuild/smart-notifier"]
 	path = pkgbuild/smart-notifier
 	url = https://aur.archlinux.org/smart-notifier
+[submodule "pkgbuild/ttf-comfortaa"]
+	path = pkgbuild/ttf-comfortaa
+	url = https://aur.archlinux.org/ttf-comfortaa
+[submodule "pkgbuild/ttyd"]
+	path = pkgbuild/ttyd
+	url = https://aur.archlinux.org/ttyd
+[submodule "pkgbuild/firejail-handler-http"]
+	path = pkgbuild/firejail-handler-http
+	url = https://aur.archlinux.org/firejail-handler-http
+[submodule "pkgbuild/firejail-handler-extra"]
+	path = pkgbuild/firejail-handler-extra
+	url = https://aur.archlinux.org/firejail-handler-extra
+[submodule "pkgbuild/egpu-switcher-git"]
+	path = pkgbuild/egpu-switcher-git
+	url = https://aur.archlinux.org/egpu-switcher-git
+[submodule "pkgbuild/leftwm-config-git"]
+	path = pkgbuild/leftwm-config-git
+	url = https://aur.archlinux.org/leftwm-config-git
+[submodule "pkgbuild/classic-colors"]
+	path = pkgbuild/classic-colors
+	url = https://aur.archlinux.org/classic-colors
