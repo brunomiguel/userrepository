@@ -4120,9 +4120,18 @@
 [submodule "pkgbuild/egpu-switcher-git"]
 	path = pkgbuild/egpu-switcher-git
 	url = https://aur.archlinux.org/egpu-switcher-git
-[submodule "pkgbuild/leftwm-config-git"]
-	path = pkgbuild/leftwm-config-git
-	url = https://aur.archlinux.org/leftwm-config-git
 [submodule "pkgbuild/classic-colors"]
 	path = pkgbuild/classic-colors
 	url = https://aur.archlinux.org/classic-colors
+[submodule "pkgbuild/tblock"]
+	path = pkgbuild/tblock
+	url = https://aur.archlinux.org/tblock
+[submodule "pkgbuild/spotblock-git"]
+	path = pkgbuild/spotblock-git
+	url = https://aur.archlinux.org/spotblock-git
+[submodule "pkgbuild/sblock-git"]
+	path = pkgbuild/sblock-git
+	url = https://aur.archlinux.org/sblock-git
+[submodule "pkgbuild/hblock"]
+	path = pkgbuild/hblock
+	url = https://aur.archlinux.org/hblock
