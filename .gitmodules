@@ -4138,3 +4138,12 @@
 [submodule "pkgbuild/deconz"]
 	path = pkgbuild/deconz
 	url = https://aur.archlinux.org/deconz
+[submodule "pkgbuild/otf-mononoki"]
+	path = pkgbuild/otf-mononoki
+	url = https://aur.archlinux.org/otf-mononoki
+[submodule "pkgbuild/blokator"]
+	path = pkgbuild/blokator
+	url = https://aur.archlinux.org/blokator
+[submodule "pkgbuild/pokete"]
+	path = pkgbuild/pokete
+	url = https://aur.archlinux.org/pokete
