@@ -4135,3 +4135,6 @@
 [submodule "pkgbuild/hblock"]
 	path = pkgbuild/hblock
 	url = https://aur.archlinux.org/hblock
+[submodule "pkgbuild/deconz"]
+	path = pkgbuild/deconz
+	url = https://aur.archlinux.org/deconz
