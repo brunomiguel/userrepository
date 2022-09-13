@@ -4141,9 +4141,9 @@
 [submodule "pkgbuild/otf-mononoki"]
 	path = pkgbuild/otf-mononoki
 	url = https://aur.archlinux.org/otf-mononoki
-[submodule "pkgbuild/blokator"]
-	path = pkgbuild/blokator
-	url = https://aur.archlinux.org/blokator
 [submodule "pkgbuild/pokete"]
 	path = pkgbuild/pokete
 	url = https://aur.archlinux.org/pokete
+[submodule "pkgbuild/python-scrap_engine"]
+	path = pkgbuild/python-scrap_engine
+	url = https://aur.archlinux.org/python-scrap_engine
