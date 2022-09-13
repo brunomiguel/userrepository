@@ -4147,3 +4147,6 @@
 [submodule "pkgbuild/python-scrap_engine"]
 	path = pkgbuild/python-scrap_engine
 	url = https://aur.archlinux.org/python-scrap_engine
+[submodule "pkgbuild/whatsie"]
+	path = pkgbuild/whatsie
+	url = https://aur.archlinux.org/whatsie
