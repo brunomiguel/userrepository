@@ -4150,3 +4150,12 @@
 [submodule "pkgbuild/whatsie"]
 	path = pkgbuild/whatsie
 	url = https://aur.archlinux.org/whatsie
+[submodule "pkgbuild/moss-serpent-git"]
+	path = pkgbuild/moss-serpent-git
+	url = https://aur.archlinux.org/moss-serpent-git
+[submodule "pkgbuild/moss-container-git"]
+	path = pkgbuild/moss-container-git
+	url = https://aur.archlinux.org/moss-container-git
+[submodule "pkgbuild/boulder-git"]
+	path = pkgbuild/boulder-git
+	url = https://aur.archlinux.org/boulder-git
