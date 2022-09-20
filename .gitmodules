@@ -4159,3 +4159,6 @@
 [submodule "pkgbuild/boulder-git"]
 	path = pkgbuild/boulder-git
 	url = https://aur.archlinux.org/boulder-git
+[submodule "pkgbuild/pulseeffects-legacy-git"]
+	path = pkgbuild/pulseeffects-legacy-git
+	url = https://aur.archlinux.org/pulseeffects-legacy-git
