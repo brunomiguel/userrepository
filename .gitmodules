@@ -4162,3 +4162,24 @@
 [submodule "pkgbuild/pulseeffects-legacy-git"]
 	path = pkgbuild/pulseeffects-legacy-git
 	url = https://aur.archlinux.org/pulseeffects-legacy-git
+[submodule "pkgbuild/stellarium"]
+	path = pkgbuild/stellarium
+	url = https://aur.archlinux.org/stellarium
+[submodule "pkgbuild/celestia"]
+	path = pkgbuild/celestia
+	url = https://aur.archlinux.org/celestia
+[submodule "pkgbuild/celestia-addon-apollo_soyuz"]
+	path = pkgbuild/celestia-addon-apollo_soyuz
+	url = https://aur.archlinux.org/celestia-addon-apollo_soyuz
+[submodule "pkgbuild/celestia-addon-voyagers"]
+	path = pkgbuild/celestia-addon-voyagers
+	url = https://aur.archlinux.org/celestia-addon-voyagers
+[submodule "pkgbuild/celestia-addon-international_space_station"]
+	path = pkgbuild/celestia-addon-international_space_station
+	url = https://aur.archlinux.org/celestia-addon-international_space_station
+[submodule "pkgbuild/celestia-addon-sun"]
+	path = pkgbuild/celestia-addon-sun
+	url = https://aur.archlinux.org/celestia-addon-sun
+[submodule "pkgbuild/celestia-addon-hubble_space_telescope"]
+	path = pkgbuild/celestia-addon-hubble_space_telescope
+	url = https://aur.archlinux.org/celestia-addon-hubble_space_telescope
