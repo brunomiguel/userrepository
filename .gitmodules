@@ -4183,3 +4183,12 @@
 [submodule "pkgbuild/celestia-addon-hubble_space_telescope"]
 	path = pkgbuild/celestia-addon-hubble_space_telescope
 	url = https://aur.archlinux.org/celestia-addon-hubble_space_telescope
+[submodule "pkgbuild/obs-studio-tytan652"]
+	path = pkgbuild/obs-studio-tytan652
+	url = https://aur.archlinux.org/obs-studio-tytan652
+[submodule "pkgbuild/ffmpeg-obs"]
+	path = pkgbuild/ffmpeg-obs
+	url = https://aur.archlinux.org/ffmpeg-obs
+[submodule "pkgbuild/vlc-luajit"]
+	path = pkgbuild/vlc-luajit
+	url = https://aur.archlinux.org/vlc-luajit
