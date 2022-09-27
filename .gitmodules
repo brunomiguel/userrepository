@@ -4192,3 +4192,18 @@
 [submodule "pkgbuild/vlc-luajit"]
 	path = pkgbuild/vlc-luajit
 	url = https://aur.archlinux.org/vlc-luajit
+[submodule "pkgbuild/ftl-sdk"]
+	path = pkgbuild/ftl-sdk
+	url = https://aur.archlinux.org/ftl-sdk
+[submodule "pkgbuild/obs-streamfx-unstable"]
+	path = pkgbuild/obs-streamfx-unstable
+	url = https://aur.archlinux.org/obs-streamfx-unstable
+[submodule "pkgbuild/obs-scrab"]
+	path = pkgbuild/obs-scrab
+	url = https://aur.archlinux.org/obs-scrab
+[submodule "pkgbuild/obs-scene-tree-view-git"]
+	path = pkgbuild/obs-scene-tree-view-git
+	url = https://aur.archlinux.org/obs-scene-tree-view-git
+[submodule "pkgbuild/obs-advanced-scene-switcher"]
+	path = pkgbuild/obs-advanced-scene-switcher
+	url = https://aur.archlinux.org/obs-advanced-scene-switcher
