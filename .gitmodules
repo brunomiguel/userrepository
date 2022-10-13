@@ -4207,3 +4207,6 @@
 [submodule "pkgbuild/obs-advanced-scene-switcher"]
 	path = pkgbuild/obs-advanced-scene-switcher
 	url = https://aur.archlinux.org/obs-advanced-scene-switcher
+[submodule "pkgbuild/plot-git"]
+	path = pkgbuild/plot-git
+	url = https://aur.archlinux.org/plot-git
