@@ -4210,3 +4210,12 @@
 [submodule "pkgbuild/plot-git"]
 	path = pkgbuild/plot-git
 	url = https://aur.archlinux.org/plot-git
+[submodule "pkgbuild/python2"]
+	path = pkgbuild/python2
+	url = https://aur.archlinux.org/python2
+[submodule "pkgbuild/nickvision-tube-converter"]
+	path = pkgbuild/nickvision-tube-converter
+	url = https://aur.archlinux.org/nickvision-tube-converter
+[submodule "pkgbuild/libcurlpp"]
+	path = pkgbuild/libcurlpp
+	url = https://aur.archlinux.org/libcurlpp
