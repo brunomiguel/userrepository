@@ -4219,3 +4219,6 @@
 [submodule "pkgbuild/libcurlpp"]
 	path = pkgbuild/libcurlpp
 	url = https://aur.archlinux.org/libcurlpp
+[submodule "pkgbuild/toot"]
+	path = pkgbuild/toot
+	url = https://aur.archlinux.org/toot
