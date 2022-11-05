@@ -4222,3 +4222,6 @@
 [submodule "pkgbuild/toot"]
 	path = pkgbuild/toot
 	url = https://aur.archlinux.org/toot
+[submodule "pkgbuild/portmaster-stub-bin"]
+	path = pkgbuild/portmaster-stub-bin
+	url = https://aur.archlinux.org/portmaster-stub-bin

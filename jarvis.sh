@@ -86,7 +86,7 @@ build() {
                     echo "Found PKGBUILD for $f. Building..."
 
                     # clean build force overwrite
-                    PACMAN="pikaur" _subarch=37 /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
+                    PACMAN="pikaur" _subarch=38 _microarchitecture=93 /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
 
                     # copy package to remote dir with rsync, deleting the old version
                     #rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
@@ -276,7 +276,7 @@ testbuild() {
                     echo "Found PKGBUILD for $h. Building..."
 
                     # clean build force overwrite
-                    PACMAN="pikaur" _subarch=37 /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
+                    PACMAN="pikaur" _subarch=38 _microarchitecture=93 /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
 
                     # copy package to remote dir with rsync, deleting the old version
                     #rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
@@ -440,7 +440,7 @@ fullbuild() {
             if [ -f "PKGBUILD" ]; then
                 echo "Found PKGBUILD for $f. Building..."
                 # clean build force overwrite
-                PACMAN="pikaur" _subarch=37 /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
+                PACMAN="pikaur" _subarch=38 _microarchitecture=93 /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
 
                 # clean cached files
                 pikaur -Sccc --noconfirm
