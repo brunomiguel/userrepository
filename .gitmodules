@@ -4225,3 +4225,6 @@
 [submodule "pkgbuild/portmaster-stub-bin"]
 	path = pkgbuild/portmaster-stub-bin
 	url = https://aur.archlinux.org/portmaster-stub-bin
+[submodule "pkgbuild/tabby-terminal"]
+	path = pkgbuild/tabby-terminal
+	url = https://aur.archlinux.org/tabby-terminal
