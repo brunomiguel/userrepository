@@ -4258,6 +4258,3 @@
 [submodule "pkgbuild/mkchromecast-git"]
 	path = pkgbuild/mkchromecast-git
 	url = https://aur.archlinux.org/mkchromecast-git
-[submodule "pkgbuild/firefox-beta-bin-all-localizations"]
-	path = pkgbuild/firefox-beta-bin-all-localizations
-	url = https://aur.archlinux.org/firefox-beta-bin-all-localizations
