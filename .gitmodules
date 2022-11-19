@@ -4243,3 +4243,15 @@
 [submodule "pkgbuild/circuit-simulator"]
 	path = pkgbuild/circuit-simulator
 	url = https://aur.archlinux.org/circuit-simulator
+[submodule "pkgbuild/upscayl-appimage"]
+	path = pkgbuild/upscayl-appimage
+	url = https://aur.archlinux.org/upscayl-appimage
+[submodule "pkgbuild/protonplus"]
+	path = pkgbuild/protonplus
+	url = https://aur.archlinux.org/protonplus
+[submodule "pkgbuild/unifetch-git"]
+	path = pkgbuild/unifetch-git
+	url = https://aur.archlinux.org/unifetch-git
+[submodule "pkgbuild/gittyup"]
+	path = pkgbuild/gittyup
+	url = https://aur.archlinux.org/gittyup
