@@ -4258,3 +4258,6 @@
 [submodule "pkgbuild/mkchromecast-git"]
 	path = pkgbuild/mkchromecast-git
 	url = https://aur.archlinux.org/mkchromecast-git
+[submodule "pkgbuild/zapzap"]
+	path = pkgbuild/zapzap
+	url = https://aur.archlinux.org/zapzap
