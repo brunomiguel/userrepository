@@ -4261,3 +4261,6 @@
 [submodule "pkgbuild/zapzap"]
 	path = pkgbuild/zapzap
 	url = https://aur.archlinux.org/zapzap
+[submodule "pkgbuild/ttf-mononoki"]
+	path = pkgbuild/ttf-mononoki
+	url = https://aur.archlinux.org/ttf-mononoki
