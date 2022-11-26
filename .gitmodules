@@ -4264,3 +4264,9 @@
 [submodule "pkgbuild/ttf-mononoki"]
 	path = pkgbuild/ttf-mononoki
 	url = https://aur.archlinux.org/ttf-mononoki
+[submodule "pkgbuild/punktf"]
+	path = pkgbuild/punktf
+	url = https://aur.archlinux.org/punktf
+[submodule "pkgbuild/linux-ck"]
+	path = pkgbuild/linux-ck
+	url = https://aur.archlinux.org/linux-ck
