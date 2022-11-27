@@ -4270,3 +4270,9 @@
 [submodule "pkgbuild/linux-ck"]
 	path = pkgbuild/linux-ck
 	url = https://aur.archlinux.org/linux-ck
+[submodule "pkgbuild/punchy"]
+	path = pkgbuild/punchy
+	url = https://aur.archlinux.org/punchy
+[submodule "pkgbuild/whatip-git"]
+	path = pkgbuild/whatip-git
+	url = https://aur.archlinux.org/whatip-git
