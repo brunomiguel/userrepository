@@ -1606,9 +1606,6 @@
 [submodule "pkgbuild/rudo"]
 	path = pkgbuild/rudo
 	url = https://aur.archlinux.org/rudo
-[submodule "pkgbuild/git-machete"]
-	path = pkgbuild/git-machete
-	url = https://aur.archlinux.org/git-machete
 [submodule "pkgbuild/gphotos-uploader-cli"]
 	path = pkgbuild/gphotos-uploader-cli
 	url = https://aur.archlinux.org/gphotos-uploader-cli
@@ -3712,9 +3709,6 @@
 [submodule "pkgbuild/seashell-git"]
 	path = pkgbuild/seashell-git
 	url = https://aur.archlinux.org/seashell-git
-[submodule "pkgbuild/kde-material-you-colors"]
-	path = pkgbuild/kde-material-you-colors
-	url = https://github.com/luisbocanegra/kde-material-you-colors
 [submodule "pkgbuild/normcap"]
 	path = pkgbuild/normcap
 	url = https://aur.archlinux.org/normcap
@@ -4276,3 +4270,9 @@
 [submodule "pkgbuild/whatip-git"]
 	path = pkgbuild/whatip-git
 	url = https://aur.archlinux.org/whatip-git
+[submodule "pkgbuild/git-machete"]
+	path = pkgbuild/git-machete
+	url = https://aur.archlinux.org/git-machete
+[submodule "pkgbuild/kde-material-you-colors"]
+	path = pkgbuild/kde-material-you-colors
+	url = https://aur.archlinux.org/kde-material-you-colors
