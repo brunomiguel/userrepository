@@ -50,7 +50,7 @@ build() {
             git rebase HEAD main
             git rebase HEAD master
 
-            git fetch
+            git fetch --all
             git remote update
 
             # set local function variables for building only updated git repositories
@@ -86,7 +86,16 @@ build() {
                     echo "Found PKGBUILD for $f. Building..."
 
                     # clean build force overwrite
-                    PACMAN="pikaur" _subarch=38 _microarchitecture=93 /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
+                    export _subarch=38
+                    export _microarchitecture=93
+                    export use_trackers=n
+                    export _compiler=clang
+                    export _config=config_x84-64-v3
+                    export _compress_modules=y
+                    export _projectc='bmq'
+                    export _use_llvm_lto=y
+                    
+                    PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
 
                     # copy package to remote dir with rsync, deleting the old version
                     #rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
@@ -240,7 +249,7 @@ testbuild() {
             git rebase HEAD main
             git rebase HEAD master
 
-            git fetch
+            git fetch --all
             git remote update
 
             # set local function variables for building only updated git repositories
@@ -276,7 +285,15 @@ testbuild() {
                     echo "Found PKGBUILD for $h. Building..."
 
                     # clean build force overwrite
-                    PACMAN="pikaur" _subarch=38 _microarchitecture=93 /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
+					export _subarch=38
+                    export _microarchitecture=93
+                    export use_trackers=n
+                    export _compiler=clang
+                    export _config=config_x84-64-v3
+                    export _compress_modules=y
+                    export _projectc='bmq'
+                    export _use_llvm_lto=y
+                    PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
 
                     # copy package to remote dir with rsync, deleting the old version
                     #rsync --copy-links --delete -avr "$PKGDEST"/*.zst "$REMOTE"
@@ -440,7 +457,15 @@ fullbuild() {
             if [ -f "PKGBUILD" ]; then
                 echo "Found PKGBUILD for $f. Building..."
                 # clean build force overwrite
-                PACMAN="pikaur" _subarch=38 _microarchitecture=93 /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
+				export _subarch=38
+                export _microarchitecture=93
+                export use_trackers=n
+                export _compiler=clang
+                export _config=config_x84-64-v3
+                export _compress_modules=y
+                export _projectc='bmq'
+                export _use_llvm_lto=y
+                PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
 
                 # clean cached files
                 pikaur -Sccc --noconfirm
