@@ -3241,9 +3241,6 @@
 [submodule "pkgbuild/otf-miama"]
 	path = pkgbuild/otf-miama
 	url = https://aur.archlinux.org/otf-miama
-[submodule "pkgbuild/linux-cpu-opt"]
-	path = pkgbuild/linux-cpu-opt
-	url = https://aur.archlinux.org/linux-cpu-opt
 [submodule "pkgbuild/dra"]
 	path = pkgbuild/dra
 	url = https://aur.archlinux.org/dra
