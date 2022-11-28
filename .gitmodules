@@ -3247,9 +3247,6 @@
 [submodule "pkgbuild/wirespider"]
 	path = pkgbuild/wirespider
 	url = https://aur.archlinux.org/wirespider
-[submodule "pkgbuild/linux-ck-uksm"]
-	path = pkgbuild/linux-ck-uksm
-	url = https://aur.archlinux.org/linux-ck-uksm
 [submodule "pkgbuild/windterm-bin"]
 	path = pkgbuild/windterm-bin
 	url = https://aur.archlinux.org/windterm-bin
