@@ -4255,9 +4255,6 @@
 [submodule "pkgbuild/punktf"]
 	path = pkgbuild/punktf
 	url = https://aur.archlinux.org/punktf
-[submodule "pkgbuild/linux-ck"]
-	path = pkgbuild/linux-ck
-	url = https://aur.archlinux.org/linux-ck
 [submodule "pkgbuild/punchy"]
 	path = pkgbuild/punchy
 	url = https://aur.archlinux.org/punchy
