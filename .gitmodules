@@ -4267,3 +4267,6 @@
 [submodule "pkgbuild/git-machete"]
 	path = pkgbuild/git-machete
 	url = https://aur.archlinux.org/git-machete
+[submodule "pkgbuild/mkpkg"]
+	path = pkgbuild/mkpkg
+	url = https://aur.archlinux.org/mkpkg
