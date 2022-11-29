@@ -4276,3 +4276,6 @@
 [submodule "pkgbuild/nvchad-git"]
 	path = pkgbuild/nvchad-git
 	url = https://aur.archlinux.org/nvchad-git
+[submodule "pkgbuild/spotify-adblock-git"]
+	path = pkgbuild/spotify-adblock-git
+	url = https://aur.archlinux.org/spotify-adblock-git
