@@ -4270,3 +4270,6 @@
 [submodule "pkgbuild/mkpkg"]
 	path = pkgbuild/mkpkg
 	url = https://aur.archlinux.org/mkpkg
+[submodule "pkgbuild/stylish-icon-theme"]
+	path = pkgbuild/stylish-icon-theme
+	url = https://aur.archlinux.org/stylish-icon-theme
