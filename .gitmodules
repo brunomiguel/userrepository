@@ -4273,3 +4273,6 @@
 [submodule "pkgbuild/stylish-icon-theme"]
 	path = pkgbuild/stylish-icon-theme
 	url = https://aur.archlinux.org/stylish-icon-theme
+[submodule "pkgbuild/nvchad-git"]
+	path = pkgbuild/nvchad-git
+	url = https://aur.archlinux.org/nvchad-git
