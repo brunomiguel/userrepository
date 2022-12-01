@@ -4279,3 +4279,15 @@
 [submodule "pkgbuild/spotify-adblock-git"]
 	path = pkgbuild/spotify-adblock-git
 	url = https://aur.archlinux.org/spotify-adblock-git
+[submodule "pkgbuild/hooroo"]
+	path = pkgbuild/hooroo
+	url = https://aur.archlinux.org/hooroo
+[submodule "pkgbuild/catppuccin-konsole-theme-git"]
+	path = pkgbuild/catppuccin-konsole-theme-git
+	url = https://aur.archlinux.org/catppuccin-konsole-theme-git
+[submodule "pkgbuild/pods"]
+	path = pkgbuild/pods
+	url = https://aur.archlinux.org/pods
+[submodule "pkgbuild/journey-git"]
+	path = pkgbuild/journey-git
+	url = https://aur.archlinux.org/journey-git
