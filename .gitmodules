@@ -4306,3 +4306,6 @@
 [submodule "pkgbuild/nitch"]
 	path = pkgbuild/nitch
 	url = https://aur.archlinux.org/nitch
+[submodule "pkgbuild/shadowsocks-go"]
+	path = pkgbuild/shadowsocks-go
+	url = https://aur.archlinux.org/shadowsocks-go
