@@ -4300,3 +4300,9 @@
 [submodule "pkgbuild/python-iso639"]
 	path = pkgbuild/python-iso639
 	url = https://aur.archlinux.org/python-iso639
+[submodule "pkgbuild/morewaita"]
+	path = pkgbuild/morewaita
+	url = https://aur.archlinux.org/morewaita
+[submodule "pkgbuild/nitch"]
+	path = pkgbuild/nitch
+	url = https://aur.archlinux.org/nitch
