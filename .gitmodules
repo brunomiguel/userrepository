@@ -4291,3 +4291,12 @@
 [submodule "pkgbuild/journey-git"]
 	path = pkgbuild/journey-git
 	url = https://aur.archlinux.org/journey-git
+[submodule "pkgbuild/cameractrls"]
+	path = pkgbuild/cameractrls
+	url = https://aur.archlinux.org/cameractrls
+[submodule "pkgbuild/metagedit-git"]
+	path = pkgbuild/metagedit-git
+	url = https://aur.archlinux.org/metagedit-git
+[submodule "pkgbuild/python-iso639"]
+	path = pkgbuild/python-iso639
+	url = https://aur.archlinux.org/python-iso639
