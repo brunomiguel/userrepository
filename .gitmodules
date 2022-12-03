@@ -4333,9 +4333,6 @@
 [submodule "pkgbuild/obs-downstream-keyer"]
 	path = pkgbuild/obs-downstream-keyer
 	url = https://aur.archlinux.org/obs-downstream-keyer
-[submodule "pkgbuild/collision"]
-	path = pkgbuild/collision
-	url = https://aur.archlinux.org/collision
 [submodule "pkgbuild/wg_tool"]
 	path = pkgbuild/wg_tool
 	url = https://aur.archlinux.org/wg_tool
