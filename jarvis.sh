@@ -94,6 +94,7 @@ build() {
                     export _compress_modules=y
                     export _projectc='bmq'
                     export _use_llvm_lto=y
+                    export _config=config_x86-64-v3
                     
                     PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
 
@@ -293,6 +294,8 @@ testbuild() {
                     export _compress_modules=y
                     export _projectc='bmq'
                     export _use_llvm_lto=y
+                    export _config=config_x86-64-v3
+                    
                     PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &>makepkg.log
 
                     # copy package to remote dir with rsync, deleting the old version
@@ -465,6 +468,8 @@ fullbuild() {
                 export _compress_modules=y
                 export _projectc='bmq'
                 export _use_llvm_lto=y
+                export _config=config_x86-64-v3
+                
                 PACMAN="pikaur" /usr/bin/time makepkg -c -C -L -s -f --nosign --noconfirm --needed -r --skippgpcheck --skipint &> makepkg.log
 
                 # clean cached files
