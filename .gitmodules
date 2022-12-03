@@ -4309,3 +4309,33 @@
 [submodule "pkgbuild/shadowsocks-go"]
 	path = pkgbuild/shadowsocks-go
 	url = https://aur.archlinux.org/shadowsocks-go
+[submodule "pkgbuild/obs-dynamic-delay"]
+	path = pkgbuild/obs-dynamic-delay
+	url = https://aur.archlinux.org/obs-dynamic-delay
+[submodule "pkgbuild/obs-source-clone"]
+	path = pkgbuild/obs-source-clone
+	url = https://aur.archlinux.org/obs-source-clone
+[submodule "pkgbuild/obs-recursion-effect"]
+	path = pkgbuild/obs-recursion-effect
+	url = https://aur.archlinux.org/obs-recursion-effect
+[submodule "pkgbuild/obs-gradient-source"]
+	path = pkgbuild/obs-gradient-source
+	url = https://aur.archlinux.org/obs-gradient-source
+[submodule "pkgbuild/obs-time-warp-scan"]
+	path = pkgbuild/obs-time-warp-scan
+	url = https://aur.archlinux.org/obs-time-warp-scan
+[submodule "pkgbuild/obs-freeze-filter"]
+	path = pkgbuild/obs-freeze-filter
+	url = https://aur.archlinux.org/obs-freeze-filter
+[submodule "pkgbuild/obs-move-transition"]
+	path = pkgbuild/obs-move-transition
+	url = https://aur.archlinux.org/obs-move-transition
+[submodule "pkgbuild/obs-downstream-keyer"]
+	path = pkgbuild/obs-downstream-keyer
+	url = https://aur.archlinux.org/obs-downstream-keyer
+[submodule "pkgbuild/collision"]
+	path = pkgbuild/collision
+	url = https://aur.archlinux.org/collision
+[submodule "pkgbuild/wg_tool"]
+	path = pkgbuild/wg_tool
+	url = https://aur.archlinux.org/wg_tool
