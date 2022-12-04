@@ -4336,3 +4336,6 @@
 [submodule "pkgbuild/ame"]
 	path = pkgbuild/ame
 	url = https://aur.archlinux.org/ame
+[submodule "pkgbuild/pkgdu"]
+	path = pkgbuild/pkgdu
+	url = https://aur.archlinux.org/pkgdu
