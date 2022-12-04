@@ -3511,9 +3511,6 @@
 [submodule "pkgbuild/megasync"]
 	path = pkgbuild/megasync
 	url = https://aur.archlinux.org/megasync
-[submodule "pkgbuild/linux-xanmod-edge"]
-	path = pkgbuild/linux-xanmod-edge
-	url = https://aur.archlinux.org/linux-xanmod-edge
 [submodule "pkgbuild/dtodo"]
 	path = pkgbuild/dtodo
 	url = https://aur.archlinux.org/dtodo
@@ -4336,3 +4333,6 @@
 [submodule "pkgbuild/wg_tool"]
 	path = pkgbuild/wg_tool
 	url = https://aur.archlinux.org/wg_tool
+[submodule "pkgbuild/ame"]
+	path = pkgbuild/ame
+	url = https://aur.archlinux.org/ame
