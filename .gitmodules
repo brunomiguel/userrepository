@@ -4354,3 +4354,9 @@
 [submodule "pkgbuild/astronvim"]
 	path = pkgbuild/astronvim
 	url = https://aur.archlinux.org/astronvim
+[submodule "pkgbuild/singularity-ce"]
+	path = pkgbuild/singularity-ce
+	url = https://aur.archlinux.org/singularity-ce
+[submodule "pkgbuild/pipecontrol"]
+	path = pkgbuild/pipecontrol
+	url = https://aur.archlinux.org/pipecontrol
