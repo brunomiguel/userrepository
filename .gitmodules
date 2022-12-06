@@ -4360,3 +4360,9 @@
 [submodule "pkgbuild/pipecontrol"]
 	path = pkgbuild/pipecontrol
 	url = https://aur.archlinux.org/pipecontrol
+[submodule "pkgbuild/spectral-font"]
+	path = pkgbuild/spectral-font
+	url = https://aur.archlinux.org/spectral-font
+[submodule "pkgbuild/otf-urbanist"]
+	path = pkgbuild/otf-urbanist
+	url = https://aur.archlinux.org/otf-urbanist
