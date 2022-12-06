@@ -4348,3 +4348,6 @@
 [submodule "pkgbuild/spaceship-prompt"]
 	path = pkgbuild/spaceship-prompt
 	url = https://aur.archlinux.org/spaceship-prompt
+[submodule "pkgbuild/bibata-cursor-theme"]
+	path = pkgbuild/bibata-cursor-theme
+	url = https://aur.archlinux.org/bibata-cursor-theme
