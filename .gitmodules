@@ -4339,3 +4339,9 @@
 [submodule "pkgbuild/pkgdu"]
 	path = pkgbuild/pkgdu
 	url = https://aur.archlinux.org/pkgdu
+[submodule "pkgbuild/frog-ocr"]
+	path = pkgbuild/frog-ocr
+	url = https://aur.archlinux.org/frog-ocr
+[submodule "pkgbuild/pyzbar"]
+	path = pkgbuild/pyzbar
+	url = https://aur.archlinux.org/pyzbar
