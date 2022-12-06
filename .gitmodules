@@ -4351,3 +4351,6 @@
 [submodule "pkgbuild/bibata-cursor-theme"]
 	path = pkgbuild/bibata-cursor-theme
 	url = https://aur.archlinux.org/bibata-cursor-theme
+[submodule "pkgbuild/astronvim"]
+	path = pkgbuild/astronvim
+	url = https://aur.archlinux.org/astronvim
