@@ -4345,3 +4345,6 @@
 [submodule "pkgbuild/pyzbar"]
 	path = pkgbuild/pyzbar
 	url = https://aur.archlinux.org/pyzbar
+[submodule "pkgbuild/spaceship-prompt"]
+	path = pkgbuild/spaceship-prompt
+	url = https://aur.archlinux.org/spaceship-prompt
