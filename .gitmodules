@@ -4366,3 +4366,9 @@
 [submodule "pkgbuild/otf-urbanist"]
 	path = pkgbuild/otf-urbanist
 	url = https://aur.archlinux.org/otf-urbanist
+[submodule "pkgbuild/pwncat"]
+	path = pkgbuild/pwncat
+	url = https://aur.archlinux.org/pwncat
+[submodule "pkgbuild/hybrid-bar"]
+	path = pkgbuild/hybrid-bar
+	url = https://aur.archlinux.org/hybrid-bar
