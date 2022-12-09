@@ -4372,3 +4372,9 @@
 [submodule "pkgbuild/hybrid-bar"]
 	path = pkgbuild/hybrid-bar
 	url = https://aur.archlinux.org/hybrid-bar
+[submodule "pkgbuild/architects-daughter-font"]
+	path = pkgbuild/architects-daughter-font
+	url = https://aur.archlinux.org/architects-daughter-font
+[submodule "pkgbuild/doomretro"]
+	path = pkgbuild/doomretro
+	url = https://aur.archlinux.org/doomretro
