@@ -4381,3 +4381,6 @@
 [submodule "pkgbuild/obs-face-tracker"]
 	path = pkgbuild/obs-face-tracker
 	url = https://aur.archlinux.org/obs-face-tracker
+[submodule "pkgbuild/pulsar-bin"]
+	path = pkgbuild/pulsar-bin
+	url = https://aur.archlinux.org/pulsar-bin
