@@ -4378,3 +4378,6 @@
 [submodule "pkgbuild/doomretro"]
 	path = pkgbuild/doomretro
 	url = https://aur.archlinux.org/doomretro
+[submodule "pkgbuild/obs-face-tracker"]
+	path = pkgbuild/obs-face-tracker
+	url = https://aur.archlinux.org/obs-face-tracker
