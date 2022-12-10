@@ -4390,3 +4390,6 @@
 [submodule "pkgbuild/rofi-lbonn-wayland-git"]
 	path = pkgbuild/rofi-lbonn-wayland-git
 	url = https://aur.archlinux.org/rofi-lbonn-wayland-git
+[submodule "pkgbuild/huniq-git"]
+	path = pkgbuild/huniq-git
+	url = https://aur.archlinux.org/huniq-git
