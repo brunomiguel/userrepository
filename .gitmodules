@@ -4384,3 +4384,6 @@
 [submodule "pkgbuild/pulsar-bin"]
 	path = pkgbuild/pulsar-bin
 	url = https://aur.archlinux.org/pulsar-bin
+[submodule "pkgbuild/gimp-plugin-beautify"]
+	path = pkgbuild/gimp-plugin-beautify
+	url = https://aur.archlinux.org/gimp-plugin-beautify
