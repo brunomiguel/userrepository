@@ -4393,3 +4393,6 @@
 [submodule "pkgbuild/huniq-git"]
 	path = pkgbuild/huniq-git
 	url = https://aur.archlinux.org/huniq-git
+[submodule "pkgbuild/ttf-tt2020"]
+	path = pkgbuild/ttf-tt2020
+	url = https://aur.archlinux.org/ttf-tt2020
