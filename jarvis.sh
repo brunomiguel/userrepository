@@ -127,8 +127,8 @@ build() {
             fi
         fi
 
-        echo "sleeping for 15 seconds"
-        sleep 15s
+        echo "sleeping for 20 seconds"
+        sleep 20s
 
         cd .. 2>&1 || exit
     done
@@ -199,8 +199,8 @@ build() {
             fi
         fi
 
-        echo "sleeping for 15 seconds"
-        sleep 15s
+        echo "sleeping for 20 seconds"
+        sleep 20s
 
         cd .. 2>&1 || exit
     done
@@ -327,8 +327,8 @@ testbuild() {
             fi
         fi
 
-        echo "sleeping for 15 seconds"
-        sleep 15s
+        echo "sleeping for 20 seconds"
+        sleep 20s
 
         cd .. 2>&1 || exit
     done
@@ -397,8 +397,8 @@ testbuild() {
             fi
         fi
 
-        echo "sleeping for 15 seconds"
-        sleep 15s
+        echo "sleeping for 20 seconds"
+        sleep 20s
 
         cd .. 2>&1 || exit
     done

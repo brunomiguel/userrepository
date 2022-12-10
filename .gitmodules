@@ -4390,6 +4390,3 @@
 [submodule "pkgbuild/rofi-lbonn-wayland-git"]
 	path = pkgbuild/rofi-lbonn-wayland-git
 	url = https://aur.archlinux.org/rofi-lbonn-wayland-git
-[submodule "pkgbuild/firefox-beta-bin-all-localizations"]
-	path = pkgbuild/firefox-beta-bin-all-localizations
-	url = https://aur.archlinux.org/firefox-beta-bin-all-localizations
