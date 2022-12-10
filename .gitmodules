@@ -4387,3 +4387,6 @@
 [submodule "pkgbuild/gimp-plugin-beautify"]
 	path = pkgbuild/gimp-plugin-beautify
 	url = https://aur.archlinux.org/gimp-plugin-beautify
+[submodule "pkgbuild/xdg-desktop-portal-hyprland-git"]
+	path = pkgbuild/xdg-desktop-portal-hyprland-git
+	url = https://aur.archlinux.org/xdg-desktop-portal-hyprland-git
