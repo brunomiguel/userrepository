@@ -3889,9 +3889,6 @@
 [submodule "pkgbuild/system76-firmware"]
 	path = pkgbuild/system76-firmware
 	url = https://aur.archlinux.org/system76-firmware
-[submodule "pkgbuild/firefox-nightly-i18n"]
-	path = pkgbuild/firefox-nightly-i18n
-	url = https://aur.archlinux.org/firefox-nightly-i18n
 [submodule "pkgbuild/keyboard-configurator"]
 	path = pkgbuild/keyboard-configurator
 	url = https://aur.archlinux.org/keyboard-configurator
@@ -4393,3 +4390,6 @@
 [submodule "pkgbuild/rofi-lbonn-wayland-git"]
 	path = pkgbuild/rofi-lbonn-wayland-git
 	url = https://aur.archlinux.org/rofi-lbonn-wayland-git
+[submodule "pkgbuild/firefox-beta-bin-all-localizations"]
+	path = pkgbuild/firefox-beta-bin-all-localizations
+	url = https://aur.archlinux.org/firefox-beta-bin-all-localizations
