@@ -4396,3 +4396,9 @@
 [submodule "pkgbuild/ttf-tt2020"]
 	path = pkgbuild/ttf-tt2020
 	url = https://aur.archlinux.org/ttf-tt2020
+[submodule "pkgbuild/2048.c"]
+	path = pkgbuild/2048.c
+	url = https://aur.archlinux.org/2048.c
+[submodule "pkgbuild/gnome-shell-extension-gtk4-desktop-icons-ng"]
+	path = pkgbuild/gnome-shell-extension-gtk4-desktop-icons-ng
+	url = https://aur.archlinux.org/gnome-shell-extension-gtk4-desktop-icons-ng
