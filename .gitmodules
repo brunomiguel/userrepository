@@ -4408,6 +4408,3 @@
 [submodule "pkgbuild/proton-caller"]
 	path = pkgbuild/proton-caller
 	url = https://aur.archlinux.org/proton-caller
-[submodule "pkgbuild/stable-diffusion-intel"]
-	path = pkgbuild/stable-diffusion-intel
-	url = https://aur.archlinux.org/stable-diffusion-intel
