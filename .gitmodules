@@ -4402,3 +4402,6 @@
 [submodule "pkgbuild/gnome-shell-extension-gtk4-desktop-icons-ng"]
 	path = pkgbuild/gnome-shell-extension-gtk4-desktop-icons-ng
 	url = https://aur.archlinux.org/gnome-shell-extension-gtk4-desktop-icons-ng
+[submodule "pkgbuild/moar"]
+	path = pkgbuild/moar
+	url = https://aur.archlinux.org/moar
