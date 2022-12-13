@@ -4408,3 +4408,6 @@
 [submodule "pkgbuild/proton-caller"]
 	path = pkgbuild/proton-caller
 	url = https://aur.archlinux.org/proton-caller
+[submodule "pkgbuild/speed-dreams-svn"]
+	path = pkgbuild/speed-dreams-svn
+	url = https://aur.archlinux.org/speed-dreams-svn
