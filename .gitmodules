@@ -4414,3 +4414,6 @@
 [submodule "pkgbuild/brillo"]
 	path = pkgbuild/brillo
 	url = https://aur.archlinux.org/brillo
+[submodule "pkgbuild/wayfarer-git"]
+	path = pkgbuild/wayfarer-git
+	url = https://aur.archlinux.org/wayfarer-git
