@@ -4432,3 +4432,6 @@
 [submodule "pkgbuild/adwsteamgtk"]
 	path = pkgbuild/adwsteamgtk
 	url = https://aur.archlinux.org/adwsteamgtk
+[submodule "pkgbuild/vmp"]
+	path = pkgbuild/vmp
+	url = https://aur.archlinux.org/vmp
