@@ -4417,3 +4417,9 @@
 [submodule "pkgbuild/wayfarer-git"]
 	path = pkgbuild/wayfarer-git
 	url = https://aur.archlinux.org/wayfarer-git
+[submodule "pkgbuild/waybar-hyprland-git"]
+	path = pkgbuild/waybar-hyprland-git
+	url = https://aur.archlinux.org/waybar-hyprland-git
+[submodule "pkgbuild/catch2-git"]
+	path = pkgbuild/catch2-git
+	url = https://aur.archlinux.org/catch2-git
