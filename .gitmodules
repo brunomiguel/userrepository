@@ -4429,3 +4429,6 @@
 [submodule "pkgbuild/tiddlywiki"]
 	path = pkgbuild/tiddlywiki
 	url = https://aur.archlinux.org/tiddlywiki
+[submodule "pkgbuild/adwsteamgtk"]
+	path = pkgbuild/adwsteamgtk
+	url = https://aur.archlinux.org/adwsteamgtk
