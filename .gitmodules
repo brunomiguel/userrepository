@@ -4444,9 +4444,9 @@
 [submodule "pkgbuild/hidamari"]
 	path = pkgbuild/hidamari
 	url = https://aur.archlinux.org/hidamari
-[submodule "pkgbuild/cerebro"]
-	path = pkgbuild/cerebro
-	url = https://aur.archlinux.org/cerebro
 [submodule "pkgbuild/python-vlc"]
 	path = pkgbuild/python-vlc
 	url = https://aur.archlinux.org/python-vlc
+[submodule "pkgbuild/cerebro-git"]
+	path = pkgbuild/cerebro-git
+	url = https://aur.archlinux.org/cerebro-git
