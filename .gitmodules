@@ -4435,3 +4435,18 @@
 [submodule "pkgbuild/vmp"]
 	path = pkgbuild/vmp
 	url = https://aur.archlinux.org/vmp
+[submodule "pkgbuild/cppaper"]
+	path = pkgbuild/cppaper
+	url = https://aur.archlinux.org/cppaper
+[submodule "pkgbuild/tksync"]
+	path = pkgbuild/tksync
+	url = https://aur.archlinux.org/tksync
+[submodule "pkgbuild/hidamari"]
+	path = pkgbuild/hidamari
+	url = https://aur.archlinux.org/hidamari
+[submodule "pkgbuild/cerebro"]
+	path = pkgbuild/cerebro
+	url = https://aur.archlinux.org/cerebro
+[submodule "pkgbuild/python-vlc"]
+	path = pkgbuild/python-vlc
+	url = https://aur.archlinux.org/python-vlc
