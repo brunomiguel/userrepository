@@ -4447,3 +4447,12 @@
 [submodule "pkgbuild/python-vlc"]
 	path = pkgbuild/python-vlc
 	url = https://aur.archlinux.org/python-vlc
+[submodule "pkgbuild/stdm-git"]
+	path = pkgbuild/stdm-git
+	url = https://aur.archlinux.org/stdm-git
+[submodule "pkgbuild/profile-sync-daemon-brave"]
+	path = pkgbuild/profile-sync-daemon-brave
+	url = https://aur.archlinux.org/profile-sync-daemon-brave
+[submodule "pkgbuild/tabulate"]
+	path = pkgbuild/tabulate
+	url = https://aur.archlinux.org/tabulate
