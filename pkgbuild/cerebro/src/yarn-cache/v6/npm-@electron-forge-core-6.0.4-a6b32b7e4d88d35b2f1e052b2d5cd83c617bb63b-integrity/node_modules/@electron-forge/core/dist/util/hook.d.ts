@@ -1,0 +1,5 @@
+import { ForgeListrTaskDefinition, ForgeMutatingHookSignatures, ForgeSimpleHookSignatures, ResolvedForgeConfig } from '@electron-forge/shared-types';
+export declare const runHook: <Hook extends keyof ForgeSimpleHookSignatures>(forgeConfig: ResolvedForgeConfig, hookName: Hook, ...hookArgs: ForgeSimpleHookSignatures[Hook]) => Promise<void>;
+export declare const getHookListrTasks: <Hook extends keyof ForgeSimpleHookSignatures>(forgeConfig: ResolvedForgeConfig, hookName: Hook, ...hookArgs: ForgeSimpleHookSignatures[Hook]) => Promise<ForgeListrTaskDefinition[]>;
+export declare function runMutatingHook<Hook extends keyof ForgeMutatingHookSignatures>(forgeConfig: ResolvedForgeConfig, hookName: Hook, ...item: ForgeMutatingHookSignatures[Hook]): Promise<ForgeMutatingHookSignatures[Hook][0]>;
+//# sourceMappingURL=hook.d.ts.map

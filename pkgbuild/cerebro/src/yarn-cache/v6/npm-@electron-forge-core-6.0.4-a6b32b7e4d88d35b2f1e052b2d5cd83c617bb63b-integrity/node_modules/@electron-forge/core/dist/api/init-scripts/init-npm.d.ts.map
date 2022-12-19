@@ -1,0 +1,1 @@
+{"version":3,"file":"init-npm.d.ts","sourceRoot":"","sources":["../../../src/api/init-scripts/init-npm.ts"],"names":[],"mappings":"AAGA,OAAO,EAAE,cAAc,EAAE,MAAM,8BAA8B,CAAC;AAU9D,wBAAgB,UAAU,CAAC,IAAI,EAAE,MAAM,GAAG,MAAM,CAE/C;AAED,eAAO,MAAM,IAAI,UAAgC,CAAC;AAClD,eAAO,MAAM,OAAO,UAA+H,CAAC;AACpJ,eAAO,MAAM,YAAY,UAAe,CAAC;AAEzC,eAAO,MAAM,OAAO,QAAe,MAAM,gCAA8B,QAAQ,IAAI,CA8BlF,CAAC"}

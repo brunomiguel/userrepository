@@ -1,0 +1,174 @@
+{
+  "api": {
+    "name": "VoiceRecorderPlugin",
+    "slug": "voicerecorderplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "canDeviceVoiceRecord",
+        "signature": "() => Promise<GenericResponse>",
+        "parameters": [],
+        "returns": "Promise<GenericResponse>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "GenericResponse"
+        ],
+        "slug": "candevicevoicerecord"
+      },
+      {
+        "name": "requestAudioRecordingPermission",
+        "signature": "() => Promise<GenericResponse>",
+        "parameters": [],
+        "returns": "Promise<GenericResponse>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "GenericResponse"
+        ],
+        "slug": "requestaudiorecordingpermission"
+      },
+      {
+        "name": "hasAudioRecordingPermission",
+        "signature": "() => Promise<GenericResponse>",
+        "parameters": [],
+        "returns": "Promise<GenericResponse>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "GenericResponse"
+        ],
+        "slug": "hasaudiorecordingpermission"
+      },
+      {
+        "name": "startRecording",
+        "signature": "() => Promise<GenericResponse>",
+        "parameters": [],
+        "returns": "Promise<GenericResponse>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "GenericResponse"
+        ],
+        "slug": "startrecording"
+      },
+      {
+        "name": "stopRecording",
+        "signature": "() => Promise<RecordingData>",
+        "parameters": [],
+        "returns": "Promise<RecordingData>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "RecordingData"
+        ],
+        "slug": "stoprecording"
+      },
+      {
+        "name": "pauseRecording",
+        "signature": "() => Promise<GenericResponse>",
+        "parameters": [],
+        "returns": "Promise<GenericResponse>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "GenericResponse"
+        ],
+        "slug": "pauserecording"
+      },
+      {
+        "name": "resumeRecording",
+        "signature": "() => Promise<GenericResponse>",
+        "parameters": [],
+        "returns": "Promise<GenericResponse>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "GenericResponse"
+        ],
+        "slug": "resumerecording"
+      },
+      {
+        "name": "getCurrentStatus",
+        "signature": "() => Promise<CurrentRecordingStatus>",
+        "parameters": [],
+        "returns": "Promise<CurrentRecordingStatus>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "CurrentRecordingStatus"
+        ],
+        "slug": "getcurrentstatus"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "GenericResponse",
+      "slug": "genericresponse",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "value",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "RecordingData",
+      "slug": "recordingdata",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "value",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "Base64String"
+          ],
+          "type": "{ recordDataBase64: string; msDuration: number; mimeType: string; }"
+        }
+      ]
+    },
+    {
+      "name": "CurrentRecordingStatus",
+      "slug": "currentrecordingstatus",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "status",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "'RECORDING' | 'PAUSED' | 'NONE'"
+        }
+      ]
+    }
+  ],
+  "enums": [],
+  "typeAliases": [
+    {
+      "name": "Base64String",
+      "slug": "base64string",
+      "docs": "",
+      "types": [
+        {
+          "text": "string",
+          "complexTypes": []
+        }
+      ]
+    }
+  ],
+  "pluginConfigs": []
+}

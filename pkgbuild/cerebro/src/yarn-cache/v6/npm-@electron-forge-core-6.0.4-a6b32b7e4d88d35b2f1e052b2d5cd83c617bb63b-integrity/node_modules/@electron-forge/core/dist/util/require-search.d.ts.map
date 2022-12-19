@@ -1,0 +1,1 @@
+{"version":3,"file":"require-search.d.ts","sourceRoot":"","sources":["../../src/util/require-search.ts"],"names":[],"mappings":"AAaA,wBAAgB,gBAAgB,CAAC,CAAC,EAAE,UAAU,EAAE,MAAM,EAAE,KAAK,EAAE,MAAM,EAAE,GAAG,CAAC,GAAG,IAAI,CAkCjF;AAED,oBAAY,cAAc,CAAC,CAAC,IAAI;IAC9B,OAAO,CAAC,EAAE,CAAC,CAAC;CACb,GAAG,CAAC,CAAC;wCAEyB,MAAM,SAAS,MAAM,EAAE;AAAtD,wBAGE"}

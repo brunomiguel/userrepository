@@ -1,0 +1,1 @@
+{"version":3,"file":"electron-executable.d.ts","sourceRoot":"","sources":["../../src/util/electron-executable.ts"],"names":[],"mappings":"AAMA,aAAK,WAAW,GAAG,MAAM,CAAC,MAAM,EAAE,OAAO,CAAC,CAAC;AAG3C,wBAAgB,mBAAmB,CAAC,WAAW,EAAE,WAAW,GAAG,OAAO,CAkBrE;AAED,wBAA8B,wBAAwB,CAAC,GAAG,EAAE,MAAM,EAAE,WAAW,EAAE,WAAW,GAAG,OAAO,CAAC,MAAM,CAAC,CAqB7G"}

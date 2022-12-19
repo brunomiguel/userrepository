@@ -1,0 +1,24 @@
+import React from "react";
+import Library from "../data/library";
+import { AppState, BinaryFiles, ExcalidrawProps, LibraryItem, LibraryItems } from "../types";
+import "./LibraryMenuItems.scss";
+declare const LibraryMenuItems: ({ isLoading, libraryItems, onRemoveFromLibrary, onAddToLibrary, onInsertLibraryItems, pendingElements, theme, setAppState, appState, libraryReturnUrl, library, files, id, selectedItems, onSelectItems, onPublish, resetLibrary, }: {
+    isLoading: boolean;
+    libraryItems: LibraryItems;
+    pendingElements: LibraryItem["elements"];
+    onRemoveFromLibrary: () => void;
+    onInsertLibraryItems: (libraryItems: LibraryItems) => void;
+    onAddToLibrary: (elements: LibraryItem["elements"]) => void;
+    theme: AppState["theme"];
+    files: BinaryFiles;
+    setAppState: React.Component<any, AppState>["setState"];
+    appState: AppState;
+    libraryReturnUrl: ExcalidrawProps["libraryReturnUrl"];
+    library: Library;
+    id: string;
+    selectedItems: LibraryItem["id"][];
+    onSelectItems: (id: LibraryItem["id"][]) => void;
+    onPublish: () => void;
+    resetLibrary: () => void;
+}) => JSX.Element;
+export default LibraryMenuItems;

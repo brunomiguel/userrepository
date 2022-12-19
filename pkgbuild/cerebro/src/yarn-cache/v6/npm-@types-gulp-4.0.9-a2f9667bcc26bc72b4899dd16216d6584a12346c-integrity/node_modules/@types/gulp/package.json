@@ -1,0 +1,37 @@
+{
+    "name": "@types/gulp",
+    "version": "4.0.9",
+    "description": "TypeScript definitions for Gulp",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/gulp",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Drew Noakes",
+            "url": "https://drewnoakes.com"
+        },
+        {
+            "name": "Juan Arroyave",
+            "url": "http://jarroyave.co"
+        },
+        {
+            "name": "Giedrius Grabauskas",
+            "url": "https://github.com/GiedriusGrabauskas",
+            "githubUsername": "GiedriusGrabauskas"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/gulp"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/undertaker": "*",
+        "@types/vinyl-fs": "*",
+        "chokidar": "^3.3.1"
+    },
+    "typesPublisherContentHash": "b35639bea201ec6c8724c0fd22d8d63972da8311f1feb93caaca31e7337adc41",
+    "typeScriptVersion": "3.6"
+}

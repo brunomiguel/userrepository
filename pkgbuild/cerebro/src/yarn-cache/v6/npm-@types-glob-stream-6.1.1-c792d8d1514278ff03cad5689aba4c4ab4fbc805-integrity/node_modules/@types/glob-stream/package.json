@@ -1,0 +1,33 @@
+{
+    "name": "@types/glob-stream",
+    "version": "6.1.1",
+    "description": "TypeScript definitions for glob-stream",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/glob-stream",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Bart van der Schoor",
+            "url": "https://github.com/Bartvds",
+            "githubUsername": "Bartvds"
+        },
+        {
+            "name": "mrmlnc",
+            "url": "https://github.com/mrmlnc",
+            "githubUsername": "mrmlnc"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/glob-stream"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/glob": "*",
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "4f95abbc262d29e7b6845db3fd66080652aaad2f73a2069c4984128e99ad7e9c",
+    "typeScriptVersion": "3.6"
+}

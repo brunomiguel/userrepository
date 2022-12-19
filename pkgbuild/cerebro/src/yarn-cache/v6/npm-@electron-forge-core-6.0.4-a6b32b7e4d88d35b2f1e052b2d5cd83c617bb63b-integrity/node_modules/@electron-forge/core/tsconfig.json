@@ -1,0 +1,86 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "outDir": "dist",
+    "lib": [
+      "dom",
+      "es2019"
+    ],
+    "inlineSourceMap": true,
+    "rootDir": "src",
+    "experimentalDecorators": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "composite": true,
+    "declarationMap": true,
+    "typeRoots": [
+      "../../../typings",
+      "../../../node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test",
+    "index.ts",
+    "tmpl"
+  ],
+  "references": [
+    {
+      "path": "../../utils/core-utils"
+    },
+    {
+      "path": "../../maker/base"
+    },
+    {
+      "path": "../../plugin/base"
+    },
+    {
+      "path": "../../publisher/base"
+    },
+    {
+      "path": "../../utils/types"
+    },
+    {
+      "path": "../../template/base"
+    },
+    {
+      "path": "../../template/webpack"
+    },
+    {
+      "path": "../../template/webpack-typescript"
+    },
+    {
+      "path": "../../maker/appx"
+    },
+    {
+      "path": "../../maker/deb"
+    },
+    {
+      "path": "../../maker/dmg"
+    },
+    {
+      "path": "../../maker/flatpak"
+    },
+    {
+      "path": "../../maker/rpm"
+    },
+    {
+      "path": "../../maker/snap"
+    },
+    {
+      "path": "../../maker/squirrel"
+    },
+    {
+      "path": "../../maker/wix"
+    },
+    {
+      "path": "../../maker/zip"
+    },
+    {
+      "path": "../../utils/test-utils"
+    }
+  ]
+}

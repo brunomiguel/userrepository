@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "outDir": "dist",
+    "lib": [
+      "dom",
+      "es2019"
+    ],
+    "inlineSourceMap": true,
+    "rootDir": "src",
+    "experimentalDecorators": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "composite": true,
+    "declarationMap": true,
+    "typeRoots": [
+      "../../../typings",
+      "../../../node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test",
+    "index.ts",
+    "tmpl"
+  ],
+  "references": [
+    {
+      "path": "../types"
+    }
+  ]
+}
