@@ -4471,3 +4471,6 @@
 [submodule "pkgbuild/ftxui-git"]
 	path = pkgbuild/ftxui-git
 	url = https://aur.archlinux.org/ftxui-git
+[submodule "pkgbuild/proggyfonts"]
+	path = pkgbuild/proggyfonts
+	url = https://aur.archlinux.org/proggyfonts
