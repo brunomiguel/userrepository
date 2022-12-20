@@ -1,0 +1,7 @@
+export declare function requireSearchRaw<T>(relativeTo: string, paths: string[]): T | null;
+export declare type PossibleModule<T> = {
+    default?: T;
+} & T;
+declare const _default: <T>(relativeTo: string, paths: string[]) => T | null;
+export default _default;
+//# sourceMappingURL=require-search.d.ts.map

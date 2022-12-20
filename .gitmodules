@@ -4456,3 +4456,6 @@
 [submodule "pkgbuild/tabulate"]
 	path = pkgbuild/tabulate
 	url = https://aur.archlinux.org/tabulate
+[submodule "pkgbuild/bunzbar"]
+	path = pkgbuild/bunzbar
+	url = https://aur.archlinux.org/bunzbar
