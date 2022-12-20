@@ -4459,3 +4459,15 @@
 [submodule "pkgbuild/bunzbar"]
 	path = pkgbuild/bunzbar
 	url = https://aur.archlinux.org/bunzbar
+[submodule "pkgbuild/rttt-git"]
+	path = pkgbuild/rttt-git
+	url = https://aur.archlinux.org/rttt-git
+[submodule "pkgbuild/cpr"]
+	path = pkgbuild/cpr
+	url = https://aur.archlinux.org/cpr
+[submodule "pkgbuild/cppzmq"]
+	path = pkgbuild/cppzmq
+	url = https://aur.archlinux.org/cppzmq
+[submodule "pkgbuild/ftxui-git"]
+	path = pkgbuild/ftxui-git
+	url = https://aur.archlinux.org/ftxui-git
