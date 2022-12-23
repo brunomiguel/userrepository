@@ -4474,3 +4474,6 @@
 [submodule "pkgbuild/proggyfonts"]
 	path = pkgbuild/proggyfonts
 	url = https://aur.archlinux.org/proggyfonts
+[submodule "pkgbuild/naikari-git"]
+	path = pkgbuild/naikari-git
+	url = https://aur.archlinux.org/naikari-git
