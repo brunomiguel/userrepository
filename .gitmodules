@@ -4486,3 +4486,6 @@
 [submodule "pkgbuild/gpu-viewer"]
 	path = pkgbuild/gpu-viewer
 	url = https://aur.archlinux.org/gpu-viewer
+[submodule "pkgbuild/nautilus-annotations"]
+	path = pkgbuild/nautilus-annotations
+	url = https://aur.archlinux.org/nautilus-annotations
