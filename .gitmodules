@@ -4483,3 +4483,6 @@
 [submodule "pkgbuild/electron22-bin"]
 	path = pkgbuild/electron22-bin
 	url = https://aur.archlinux.org/electron22-bin
+[submodule "pkgbuild/gpu-viewer"]
+	path = pkgbuild/gpu-viewer
+	url = https://aur.archlinux.org/gpu-viewer

@@ -1,4 +1,0 @@
-declare const which: (type: string, prog: string, promise: () => Promise<any>) => Promise<void>;
-export declare const sudo: (type: string, prog: string, args: string) => Promise<void>;
-export default which;
-//# sourceMappingURL=linux-installer.d.ts.map

@@ -1,1 +1,0 @@
-This is the armv7-unknown-linux-gnueabihf build of lightningcss. See https://github.com/parcel-bundler/lightningcss for details.
