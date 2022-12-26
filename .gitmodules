@@ -4501,3 +4501,6 @@
 [submodule "pkgbuild/beekeeper-studio-appimage"]
 	path = pkgbuild/beekeeper-studio-appimage
 	url = https://aur.archlinux.org/beekeeper-studio-appimage
+[submodule "pkgbuild/protonlaunch"]
+	path = pkgbuild/protonlaunch
+	url = https://aur.archlinux.org/protonlaunch
