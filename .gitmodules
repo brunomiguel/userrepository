@@ -4498,3 +4498,6 @@
 [submodule "pkgbuild/ttf-firge"]
 	path = pkgbuild/ttf-firge
 	url = https://aur.archlinux.org/ttf-firge
+[submodule "pkgbuild/beekeeper-studio"]
+	path = pkgbuild/beekeeper-studio
+	url = https://aur.archlinux.org/beekeeper-studio
