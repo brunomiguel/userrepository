@@ -4492,9 +4492,6 @@
 [submodule "pkgbuild/forgejo-git"]
 	path = pkgbuild/forgejo-git
 	url = https://aur.archlinux.org/forgejo-git
-[submodule "pkgbuild/ttop"]
-	path = pkgbuild/ttop
-	url = https://aur.archlinux.org/ttop
 [submodule "pkgbuild/oh-my-posh"]
 	path = pkgbuild/oh-my-posh
 	url = https://aur.archlinux.org/oh-my-posh
