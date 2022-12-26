@@ -4504,3 +4504,6 @@
 [submodule "pkgbuild/protonlaunch"]
 	path = pkgbuild/protonlaunch
 	url = https://aur.archlinux.org/protonlaunch
+[submodule "pkgbuild/game-of-life"]
+	path = pkgbuild/game-of-life
+	url = https://aur.archlinux.org/game-of-life
