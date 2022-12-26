@@ -4489,3 +4489,15 @@
 [submodule "pkgbuild/nautilus-annotations"]
 	path = pkgbuild/nautilus-annotations
 	url = https://aur.archlinux.org/nautilus-annotations
+[submodule "pkgbuild/forgejo-git"]
+	path = pkgbuild/forgejo-git
+	url = https://aur.archlinux.org/forgejo-git
+[submodule "pkgbuild/ttop"]
+	path = pkgbuild/ttop
+	url = https://aur.archlinux.org/ttop
+[submodule "pkgbuild/oh-my-posh"]
+	path = pkgbuild/oh-my-posh
+	url = https://aur.archlinux.org/oh-my-posh
+[submodule "pkgbuild/ttf-firge"]
+	path = pkgbuild/ttf-firge
+	url = https://aur.archlinux.org/ttf-firge
