@@ -4507,3 +4507,6 @@
 [submodule "pkgbuild/game-of-life"]
 	path = pkgbuild/game-of-life
 	url = https://aur.archlinux.org/game-of-life
+[submodule "pkgbuild/pkgbuilder"]
+	path = pkgbuild/pkgbuilder
+	url = https://aur.archlinux.org/pkgbuilder
