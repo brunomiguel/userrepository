@@ -4513,6 +4513,3 @@
 [submodule "pkgbuild/ttop"]
 	path = pkgbuild/ttop
 	url = https://aur.archlinux.org/ttop
-[submodule "pkgbuild/searxng-git"]
-	path = pkgbuild/searxng-git
-	url = https://aur.archlinux.org/searxng-git
