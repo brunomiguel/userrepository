@@ -4525,3 +4525,6 @@
 [submodule "pkgbuild/libratbag-git"]
 	path = pkgbuild/libratbag-git
 	url = https://aur.archlinux.org/libratbag-git
+[submodule "pkgbuild/cemu"]
+	path = pkgbuild/cemu
+	url = https://aur.archlinux.org/cemu
