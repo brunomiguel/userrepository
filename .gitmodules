@@ -4513,3 +4513,9 @@
 [submodule "pkgbuild/ttop"]
 	path = pkgbuild/ttop
 	url = https://aur.archlinux.org/ttop
+[submodule "pkgbuild/musikcube"]
+	path = pkgbuild/musikcube
+	url = https://aur.archlinux.org/musikcube
+[submodule "pkgbuild/sawsge"]
+	path = pkgbuild/sawsge
+	url = https://aur.archlinux.org/sawsge
