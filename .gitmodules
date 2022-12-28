@@ -4513,9 +4513,15 @@
 [submodule "pkgbuild/ttop"]
 	path = pkgbuild/ttop
 	url = https://aur.archlinux.org/ttop
-[submodule "pkgbuild/musikcube"]
-	path = pkgbuild/musikcube
-	url = https://aur.archlinux.org/musikcube
 [submodule "pkgbuild/sawsge"]
 	path = pkgbuild/sawsge
 	url = https://aur.archlinux.org/sawsge
+[submodule "pkgbuild/musikcube-bin"]
+	path = pkgbuild/musikcube-bin
+	url = https://aur.archlinux.org/musikcube-bin
+[submodule "pkgbuild/piper-git"]
+	path = pkgbuild/piper-git
+	url = https://aur.archlinux.org/piper-git
+[submodule "pkgbuild/libratbag-git"]
+	path = pkgbuild/libratbag-git
+	url = https://aur.archlinux.org/libratbag-git
