@@ -4537,3 +4537,9 @@
 [submodule "pkgbuild/hwatch"]
 	path = pkgbuild/hwatch
 	url = https://aur.archlinux.org/hwatch
+[submodule "pkgbuild/python-fusepy"]
+	path = pkgbuild/python-fusepy
+	url = https://aur.archlinux.org/python-fusepy
+[submodule "pkgbuild/gdrivefs-git"]
+	path = pkgbuild/gdrivefs-git
+	url = https://aur.archlinux.org/gdrivefs-git
