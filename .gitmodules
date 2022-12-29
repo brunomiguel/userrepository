@@ -4528,3 +4528,6 @@
 [submodule "pkgbuild/cemu"]
 	path = pkgbuild/cemu
 	url = https://aur.archlinux.org/cemu
+[submodule "pkgbuild/contour"]
+	path = pkgbuild/contour
+	url = https://aur.archlinux.org/contour
