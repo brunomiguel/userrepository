@@ -4531,3 +4531,9 @@
 [submodule "pkgbuild/contour"]
 	path = pkgbuild/contour
 	url = https://aur.archlinux.org/contour
+[submodule "pkgbuild/rusted-tetris"]
+	path = pkgbuild/rusted-tetris
+	url = https://aur.archlinux.org/rusted-tetris
+[submodule "pkgbuild/hwatch"]
+	path = pkgbuild/hwatch
+	url = https://aur.archlinux.org/hwatch
