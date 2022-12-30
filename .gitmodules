@@ -4543,3 +4543,15 @@
 [submodule "pkgbuild/gdrivefs-git"]
 	path = pkgbuild/gdrivefs-git
 	url = https://aur.archlinux.org/gdrivefs-git
+[submodule "pkgbuild/newsraft"]
+	path = pkgbuild/newsraft
+	url = https://aur.archlinux.org/newsraft
+[submodule "pkgbuild/tuifimanager"]
+	path = pkgbuild/tuifimanager
+	url = https://aur.archlinux.org/tuifimanager
+[submodule "pkgbuild/python-uni-curses"]
+	path = pkgbuild/python-uni-curses
+	url = https://aur.archlinux.org/python-uni-curses
+[submodule "pkgbuild/python-x256"]
+	path = pkgbuild/python-x256
+	url = https://aur.archlinux.org/python-x256
