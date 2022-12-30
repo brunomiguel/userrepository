@@ -4555,3 +4555,12 @@
 [submodule "pkgbuild/python-x256"]
 	path = pkgbuild/python-x256
 	url = https://aur.archlinux.org/python-x256
+[submodule "pkgbuild/openafs-modules-dkms"]
+	path = pkgbuild/openafs-modules-dkms
+	url = https://aur.archlinux.org/openafs-modules-dkms
+[submodule "pkgbuild/openafs-modules"]
+	path = pkgbuild/openafs-modules
+	url = https://aur.archlinux.org/openafs-modules
+[submodule "pkgbuild/openafs"]
+	path = pkgbuild/openafs
+	url = https://aur.archlinux.org/openafs
