@@ -4567,3 +4567,6 @@
 [submodule "pkgbuild/xdman"]
 	path = pkgbuild/xdman
 	url = https://aur.archlinux.org/xdman
+[submodule "pkgbuild/muc-git"]
+	path = pkgbuild/muc-git
+	url = https://aur.archlinux.org/muc-git
