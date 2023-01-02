@@ -1,0 +1,31 @@
+{
+  "name": "unicode-emoji-json",
+  "version": "0.4.0",
+  "description": "Emoji data from unicode.org as easily consumable JSON files.",
+  "main": "data-by-emoji.json",
+  "files": [
+    "data-by-emoji.json",
+    "data-by-group.json",
+    "data-ordered-emoji.json",
+    "data-emoji-components.json"
+  ],
+  "scripts": {
+    "download": "node script/download-unicode-data.js",
+    "build": "node script/build.js && node script/generate-emoji-counts.js",
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muan/unicode-emoji-json.git"
+  },
+  "author": "Mu-An Chiou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muan/unicode-emoji-json/issues"
+  },
+  "homepage": "https://github.com/muan/unicode-emoji-json#readme",
+  "devDependencies": {
+    "fast-html-parser": "^1.0.1",
+    "tape": "^4.11.0"
+  }
+}

@@ -1,0 +1,54 @@
+{
+	"name": "electron-dl",
+	"version": "3.2.1",
+	"description": "Simplified file downloads for your Electron app",
+	"license": "MIT",
+	"repository": "sindresorhus/electron-dl",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"scripts": {
+		"//": "Enable tsd again when the Electron issue is fixed",
+		"start": "electron run.js",
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"electron",
+		"app",
+		"file",
+		"download",
+		"downloader",
+		"progress"
+	],
+	"dependencies": {
+		"ext-name": "^5.0.0",
+		"pupa": "^2.0.1",
+		"unused-filename": "^2.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "^13.1.4",
+		"ava": "^2.4.0",
+		"cp-file": "^7.0.0",
+		"electron": "^7.1.7",
+		"minimist": "^1.2.0",
+		"node-static": "^0.7.11",
+		"pify": "^4.0.1",
+		"spectron": "^9.0.0",
+		"tsd": "^0.11.0",
+		"uuid": "^3.3.2",
+		"xo": "^0.25.3"
+	},
+	"xo": {
+		"envs": [
+			"node",
+			"browser"
+		]
+	}
+}

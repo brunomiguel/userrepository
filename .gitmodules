@@ -4570,3 +4570,15 @@
 [submodule "pkgbuild/muc-git"]
 	path = pkgbuild/muc-git
 	url = https://aur.archlinux.org/muc-git
+[submodule "pkgbuild/btdu"]
+	path = pkgbuild/btdu
+	url = https://aur.archlinux.org/btdu
+[submodule "pkgbuild/blackbox-terminal"]
+	path = pkgbuild/blackbox-terminal
+	url = https://aur.archlinux.org/blackbox-terminal
+[submodule "pkgbuild/libmarble-git"]
+	path = pkgbuild/libmarble-git
+	url = https://aur.archlinux.org/libmarble-git
+[submodule "pkgbuild/harmonoid-bin"]
+	path = pkgbuild/harmonoid-bin
+	url = https://aur.archlinux.org/harmonoid-bin
