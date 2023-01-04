@@ -1,0 +1,8 @@
+import { VideoID } from '../Video';
+import { Category } from './Category';
+export declare type categoryLock = {
+    videoID: VideoID;
+    hash: string;
+    categories: Category[];
+    reason: string;
+};

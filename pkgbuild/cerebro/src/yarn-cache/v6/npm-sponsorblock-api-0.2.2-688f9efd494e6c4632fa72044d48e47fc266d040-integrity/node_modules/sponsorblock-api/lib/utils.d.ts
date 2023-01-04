@@ -1,0 +1,8 @@
+/**
+ * Extracts the video ID from the full URL.
+ * this function assumes the input is surely a YouTube video URL, otherwise may return null or a part of the input.
+ * @param youtubeURL The complete YouTube URL of a video.
+ * @returns The video ID extracted from the input URL.
+ */
+export declare function extractVideoID(youtubeURL: string): string | null;
+export declare function validateYoutubeURL(youtubeURL: string): boolean;

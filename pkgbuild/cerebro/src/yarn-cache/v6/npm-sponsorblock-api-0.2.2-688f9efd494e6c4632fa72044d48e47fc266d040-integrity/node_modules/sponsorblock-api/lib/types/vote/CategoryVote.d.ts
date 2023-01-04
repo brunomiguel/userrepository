@@ -1,0 +1,5 @@
+import { Category } from '../segment/Category';
+export declare type CategoryVote = {
+    UUID: string;
+    category: Category;
+};

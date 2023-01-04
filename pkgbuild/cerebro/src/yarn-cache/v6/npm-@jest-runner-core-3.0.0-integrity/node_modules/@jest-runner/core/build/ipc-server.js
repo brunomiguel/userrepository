@@ -1,0 +1,35 @@
+'use strict';
+Object.defineProperty(exports, '__esModule', {value: true});
+exports.startServer = undefined;
+
+var _nodeIpc = require('node-ipc');
+var _nodeIpc2 = _interopRequireDefault(_nodeIpc);
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {default: obj};
+}
+/**
+ * Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ *
+ * @format
+ */ let started = false;
+const startServer = (exports.startServer = ({serverID}) => {
+  if (started) {
+    throw new Error('IPC server can only be started once');
+  }
+  return new Promise(resolve => {
+    started = true;
+    _nodeIpc2.default.config.id = serverID;
+    _nodeIpc2.default.config.retry = 1500;
+    _nodeIpc2.default.config.silent = true;
+
+    _nodeIpc2.default.serve(() => {
+      resolve(_nodeIpc2.default.server);
+    });
+
+    _nodeIpc2.default.server.start();
+  });
+});

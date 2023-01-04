@@ -1,0 +1,6 @@
+export declare type username = string;
+export declare type userID = string;
+export declare type UserIDPair = {
+    userName: username;
+    userID: userID;
+};

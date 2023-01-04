@@ -1,0 +1,5 @@
+import { SponsorBlockAdminInterface } from '../interfaces/admin';
+import { SponsorBlockVIP } from './vip';
+export declare class SponsorBlockAdmin extends SponsorBlockVIP implements SponsorBlockAdminInterface {
+    addVIP(publicUserID: string, enabled?: boolean): Promise<void>;
+}

@@ -1,0 +1,44 @@
+import { Segment, SegmentResolvable } from '../../types/segment/Segment';
+import { Category } from '../../types/segment/Category';
+import { LocalSegment } from '../../types/segment/LocalSegment';
+import { UserStats } from '../../types/stats/UserStat';
+import { OverallStats } from '../../types/stats/OverallStats';
+import { SponsorBlockInterface } from '../interfaces/user';
+import { SponsorBlockOptions } from '../../types/SponsorBlockOptions';
+import { VoteType } from '../../types/vote/VoteType';
+import { SortType } from '../../types/stats/SortType';
+import { SegmentInfo } from '../../types/stats/SegmentInfo';
+import { UserIDPair } from '../../types/user';
+import { VideoResolvable } from '../../types/Video';
+/**
+ * SponsorBlock API class, to be constructed with a userID.
+ *
+ * @description Complete API documentation can be found {@link https://wiki.sponsor.ajay.app/index.php/API_Docs here}.
+ * Please review the {@link https://gist.github.com/ajayyy/4b27dfc66e33941a45aeaadccb51de71 attriution template}
+ * to abide the {@link https://github.com/ajayyy/SponsorBlock/wiki/Database-and-API-License license}.
+ */
+export declare class SponsorBlock implements SponsorBlockInterface {
+    userID: string;
+    options: SponsorBlockOptions;
+    constructor(userID: string, options?: SponsorBlockOptions);
+    private hashedUserID;
+    getSegments(video: VideoResolvable, categories?: Category[], ...requiredSegments: string[]): Promise<Segment[]>;
+    postSegments(video: VideoResolvable, ...segments: LocalSegment[]): Promise<void>;
+    getSegmentsPrivately(video: VideoResolvable, categories?: Category[], ...requiredSegments: string[]): Promise<Segment[]>;
+    vote(segment: SegmentResolvable, type: VoteType): Promise<void>;
+    voteCategory(segment: SegmentResolvable, category: Category): Promise<void>;
+    viewed(segment: SegmentResolvable): Promise<void>;
+    getViews(): Promise<number>;
+    getTimeSaved(): Promise<number>;
+    setUsername(username: string): Promise<void>;
+    getUsername(): Promise<string>;
+    getTopUsers(sortType: SortType): Promise<UserStats[]>;
+    getOverallStats(): Promise<OverallStats>;
+    getDaysSaved(): Promise<number>;
+    isVIP(): Promise<boolean>;
+    getHashedUserID(): string;
+    getSegmentInfo(segments: SegmentResolvable[]): Promise<SegmentInfo[]>;
+    getUserID(username: string, exact?: boolean): Promise<UserIDPair[]>;
+    getLockCategories(video: VideoResolvable): Promise<Category[]>;
+    getLockCategoriesPrivately(video: VideoResolvable): Promise<Category[]>;
+}

@@ -1,0 +1,8 @@
+import { Segment } from './segment/Segment';
+export declare type VideoID = string;
+export declare type VideoResolvable = Video | VideoID;
+export declare type Video = {
+    videoID: VideoID;
+    hash: string;
+    segments: Segment[];
+};

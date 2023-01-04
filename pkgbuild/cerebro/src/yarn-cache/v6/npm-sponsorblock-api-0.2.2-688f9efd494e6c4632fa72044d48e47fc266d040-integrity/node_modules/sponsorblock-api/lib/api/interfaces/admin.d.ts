@@ -1,0 +1,4 @@
+import { SponsorBlockVIPInterface } from './vip';
+export interface SponsorBlockAdminInterface extends SponsorBlockVIPInterface {
+    addVIP(publicUserID: string, enabled?: boolean): Promise<void>;
+}

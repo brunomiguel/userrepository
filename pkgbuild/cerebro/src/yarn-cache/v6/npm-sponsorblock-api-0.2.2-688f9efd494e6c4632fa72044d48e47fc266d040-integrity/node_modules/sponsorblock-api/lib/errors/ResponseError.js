@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ResponseError = void 0;
+class ResponseError extends Error {
+    constructor(status, message) {
+        super(message !== null && message !== void 0 ? message : `ResponseError: ${status}`);
+        this.status = status;
+        this.name = 'ResponseError';
+    }
+}
+exports.ResponseError = ResponseError;

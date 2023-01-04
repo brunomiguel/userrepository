@@ -1,0 +1,72 @@
+{
+  "name": "@openid/appauth",
+  "version": "1.3.1",
+  "description": "A general purpose OAuth client.",
+  "author": "The OpenID Foundation",
+  "license": "Apache-2.0",
+  "repository": "openid/AppAuth-JS",
+  "bugs": {
+    "url": "https://github.com/openid/AppAuth-JS/issues"
+  },
+  "files": [
+    "src/**",
+    "app/**",
+    "built/**"
+  ],
+  "main": "built/index.js",
+  "types": "built/index.d.ts",
+  "scripts": {
+    "preapp": "npm run-script --silent watch",
+    "app": "node_modules/.bin/watchify built/app/index.js -o built/app/bundle.js & http-server -p 8000",
+    "prenode-app": "npm run-script --silent compile",
+    "node-app": "node ./built/node_app/index.js",
+    "prebuild-app": "npm run-script --silent compile",
+    "build-app": "node_modules/.bin/browserify built/app/index.js -o built/app/bundle.js",
+    "preminify": "npm run-script --silent build-app",
+    "minify": "java -jar node_modules/google-closure-compiler/compiler.jar --js built/app/bundle.js --js_output_file built/app/bundle_minified.js",
+    "precompile": "npm run-script --silent clean && npm run-script --silent format",
+    "compile": "node_modules/.bin/tsc",
+    "prepare": "npm run-script --silent build-app",
+    "format": "node_modules/.bin/clang-format -i -style=file --glob=src/**.ts",
+    "clean": "rm -rf built",
+    "pretest": "npm run-script --silent compile",
+    "test": "node_modules/.bin/karma start karma.conf --browsers=Chrome --single-run=false --debug",
+    "pregzipSize": "npm run-script --silent minify",
+    "gzipSize": "gzip -c built/app/bundle_minified.js | wc -c",
+    "prewatch": "npm run-script --silent format",
+    "watch": "node_modules/.bin/tsc --watch &"
+  },
+  "keywords": [
+    "OAuth",
+    "AppAuth",
+    "JavaScript",
+    "Node"
+  ],
+  "devDependencies": {
+    "@types/hapi": "^18.0.5",
+    "@types/jasmine": "^3.6.9",
+    "@types/node": "^14.14.41",
+    "@types/opener": "^1.4.0",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "browserify": "^17.0.0",
+    "clang-format": "^1.5.0",
+    "google-closure-compiler": "^20210406.0.0",
+    "http-server": "^0.12.3",
+    "jasmine-core": "^3.7.1",
+    "karma": "^6.3.2",
+    "karma-browserify": "^8.0.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^4.0.1",
+    "typescript": "^4.2.4",
+    "watchify": "^4.0.0"
+  },
+  "dependencies": {
+    "@types/base64-js": "^1.3.0",
+    "@types/jquery": "^3.5.5",
+    "base64-js": "^1.5.1",
+    "follow-redirects": "^1.13.3",
+    "form-data": "^4.0.0",
+    "opener": "^1.5.2"
+  }
+}
