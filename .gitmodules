@@ -4510,9 +4510,6 @@
 [submodule "pkgbuild/pkgbuilder"]
 	path = pkgbuild/pkgbuilder
 	url = https://aur.archlinux.org/pkgbuilder
-[submodule "pkgbuild/ttop"]
-	path = pkgbuild/ttop
-	url = https://aur.archlinux.org/ttop
 [submodule "pkgbuild/sawsge"]
 	path = pkgbuild/sawsge
 	url = https://aur.archlinux.org/sawsge
