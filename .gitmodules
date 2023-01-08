@@ -4585,3 +4585,6 @@
 [submodule "pkgbuild/vscodium-insiders-bin"]
 	path = pkgbuild/vscodium-insiders-bin
 	url = https://aur.archlinux.org/vscodium-insiders-bin
+[submodule "pkgbuild/swayfx"]
+	path = pkgbuild/swayfx
+	url = https://aur.archlinux.org/swayfx
