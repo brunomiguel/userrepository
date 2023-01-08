@@ -1,7 +1,7 @@
 #
 # SPDX-FileCopyrightText: 2020 Bruno Miguel <bruno@privacyrequired.com>
 #
-# SPDX-License-Identifier: GPL-3.0
+# SPDX-License-Identifier: GPL-3.0-only
 #
 
 #!/bin/bash
