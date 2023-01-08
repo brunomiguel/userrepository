@@ -4582,3 +4582,6 @@
 [submodule "pkgbuild/tartube-git"]
 	path = pkgbuild/tartube-git
 	url = https://aur.archlinux.org/tartube-git
+[submodule "pkgbuild/vscodium-insiders-bin"]
+	path = pkgbuild/vscodium-insiders-bin
+	url = https://aur.archlinux.org/vscodium-insiders-bin
