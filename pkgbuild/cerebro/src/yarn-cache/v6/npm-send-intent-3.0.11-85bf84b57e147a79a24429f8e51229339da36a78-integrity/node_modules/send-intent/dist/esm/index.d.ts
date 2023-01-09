@@ -1,0 +1,4 @@
+import type { SendIntentPlugin } from "./definitions";
+declare const SendIntent: SendIntentPlugin;
+export * from "./definitions";
+export { SendIntent };

@@ -4597,6 +4597,3 @@
 [submodule "pkgbuild/zeek"]
 	path = pkgbuild/zeek
 	url = https://aur.archlinux.org/zeek
-[submodule "pkgbuild/gzip-zutils"]
-	path = pkgbuild/gzip-zutils
-	url = https://aur.archlinux.org/gzip-zutils

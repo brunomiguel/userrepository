@@ -1,0 +1,1 @@
+{"version":3,"file":"install-dependencies.d.ts","sourceRoot":"","sources":["../../src/util/install-dependencies.ts"],"names":[],"mappings":"AAMA,oBAAY,OAAO;IACjB,IAAI,SAAS;IACb,GAAG,QAAQ;CACZ;AAED,oBAAY,qBAAqB;IAC/B,KAAK,UAAU;IACf,KAAK,UAAU;CAChB;8BAE0B,MAAM,QAAQ,MAAM,EAAE,oEAA6E,QAAQ,IAAI,CAAC;AAA3I,wBA6BE"}

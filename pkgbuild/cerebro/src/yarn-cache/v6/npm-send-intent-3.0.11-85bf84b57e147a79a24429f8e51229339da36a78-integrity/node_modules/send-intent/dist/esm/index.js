@@ -1,0 +1,7 @@
+import { registerPlugin } from "@capacitor/core";
+const SendIntent = registerPlugin("SendIntent", {
+    web: () => import("./web").then((m) => new m.SendIntentWeb()),
+});
+export * from "./definitions";
+export { SendIntent };
+//# sourceMappingURL=index.js.map

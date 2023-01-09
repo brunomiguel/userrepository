@@ -1,0 +1,54 @@
+{
+  "name": "cross-zip",
+  "description": "Cross-platform .zip file creation",
+  "version": "4.0.0",
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "https://feross.org"
+  },
+  "bugs": {
+    "url": "https://github.com/feross/cross-zip/issues"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tape": "^5.0.0"
+  },
+  "homepage": "https://github.com/feross/cross-zip",
+  "keywords": [
+    "ZIP",
+    "cross platform",
+    "cross-platform",
+    "linux",
+    "mac",
+    "os x",
+    "windows",
+    "zip"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/cross-zip.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "engines": {
+    "node": ">=12.10"
+  },
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/feross"
+    },
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/feross"
+    },
+    {
+      "type": "consulting",
+      "url": "https://feross.org/support"
+    }
+  ]
+}
