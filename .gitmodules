@@ -4588,3 +4588,15 @@
 [submodule "pkgbuild/swayfx"]
 	path = pkgbuild/swayfx
 	url = https://aur.archlinux.org/swayfx
+[submodule "pkgbuild/ttf-literation"]
+	path = pkgbuild/ttf-literation
+	url = https://aur.archlinux.org/ttf-literation
+[submodule "pkgbuild/zutils"]
+	path = pkgbuild/zutils
+	url = https://aur.archlinux.org/zutils
+[submodule "pkgbuild/zeek"]
+	path = pkgbuild/zeek
+	url = https://aur.archlinux.org/zeek
+[submodule "pkgbuild/gzip-zutils"]
+	path = pkgbuild/gzip-zutils
+	url = https://aur.archlinux.org/gzip-zutils
