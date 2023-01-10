@@ -4597,6 +4597,21 @@
 [submodule "pkgbuild/zeek"]
 	path = pkgbuild/zeek
 	url = https://aur.archlinux.org/zeek
-[submodule "pkgbuild/obs-spectralizer"]
-	path = pkgbuild/obs-spectralizer
-	url = https://aur.archlinux.org/obs-spectralizer
+[submodule "pkgbuild/obs-plugin-waveform-git"]
+	path = pkgbuild/obs-plugin-waveform-git
+	url = https://aur.archlinux.org/obs-plugin-waveform-git
+[submodule "pkgbuild/obs-browser-transition"]
+	path = pkgbuild/obs-browser-transition
+	url = https://aur.archlinux.org/obs-browser-transition
+[submodule "pkgbuild/obs-source-record"]
+	path = pkgbuild/obs-source-record
+	url = https://aur.archlinux.org/obs-source-record
+[submodule "pkgbuild/obs-replay-source"]
+	path = pkgbuild/obs-replay-source
+	url = https://aur.archlinux.org/obs-replay-source
+[submodule "pkgbuild/obs-scale-to-sound"]
+	path = pkgbuild/obs-scale-to-sound
+	url = https://aur.archlinux.org/obs-scale-to-sound
+[submodule "pkgbuild/libcaption-git"]
+	path = pkgbuild/libcaption-git
+	url = https://aur.archlinux.org/libcaption-git
