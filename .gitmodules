@@ -4621,3 +4621,6 @@
 [submodule "pkgbuild/chatterino2-7tv-git"]
 	path = pkgbuild/chatterino2-7tv-git
 	url = https://aur.archlinux.org/chatterino2-7tv-git
+[submodule "pkgbuild/python-netifaces-git"]
+	path = pkgbuild/python-netifaces-git
+	url = https://aur.archlinux.org/python-netifaces-git
