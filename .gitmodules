@@ -4609,9 +4609,12 @@
 [submodule "pkgbuild/obs-replay-source"]
 	path = pkgbuild/obs-replay-source
 	url = https://aur.archlinux.org/obs-replay-source
-[submodule "pkgbuild/obs-scale-to-sound"]
-	path = pkgbuild/obs-scale-to-sound
-	url = https://aur.archlinux.org/obs-scale-to-sound
 [submodule "pkgbuild/libcaption-git"]
 	path = pkgbuild/libcaption-git
 	url = https://aur.archlinux.org/libcaption-git
+[submodule "pkgbuild/obs-gstreamer"]
+	path = pkgbuild/obs-gstreamer
+	url = https://aur.archlinux.org/obs-gstreamer
+[submodule "pkgbuild/obs-backgroundremoval"]
+	path = pkgbuild/obs-backgroundremoval
+	url = https://aur.archlinux.org/obs-backgroundremoval
