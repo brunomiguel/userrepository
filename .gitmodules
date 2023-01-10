@@ -4627,3 +4627,6 @@
 [submodule "pkgbuild/haruhishot"]
 	path = pkgbuild/haruhishot
 	url = https://aur.archlinux.org/haruhishot
+[submodule "pkgbuild/winctl"]
+	path = pkgbuild/winctl
+	url = https://aur.archlinux.org/winctl

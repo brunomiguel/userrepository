@@ -1,3 +1,0 @@
-export declare function seemToBeInIE(): boolean;
-export declare function writeTextIE(text: string): boolean;
-export declare function readTextIE(): Promise<string>;

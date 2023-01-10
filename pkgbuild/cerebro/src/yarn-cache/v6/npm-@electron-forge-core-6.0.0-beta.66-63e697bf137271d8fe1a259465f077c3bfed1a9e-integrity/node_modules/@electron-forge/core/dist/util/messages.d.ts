@@ -1,3 +1,0 @@
-export declare function info(interactive: boolean, message: string): void;
-export declare function warn(interactive: boolean, message: string): void;
-//# sourceMappingURL=messages.d.ts.map
