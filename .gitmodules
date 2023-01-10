@@ -4624,3 +4624,6 @@
 [submodule "pkgbuild/python-netifaces-git"]
 	path = pkgbuild/python-netifaces-git
 	url = https://aur.archlinux.org/python-netifaces-git
+[submodule "pkgbuild/haruhishot"]
+	path = pkgbuild/haruhishot
+	url = https://aur.archlinux.org/haruhishot
