@@ -4597,3 +4597,6 @@
 [submodule "pkgbuild/zeek"]
 	path = pkgbuild/zeek
 	url = https://aur.archlinux.org/zeek
+[submodule "pkgbuild/obs-spectralizer"]
+	path = pkgbuild/obs-spectralizer
+	url = https://aur.archlinux.org/obs-spectralizer
