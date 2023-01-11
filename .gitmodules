@@ -4630,3 +4630,6 @@
 [submodule "pkgbuild/winctl"]
 	path = pkgbuild/winctl
 	url = https://aur.archlinux.org/winctl
+[submodule "pkgbuild/grimblast-git"]
+	path = pkgbuild/grimblast-git
+	url = https://aur.archlinux.org/grimblast-git
