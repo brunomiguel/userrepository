@@ -4633,3 +4633,6 @@
 [submodule "pkgbuild/grimblast-git"]
 	path = pkgbuild/grimblast-git
 	url = https://aur.archlinux.org/grimblast-git
+[submodule "pkgbuild/bato"]
+	path = pkgbuild/bato
+	url = https://aur.archlinux.org/bato
