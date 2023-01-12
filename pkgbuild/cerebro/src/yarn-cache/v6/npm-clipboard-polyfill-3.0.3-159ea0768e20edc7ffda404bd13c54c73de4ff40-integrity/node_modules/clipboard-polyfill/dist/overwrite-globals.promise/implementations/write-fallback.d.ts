@@ -1,2 +1,0 @@
-import { StringItem } from "../ClipboardItem/convert";
-export declare function writeFallback(stringItem: StringItem): Promise<boolean>;

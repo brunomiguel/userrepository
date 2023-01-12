@@ -1,6 +1,0 @@
-/******** Debug Logging ********/
-export declare function debugLog(s: string): void;
-export declare function setDebugLog(logFn: (s: string) => void): void;
-export declare function suppressWarnings(): void;
-export declare function shouldShowWarnings(): boolean;
-export declare const warn: any;

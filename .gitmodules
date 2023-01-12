@@ -4636,3 +4636,12 @@
 [submodule "pkgbuild/bato"]
 	path = pkgbuild/bato
 	url = https://aur.archlinux.org/bato
+[submodule "pkgbuild/nedots"]
+	path = pkgbuild/nedots
+	url = https://aur.archlinux.org/nedots
+[submodule "pkgbuild/smarttrafficmeter"]
+	path = pkgbuild/smarttrafficmeter
+	url = https://aur.archlinux.org/smarttrafficmeter
+[submodule "pkgbuild/epubcheck"]
+	path = pkgbuild/epubcheck
+	url = https://aur.archlinux.org/epubcheck
