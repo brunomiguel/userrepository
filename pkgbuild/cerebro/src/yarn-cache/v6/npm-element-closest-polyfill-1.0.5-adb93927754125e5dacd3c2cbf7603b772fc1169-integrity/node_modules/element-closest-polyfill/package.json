@@ -1,0 +1,26 @@
+{
+    "name": "element-closest-polyfill",
+    "version": "1.0.5",
+    "description": "A minimal polyfill for Element.closest",
+    "license": "ISC",
+    "repository": "idmadj/element-closest-polyfill",
+    "main": "index.js",
+    "keywords": [
+        "element",
+        "closest",
+        "css",
+        "polyfill",
+        "microsoft",
+        "ie",
+        "msie",
+        "npm",
+        "package"
+    ],
+    "scripts": {
+        "test": "jest --silent=false --verbose=true",
+        "prepublishOnly": "npm test"
+    },
+    "devDependencies": {
+        "jest": "^27.5.1"
+    }
+}
