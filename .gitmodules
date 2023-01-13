@@ -4645,3 +4645,6 @@
 [submodule "pkgbuild/epubcheck"]
 	path = pkgbuild/epubcheck
 	url = https://aur.archlinux.org/epubcheck
+[submodule "pkgbuild/skeuowaita-git"]
+	path = pkgbuild/skeuowaita-git
+	url = https://aur.archlinux.org/skeuowaita-git
