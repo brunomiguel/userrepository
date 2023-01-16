@@ -4660,3 +4660,6 @@
 [submodule "pkgbuild/python-m3u8"]
 	path = pkgbuild/python-m3u8
 	url = https://aur.archlinux.org/python-m3u8
+[submodule "pkgbuild/obs-shaderfilter-git"]
+	path = pkgbuild/obs-shaderfilter-git
+	url = https://aur.archlinux.org/obs-shaderfilter-git
