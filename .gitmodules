@@ -4648,3 +4648,15 @@
 [submodule "pkgbuild/skeuowaita-git"]
 	path = pkgbuild/skeuowaita-git
 	url = https://aur.archlinux.org/skeuowaita-git
+[submodule "pkgbuild/journal-git"]
+	path = pkgbuild/journal-git
+	url = https://aur.archlinux.org/journal-git
+[submodule "pkgbuild/empty"]
+	path = pkgbuild/empty
+	url = https://aur.archlinux.org/empty
+[submodule "pkgbuild/twitch-dl"]
+	path = pkgbuild/twitch-dl
+	url = https://aur.archlinux.org/twitch-dl
+[submodule "pkgbuild/python-m3u8"]
+	path = pkgbuild/python-m3u8
+	url = https://aur.archlinux.org/python-m3u8
