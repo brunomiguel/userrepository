@@ -4648,9 +4648,6 @@
 [submodule "pkgbuild/skeuowaita-git"]
 	path = pkgbuild/skeuowaita-git
 	url = https://aur.archlinux.org/skeuowaita-git
-[submodule "pkgbuild/journal-git"]
-	path = pkgbuild/journal-git
-	url = https://aur.archlinux.org/journal-git
 [submodule "pkgbuild/empty"]
 	path = pkgbuild/empty
 	url = https://aur.archlinux.org/empty
