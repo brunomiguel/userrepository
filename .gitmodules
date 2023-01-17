@@ -4660,3 +4660,12 @@
 [submodule "pkgbuild/obs-shaderfilter-git"]
 	path = pkgbuild/obs-shaderfilter-git
 	url = https://aur.archlinux.org/obs-shaderfilter-git
+[submodule "pkgbuild/catt"]
+	path = pkgbuild/catt
+	url = https://aur.archlinux.org/catt
+[submodule "pkgbuild/python-pychromecast"]
+	path = pkgbuild/python-pychromecast
+	url = https://aur.archlinux.org/python-pychromecast
+[submodule "pkgbuild/tuckr-git"]
+	path = pkgbuild/tuckr-git
+	url = https://aur.archlinux.org/tuckr-git
