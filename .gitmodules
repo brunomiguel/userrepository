@@ -4669,3 +4669,6 @@
 [submodule "pkgbuild/tuckr-git"]
 	path = pkgbuild/tuckr-git
 	url = https://aur.archlinux.org/tuckr-git
+[submodule "pkgbuild/ytdlp-gui"]
+	path = pkgbuild/ytdlp-gui
+	url = https://aur.archlinux.org/ytdlp-gui
