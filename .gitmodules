@@ -4672,3 +4672,6 @@
 [submodule "pkgbuild/ytdlp-gui"]
 	path = pkgbuild/ytdlp-gui
 	url = https://aur.archlinux.org/ytdlp-gui
+[submodule "pkgbuild/melonds"]
+	path = pkgbuild/melonds
+	url = https://aur.archlinux.org/melonds
