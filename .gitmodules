@@ -4675,3 +4675,6 @@
 [submodule "pkgbuild/melonds"]
 	path = pkgbuild/melonds
 	url = https://aur.archlinux.org/melonds
+[submodule "pkgbuild/relaxator-git"]
+	path = pkgbuild/relaxator-git
+	url = https://aur.archlinux.org/relaxator-git
