@@ -4678,3 +4678,6 @@
 [submodule "pkgbuild/relaxator-git"]
 	path = pkgbuild/relaxator-git
 	url = https://aur.archlinux.org/relaxator-git
+[submodule "pkgbuild/python-qt-material"]
+	path = pkgbuild/python-qt-material
+	url = https://aur.archlinux.org/python-qt-material
