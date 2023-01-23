@@ -4681,3 +4681,6 @@
 [submodule "pkgbuild/python-qt-material"]
 	path = pkgbuild/python-qt-material
 	url = https://aur.archlinux.org/python-qt-material
+[submodule "pkgbuild/cpufetch"]
+	path = pkgbuild/cpufetch
+	url = https://aur.archlinux.org/cpufetch
