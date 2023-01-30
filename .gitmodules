@@ -4684,3 +4684,6 @@
 [submodule "pkgbuild/cpufetch"]
 	path = pkgbuild/cpufetch
 	url = https://aur.archlinux.org/cpufetch
+[submodule "pkgbuild/picom-pijulius-git"]
+	path = pkgbuild/picom-pijulius-git
+	url = https://aur.archlinux.org/picom-pijulius-git
