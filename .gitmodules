@@ -4687,3 +4687,6 @@
 [submodule "pkgbuild/picom-pijulius-git"]
 	path = pkgbuild/picom-pijulius-git
 	url = https://aur.archlinux.org/picom-pijulius-git
+[submodule "pkgbuild/wiki-tui"]
+	path = pkgbuild/wiki-tui
+	url = https://aur.archlinux.org/wiki-tui
