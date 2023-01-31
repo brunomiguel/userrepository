@@ -4693,3 +4693,6 @@
 [submodule "pkgbuild/antimicrox"]
 	path = pkgbuild/antimicrox
 	url = https://aur.archlinux.org/antimicrox
+[submodule "pkgbuild/codeberg-cli-git"]
+	path = pkgbuild/codeberg-cli-git
+	url = https://aur.archlinux.org/codeberg-cli-git
