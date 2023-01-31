@@ -4690,3 +4690,6 @@
 [submodule "pkgbuild/wiki-tui"]
 	path = pkgbuild/wiki-tui
 	url = https://aur.archlinux.org/wiki-tui
+[submodule "pkgbuild/antimicrox"]
+	path = pkgbuild/antimicrox
+	url = https://aur.archlinux.org/antimicrox
