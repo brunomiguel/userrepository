@@ -4696,3 +4696,6 @@
 [submodule "pkgbuild/codeberg-cli-git"]
 	path = pkgbuild/codeberg-cli-git
 	url = https://aur.archlinux.org/codeberg-cli-git
+[submodule "pkgbuild/ctune-git"]
+	path = pkgbuild/ctune-git
+	url = https://aur.archlinux.org/ctune-git
