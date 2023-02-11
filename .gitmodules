@@ -4699,3 +4699,36 @@
 [submodule "pkgbuild/ctune-git"]
 	path = pkgbuild/ctune-git
 	url = https://aur.archlinux.org/ctune-git
+[submodule "pkgbuild/frece"]
+	path = pkgbuild/frece
+	url = https://aur.archlinux.org/frece
+[submodule "pkgbuild/adl-git"]
+	path = pkgbuild/adl-git
+	url = https://aur.archlinux.org/adl-git
+[submodule "pkgbuild/trackma-git"]
+	path = pkgbuild/trackma-git
+	url = https://aur.archlinux.org/trackma-git
+[submodule "pkgbuild/anime-downloader-git"]
+	path = pkgbuild/anime-downloader-git
+	url = https://aur.archlinux.org/anime-downloader-git
+[submodule "pkgbuild/python-cfscrape"]
+	path = pkgbuild/python-cfscrape
+	url = https://aur.archlinux.org/python-cfscrape
+[submodule "pkgbuild/python-coloredlogs"]
+	path = pkgbuild/python-coloredlogs
+	url = https://aur.archlinux.org/python-coloredlogs
+[submodule "pkgbuild/python-pysmartdl"]
+	path = pkgbuild/python-pysmartdl
+	url = https://aur.archlinux.org/python-pysmartdl
+[submodule "pkgbuild/python-requests-cache"]
+	path = pkgbuild/python-requests-cache
+	url = https://aur.archlinux.org/python-requests-cache
+[submodule "pkgbuild/python-url-normalize"]
+	path = pkgbuild/python-url-normalize
+	url = https://aur.archlinux.org/python-url-normalize
+[submodule "pkgbuild/python-timeout-decorator"]
+	path = pkgbuild/python-timeout-decorator
+	url = https://aur.archlinux.org/python-timeout-decorator
+[submodule "pkgbuild/python-bson"]
+	path = pkgbuild/python-bson
+	url = https://aur.archlinux.org/python-bson
