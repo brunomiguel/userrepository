@@ -4732,3 +4732,6 @@
 [submodule "pkgbuild/python-bson"]
 	path = pkgbuild/python-bson
 	url = https://aur.archlinux.org/python-bson
+[submodule "pkgbuild/pfetch-rs"]
+	path = pkgbuild/pfetch-rs
+	url = https://aur.archlinux.org/pfetch-rs
