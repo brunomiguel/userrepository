@@ -4735,3 +4735,24 @@
 [submodule "pkgbuild/pfetch-rs"]
 	path = pkgbuild/pfetch-rs
 	url = https://aur.archlinux.org/pfetch-rs
+[submodule "pkgbuild/paleta"]
+	path = pkgbuild/paleta
+	url = https://aur.archlinux.org/paleta
+[submodule "pkgbuild/python-colorthief"]
+	path = pkgbuild/python-colorthief
+	url = https://aur.archlinux.org/python-colorthief
+[submodule "pkgbuild/navidrome"]
+	path = pkgbuild/navidrome
+	url = https://aur.archlinux.org/navidrome
+[submodule "pkgbuild/openmrac-data"]
+	path = pkgbuild/openmrac-data
+	url = https://aur.archlinux.org/openmrac-data
+[submodule "pkgbuild/openmrac"]
+	path = pkgbuild/openmrac
+	url = https://aur.archlinux.org/openmrac
+[submodule "pkgbuild/ntix"]
+	path = pkgbuild/ntix
+	url = https://aur.archlinux.org/ntix
+[submodule "pkgbuild/salvador"]
+	path = pkgbuild/salvador
+	url = https://aur.archlinux.org/salvador
