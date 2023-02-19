@@ -4756,3 +4756,6 @@
 [submodule "pkgbuild/salvador"]
 	path = pkgbuild/salvador
 	url = https://aur.archlinux.org/salvador
+[submodule "pkgbuild/gnome-console-git"]
+	path = pkgbuild/gnome-console-git
+	url = https://aur.archlinux.org/gnome-console-git
