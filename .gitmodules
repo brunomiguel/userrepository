@@ -4756,3 +4756,21 @@
 [submodule "pkgbuild/gnome-console-git"]
 	path = pkgbuild/gnome-console-git
 	url = https://aur.archlinux.org/gnome-console-git
+[submodule "pkgbuild/orbiton"]
+	path = pkgbuild/orbiton
+	url = https://aur.archlinux.org/orbiton
+[submodule "pkgbuild/solanum"]
+	path = pkgbuild/solanum
+	url = https://aur.archlinux.org/solanum
+[submodule "pkgbuild/obs-vertical-canvas"]
+	path = pkgbuild/obs-vertical-canvas
+	url = https://aur.archlinux.org/obs-vertical-canvas
+[submodule "pkgbuild/kuro"]
+	path = pkgbuild/kuro
+	url = https://aur.archlinux.org/kuro
+[submodule "pkgbuild/guayadeque"]
+	path = pkgbuild/guayadeque
+	url = https://aur.archlinux.org/guayadeque
+[submodule "pkgbuild/gnome-shell-extension-forge"]
+	path = pkgbuild/gnome-shell-extension-forge
+	url = https://aur.archlinux.org/gnome-shell-extension-forge
