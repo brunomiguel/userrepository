@@ -4,7 +4,9 @@ Custom repository manager for pacman repositories.
 
 -----
 
-## This project is currently in hibernation, but as of 22/08/2024, it should only need very minor adjustments, if at all, to work (excluding the submodules in pkgbuild/, as some might no longer be active) 
+```
+## This project is currently in hibernation, but as of 22/08/2024, it should only need very minor adjustments, if at all, to work (excluding the submodules in pkgbuild/, as some might no longer be active)
+```
 
 -----
 
